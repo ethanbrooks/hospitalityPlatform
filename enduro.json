@@ -1,0 +1,16 @@
+{
+	"project_name": "enduro_intro",
+	"project_slug": "ei",
+	"bricks": {
+		"enduro_quill": {}
+	},
+	"disabled-s3": {
+		"bucket": "enduro-juice-box",
+		"region": "eu-east-1"
+	},
+	"juicebox_enabled": false,
+	"cultures": [
+		"en",
+		"es"
+	]
+}
