@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //import { environment } from '../environments/environment';
 
 import { 
+  DxMapModule,
   DxDataGridModule, 
   DxSliderModule,  
   DxDrawerModule,  
@@ -57,6 +58,9 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { BookingComponent } from './booking/booking.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { TeaseComponent } from './tease/tease.component';
+import { ContactComponent } from './contact/contact.component';
+import { MapComponent } from './map/map.component';
+
 
 
 @NgModule({  
@@ -65,6 +69,7 @@ import { TeaseComponent } from './tease/tease.component';
   BrowserAnimationsModule,
   CommonModule,
 //    IonicModule,
+  DxMapModule,
   DxButtonGroupModule,
   DxFormModule,
   DxDrawerModule,
@@ -108,8 +113,8 @@ import { TeaseComponent } from './tease/tease.component';
   DxFilterBuilderModule,
   DxNavBarModule
 ],
-  declarations: [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent ,JobsComponent, TeaseComponent ],
-  entryComponents:    [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent ,JobsComponent, TeaseComponent ]
+  declarations: [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent, JobsComponent, TeaseComponent, ContactComponent, MapComponent],
+  entryComponents:    [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent, JobsComponent, TeaseComponent, ContactComponent, MapComponent ]
 })
 
 export class PluginModule {
@@ -132,6 +137,12 @@ export class PluginModule {
     customElements.define('app-jobs', JobsElement);
 
     const TeaseElement = createCustomElement(TeaseComponent, { injector: this.injector });
-    customElements.define('app-tease', TeaseElement)
+    customElements.define('app-tease', TeaseElement);
+
+    const ContactElement = createCustomElement(ContactComponent, { injector: this.injector });
+    customElements.define('app-contact', ContactElement);
+
+    const MapElement = createCustomElement(MapComponent, { injector: this.injector });
+    customElements.define('app-map', MapElement);
   }
 }

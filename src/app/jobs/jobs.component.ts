@@ -14,8 +14,6 @@ Survey.StylesManager.applyTheme("default");
 })
 
 export class JobsComponent implements OnInit {
-//    @Output() submitSurvey = new EventEmitter<any>();
-//    @Input()
     ngOnInit() {
         Survey.FunctionFactory.Instance.register("MyTextValidator", this.MyTextValidator);
         

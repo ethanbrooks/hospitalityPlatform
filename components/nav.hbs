@@ -2,15 +2,20 @@
 .dx-tab {
     padding: 0px;
 }
+
 .dx-tabs {
     background-color: unset;
 }
+
 .dx-navbar {
-    top:0px; 
-    z-index:10000;
+    top:0px;
+    min-height: 75px;
+    max-height: 250px; 
+  /*  z-index:10000; */
 }
 
 .dx-tab.dx-nav-item {
+  min-width: 75px;
     background-color:#F3EBDE;
     opacity: 0.8;
     filter: alpha(opacity=80);
@@ -30,16 +35,13 @@
   background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
 }
 </style>
-<app-topnav navBarData="
+
+<app-topnav></app-topnav>
+<!--//
+navBarData="
 {
     [
-    {text: 'Home', class: 'nav-icon', src: '/assets/img/nav-icon/logo.svg'}
-
-    ]
-}"
-></app-topnav>
-
-<!--//
+    {text: 'Home', class: 'nav-icon', src: '/assets/img/nav-icon/logo.svg'},
     {text: 'The Hotel', class: 'nav-icon', src:'/assets/img/nav-icon/hotel.svg'},
     {text: 'The Restaurant', class: 'nav-icon', src:'/assets/img/nav-icon/restaurant.svg'},
     {text: 'The Lounge',  class: 'nav-icon', src:'/assets/img/nav-icon/bar.svg'},
@@ -50,4 +52,6 @@
         {text: 'Nearby',  class: 'sub-nav-icon', src: '/assets/img/nav-icon/nearby.svg'}, 
         {text: 'Beyond',  class: 'sub-nav-icon', src: '/assets/img/nav-icon/beyond.svg'} 
     ]}
+    ]
+}"
 //-->
