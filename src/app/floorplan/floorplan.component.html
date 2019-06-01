@@ -1,6 +1,9 @@
 <dx-vector-map 
     id="vector-map" 
-    [projection]="projection"> 
+    [projection]="projection"
+    [wheelEnabled]="false"
+    [panningEnabled]="false"> 
+    <dxo-control-bar [enabled]="false"></dxo-control-bar>
     <dxo-tooltip 
         [enabled]="true" 
         [customizeTooltip]="customizeTooltip"></dxo-tooltip>

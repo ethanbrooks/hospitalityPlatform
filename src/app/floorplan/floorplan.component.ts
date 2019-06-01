@@ -31,7 +31,7 @@ export class FloorplanComponent {
             }
         });
     }
-
+    
     customizeTooltip(arg) {
         if(arg.layer.name === "rooms")
             return {

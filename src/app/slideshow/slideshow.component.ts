@@ -1,6 +1,6 @@
 import { Component, enableProdMode } from '@angular/core';
 import { DxGalleryModule } from 'devextreme-angular';
-import { House, slideshowService  } from './slideshow.service';
+import { Item, slideshowService  } from './slideshow.service';
 
 
 @Component({
@@ -11,10 +11,11 @@ import { House, slideshowService  } from './slideshow.service';
 })
 
 export class SlideshowComponent {
-    dataSource: House[];
+    items: Item[];
+    currentItem: Item = new Item();
     slideshowDelay = 2000;
     constructor(service: slideshowService) {
-        this.dataSource = service.getHouses();
+            this.items = service.getItems();
     }
     valueChanged(e) {
         this.slideshowDelay = e.value ? 2000 : 0;
