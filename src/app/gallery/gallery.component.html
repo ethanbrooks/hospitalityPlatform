@@ -1,0 +1,58 @@
+
+<dx-tile-view
+#tileView
+[baseItemHeight]="120"
+[baseItemWidth]="185"
+[height]="1000"
+[itemMargin]="10"
+(onItemClick)="showInfo($event)">
+[direction]="'vertical'">
+    <dxi-item
+        *ngFor="let item of items"
+        [widthRatio]="item.widthRatio"
+        [heightRatio]="item.heightRatio">
+        <div class="image" [style.background-image]="'url(' + item.ImageSrc + ')'"></div>
+        <div class="name">{{ item.Name }}</div>
+    </dxi-item>
+</dx-tile-view>
+<!--//        <div class="price">{{ item.Price | currency:'USD':'symbol':'1.0-0' }}</div>  //-->
+<dx-list
+    [selectionMode]="multiple"
+    [showSelectionControls]="true"
+    [selectedItemKeys]="[]"
+    [searchEnabled]="true"
+    searchExpr="Name"
+    searchMode="contains"
+    height="1000px"
+    [grouped]="false"
+    (onItemClick)="showInfo($event)"
+    [collapsibleGroups]="true"
+    [items]="items">
+        <div *dxTemplate="let item of 'item'">
+            <div class="item">
+                <img src="{{item.ImageSrc}}" />
+                <div>{{item.Name}}</div>
+            </div>
+        </div>
+    </dx-list>
+<!--// 
+    <div class="selected-data">
+        <span class="caption">Selected IDs:</span>
+        <span>{{list.selectedItemKeys.join(", ")}}</span>
+    </div>
+//-->
+<dx-popup
+class="popup"
+[width]="600"
+[height]="600"
+[showTitle]="false"
+[dragEnabled]="false"
+[closeOnOutsideClick]="true"
+[(visible)]="popupVisible">
+<div *dxTemplate="let data of 'content'">
+    <span>{{currentItem.Name}}</span>
+    <span>{{currentItem.Description}}</span>
+    <img src="{{currentItem.ImageSrc}}" width="500"/>
+    <span>{{currentItem.VideoSrc}}</span>
+</div>
+</dx-popup>

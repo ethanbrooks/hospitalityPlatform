@@ -1,0 +1,92 @@
+::ng-deep .dx-tile-content {
+    height: 100%;
+    padding: 0;
+    position: relative;
+}
+::ng-deep .dx-tile-content .image {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    display: block;
+}
+::ng-deep .dx-tile {
+    border: 1px solid #999;
+}
+::ng-deep .dx-tile.dx-state-hover {
+    border-color: #EEE;
+}
+
+::ng-deep .dx-tile-content .name {
+    font-size: 12px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    padding: 2px;
+    left: 9px;
+    top: 9px;
+}
+
+::ng-deep .dx-tile-content .price {
+    font-size: 12px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    padding: 2px;
+    left: 9px;
+    bottom: 9px;
+}
+
+::ng-deep #popup {
+    padding: 10px;
+}
+::ng-deep #popup ul {
+    list-style-type: none;
+    text-align: center;
+}
+::ng-deep #popup ul li {
+    display: inline-block;
+    width: 160px;
+    margin: 10px;
+}
+::ng-deep #popup ul li img{
+    width: 100px;
+}
+::ng-deep .button-info {
+    margin: 10px;
+}
+::ng-deep .popup p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+::ng-deep .list-container {
+    min-height: 440px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+::ng-deep .item {
+    height: 65px;
+}
+::ng-deep .item > img {
+    height: 100%;
+    width: 95px;
+    float: left;
+}
+::ng-deep .item > div {
+    padding-left: 10px;
+    vertical-align: top;
+    line-height: 65px;
+    font-size: 15px;
+    float: left;
+}
+::ng-deep .item > div.price {
+    float: right;
+    font-size: 18px;
+}

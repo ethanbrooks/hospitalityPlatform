@@ -60,6 +60,12 @@ import { JobsComponent } from './jobs/jobs.component';
 import { TeaseComponent } from './tease/tease.component';
 import { ContactComponent } from './contact/contact.component';
 import { MapComponent } from './map/map.component';
+import { EventComponent } from './event/event.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { FloorplanComponent } from './floorplan/floorplan.component';
+import { SlideshowComponent } from './slideshow/slideshow.component';
+
+
 
 
 
@@ -113,8 +119,8 @@ import { MapComponent } from './map/map.component';
   DxFilterBuilderModule,
   DxNavBarModule
 ],
-  declarations: [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent, JobsComponent, TeaseComponent, ContactComponent, MapComponent],
-  entryComponents:    [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent, JobsComponent, TeaseComponent, ContactComponent, MapComponent ]
+  declarations: [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent, JobsComponent, TeaseComponent, ContactComponent, MapComponent, EventComponent, GalleryComponent, SlideshowComponent, FloorplanComponent],
+  entryComponents:    [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent, JobsComponent, TeaseComponent, ContactComponent, MapComponent, EventComponent, GalleryComponent, SlideshowComponent, FloorplanComponent ]
 })
 
 export class PluginModule {
@@ -144,5 +150,18 @@ export class PluginModule {
 
     const MapElement = createCustomElement(MapComponent, { injector: this.injector });
     customElements.define('app-map', MapElement);
+
+    const EventElement = createCustomElement(EventComponent, { injector: this.injector });
+    customElements.define('app-event', EventElement);
+
+    const GalleryElement = createCustomElement(GalleryComponent, { injector: this.injector });
+    customElements.define('app-gallery', GalleryElement);
+
+    const FloorplanElement = createCustomElement(FloorplanComponent, { injector: this.injector });
+    customElements.define('app-floorplan', FloorplanElement);
+
+    const SlideshowElement = createCustomElement(SlideshowComponent, { injector: this.injector });
+    customElements.define('app-slideshow', SlideshowElement);
+
   }
 }

@@ -1,0 +1,36 @@
+const _ = require('lodash')
+const Promise = require('bluebird')
+const logger = require(enduro.enduro_path + '/libs/logger')
+const flat_helpers = require(enduro.enduro_path + '/libs/flat_db/flat_helpers')
+const globalizer = require(enduro.enduro_path + '/libs/globalizer/globalizer')
+const fs = require('fs')
+const path = require('path')
+
+var json = require('hbs-json');
+var hbs = require('hbs');
+app.get('/', function (req, res, next) {
+  res.render('index.html', { user: req.context.user });
+});
+
+<!--// 
+https://github.com/segmentio/hbs-json
+{{{ json user }}}
+//-->
+
+
+enduro.templating_engine.registerHelper('blog', function (options) {
+
+    return enduro.api.pagelist_generator.get_cms_list()
+        .then((pagelist) => {
+
+
+
+            return Promise.all(get_content_promises)
+        })
+        .then(() => {
+
+            
+
+            return options.fn(paginator_info)
+        })
+})

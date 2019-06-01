@@ -1,0 +1,18 @@
+<dx-gallery #gallery
+id="gallery"
+[dataSource]="dataSource"
+[height]="300"
+[slideshowDelay]="slideshowDelay"
+[loop]="true"
+[showNavButtons]="true"
+[showIndicator]="true"
+>
+<div *dxTemplate="let galleryItem of 'item'">
+        <div>
+            <img src="{{galleryItem.Image}}" />
+            <div class="item-price">{{galleryItem.Price | currency:'USD':'symbol':'1.0'}}</div>
+            <div class="item-address">{{galleryItem.Address + ', ' + galleryItem.City + ', ' + galleryItem.State}}
+            </div>
+        </div>
+    </div>
+</dx-gallery>
