@@ -5,7 +5,8 @@
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",
-		"build": "ng build",
+		"build": "ng build --stats-json --prod --delete-output-path --output-path=www --subresourceIntegrity=true",
+		"gzipall": "gzip-all \"www/*.{css,js,html}\"",
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e"

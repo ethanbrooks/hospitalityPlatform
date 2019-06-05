@@ -2,7 +2,7 @@ import { NgModule, Component, enableProdMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { DxListModule, DxNavBarModule, DxTemplateModule } from 'devextreme-angular';
+import { DxBoxModule, DxListModule, DxNavBarModule, DxTemplateModule } from 'devextreme-angular';
 import DataSource from 'devextreme/data/data_source';
 
 import { NavItems, topNavService } from './topnav.service';

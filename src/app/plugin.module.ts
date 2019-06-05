@@ -42,12 +42,14 @@ import {
   DxButtonGroupModule,
   DxProgressBarModule,
   DxResponsiveBoxModule,
-  DxScrollViewModule,
   DxGalleryModule,
   DxTileViewModule,
   DxTreeListModule,
   DxFilterBuilderModule,
-  DxNavBarModule
+  DxNavBarModule,
+  DxBoxModule,
+  DxScrollViewModule,
+  DxSpeedDialActionModule
 } from 'devextreme-angular';
 
 
@@ -64,6 +66,8 @@ import { EventComponent } from './event/event.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { FloorplanComponent } from './floorplan/floorplan.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
+import { BlogComponent } from './blog/blog.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -112,15 +116,17 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
   DxValidationSummaryModule,
   DxProgressBarModule,
   DxResponsiveBoxModule,
-  DxScrollViewModule,
   DxGalleryModule,
   DxTileViewModule,
   DxTreeListModule,
   DxFilterBuilderModule,
-  DxNavBarModule
+  DxNavBarModule,
+  DxBoxModule, 
+  DxScrollViewModule,
+  DxSpeedDialActionModule
 ],
-  declarations: [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent, JobsComponent, TeaseComponent, ContactComponent, MapComponent, EventComponent, GalleryComponent, SlideshowComponent, FloorplanComponent],
-  entryComponents:    [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent, JobsComponent, TeaseComponent, ContactComponent, MapComponent, EventComponent, GalleryComponent, SlideshowComponent, FloorplanComponent ]
+  declarations: [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent, JobsComponent, TeaseComponent, ContactComponent, MapComponent, EventComponent, GalleryComponent, SlideshowComponent, FloorplanComponent, BlogComponent, FooterComponent ],
+  entryComponents:    [ VideoComponent, TopnavComponent, SidenavComponent , BookingComponent, JobsComponent, TeaseComponent, ContactComponent, MapComponent, EventComponent, GalleryComponent, SlideshowComponent, FloorplanComponent, BlogComponent, FooterComponent ]
 })
 
 export class PluginModule {
@@ -163,5 +169,11 @@ export class PluginModule {
     const SlideshowElement = createCustomElement(SlideshowComponent, { injector: this.injector });
     customElements.define('app-slideshow', SlideshowElement);
 
+    const BlogElement = createCustomElement(BlogComponent, { injector: this.injector });
+    customElements.define('app-blog', BlogElement);
+
+    const FooterElement = createCustomElement(FooterComponent, { injector: this.injector });
+    customElements.define('app-footer', FooterElement);
+    
   }
 }

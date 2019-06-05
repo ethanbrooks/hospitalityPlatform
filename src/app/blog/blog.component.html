@@ -1,0 +1,11 @@
+<dx-scroll-view #scrollView
+    id="scrollview"
+    [scrollByContent]="true"
+    [scrollByThumb]="true"
+    [showScrollbar]="always"
+    [bounceEnabled]="false"
+    reachBottomText="Updating..."
+    (onPullDown)="updateTopContent($event)"
+    (onReachBottom)="updateBottomContent($event)">
+    <div [innerHTML]="content"></div>
+</dx-scroll-view>
