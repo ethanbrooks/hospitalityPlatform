@@ -23,6 +23,10 @@ export class FooterComponent {
     listData: any[];
     currentData: any;
 
+    action(e){
+        console.log(e);
+    }
+
     constructor(service: footerService) { 
         this.footerData = service.getFooterItems();
 

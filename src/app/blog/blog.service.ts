@@ -19,7 +19,7 @@ export class blogService {
             <div class="text">
                 <span class="dx-mention" spellcheck="false"><span><span>@</span>John Heart</span></span> What experience do you have in this field?
             </div>
-        </div>`;
+        </div><br>`;
         }
         content += "<br />";
         return content;
