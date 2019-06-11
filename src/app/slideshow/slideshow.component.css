@@ -1,15 +1,14 @@
 ::ng-deep #gallery {
-    margin: auto;
-    max-width: 100%;
+    
 }
 
 ::ng-deep .dx-gallery-item {
-    width: 500px;
+    width: 507px;
     max-width: 100%;
 }
 ::ng-deep .dx-gallery-item img {
     height: 300px;
-    width: 450px;
+    width: 507px;
     max-width: 100%;
 }
 ::ng-deep .dx-gallery-item .item-price {
@@ -27,22 +26,19 @@
     -webkit-box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
     -moz-box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
     box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
-    width: 552px;
-
+    width: 508px;
 }
 
 ::ng-deep .main-img-b {
     background-image: url(/assets/img/slideshow/drink_46039172.png);
     background-repeat: no-repeat;
-    width: 552px;
     height:791px;
 }
 ::ng-deep .border-img-la-b {
     background-image: url(/assets/img/borders/la-002.svg);
     background-repeat: no-repeat;
-    height:908px;
-    width: 620px;
-    padding: 60px 0px 0px 45px;
+    height: 968px;
+    padding: 61px 0px 0px 44px;
  }
 
  ::ng-deep .main-img-a {

@@ -3,12 +3,84 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>{{global.site_name}}</title>
+
+		<style>
+
+			@media only screen and (min-width: 640px) {
+				.grid-container {
+					display: grid;
+					grid-template-rows: 1 1 1 1;
+					grid-template-areas: "header" "main" "section" "footer";
+				}
+			    .header { 
+					height:175px;
+					min-height: 175px; 
+					max-height: 175px;
+				}
+				.main { 
+					height:1000px;
+					min-height: 600px; 
+					max-height: 1000px;
+				}
+				.section { 
+					height:600px;
+					min-height: 600px; 
+					max-height: 600px;
+				}
+				.footer { 
+					height:75px;
+					min-height: 75px; 
+					max-height: 75px;
+				}
+			}
+
+			@media only screen and (max-width: 640px) {
+				.grid-container {
+					display: grid;
+					grid-template-rows: 1 1 1 1;
+					grid-template-areas: "header" "main" "section" "footer";
+				}
+				.header { 
+					height:75px;
+					min-height: 75px; 
+					max-height: 75px;
+				}
+				.main { 
+					height:1000px;
+					min-height: 600px; 
+					max-height: 1000px;
+				}
+				.section { 
+					height:600px;
+					min-height: 600px; 
+					max-height: 600px;
+				}
+				.footer { 
+					height:75px;
+					min-height: 75px; 
+					max-height: 75px;
+				}
+			}
+			.header { grid-area: header; }
+			.main { grid-area: main; } 
+			.section { grid-area: section; } 
+			.footer { grid-area: footer; }
+		</style>
 		{{>head}}
 	</head>
   	<body class="dx-viewport">
-		{{>nav}}
-		<app-slideshow></app-slideshow>
-		{{>tease}}
+		<div class="grid-container">
+			<header class="header">
+				{{>nav}}
+			</header>
+			<main class="main">	
+				<app-slideshow></app-slideshow>
+			</main>
+			<section class="section">
+				<app-blog></app-blog>
+			</section>
+			<app-footer></app-footer>
+		</div>
 		<noscript>Please enable JavaScript to continue using this application.</noscript>
 		{{>angular}}
 	</body>
