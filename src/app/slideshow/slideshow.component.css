@@ -1,3 +1,8 @@
+::ng-deep #gallery {
+    margin: auto;
+    max-width: 100%;
+}
+
 ::ng-deep .dx-gallery-item {
     width: 500px;
     max-width: 100%;
@@ -11,3 +16,93 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+::ng-deep .dx-gallery-item .item-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+::ng-deep .border-shadow {
+    -webkit-box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
+    -moz-box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
+    box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
+    width: 552px;
+
+}
+
+::ng-deep .main-img-b {
+    background-image: url(/assets/img/slideshow/drink_46039172.png);
+    background-repeat: no-repeat;
+    width: 552px;
+    height:791px;
+}
+::ng-deep .border-img-la-b {
+    background-image: url(/assets/img/borders/la-002.svg);
+    background-repeat: no-repeat;
+    height:908px;
+    width: 620px;
+    padding: 60px 0px 0px 45px;
+ }
+
+ ::ng-deep .main-img-a {
+    background-image: url(/assets/img/slideshow/drink_46039172.png);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position:111px 62px; 
+    width: 618px;
+    height:791px;
+}
+::ng-deep .border-img-la-a {
+    background-image: url(/assets/img/borders/la-001.svg);
+ /*   background-image: url(/assets/img/borders/la-003.svg);*/
+    height:968px;
+    width: 662px
+}
+
+
+/*
+::ng-deep .image-landsacpe:after {
+    content:"";
+    position:absolute;
+    top:0; bottom:0; left:0; right:0;
+    display: inline-block;
+    width: auto;
+    border-width: 63px 84px 93px 98px;
+    -moz-border-image: url(/assets/img/borders/sm-001.svg) 63 84 93 98 stretch !important;
+    -webkit-border-image: url(/assets/img/borders/sm-001.svg) 63 84 93 98 stretch !important;
+    -o-border-image: url(/assets/img/borders/sm-001.svg) 63 84 93 98 stretch !important;
+    border-image: url(/assets/img/borders/sm-001.svg) 63 84 93 98 fill stretch !important;
+}
+    .image-landsacpe {
+        position:relative;
+        display:block;
+    }
+
+
+::ng-deep .image-portrait:after {
+    content:"";
+    position:absolute;
+    top:0; bottom:0; left:0; right:0;
+    display: inline-block;
+    width: auto;
+    border-width: 63px 84px 93px 98px;
+    -moz-border-image: url(/assets/img/borders/sm-001.svg) 63 84 93 98 stretch !important;
+    -webkit-border-image: url(/assets/img/borders/la-001.svg) 63 84 93 98 stretch !important;
+    -o-border-image: url(/assets/img/borders/la-001.svg) 63 84 93 98 stretch !important;
+    border-image: url(/assets/img/borders/la-001.svg) 63 84 93 98 fill stretch !important;
+}
+ .image-portrait {
+     position:relative;
+     display:block;
+ }
+
+
+::ng-deep .dx-gallery-item img {
+    width:277px;
+    max-height: 300px;
+    width: auto;
+}
+.nowhere{
+    z-index: -1;
+}*/

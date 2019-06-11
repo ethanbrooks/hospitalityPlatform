@@ -1542,7 +1542,7 @@
 }
 @font-face {
   font-family: 'DXIcons';
-  src: local("DevExtreme Material Icons"), local("devextreme_material_icons"), url(icons/dxiconsmaterial.woff2) format('woff2'), url(icons/dxiconsmaterial.woff) format('woff'), url(icons/dxiconsmaterial.ttf) format('truetype');
+  src: local("DevExtreme Material Icons"), local("devextreme_material_icons"), url(/assets/img/font-icons/dxiconsmaterial.woff2) format('woff2'), url(/assets/img/font-icons/dxiconsmaterial.woff) format('woff'), url(/assets/img/font-icons/dxiconsmaterial.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }

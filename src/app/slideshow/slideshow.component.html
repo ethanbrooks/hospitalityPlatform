@@ -1,17 +1,26 @@
+
 <dx-gallery #gallery
-id="gallery"
-[height]="300"
-[slideshowDelay]="slideshowDelay"
-[loop]="true"
-[showNavButtons]="true"
-[showIndicator]="true"
-[items]="items"
->
-<div *dxTemplate="let item of 'item'">
-        <div>
-            <img src="{{item.ImageSrc}}" />
-            <div class="asset-subject">{{item.Subject}}</div>
-            <div class="asset-Description">{{item.Description}}</div>
+    id="gallery"
+    [slideshowDelay]="100000"
+    [loop]="true"
+    [height]="600"
+    [showNavButtons]="true"
+    [showIndicator]="true"
+    [items]="items"
+    [animationDuration]="100"
+    [stretchImages]="true"
+    [wrapAround]="true"
+    [animationEnabled]="true"
+    >
+    <div *dxTemplate="let item of 'item'" >
+        <div class="main-img-b" style="background-image: url({{item.ImageSrc}});">
+            <div class="border-img-la-b">
+                <div class="border-shadow"
+                    ><img src="{{item.ImageSrc}}" width=500 height=600>
+                </div>
+                <div class="asset-subject">{{item.Subject}}</div>
+                <div class="asset-Description">{{item.Description}}</div>
+            </div>
         </div>
     </div>
-</dx-gallery>
+</dx-gallery>        
