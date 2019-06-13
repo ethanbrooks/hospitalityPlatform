@@ -31,31 +31,27 @@
 <meta name="msapplication-config" content="/assets/img/app-icon/browserconfig.xml">
 
 <link href="https://fonts.googleapis.com/css?family=GFS+Didot&display=swap" rel="stylesheet">
-
 <style>
-
 			@media only screen and (min-width: 640px) {
-				.grid-container {
+				grid-container {
 					display: grid;
 					grid-template-rows: 1 1 1 1;
 					grid-template-areas: "header" "main" "section" "footer";
 				}
-			    .header { 
+			  header { 
 					height:175px;
-					min-height: 175px; 
-					max-height: 175px;
 				}
-				.main { 
-					height:1000px;
-					min-height: 600px; 
+				main { 
+					height:calc(100% / -10px);
+					min-height: 200px; 
 					max-height: 1000px;
 				}
-				.section { 
-					height:600px;
-					min-height: 600px; 
-					max-height: 600px;
+				section { 
+					height:auto;
+					min-height: 200px; 
+					max-height: 500px;
 				}
-				.footer { 
+				footer { 
 					height:75px;
 					min-height: 75px; 
 					max-height: 75px;
@@ -68,31 +64,29 @@
 					grid-template-rows: 1 1 1 1;
 					grid-template-areas: "header" "main" "section" "footer";
 				}
-				.header { 
+				header { 
 					height:75px;
-					min-height: 75px; 
-					max-height: 75px;
 				}
-				.main { 
-					height:1000px;
-					min-height: 600px; 
+				main { 
+					height:;
+					min-height: 200px; 
 					max-height: 1000px;
 				}
-				.section { 
-					height:600px;
-					min-height: 600px; 
-					max-height: 600px;
+				section { 
+					height:auto;
+					min-height: 200px; 
+					max-height: 500px;
 				}
-				.footer { 
+				footer { 
 					height:75px;
 					min-height: 75px; 
 					max-height: 75px;
 				}
 			}
-			.header { grid-area: header; }
-			.main { grid-area: main; } 
-			.section { grid-area: section; } 
-			.footer { grid-area: footer; }
+			header { grid-area: header; }
+			main { grid-area: main; } 
+			section { grid-area: section; } 
+			footer { grid-area: footer; }
 		</style>
 
 <script type="application/ld+json"> { 

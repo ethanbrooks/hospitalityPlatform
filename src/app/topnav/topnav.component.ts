@@ -22,7 +22,7 @@ export class TopnavComponent {
     navBarData: NavItems[];
     listData: any[];
     currentData: any;
-   ß
+   
     actionItem(e){
         this.currentData = this.navBarData[e.itemIndex];
         window.location.href = this.currentData.action;
