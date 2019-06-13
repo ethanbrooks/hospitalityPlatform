@@ -1,3 +1,42 @@
+
+::ng-deep .dx-tab {
+    padding: 0px;
+}
+
+::ng-deep .dx-tabs {
+    background-color: unset;
+}
+
+::ng-deep .dx-navbar {
+    top:0px;
+    min-height: 75px;
+    max-height: 250px; 
+  /*  z-index:10000; */
+}
+
+::ng-deep .dx-tab.dx-nav-item {
+  min-width: 75px;
+    background-color:#F3EBDE;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+::ng-deep .nav-icon svg {
+  fill: none;
+  stroke-width: 10px;
+}
+
+::ng-deep .nav-icon {
+  max-width: 100%;
+/*  height: auto; */
+}
+
+::ng-deep #gradient-topnav {
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
+}
+
+
+
 ::ng-deep .dx-list {
     position: absolute;
     top: 0;

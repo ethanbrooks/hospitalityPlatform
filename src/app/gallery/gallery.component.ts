@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { DxTileViewModule, DxSelectBoxModule, DxPopupModule, DxButtonModule, DxTemplateModule} from 'devextreme-angular';
+import { Component, ViewChild } from '@angular/core';
+import { DxDrawerComponent, DxDrawerModule, DxListModule, DxTileViewModule, DxSelectBoxModule, DxPopupModule, DxButtonModule, DxTemplateModule} from 'devextreme-angular';
 import { Item, galleryService } from './gallery.service';
 
 @Component({
@@ -10,10 +10,25 @@ import { Item, galleryService } from './gallery.service';
 })
 
 export class GalleryComponent {
+    @ViewChild(DxDrawerComponent) drawer: DxDrawerComponent;
     items: Item[];
     currentItem: Item = new Item();
     popupVisible = false;
-    
+
+    text: string;
+    elementAttr: any;
+
+
+    toolbarContent = [{
+        widget: 'dxButton',
+        location: 'before',
+        options: {
+            icon: 'menu',
+            onClick: () => this.drawer.instance.toggle()
+        }
+    }];
+
+
     showInfo(e) {
         this.currentItem = this.items[e.itemIndex];
         console.log(this.currentItem);

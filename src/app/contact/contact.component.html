@@ -1,4 +1,47 @@
-<div id="surveyContainer" class="survey-container contentcontainer codecontainer">
-    <div id="surveyElement"></div>
-</div>
-<div id="surveyResult"></div>
+<dx-tab-panel
+    #tabPanel
+    [height]="260"
+    [dataSource]="contacts"
+    [selectedIndex]="0"
+    [loop]="false"
+    [animationEnabled]="true"
+    [swipeEnabled]="true">
+    <div *dxTemplate="let contact of 'title'">
+        <span class="tab-title" >{{contact.ContactName}}</span>
+    </div>
+    <div *dxTemplate="let contact of 'item'">
+        <div class="tabpanel-item">
+            <div (click)="console.log('sfda')">
+                <p>
+                    <span>{{contact.Address}}</span>
+                    <span>{{contact.Zipcode}}</span>
+                </p>
+                <p>
+                    <b>{{contact.City}}</b>
+                    (<span>{{contact.State}}</span>)
+                    (<span>{{contact.Country}}</span>)
+                </p>
+            </div>
+            
+            <div>
+                <p>
+                    Phone: <b>{{contact.Phone}}</b>
+                </p>
+                <p>
+                    Fax: <b>{{contact.Fax}}</b>
+                </p>
+                <p>
+                    Website:
+                    <a href="{{contact.Website}}" target="_blank">
+                        {{contact.Website}}
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</dx-tab-panel>
+<div id="surveyContainer" class="survey-container contentcontainer codecontainer"> 
+    <div id="surveyElement"></div> 
+</div> 
+<div id="surveyResult"></div> 

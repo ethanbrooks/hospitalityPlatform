@@ -1,17 +1,21 @@
 import { Component, OnInit  } from '@angular/core';
+import { DxTabPanelModule, DxTemplateModule } from 'devextreme-angular';
+import { contactService, Contact } from './contact.service';
 import * as Survey from 'survey-angular';
 Survey.StylesManager.applyTheme("default");
 
 
 @Component({
     selector: 'app-contact',
-    providers: [  ],
+    providers: [  contactService ],
     templateUrl: './contact.component.html',
     styleUrls: ['./contact.component.css']
 })
 
 export class ContactComponent implements OnInit {
-
+    contacts: Contact[];
+    itemCount: number;
+    
     ngOnInit() {
         Survey.FunctionFactory.Instance.register("MyTextValidator", this.MyTextValidator);
         
@@ -19,6 +23,8 @@ export class ContactComponent implements OnInit {
         survey.onComplete.add(this.sendDataToServer);
         Survey.SurveyNG.render("surveyElement", { model: survey });
     }
+
+
 
     sendDataToServer(survey) {
         //send Ajax request to your web server.
@@ -31,7 +37,7 @@ export class ContactComponent implements OnInit {
     }
 
     json: object = {
-        "title": "Coontact",
+        "title": "Contact",
         "description": "Let us know how we can help you.",
         "pages": [
             {
@@ -77,5 +83,13 @@ export class ContactComponent implements OnInit {
         ],
         "showQuestionNumbers": "off"
      };
+
+     constructor(service: contactService) {
+        this.contacts = service.getContacts();
+        console.log(this.contacts);
+
+
+        this.itemCount = this.contacts.length;
+    }
 
 }

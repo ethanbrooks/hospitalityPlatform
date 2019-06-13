@@ -5,3 +5,38 @@
 ::ng-deep #surveyElement {
     top:100px;
 }
+
+::ng-deep .title-tab {
+    padding: 100px;
+    font-size: 24px;
+}
+
+::ng-deep .tabpanel-item {
+    height: 200px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 25px;
+    padding-top: 55px;
+}
+
+::ng-deep .mobile .tabpanel-item {
+    padding-top: 10px;
+}
+
+::ng-deep .tabpanel-item  > div {
+    float: left;
+    padding: 0 85px 10px 10px
+}
+::ng-deep .tabpanel-item  p {
+    font-size: 15px;
+    margin: 0;    
+}
+
+::ng-deep .item-box {
+    font-size: 20px;
+    margin: 18px 0 45px 10px;
+}

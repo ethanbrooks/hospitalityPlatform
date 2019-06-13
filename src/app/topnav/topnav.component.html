@@ -1,4 +1,6 @@
-<dx-nav-bar>
+<dx-nav-bar
+(onItemClick)="actionItem($event)"
+>
     <dxi-item text="Home" html="<img class='nav-icon' src='/assets/img/nav-icon/logo.svg'>"></dxi-item>
     <dxi-item text="The Hotel" html="<img class='nav-icon' src='/assets/img/nav-icon/hotel.svg'>"></dxi-item>
     <dxi-item text="The Restaurant" html="<img class='nav-icon' src='/assets/img/nav-icon/restaurant.svg'>"></dxi-item>
