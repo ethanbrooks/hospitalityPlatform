@@ -1,4 +1,5 @@
-import { Component, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, ViewChild, AfterViewInit, Pipe,PipeTransform } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl, SafeUrl, SafeHtml } from '@angular/platform-browser';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import {  DxScrollViewModule, DxScrollViewComponent } from 'devextreme-angular';
@@ -11,17 +12,20 @@ import { blogService } from './blog.service';
     selector: 'app-blog',
     providers: [ blogService ],
     templateUrl: './blog.component.html',
-    styleUrls: ['./blog.component.css']
+    styleUrls: [
+        './blog.component.css',
+//        './bootstrap.css'
+    ]
 })
 export class BlogComponent implements AfterViewInit {    @ViewChild(DxScrollViewComponent) scrollView: DxScrollViewComponent;
     showScrollbarModes: any[];
-    content: string;
+    content;
     updateContentTimer: number;
     scrollbarMode: string;
 
     constructor (service: blogService) {
         this.content = service.getContent();
-
+  
         this.showScrollbarModes = [{
             text: "On Scroll",
             value: "onScroll"
@@ -47,7 +51,7 @@ export class BlogComponent implements AfterViewInit {    @ViewChild(DxScrollView
     }
 
     updateContent = (args, eventName) => {
-        var updateContentText = "<br /><div>Content has been updated on the " + eventName + " event.</div><br />";
+        var updateContentText = this.content;
         if(this.updateContentTimer)
             clearTimeout(this.updateContentTimer);
         this.updateContentTimer = setTimeout(() => {

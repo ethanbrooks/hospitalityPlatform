@@ -1,9 +1,14 @@
 <dx-nav-bar
+#navbar
+id="navbar"
 (onItemClick)="actionItem($event)"
 [dataSource]="navBarData"
 contentTemplate="item">
     <div *dxTemplate="let navBarData of 'item'">
-        <img class="nav-icon" src="{{navBarData.imageSrc}}" >      
+        <figure>
+            <p><img class="nav-icon" src="{{navBarData.imageSrc}}" >
+            <figcaption>{{navBarData.text}}</figcaption>
+        </figure>           
     </div>
 </dx-nav-bar>
 

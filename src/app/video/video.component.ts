@@ -4,7 +4,10 @@ import videojs from 'video.js';
 @Component({
   selector: 'app-video',
   templateUrl: './video.component.html',
-  styleUrls: ['./video.component.css']
+  styleUrls: [
+    './video.component.css',
+    './video-js.css'
+  ]
 })
 
 /*

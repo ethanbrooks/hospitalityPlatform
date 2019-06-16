@@ -6,3 +6,33 @@
 ::ng-deep #surveyElement {
     top:100px;
 }
+
+
+::ng-deep .sv_qstn .sq-root {
+    border: 1px solid gray;
+    border-left: 4px solid #18a689;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+::ng-deep .sv_qstn .sq-root-cb {
+    border-left: 4px solid orange;
+}
+
+::ng-deep .sq-title {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+::ng-deep .sq-title-required {
+    color: red;
+}
+
+::ng-deep .sq-label {
+    margin-left: 30px;
+}
+
+::ng-deep .sq-item:nth-child(1) {
+    margin-bottom: 5px;
+}

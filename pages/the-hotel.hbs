@@ -5,18 +5,16 @@
 		<title>{{global.site_name}}</title>
 		{{>head}}
 	</head>
-	<body class="dx-viewport">
-		<div class="grid-container">
-			<header class="header">
-				<app-topnav></app-topnav>
-			</header>
-			<main class="main">	
-				<app-floorplan></app-floorplan>
-			</main>
-			<section class="section">
-				<app-blog></app-blog>
-			</section>
-		</div>
+	<body>
+		<header>
+			<app-topnav></app-topnav>
+		</header>
+		<main>
+			<app-floorplan></app-floorplan>
+		</main>
+		<section>
+			<app-blog></app-blog>
+		</section>
 		<noscript>Please enable JavaScript to continue using this application.</noscript>
 		{{>angular}}
 	</body>

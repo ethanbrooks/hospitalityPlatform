@@ -1,8 +1,11 @@
+::ng-deep article {
+    padding: 50px;
+}
+
 ::ng-deep #scrollview-demo {
     min-height: 550px;
 }
 
-/*
 ::ng-deep #scrollview {
     height: auto;
     position: absolute;
@@ -38,3 +41,260 @@
     max-width: 340px;
     width: 100%;
 }
+
+
+::ng-deep .article {
+    display: block;
+}
+::ng-deep .article .blog-img {
+    margin-bottom: 50px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1;
+}
+::ng-deep .article .blog-img img {
+    position: relative;
+    max-width: 100%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+::ng-deep .article .blog-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+::ng-deep .article .blog-img .link {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    display: table;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+::ng-deep .article .blog-img .link .read {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Karla", Arial, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    position: relative;
+}
+::ng-deep .article .blog-img .link .read:after {
+    position: absolute;
+    top: 10px;
+    left: -50px;
+    content: '';
+    background: #fff;
+    width: 40px;
+    height: 1px;
+}
+::ng-deep .article .blog-img:hover .overlay {
+    opacity: 1;
+}
+::ng-deep .article .blog-img:hover .link {
+    opacity: 1;
+    top: 120px;
+}
+::ng-deep .article .blog-img:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+::ng-deep .article .desc {
+    position: relative;
+    z-index: 1;
+    margin-top: -5em;
+    width: 90%;
+    background: #fff;
+    padding: 1em;
+    padding-top: 2em;
+}
+::ng-deep .article .desc .meta {
+    position: absolute;
+    top: -60px;
+    left: 20px;
+    background: #FFE9E3;
+    color: #000;
+    padding: 20px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    -webkit-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+    -ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+    -o-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+}
+::ng-deep .article .desc h2 {
+    font-size: 24px;
+}
+::ng-deep .article .desc h2 a {
+    text-decoration: none;
+    color: #000;
+}
+::ng-deep .article:hover .meta {
+    background: #fff;
+}
+::ng-deep .work-entry-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 7em;
+}
+::ng-deep .work-entry-flex .col-three-forth {
+    width: 55%;
+}
+::ng-deep .work-entry-flex .col-one-forth {
+    width: 45%;
+}
+::ng-deep .work-entry-flex .display-t {
+    display: table;
+}
+::ng-deep .work-entry-flex .display-tc {
+    display: table-cell;
+    vertical-align: middle;
+}
+::ng-deep .work-entry-flex .text-inner-right {
+    text-align: right;
+    margin-right: 0;
+    padding-left: 0;
+}
+@media screen and (max-width: 768px) {
+    ::ng-deep .work-entry-flex .text-inner-right {
+        text-align: left;
+        margin-left: -4em;
+   }
+}
+::ng-deep .work-entry-flex .text-inner-left {
+    text-align: left;
+    margin-left: -4em;
+}
+::ng-deep .work-entry-flex .text-inner {
+    display: block;
+    padding: 3em;
+    background: #fff;
+}
+@media screen and (max-width: 768px) {
+    ::ng-deep .work-entry-flex .text-inner {
+        padding: 1em;
+   }
+}
+::ng-deep .work-entry-flex .text-inner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+@media screen and (max-width: 768px) {
+    ::ng-deep .work-entry-flex .text-inner h2 {
+        font-size: 24px;
+   }
+}
+::ng-deep .work-entry-flex .text-inner h2 a {
+    color: #000;
+    text-decoration: none;
+}
+::ng-deep .work-entry-flex .text-inner .btn-view {
+    font-size: 13px;
+    letter-spacing: 7px;
+    color: #000;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    padding: 7px;
+    text-decoration: none;
+}
+::ng-deep .work-single-flex {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+}
+::ng-deep .work-single-flex .col-half {
+    width: 50%;
+    position: relative;
+}
+::ng-deep .work-single-flex .display-t {
+    display: table;
+    width: 100%;
+}
+::ng-deep .work-single-flex .display-tc {
+    display: table-cell;
+    vertical-align: middle;
+}
+::ng-deep .work-single-flex .work-desc {
+    padding: 7em;
+}
+@media screen and (max-width: 768px) {
+    ::ng-deep .work-single-flex .work-desc {
+        padding: 1.5em;
+        background: #fff;
+        margin-left: -5em;
+   }
+}
+::ng-deep .work-single-flex .work-desc .btn-preview {
+    font-size: 13px;
+    letter-spacing: 7px;
+    color: #000;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    padding: 7px;
+    text-decoration: none;
+}
+::ng-deep .no-gutters {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+::ng-deep .hero-img, .about-img, .work-img, .gallery {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+ 

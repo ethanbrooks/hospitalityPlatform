@@ -18,6 +18,27 @@ export class JobsComponent implements OnInit {
         Survey.FunctionFactory.Instance.register("MyTextValidator", this.MyTextValidator);
         
         var survey = new Survey.Model(this.json);
+        survey
+        .onUpdateQuestionCssClasses
+        .add(function (survey, options) {
+            var classes = options.cssClasses
+    
+            classes.root = "sq-root";
+            classes.title = "sq-title";
+            classes.item = "sq-item";
+            classes.label = "sq-label";
+    
+            if (options.question.isRequired) {
+                classes.title = "sq-title sq-title-required";
+                classes.root = "sq-root sq-root-required";
+            }
+    
+            if (options.question.getType() === "checkbox") {
+                classes.root = "sq-root sq-root-cb";
+            }
+        });
+    
+
         survey.onComplete.add(this.sendDataToServer);
         Survey.SurveyNG.render("surveyElement", { model: survey });
     }
@@ -32,6 +53,9 @@ export class JobsComponent implements OnInit {
         return value.indexOf("survey");
     }
 
+
+
+    
     json: object = {
         "title": "Cancellation Survey",
         "description": "Thank you for using our service. We would highly appreciate if you would take the time to fill our cancellation survey. This would help us improve the service.",

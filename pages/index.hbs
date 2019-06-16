@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
 	<head>
 		<meta charset="utf-8"/>
 		<title>{{global.site_name}}</title>
 		{{>head}}
 	</head>
-	<body class="dx-viewport">
-		<div class="grid-container">
-			<header class="header">
-				<app-topnav></app-topnav>
-			</header>
-			<main class="main">	
-				<app-video></app-video>
-			</main>
-			<section class="section">
-				<app-blog></app-blog>
-			</section>
-				<app-footer></app-footer>
-		</div>
+	<body>
+		<header>
+			<app-topnav></app-topnav>
+		</header>
+		<main>	
+			<app-video></app-video>
+		</main>
+		<section>
+			<app-blog></app-blog>
+		</section>
+		<app-footer></app-footer>
 		<noscript>Please enable JavaScript to continue using this application.</noscript>
 		{{>angular}}
 	</body>

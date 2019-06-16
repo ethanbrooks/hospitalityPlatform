@@ -5,8 +5,6 @@ import config from 'devextreme/core/config';
 import { DxSpeedDialActionModule } from 'devextreme-angular';
 import DataSource from 'devextreme/data/data_source';
 
-import { FooterItems, footerService } from './footer.service';
-
 if(!/localhost/.test(document.location.host)) {
     enableProdMode();
 }
@@ -15,21 +13,15 @@ if(!/localhost/.test(document.location.host)) {
     selector: 'app-footer',
     templateUrl: './footer.component.html',
     styleUrls: ['./footer.component.css'],
-    providers: [footerService]
+    providers: []
 })
 
 export class FooterComponent {
-    footerData: FooterItems[];
     listData: any[];
     currentData: any;
 
     action(e){
+        window.scrollTo(0, 0);
         console.log(e);
     }
-
-    constructor(service: footerService) { 
-        this.footerData = service.getFooterItems();
-
-    }
-
 }
