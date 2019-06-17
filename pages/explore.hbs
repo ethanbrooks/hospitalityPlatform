@@ -28,7 +28,9 @@
                         [colspan]="2" 
                         screen="sm" 
                     ></dxi-location> 
-                    <app-topnav class="header item"></app-topnav> 
+                    <header>
+                        <app-topnav class="header item"></app-topnav> 
+                    </header>
                 </dxi-item> 
                 <dxi-item> 
                     <dxi-location 
@@ -42,20 +44,10 @@
                         [colspan]="2" 
                         screen="sm" 
                     ></dxi-location> 
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
+				    <main>
 						<app-event></app-event>
-<!--//                    <app-video class="content item"></app-video> //-->
+<!--//                  <app-video class="content item"></app-video> //-->
+                    </main>
                 </dxi-item> 
                 <dxi-item> 
                     <dxi-location 
@@ -68,8 +60,10 @@
                         [col]="1" 
                         screen="sm" 
                     ></dxi-location>
-                    {{>blog}}
-                    <app-blog class="right-side-bar item"></app-blog>
+                    <section>
+                        {{>blog}}
+                        <app-blog class="right-side-bar item"></app-blog>
+                    </section>
                 </dxi-item> 
                 <dxi-item> 
                     <dxi-location 
@@ -84,7 +78,9 @@
                         [colspan]="2" 
                         screen="sm" 
                     ></dxi-location> 
-                    <app-footer class="footer item"></app-footer> 
+                    <footer>
+                        <app-footer class="footer item"></app-footer> 
+                    </footer>
                 </dxi-item> 
             </dx-responsive-box> 
         </div> 
