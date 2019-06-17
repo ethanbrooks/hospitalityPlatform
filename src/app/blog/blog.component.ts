@@ -31,7 +31,7 @@ export class BlogComponent implements AfterViewInit {
     constructor (
         private serviceBlog: BlogService
     ) {
-      this.content = this.getHtml();
+        this.content = this.getHtml();
         console.log(this.content);
     }
     

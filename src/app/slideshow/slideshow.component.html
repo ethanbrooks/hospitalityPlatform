@@ -1,25 +1,83 @@
-<div class="border-img-la-b">
-    <div class="border-shadow">
-    <dx-gallery #gallery
-        id="gallery"
-        [slideshowDelay]="100000"
-        [loop]="true"
-        [height]="730"
-        [width]="508"
-        [showNavButtons]="false"
-        [showIndicator]="true"
-        [items]="items"
-        [animationDuration]="1000"
-        [stretchImages]="false"
-        [wrapAround]="false"
-        [animationEnabled]="true"
-        >       
-        <div *dxTemplate="let item of 'item'" >
-            <div class="main-img-b">adfadsf</div>
-                <div class="asset-subject">{{item.Subject}}</div>
-                 <div class="asset-Description">{{item.Description}}</div>
+<dx-popup
+class="popup"
+[width]="662"
+[height]="969"
+[showTitle]="false"
+title="Information"
+[dragEnabled]="false"
+[closeOnOutsideClick]="true"
+[(visible)]="popupVertVisible">
+    <div *dxTemplate="let data of 'content'">
+        <div class="border-img-vert-a">
+            <div class="border-shadow-vert">
+            <dx-gallery #gallery
+                id="gallery"
+                [slideshowDelay]="100000"
+                [loop]="true"
+                [height]="730"
+                [width]="508"
+                [showNavButtons]="false"
+                [showIndicator]="true"
+                [items]="items"
+                [animationDuration]="1000"
+                [stretchImages]="false"
+                [wrapAround]="false"
+                [animationEnabled]="true"
+                >       
+                <div *dxTemplate="let item of 'item'" >
+                    <div class="main-img-vert-a">adfadsf</div>
+                        <div class="asset-subject">{{item.Subject}}</div>
+                        <div class="asset-Description">{{item.Description}}</div>
+                    </div>
+                </dx-gallery>        
             </div>
-        </dx-gallery>        
+        </div>
     </div>
-</div>
+</dx-popup>
+<dx-button
+class="button-info"
+text="PopUp Vertical"
+(onClick)="showVert(employee)">
+</dx-button>
 
+<dx-popup
+class="popup"
+[height]="725"
+[width]="915"
+[showTitle]="false"
+title="Information"
+[dragEnabled]="false"
+[closeOnOutsideClick]="true"
+[(visible)]="popupHorVisible">
+    <div *dxTemplate="let data of 'content'">
+        <div class="border-img-hor-a">
+            <div class="border-shadow-hor">
+            <dx-gallery #gallery
+                id="gallery"
+                [slideshowDelay]="100000"
+                [loop]="true"
+                [height]="600"
+                [width]="790"
+                [showNavButtons]="false"
+                [showIndicator]="true"
+                [items]="items"
+                [animationDuration]="1000"
+                [stretchImages]="false"
+                [wrapAround]="false"
+                [animationEnabled]="true"
+                >       
+                <div *dxTemplate="let item of 'item'" >
+                    <div class="main-img-hor-a">adfadsf</div>
+                        <div class="asset-subject">{{item.Subject}}</div>
+                        <div class="asset-Description">{{item.Description}}</div>
+                    </div>
+                </dx-gallery>        
+            </div>
+        </div>
+    </div>
+</dx-popup>
+<dx-button
+class="button-info"
+text="PopUp Horizontal"
+(onClick)="showHor(employee)">
+</dx-button>

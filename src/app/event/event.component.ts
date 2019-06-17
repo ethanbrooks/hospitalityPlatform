@@ -1,14 +1,14 @@
-import { NgModule, Component, enableProdMode } from '@angular/core';
+import { NgModule, Component, Inject, enableProdMode } from '@angular/core';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
-import { eventService, Employee } from './event.service';
+import { DxSchedulerModule } from 'devextreme-angular';
 
 import DataSource from 'devextreme/data/data_source';
+import CustomStore from 'devextreme/data/custom_store';
 
 @Component({
     selector: 'app-event',
-    providers: [ eventService ],
     templateUrl: './event.component.html',
     styleUrls: ['./event.component.css']
 })
@@ -16,26 +16,22 @@ import DataSource from 'devextreme/data/data_source';
 export class EventComponent {
 
     dataSource: any;
-    currentDate: Date = new Date(2016, 7, 2, 11, 30);
-    resourcesDataSource: Employee[];
-
-    constructor(service: eventService) {
-        console.log('dafasdfa');
+    currentDate: Date = new Date(Date.now());
+  
+    constructor(private http: HttpClient) {
         this.dataSource = new DataSource({
-            store: service.getData()
+            store: new CustomStore({
+                load: (options) => this.getData(options, { showDeleted: false })
+            })
         });
-
-        this.resourcesDataSource = service.getEmployees();
     }
 
-    markWeekEnd(cellData) {
-        function isWeekEnd(date) {
-            var day = date.getDay();
-            return day === 0 || day === 6;
-        }
-        var classObject = {};
-        classObject["employee-" + cellData.groups.employeeID] = true;
-        classObject['employee-weekend-' + cellData.groups.employeeID] = isWeekEnd(cellData.startDate)
-        return classObject;
+    private getData(options: any, requestOptions: any) {
+        let PUBLIC_KEY = 'AIzaSyBfDGjnDWn5o-4X0-0HH5hDdM9WGJSPE4k',
+            CALENDAR_ID = 'ZXRoYW4uYnJvb2tzQGdtYWlsLmNvbQ@group.calendar.google.com';
+        let dataUrl = [ 'https://www.googleapis.com/calendar/v3/calendars/',
+                CALENDAR_ID, '/events?key=', PUBLIC_KEY].join('');
+        return this.http.get(dataUrl, requestOptions).toPromise().then((data: any) => data.items);
     }
 }
+

@@ -1,3 +1,8 @@
+::ng-deep .dx-popup-content {
+    padding: 0px;
+}
+
+
 ::ng-deep .dx-gallery-item {
     width: 507px;
     max-width: 100%;
@@ -18,40 +23,65 @@
 }
 
 
-::ng-deep .border-shadow {
+::ng-deep .border-shadow-vert {
     -webkit-box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
     -moz-box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
     box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
     width: 508px;
 }
 
-::ng-deep .main-img-b {
-    background-image: url(/assets/img/slideshow/drink_46039172.png);
+::ng-deep .border-img-vert-a {
+    background-image: url(/assets/img/borders/la-001.svg);
     background-repeat: no-repeat;
-    height:791px;
+    padding: 61px 0px 0px 110px;
+    height:968px;
 }
-::ng-deep .border-img-la-b {
+
+::ng-deep .border-img-vert-b {
     background-image: url(/assets/img/borders/la-002.svg);
     background-repeat: no-repeat;
+    padding: 61px 0px 0px 110px;
     height: 968px;
-    padding: 61px 0px 0px 44px;
  }
 
- ::ng-deep .main-img-a {
+::ng-deep .main-img-vert-a {
     background-image: url(/assets/img/slideshow/drink_46039172.png);
     background-repeat: no-repeat;
     background-clip: content-box;
-    background-position:111px 62px; 
     width: 618px;
     height:791px;
 }
-::ng-deep .border-img-la-a {
-    background-image: url(/assets/img/borders/la-001.svg);
- /*   background-image: url(/assets/img/borders/la-003.svg);*/
-    height:968px;
-    width: 662px
+
+::ng-deep .main-img-vert-b {
+    background-image: url(/assets/img/slideshow/drink_46039172.png);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    width: 618px;
+    height:791px;
 }
 
+::ng-deep .border-img-hor-a {
+    background-image: url(/assets/img/borders/sm-001.svg);
+    background-repeat: no-repeat;
+    padding: 62px 0px 0px 60px;
+    width:915px;
+    height:791px;
+}
+
+
+::ng-deep .main-img-hor-a {
+    background-image: url(/assets/img/menu/31645232-italian-spaghetti-on-rustic-wooden-table.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 790px;
+}
+
+::ng-deep .border-shadow-vert {
+    -webkit-box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
+    -moz-box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
+    box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
+    width: 508px;
+}
 
 /*
 ::ng-deep .image-landsacpe:after {
