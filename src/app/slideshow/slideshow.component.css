@@ -1,5 +1,16 @@
-::ng-deep .dx-popup-content {
+::ng-deep .popup-vert .dx-popup-content {
     padding: 0px;
+    margin-top: -3px;
+}
+
+::ng-deep .popup-hor .dx-popup-content {
+    padding: 0px;
+    margin-top: -4px;
+}
+
+
+::ng-deep .dx-popup-wrapper > .dx-overlay-content {
+    background-color: rgba(255, 255, 255, 0.45);
 }
 
 
@@ -73,7 +84,7 @@
     background-image: url(/assets/img/menu/31645232-italian-spaghetti-on-rustic-wooden-table.jpg);
     background-repeat: no-repeat;
     height: 600px;
-    width: 790px;
+    width: 793px;
 }
 
 ::ng-deep .border-shadow-vert {
