@@ -24,7 +24,7 @@ let navItems: NavItems[] = [
         ]
     },
     {text: 'Contact', cssclass: 'nav-icon',  action: '/contact', imageSrc: '/assets/img/nav-icon/contact.svg'},
-    {text: 'Jobs', cssclass: 'nav-icon',  action: '/jobs', imageSrc: '/assets/img/nav-icon/job.svg', badge:'New'}
+    {text: 'Jobs', cssclass: 'nav-icon',  action: '/jobs', imageSrc: '/assets/img/nav-icon/job.svg'} //, badge:'New'
 ];
 
 @Injectable()

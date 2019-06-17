@@ -7,7 +7,7 @@
 		$tagline_es: 'The Hotel and Restaurante en Plaza Herrera',
 		$call_to_action_es: 'Desplácese hacia abajo para ver qué pasa'
 	},
-	projects: [
+	articles: [
 		{
 			header: 'Create a new page',
 			tagline: 'By adding a file to /pages folder',
@@ -31,11 +31,6 @@
 			$link_es: 'https://www.endurojs.com/docs/sass',
 			$tagline_es: 'Agregando un archivo a la carpeta / asset / css',
 			$header_es: 'Da estilo a tu página'
-		},
-		{
-			header: 'Admin interface',
-			tagline: 'Create amazing content with ease',
-			link: 'https://www.endurojs.com/docs/introduction-to-admin'
 		}
 	]
 })

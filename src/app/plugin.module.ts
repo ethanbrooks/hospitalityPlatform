@@ -5,6 +5,8 @@ import { BrowserModule } from '@angular/platform-browser'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //import { environment } from '../environments/environment';
 
+import { HttpClientModule } from '@angular/common/http';
+
 import { 
   DxMapModule,
   DxDataGridModule, 
@@ -76,6 +78,7 @@ import {SafeHtmlPipe} from "./pipes/SafeHtmlPipe.pipe";
 
 @NgModule({  
   imports: [
+    HttpClientModule,
     BrowserModule,
     BrowserAnimationsModule,
     CommonModule,
