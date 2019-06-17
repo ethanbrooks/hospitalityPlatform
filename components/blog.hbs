@@ -1,14 +1,31 @@
-<h1>Start</h1>
-<hr>
 {{#blog}}
 	{{#each this}}
-		<article>
-			<h2>{{blog_entry.blog_title}}</h2>
-			<p>{{{blog_entry.blog_text}}}</p>
-			<a href="/blog/{{page_slug}}">Read more...</a>
+		<article class="col-md-12">
+			<div class="work-entry-flex animate-box js-fullheight fadeInUp animated" style="height: 296px;">
+				<div class="col-three-forth js-fullheight" style="height: 296px;">
+					<div class="row no-gutters">
+						<div class="col-md-12 `+push+` no-gutters">
+							<div class="work-img js-fullheight" style="background-image: url('{{blog_entry.blog_image}}'); height: 296px;">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-one-forth js-fullheight" style="height: 296px;">
+					<div class="row no-gutters">
+						<div class="col-md-12 `+pull+` no-gutters">
+							<div class="display-t js-fullheight" style="height: 296px;">
+								<div class="display-tc js-fullheight" style="height: 296px;">
+									<div class="text-inner text-inner-`+hand+`">
+										<h2><a href="work-single.html">{{blog_entry.blog_title}}</a></h2>
+										<p>{{{blog_entry.blog_text}}}</p>
+										<p><a href="/blog/{{page_slug}}" class="btn-view">Read More</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</article>
 	{{/each}}
 {{/blog}}
-<hr>
-<h1>End</h1>
-{{>test}}

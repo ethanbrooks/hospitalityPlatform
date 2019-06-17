@@ -31,7 +31,7 @@ export class BlogComponent implements AfterViewInit {
     constructor (
         private serviceBlog: BlogService
     ) {
-        this.content = this.getHtml();
+      this.content = this.getHtml();
         console.log(this.content);
     }
     
@@ -54,7 +54,7 @@ export class BlogComponent implements AfterViewInit {
         var pull;
         var push;
        // for (let o of fruits) {
-        for(var i=0; i < 4; i++) { 
+        for(var i=0; i < 1; i++) { 
             if(i % 2){
                 hand = 'left';
                 pull = '';

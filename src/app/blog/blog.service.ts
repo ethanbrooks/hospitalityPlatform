@@ -42,5 +42,34 @@ export class BlogService {
                 );
             }  
         });
+/**
+        this.enduroJsonStore = new CustomStore({
+            key: ["path"],
+            errorHandler: function (error) {
+                console.log(error.message);
+            },
+            byKey: (path:string) => {
+            //    this.messageId = 'messageId';              
+                let params: HttpParams = new HttpParams();
+                [].forEach(function(i) {
+//                    params = params.set(i, JSON.stringify(query[i]));
+                });
+                var eduroJsUrl = 'http://localhost:8080/index.json';//+path;
+                return httpClient.get(eduroJsUrl,
+                {
+                    params: params,
+                })
+                .toPromise()
+                .then(
+                    (enduroJsData: object) => {
+                        console.log(enduroJsData);
+                    },
+                    (error) => { 
+                        console.log(error);
+                    }
+                );
+            }  
+        });
+     */
     }
 }

@@ -12,10 +12,11 @@ enduro.templating_engine.registerHelper('blog', function (options) {
 
 			// will store the promises from reading all the blog entries
 			var get_content_promises = []
-
 			blog_entries = _.chain(pagelist.structured.blog)
-				.filter((o) => { return typeof o === 'object' }).value() // filter pages only
-
+			.filter((o) => { return typeof o === 'object' })
+			.filter((o) => { return o.page_slug != 'blog' })
+			
+			.value() // filter pages only
 			// goes through all the blog entries and loads their content
 			for (page_id in blog_entries) {
 				var page = blog_entries[page_id]

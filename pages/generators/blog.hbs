@@ -1,4 +1,27 @@
-<article>
-    <h1>{{blog_title}}</h1>
-    <p>{{blog_text}}</p>
+<article class="col-md-12">
+	<div class="work-entry-flex animate-box js-fullheight fadeInUp animated" style="height: 296px;">
+		<div class="col-three-forth js-fullheight" style="height: 296px;">
+			<div class="row no-gutters">
+				<div class="col-md-12 col-md-push-10 no-gutters">
+					<div class="work-img js-fullheight" style="background-image: url('{{blog_image}}'); height: 296px;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-one-forth js-fullheight" style="height: 296px;">
+			<div class="row no-gutters">
+				<div class="col-md-12 col-md-pull-12 no-gutters">
+					<div class="display-t js-fullheight" style="height: 296px;">
+						<div class="display-tc js-fullheight" style="height: 296px;">
+							<div class="text-inner text-inner-hand">
+								<h2><a href="work-single.html">{{blog_title}}</a></h2>
+								<p>{{{blog_text}}}</p>
+								<p><a href="/blog/{{page_slug}}" class="btn-view">View Photo</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </article>

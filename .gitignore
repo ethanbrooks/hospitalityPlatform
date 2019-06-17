@@ -1,4 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
+#Secured files
+/enduro_secret.json
+
 
 # compiled output
 /_generated

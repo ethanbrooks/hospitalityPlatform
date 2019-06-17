@@ -1,16 +1,8 @@
 {
-	"project_name": "enduro_intro",
-	"project_slug": "ei",
-	"bricks": {
-		"enduro_quill": {}
-	},
-	"disabled-s3": {
-		"bucket": "enduro-juice-box",
-		"region": "eu-east-1"
-	},
-	"juicebox_enabled": false,
-	"cultures": [
-		"en",
-		"es"
-	]
+	"project_name": "hotelHerrera",
+	"project_slug": "hh",
+	"s3": {
+		"bucket": "hotel-herrera",
+		"region": "us-east-1"
+	}
 }
