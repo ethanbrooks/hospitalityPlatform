@@ -116,6 +116,10 @@ export class BookingComponent {
         type: "success",
         useSubmitBehavior: true
     }
+
+
+
+
     passwordComparison = () => {
         return this.form.instance.option("formData").Password;
     };
