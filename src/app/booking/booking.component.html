@@ -1,3 +1,129 @@
+
+<dx-form id="form"
+    [formData]="customer"
+    [readOnly]="false"
+    [showColonAfterLabel]="true"
+    [showValidationSummary]="true"
+    validationGroup="customerData">
+<dxi-item 
+    dataField="checkIn"
+    editorType="dxDateBox"
+    [editorOptions]="{ 
+    invalidDateMessage: 'The date must have the following format: MM/dd/yyyy' }">
+    <dxo-label
+        text="Check-in">
+    </dxo-label>
+    <dxi-validation-rule 
+        type="required"
+        message="Check-in date is required">
+    </dxi-validation-rule>
+    <dxi-validation-rule 
+        type="range"
+        [max]="minDate"
+        message="Date must be at least 24hrs future">
+    </dxi-validation-rule>
+</dxi-item>
+<dxi-item 
+    dataField="checkOut"
+    editorType="dxDateBox"
+    [editorOptions]="{ invalidDateMessage: 'The date must have the following format: MM/dd/yyyy' }">
+    <dxo-label
+        text="Check-out">
+    </dxo-label>
+    <dxi-validation-rule 
+        type="required"
+        message="Check-out date is required">
+    </dxi-validation-rule>
+    <dxi-validation-rule 
+        type="range"
+        [max]="maxDate"
+        message="The stay for web check-in must less than 7 nights">
+    </dxi-validation-rule>
+</dxi-item>
+<dxi-item editorType="dxNumberBox" [editorOptions]="{ value:2, min:1, max:4, showSpinButtons:true, showClearButton:true }">
+    <dxo-label text="Adults"></dxo-label>
+</dxi-item>
+<dxi-item editorType="dxNumberBox" [editorOptions]="{ value:0, min:0, max:4, showSpinButtons:true, showClearButton:true }">
+    <dxo-label text="Children"></dxo-label>
+</dxi-item>
+<dxi-item dataField="Email">
+    <dxi-validation-rule 
+        type="required"
+        message="Email is required">
+    </dxi-validation-rule>
+    <dxi-validation-rule 
+        type="email"
+        message="Email is invalid">
+    </dxi-validation-rule>
+</dxi-item>
+<dxi-item 
+    itemType="button"
+    horizontalAlignment="left"
+    [buttonOptions]="buttonOptions">
+</dxi-item>
+</dx-form>
+<!--//
+<div class="options">
+        <div class="caption">Options</div>
+        <div class="option">
+            <dx-check-box 
+                text="Specified min value"
+                [value]="false"
+                (onValueChanged)="setMinDate($event)">
+            </dx-check-box>
+        </div>
+        <div class="option">
+            <dx-check-box
+                text="Specified max value"
+                [value]="false"
+                (onValueChanged)="setMaxDate($event)">
+            </dx-check-box>
+        </div>
+        <div class="option">
+            <dx-check-box
+                text="Disable weekend"
+                [value]="false"
+                (onValueChanged)="disableWeekend($event)">
+            </dx-check-box>
+        </div>
+        <div class="option">
+            <dx-check-box
+                text="Monday as the first day of a week"
+                [value]="false"
+                (onValueChanged)="setFirstDay($event)">
+            </dx-check-box>
+       </div>
+       <div class="option">
+            <dx-check-box
+                text="Use the Custom Cell Template"
+                [value]="false"
+                (onValueChanged)="useCellTemplate($event)">
+            </dx-check-box>
+        </div>
+        <div class="option">
+            <dx-check-box #calendarDisabled
+                [(value)]="calendar.disabled"
+                text="Disabled">
+            </dx-check-box>
+        </div>
+        <div class="option">
+            <span>Zoom level</span>
+            <dx-select-box
+                id="zoom-level"
+                [dataSource]="zoomLevels"
+                [(value)]="calendar.zoomLevel">
+            </dx-select-box>
+       </div>
+       <div class="option">     
+            <span>Selected date</span>
+            <dx-date-box 
+                id="selected-date"
+                width="100%"
+                [(value)]="currentValue">
+            </dx-date-box>
+        </div>
+    </div>    
+
 <form action="your-action" (submit)="onFormSubmit($event)">
   <dx-form id="form"
       [formData]="customer"
@@ -136,10 +262,6 @@
           </dxi-item>
       </dxi-item>
 
-      <dxi-item 
-          itemType="button"
-          horizontalAlignment="left"
-          [buttonOptions]="buttonOptions">
-      </dxi-item>
   </dx-form>
 </form>
+//-->

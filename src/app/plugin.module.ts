@@ -7,8 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { HttpClientModule } from '@angular/common/http';
 
-import { 
+import {
   DxMapModule,
+  DxNumberBoxModule,
   DxDataGridModule, 
   DxSliderModule,  
   DxDrawerModule,  
@@ -51,7 +52,8 @@ import {
   DxNavBarModule,
   DxBoxModule,
   DxScrollViewModule,
-  DxSpeedDialActionModule
+  DxSpeedDialActionModule,
+  DxCalendarModule
 } from 'devextreme-angular';
 
 
@@ -83,7 +85,9 @@ import {SafeHtmlPipe} from "./pipes/SafeHtmlPipe.pipe";
     BrowserAnimationsModule,
     CommonModule,
   //    IonicModule,
-    DxMapModule,
+    DxCalendarModule,
+    DxNumberBoxModule,
+    DxCheckBoxModule,
     DxButtonGroupModule,
     DxFormModule,
     DxDrawerModule,
@@ -102,6 +106,7 @@ import {SafeHtmlPipe} from "./pipes/SafeHtmlPipe.pipe";
     DxButtonModule, 
     DxPopupModule, 
     DxPopoverModule,
+    DxMapModule,
     DxVectorMapModule, 
     DxSelectBoxModule, 
     DxTextBoxModule,
