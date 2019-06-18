@@ -7,8 +7,8 @@ import CustomStore from 'devextreme/data/custom_store';
 
 @Injectable()
 export class BlogService {
-    private enduroJsDataSubject = new ReplaySubject<Object>(1);
-    enduroJsData$: Observable<Object> = this.enduroJsDataSubject.asObservable();
+    private enduroJsDataSubject = new ReplaySubject<string>(0);
+    enduroJsData$: Observable<string> = this.enduroJsDataSubject.asObservable();
     enduroJsonStore: CustomStore;
 
     constructor(
@@ -20,21 +20,42 @@ export class BlogService {
             errorHandler: function (error) {
                 console.log(error.message);
             },
-            byKey: (path:string) => {
+            load: function (loadOptions: any) {
+                var userData = {
+                    query:{
+                        limit:200,
+                        searchable:false
+                    }    
+                };
+//This is needed for remote operations
+                let params: HttpParams = new HttpParams();
+                [].forEach(function(i) {
+                    if(i in loadOptions.userData.query && loadOptions.userData.query[i] === "") 
+                        params = params.set(i, JSON.stringify(loadOptions.userData.query[i]));
+                });
+                var eduroJsUrl = 'http://localhost:8080/generators/blog/cookies.js';
+                return httpClient.get(eduroJsUrl,{params:params, responseType: 'text'})
+                .toPromise()
+                .then((enduroJsData: string) => {
+                    return enduroJsData;
+                })
+                .catch(error => { throw 'Data Loading Error' });
+            },
+
+
+            byKey: (eduroJsUrl:string) => {
             //    this.messageId = 'messageId';              
                 let params: HttpParams = new HttpParams();
                 [].forEach(function(i) {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
-                var eduroJsUrl = 'http://localhost:8080/index.json';//+path;
-                return httpClient.get(eduroJsUrl,
-                {
-                    params: params,
-                })
+                var eduroJsUrl = '/blog/cookies';
+                return httpClient.get(eduroJsUrl,{params:params, responseType: 'text'})
                 .toPromise()
                 .then(
-                    (enduroJsData: object) => {
-                        console.log(enduroJsData);
+                    (enduroJsData: string) => {
+                        this.enduroJsDataSubject.next(enduroJsData);
+                     //   return enduroJsData;
                     },
                     (error) => { 
                         console.log(error);

@@ -1,0 +1,45 @@
+<dx-data-grid 
+    id="gridContainer" 
+    [dataSource]="orders"
+    keyExpr="ID"
+    [height]="1200"
+    [showBorders]="true">
+    <dxo-selection mode="single"></dxo-selection>
+    <dxi-column dataField="OrderNumber" [width]="130" caption="Invoice Number"></dxi-column>
+    <dxi-column dataField="OrderDate" [width]="160" dataType="datetime"></dxi-column>
+    <dxi-column dataField="Employee"></dxi-column>
+    <dxi-column dataField="Service" [groupIndex]="0"></dxi-column>
+    <dxi-column dataField="SaleAmount"  alignment="right" format="currency"></dxi-column>
+    <dxi-column dataField="TaxAmount"  alignment="right" format="currency"></dxi-column>
+    <dxi-column dataField="GratuityAmount"  alignment="right" format="currency"></dxi-column>
+    <dxo-summary>
+        <dxi-group-item
+            column="OrderNumber"
+            summaryType="count"
+            displayFormat="{0} orders">
+        </dxi-group-item>
+        <dxi-group-item
+            column="SaleAmount"
+            summaryType="sum"
+            valueFormat="currency"
+            displayFormat="Total: {0}"
+            [showInGroupFooter]="true">
+        </dxi-group-item>
+        <dxi-group-item
+            column="TaxAmount"
+            summaryType="sum"
+            valueFormat="currency"
+            displayFormat="Total: {0}"
+            [showInGroupFooter]="true">
+        </dxi-group-item>
+        <dxi-group-item
+            column="GratuityAmount"
+            summaryType="sum"
+            valueFormat="currency"
+            displayFormat="Total: {0}"
+            [showInGroupFooter]="true">
+        </dxi-group-item>
+    </dxo-summary>
+
+    <dxi-sort-by-group-summary-info summaryItem="count"></dxi-sort-by-group-summary-info>
+</dx-data-grid>

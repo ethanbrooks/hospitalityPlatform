@@ -1,4 +1,4 @@
-import { Component, ViewChild, AfterViewInit, Pipe,PipeTransform } from '@angular/core';
+import { Component, ViewChild, OnInit, Pipe,PipeTransform } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl, SafeUrl, SafeHtml } from '@angular/platform-browser';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
@@ -18,11 +18,12 @@ import { BlogService } from './blog.service';
 //        './bootstrap.css'
     ]
 })
-export class BlogComponent implements AfterViewInit {
+export class BlogComponent implements OnInit {
     @ViewChild(DxScrollViewComponent) scrollView: DxScrollViewComponent;     
 
-    enduroJsData$: Observable<object> = null;
+    enduroJsData$: Observable<string> = null;
 
+    
     showScrollbarModes: any[];
     content: string;
     updateContentTimer: number;
@@ -31,22 +32,23 @@ export class BlogComponent implements AfterViewInit {
     constructor (
         private serviceBlog: BlogService
     ) {
-        this.content = this.getHtml();
-        console.log(this.content);
+//        this.content = this.getHtml();
+//        console.log(this.content);
     }
     
-    ngAfterViewInit() {
-        this.enduroJsData$ =  this.serviceBlog.enduroJsData$;
-        this.getEnduroJsData('/index.json');
-        this.scrollView.instance.option("onReachBottom", this.updateBottomContent);
-    }
   
-
-    getEnduroJsData(path:string) : void {
-        this.serviceBlog.enduroJsonStore.byKey({
-            path: path,
-        });
-    }
+    ngOnInit() { 
+        this.enduroJsData$ =  this.serviceBlog.enduroJsData$;
+        this.getEnduroJsData('http://localhost:3000/blog/cookies'); 
+//        this.scrollView.instance.option("onReachBottom", this.updateBottomContent);   
+    } 
+   
+ 
+    getEnduroJsData(path:string) : void { 
+        this.serviceBlog.enduroJsonStore.byKey({ 
+            path: path, 
+        }); 
+    } 
 
     getHtml() : string {
         var hand;

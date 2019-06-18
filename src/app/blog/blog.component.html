@@ -6,5 +6,6 @@ showScrollbar="always"
 reachBottomText="Updating..."
 (onPullDown)="updateTopContent($event)"
 (onReachBottom)="updateBottomContent($event)">
-    <div class="container" [innerHtml]="content | safeHtml"></div>
+    <div class="container" [innerHtml]="enduroJsData$ | async | safeHtml"></div>
 </dx-scroll-view>
+

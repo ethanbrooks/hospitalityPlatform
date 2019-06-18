@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 
 import {
+  DxMultiViewModule,
   DxMapModule,
   DxNumberBoxModule,
   DxDataGridModule, 
@@ -59,21 +60,36 @@ import {
 
 //Admin
 import { VideoComponent } from './video/video.component';
-import { TopnavComponent } from './topnav/topnav.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
+
+
+//Hospitality
 import { BookingComponent } from './booking/booking.component';
+import { FloorplanComponent } from './floorplan/floorplan.component';
+import { InvoiceComponent } from './invoice/invoice.component';
+
+//Resturant
+import { GalleryComponent } from './gallery/gallery.component';
+
+//HR
 import { JobsComponent } from './jobs/jobs.component';
+
+//Website
 import { TeaseComponent } from './tease/tease.component';
 import { ContactComponent } from './contact/contact.component';
 import { MapComponent } from './map/map.component';
 import { EventComponent } from './event/event.component';
-import { GalleryComponent } from './gallery/gallery.component';
-import { FloorplanComponent } from './floorplan/floorplan.component';
-import { SlideshowComponent } from './slideshow/slideshow.component';
 import { BlogComponent } from './blog/blog.component';
+import { SlidecontentComponent } from './slidecontent/slidecontent.component';
+import { SlideshowComponent } from './slideshow/slideshow.component';
+
+
+//Nav
+import { TopnavComponent } from './topnav/topnav.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 import { FooterComponent } from './footer/footer.component';
 
 
+//Utilities
 import {SafeHtmlPipe} from "./pipes/SafeHtmlPipe.pipe";
 
 
@@ -85,6 +101,7 @@ import {SafeHtmlPipe} from "./pipes/SafeHtmlPipe.pipe";
     BrowserAnimationsModule,
     CommonModule,
   //    IonicModule,
+    DxMultiViewModule,
     DxCalendarModule,
     DxNumberBoxModule,
     DxCheckBoxModule,
@@ -149,6 +166,8 @@ import {SafeHtmlPipe} from "./pipes/SafeHtmlPipe.pipe";
     FloorplanComponent, 
     BlogComponent, 
     FooterComponent,
+    SlidecontentComponent,
+    InvoiceComponent,
     SafeHtmlPipe 
   ],
   exports:[
@@ -168,7 +187,9 @@ import {SafeHtmlPipe} from "./pipes/SafeHtmlPipe.pipe";
     SlideshowComponent, 
     FloorplanComponent, 
     BlogComponent, 
-    FooterComponent 
+    FooterComponent,
+    SlidecontentComponent,
+    InvoiceComponent 
   ]
 })
 
@@ -217,6 +238,13 @@ export class PluginModule {
 
     const FooterElement = createCustomElement(FooterComponent, { injector: this.injector });
     customElements.define('app-footer', FooterElement);
+
+    const SlidecontentElement = createCustomElement(SlidecontentComponent, { injector: this.injector });
+    customElements.define('app-slidecontent', SlidecontentElement);
     
+    const InvoiceElement = createCustomElement(InvoiceComponent, { injector: this.injector });
+    customElements.define('app-invoice', InvoiceElement);
+    
+
   }
 }

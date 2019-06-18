@@ -1,0 +1,50 @@
+<div id="multiview">
+        <div>
+            Item <span>{{multiview.selectedIndex + 1}}</span> of <span>{{itemCount}}</span>
+        </div>
+        <dx-multi-view
+            #multiview
+            [height]="300"
+            [dataSource]="packages"
+            [selectedIndex]="0"
+            [loop]="true"
+            [animationEnabled]="true">
+            <div *dxTemplate="let package of 'item'">
+                <div class="multiview-item">
+                    <h1>{{package.PackageName}}</h1>
+                    <div>
+                        <p>
+                            <b>{{package.CompanyName}}</b>
+                            (<span>{{package.Location}}</span>)
+                        </p>
+                        <p>
+                            <span>{{package.Description}}</span>
+                            <span>{{package.Subject}}</span>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Email: <b>{{package.Email}}</b>
+                        </p>
+                        <p>
+                            Phone: <b>{{package.Phone}}</b>
+                        </p>
+                        <p>
+                            Fax: <b>{{package.Fax}}</b>
+                        </p>
+                        <p>
+                            Website:
+                            <a href="{{package.Website}}" target="_blank">
+                                {{package.Website}}
+                            </a>
+                        </p>
+
+                        <p>
+                                <img src="{{package.Media[0].Url}}">
+                        </p>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </dx-multi-view>
