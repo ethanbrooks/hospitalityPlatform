@@ -1,4 +1,6 @@
 <dx-scroll-view #scrollView
+[height]="500"
+direction="both"
 [scrollByContent]="true"
 [scrollByThumb]="true"
 showScrollbar="always"
@@ -8,4 +10,3 @@ reachBottomText="Updating..."
 (onReachBottom)="updateBottomContent($event)">
     <div class="container" [innerHtml]="enduroJsData$ | async | safeHtml"></div>
 </dx-scroll-view>
-

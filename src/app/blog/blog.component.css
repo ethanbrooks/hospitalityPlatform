@@ -1,10 +1,7 @@
 ::ng-deep article {
-    padding: 50px;
+    padding: 15px;
 }
 
-::ng-deep #scrollview-demo {
-    min-height: 550px;
-}
 
 ::ng-deep #scrollview {
     height: auto;
