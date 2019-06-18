@@ -1,12 +1,16 @@
 <dx-scroll-view #scrollView
-[height]="500"
-direction="both"
+[height]="800"
 [scrollByContent]="true"
 [scrollByThumb]="true"
 showScrollbar="always"
-[bounceEnabled]="false"
+[bounceEnabled]="true"
 reachBottomText="Updating..."
-(onPullDown)="updateTopContent($event)"
 (onReachBottom)="updateBottomContent($event)">
-    <div class="container" [innerHtml]="enduroJsData$ | async | safeHtml"></div>
+<div class="container" [innerHtml]="content | safeHtml"></div>
 </dx-scroll-view>
+
+<!--//
+    enduroJsonStore
+    <div class="container" [innerHtml]="enduroJsData$ | async | safeHtml"></div>
+    //-->
+    

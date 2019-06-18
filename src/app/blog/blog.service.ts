@@ -1,15 +1,10 @@
 import { Injectable } from "@angular/core";
 import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { Observable, ReplaySubject } from 'rxjs';
 import CustomStore from 'devextreme/data/custom_store';
-
 
 @Injectable()
 export class BlogService {
-    private enduroJsDataSubject = new ReplaySubject<string>(0);
-    enduroJsData$: Observable<string> = this.enduroJsDataSubject.asObservable();
-    enduroJsData: string;
     enduroJsonStore: CustomStore;
     updateContentTimer: any;
 
@@ -27,12 +22,13 @@ export class BlogService {
                 [].forEach(function(i) {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
+                var eduroJsUrl = '/blog/cookies';
                 var eduroJsUrl = '/blog/';
                 return httpClient.get(eduroJsUrl,{params:params, responseType: 'text'})
                 .toPromise()
                 .then(
-                    (enduroJsData: string) => {
-                        this.enduroJsDataSubject.next(enduroJsData);
+                    (enduroJsDataLoad: string) => {
+                        return enduroJsDataLoad;
                     },
                     (error) => { 
                         console.log(error);
@@ -45,14 +41,11 @@ export class BlogService {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
                 var eduroJsUrl = '/blog/cookies';
-                var eduroJsUrl = '/blog/';
                 return httpClient.get(eduroJsUrl,{params:params, responseType: 'text'})
                 .toPromise()
                 .then(
                     (enduroJsData: string) => {
-
-                        this.enduroJsData = enduroJsData;
-                        this.enduroJsDataSubject.next(enduroJsData);
+                        return enduroJsData;
                     },
                     (error) => { 
                         console.log(error);
@@ -61,20 +54,9 @@ export class BlogService {
             }  
         });
     }
-    
-    updateContent = (args, eventName) => {
-        console.log('updateContent');
-       // var enduroJsData = '<h1>Original contnet</h1><br>';
-        if(this.updateContentTimer)
-            clearTimeout(this.updateContentTimer);
-        this.updateContentTimer = setTimeout(() => {
-            console.log('updateContentTimer');
-            this.enduroJsData = (eventName == "PullDown" ? '<h1>--pull-up---</h1><br>' + this.enduroJsData : this.enduroJsData +  '<h1>--pull-down---</h1><br>');
-            this.enduroJsDataSubject.next(this.enduroJsData);
-            args.component.release();
-        }, 100);
-    };
 }
+
+
         /**
  
     getHtml() : string {
@@ -124,33 +106,4 @@ export class BlogService {
         } 
         return content; 
     }
-    
-    this.enduroJsonStore = new CustomStore({
-            key: ["path"],
-            errorHandler: function (error) {
-                console.log(error.message);
-            },
-            byKey: (path:string) => {
-            //    this.messageId = 'messageId';              
-                let params: HttpParams = new HttpParams();
-                [].forEach(function(i) {
-//                    params = params.set(i, JSON.stringify(query[i]));
-                });
-                var eduroJsUrl = 'http://localhost:8080/index.json';//+path;
-                return httpClient.get(eduroJsUrl,
-                {
-                    params: params,
-                })
-                .toPromise()
-                .then(
-                    (enduroJsData: object) => {
-                        console.log(enduroJsData);
-                    },
-                    (error) => { 
-                        console.log(error);
-                    }
-                );
-            }  
-        });
-     */
- 
+    */
