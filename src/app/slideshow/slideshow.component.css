@@ -85,13 +85,16 @@
     background-repeat: no-repeat;
     height: 600px;
     width: 793px;
+    padding: 20px;
 }
 
-::ng-deep .border-shadow-vert {
+::ng-deep .border-shadow-hor {
     -webkit-box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
     -moz-box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
     box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);
-    width: 508px;
+    width: 793px;
+    height: 600px;
+    padding: 20px;
 }
 
 /*

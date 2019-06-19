@@ -34,14 +34,7 @@ export class BlogComponent implements AfterViewInit {
             this.content = enduroJsDataLoad;
         });
     }
-/*
-    valueChanged(data){ 
-        console.log('valueChanged'); 
-        this.scrollView.instance.option("onReachBottom", data.value ? this.updateBottomContent : null); 
-    } 
-*/
- 
-
+    
     updateTopContent(e){ 
         this.serviceBlog.enduroJsonStore.load().then((enduroJsData: string) => {
     ////        this.serviceBlog.enduroJsonStore.byKey({ id: 1}).then(

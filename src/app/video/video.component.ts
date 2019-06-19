@@ -1,5 +1,6 @@
 import { Component, Input, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import videojs from 'video.js';
+import 'videojs-playlist';
 
 @Component({
   selector: 'app-video',
@@ -20,10 +21,10 @@ export class VideoComponent implements AfterViewInit {
 
   ngAfterViewInit() {
     const options = {
-      controls: false,
+      controls: true,
       fluid: true,
       muted: true,
-      loop: true, 
+      loop: false, 
       preload: 'auto',
       techOrder: ['html5'],
     };
@@ -36,13 +37,25 @@ export class VideoComponent implements AfterViewInit {
         console.log('Awww...over so soon?!');
       });
     });
+    
 
-    player.src([
-        {type: "video/mp4", src:"https://s3.amazonaws.com/hh-video/LogoFull_1.mp4"}
-    ]);
+    player.playlist([{
+      sources: [{
+        type:"application/x-mpegURL", 
+        src:"https://hotel-herrera.s3.amazonaws.com/assets/video/hls/LogoFull_1/stream.m3u8"
+      }],
+      poster: 'http://media.w3.org/2010/05/sintel/poster.png'
+    }, {
+      sources: [{
+        type:"application/x-mpegURL", 
+        src:"https://hotel-herrera.s3.amazonaws.com/assets/video/hls/HERRERA_1/stream.m3u8"  
+      }],
+      poster: 'http://media.w3.org/2010/05/bunny/poster.png'
+    }]);
+
+ 
     
     var promise = player.play();    
-
 
     if (promise !== undefined) {
       promise.then(function() {

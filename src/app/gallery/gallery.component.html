@@ -1,4 +1,57 @@
-<dx-toolbar
+ 
+<dx-tile-view
+#tileView
+[baseItemHeight]="120"
+[baseItemWidth]="185"
+[itemMargin]="10"
+(onItemClick)="showInfo($event)"
+[direction]="'vertical'">
+    <dxi-item
+        *ngFor="let item of items"
+        [widthRatio]="item.widthRatio"
+        [heightRatio]="item.heightRatio">
+        <div class="image" [style.background-image]="'url(' + item.ImageSrc + ')'"></div>
+        <div class="name">{{ item.Name }}</div>
+    </dxi-item>
+</dx-tile-view>  
+
+
+
+<dx-popup
+class="popup-hor"
+[height]="717"
+[width]="913"
+[showTitle]="false"
+title="Information"
+[dragEnabled]="false"
+[closeOnOutsideClick]="true"
+[(visible)]="popupVisible">
+    <div *dxTemplate="let data of 'content'">
+        <div class="border-img-hor-a">
+            <div class="border-shadow-hor">
+                <div class="article animate-box fadeInUp animated">
+                    <a href="blog.html" class="blog-img">
+                        <img class="img-responsive" src="{{currentItem.ImageSrc}}" alt="html5 bootstrap by colorlib.com">
+                        <div class="overlay"></div>
+                        <div class="link">
+                            <span class="read">Read more</span>
+                        </div>
+                    </a>
+                    <div class="desc">
+                        <span class="meta">04, Mar 2018</span>
+                        <h2><a href="{{currentItem.VideoSrc}}">{{currentItem.Name}}</a></h2>
+                        <p>{{currentItem.Description}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</dx-popup>
+
+
+
+<!--//      
+        <dx-toolbar
     [items]="toolbarContent">
 </dx-toolbar>
 <dx-drawer 
@@ -31,28 +84,13 @@
             </div>
         </dx-list>
     </div>
-    <div id="content" >    
-        <dx-tile-view
-        #tileView
-        [baseItemHeight]="120"
-        [baseItemWidth]="185"
-        [itemMargin]="10"
-        (onItemClick)="showInfo($event)"
-        [direction]="'vertical'">
-            <dxi-item
-                *ngFor="let item of items"
-                [widthRatio]="item.widthRatio"
-                [heightRatio]="item.heightRatio">
-                <div class="image" [style.background-image]="'url(' + item.ImageSrc + ')'"></div>
-                <div class="name">{{ item.Name }}</div>
-            </dxi-item>
-        </dx-tile-view>  
+    <div id="content" >   
     </div>
 </dx-drawer>
 
 
 
-<!--//       
+ 
     
     <div class="selected-data">
         <span class="caption">Selected IDs:</span>
@@ -60,20 +98,3 @@
     </div>
     
 //-->
-
-<dx-popup
-class="popup"
-[width]="600"
-[height]="600"
-[showTitle]="false"
-[dragEnabled]="false"
-[closeOnOutsideClick]="true"
-[(visible)]="popupVisible">
-<div *dxTemplate="let data of 'content'">
-    <span>{{currentItem.Name}}</span>
-    <span>{{currentItem.Description}}</span>
-    <img src="{{currentItem.ImageSrc}}" width="500"/>
-    <span>{{currentItem.VideoSrc}}</span>
-    <app-blog></app-blog>
-</div>
-</dx-popup>
