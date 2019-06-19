@@ -1,4 +1,4 @@
-{"name":"Log","hostname":"6cf38d10c942","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2019-06-18T19:49:32.197Z","v":0}
-{"name":"Log","hostname":"6cf38d10c942","pid":1,"level":30,"msg":"Your site is now available on http://127.0.0.1:2367/","time":"2019-06-18T19:49:32.216Z","v":0}
-{"name":"Log","hostname":"6cf38d10c942","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2019-06-18T19:49:32.219Z","v":0}
-{"name":"Log","hostname":"6cf38d10c942","pid":1,"level":30,"msg":"Ghost boot 14.575s","time":"2019-06-18T19:49:32.231Z","v":0}
+{"name":"Log","hostname":"6cf38d10c942","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2019-06-19T00:13:27.826Z","v":0}
+{"name":"Log","hostname":"6cf38d10c942","pid":1,"level":30,"msg":"Your site is now available on http://127.0.0.1:2367/","time":"2019-06-19T00:13:27.830Z","v":0}
+{"name":"Log","hostname":"6cf38d10c942","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2019-06-19T00:13:27.833Z","v":0}
+{"name":"Log","hostname":"6cf38d10c942","pid":1,"level":30,"msg":"Ghost boot 3.733s","time":"2019-06-19T00:13:27.844Z","v":0}

@@ -19,9 +19,8 @@ if(!/localhost/.test(document.location.host)) {
 export class FooterComponent {
     listData: any[];
     currentData: any;
-
     action(e){
-        window.scrollTo(0, 0);
-        console.log(e);
+//        window.scrollTo(0, 0);
+//        console.log(e);
     }
 }

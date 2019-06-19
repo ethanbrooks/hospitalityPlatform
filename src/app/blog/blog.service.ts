@@ -1,19 +1,20 @@
 import { Injectable } from "@angular/core";
-import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
+//import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import CustomStore from 'devextreme/data/custom_store';
+
 
 @Injectable()
 export class BlogService {
     enduroJsonStore: CustomStore;
     updateContentTimer: any;
-
+    content: string;
     constructor(
         private httpClient: HttpClient, 
-        private sanitizer: DomSanitizer
+//        private sanitizer: DomSanitizer
     ) {
         this.enduroJsonStore = new CustomStore({
-            key: ["path"],
+           // key: ["path"],
             errorHandler: function (error) {
                 console.log(error.message);
             },

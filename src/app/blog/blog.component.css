@@ -3,6 +3,22 @@
 }
 
 
+::ng-deep article:nth-child(odd) div div div #article-image:nth-child(odd) {
+    right: unset;
+}
+::ng-deep article:nth-child(odd)  div div div #article-text{
+    right: unset;
+}
+
+::ng-deep article:nth-child(even) div div div  #article-image {
+    left: 83.33333333%;
+    background: #000;
+}
+::ng-deep article:nth-child(even) div div div #article-text {
+    right: 100%;
+    background: #000
+}
+
 ::ng-deep #scrollview {
     height: auto;
     position: absolute;

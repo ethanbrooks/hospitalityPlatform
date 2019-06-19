@@ -16,45 +16,51 @@ import { BlogService } from './blog.service';
 })
 export class BlogComponent implements AfterViewInit {
     @ViewChild(DxScrollViewComponent) scrollView: DxScrollViewComponent;     
-
-    enduroJsData: any;
-
     updateContentTimer: any; 
+    content: string = '';
 
-    content: string;
-    showScrollbarModes: any[];
-  
-    scrollbarMode: string;
     constructor (
         private serviceBlog: BlogService
     ) {}
     
-    ngAfterViewInit() { 
+    ngAfterViewInit(){ 
         this.getEnduroJsDataLoad(); 
         this.scrollView.instance.option("onReachBottom", this.updateBottomContent);   
     }
 
-    getEnduroJsDataLoad() : void { 
+    getEnduroJsDataLoad():void{ 
         this.serviceBlog.enduroJsonStore.load().then(
         (enduroJsDataLoad: string) => {
             this.content = enduroJsDataLoad;
-        })
+        });
     }
-
-    valueChanged = (data) => { 
+/*
+    valueChanged(data){ 
         console.log('valueChanged'); 
         this.scrollView.instance.option("onReachBottom", data.value ? this.updateBottomContent : null); 
     } 
+*/
  
+
+    updateTopContent(e){ 
+        this.serviceBlog.enduroJsonStore.load().then((enduroJsData: string) => {
+    ////        this.serviceBlog.enduroJsonStore.byKey({ id: 1}).then(
+            if(this.updateContentTimer)clearTimeout(this.updateContentTimer); 
+            this.updateContentTimer = setTimeout(() => { 
+                this.content =  enduroJsData + this.content; 
+                e.component.release(); 
+            }, 1); 
+        });
+    }  
+
     updateBottomContent(e){ 
-        this.serviceBlog.enduroJsonStore.byKey({ id: 1}).then(
-            (enduroJsData: string) => {
-                if(this.updateContentTimer)
-                clearTimeout(this.updateContentTimer); 
-                this.updateContentTimer = setTimeout(() => { 
-                    this.content =  this.content + enduroJsData; 
-                    e.component.release(); 
-                }, 500); 
-            })
-        }        
+        this.serviceBlog.enduroJsonStore.load().then((enduroJsData: string) => {
+////        this.serviceBlog.enduroJsonStore.byKey({ id: 1}).then(
+            if(this.updateContentTimer)clearTimeout(this.updateContentTimer); 
+            this.updateContentTimer = setTimeout(() => { 
+                this.content =  this.content + enduroJsData; 
+                e.component.release(); 
+            }, 1); 
+        });
+    }        
 }
