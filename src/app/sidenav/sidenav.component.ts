@@ -1,4 +1,4 @@
-import { NgModule, Component, ViewChild, enableProdMode } from '@angular/core';
+import { NgModule, Component, ContentChild, enableProdMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { List, sidenavService } from './sidenav.service';
@@ -16,7 +16,7 @@ if (!/localhost/.test(document.location.host)) {
     preserveWhitespaces: true
 })
 export class SidenavComponent {
-    @ViewChild(DxDrawerComponent) drawer: DxDrawerComponent;
+    @ContentChild(DxDrawerComponent, {static: false}) drawer: DxDrawerComponent;
     navigation: List[];
     showSubmenuModes: string[] = ['slide', 'expand'];
     positionModes: string[] = ['left', 'right'];

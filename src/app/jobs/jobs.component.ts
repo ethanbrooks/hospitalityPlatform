@@ -1,10 +1,16 @@
-import { Component, ViewChild, enableProdMode, Input, EventEmitter, Output, OnInit  } from '@angular/core';
+import { Component, ContentChild, enableProdMode, Input, EventEmitter, Output, OnInit  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 //import { KnockoutComputed, KnockoutObservable } from 'knockout';
-import * as Survey from 'survey-angular';
-Survey.StylesManager.applyTheme("default");
-
+//import * as Survey from 'survey-angular';
+//Survey.StylesManager.applyTheme("default");
+/*
+                "survey-angular": "^1.0.91",
+                "survey-creator": "latest",
+                "survey-knockout": "^1.0.91",
+                "surveyjs-widgets": "latest",
+        }
+*/
 
 @Component({
     selector: 'app-jobs',
@@ -15,6 +21,7 @@ Survey.StylesManager.applyTheme("default");
 
 export class JobsComponent implements OnInit {
     ngOnInit() {
+/*
         Survey.FunctionFactory.Instance.register("MyTextValidator", this.MyTextValidator);
         
         var survey = new Survey.Model(this.json);
@@ -41,11 +48,12 @@ export class JobsComponent implements OnInit {
 
         survey.onComplete.add(this.sendDataToServer);
         Survey.SurveyNG.render("surveyElement", { model: survey });
+       */ 
     }
 
     sendDataToServer(survey) {
         //send Ajax request to your web server.
-        alert("The results are:" + JSON.stringify(survey.data));
+  //      alert("The results are:" + JSON.stringify(survey.data));
     }
 
     MyTextValidator(params) {

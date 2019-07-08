@@ -1,4 +1,4 @@
-import { Component, Input, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, Input, AfterViewInit, ContentChild, ElementRef } from '@angular/core';
 import videojs from 'video.js';
 import 'videojs-playlist';
 
@@ -16,7 +16,7 @@ import 'videojs-playlist';
 mp4hls --encryption-key baab6d0dd153762d945d5a060abb5fcd --output-encryption-key ~/Downloads/BigBuckBunny_320x180.mp4
 */
 export class VideoComponent implements AfterViewInit {
-  @ViewChild('myvid') vid: ElementRef;
+  @ContentChild('myvid', {static: false}) vid: ElementRef;
   public async: any;
 
   ngAfterViewInit() {

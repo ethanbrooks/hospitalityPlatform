@@ -1,4 +1,4 @@
-import { NgModule, Component, ViewChild, enableProdMode, ɵConsole } from '@angular/core';
+import { NgModule, Component, ContentChild, enableProdMode, ɵConsole } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import {
@@ -24,11 +24,12 @@ import { createOfflineCompileUrlResolver } from '@angular/compiler';
     styleUrls: ['./booking.component.css']
 })
 export class BookingComponent {
-    @ViewChild(DxFormComponent) form:DxFormComponent
+    @ContentChild(DxFormComponent, {static: false}) form:DxFormComponent
 
     now: Date = new Date();
     currentValue: Date = new Date();
     firstDay: number = 0;
+
     minDateValue: Date = undefined;
     maxDateValue: Date = undefined;
     disabledDates: Function = null;

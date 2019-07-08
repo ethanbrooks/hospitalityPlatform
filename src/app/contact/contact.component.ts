@@ -1,8 +1,8 @@
 import { Component, OnInit  } from '@angular/core';
 import { DxTabPanelModule, DxTemplateModule } from 'devextreme-angular';
 import { contactService, Contact } from './contact.service';
-import * as Survey from 'survey-angular';
-Survey.StylesManager.applyTheme("default");
+//import * as Survey from 'survey-angular';
+//Survey.StylesManager.applyTheme("default");
 
 
 @Component({
@@ -17,18 +17,20 @@ export class ContactComponent implements OnInit {
     itemCount: number;
     
     ngOnInit() {
+/*        
         Survey.FunctionFactory.Instance.register("MyTextValidator", this.MyTextValidator);
         
         var survey = new Survey.Model(this.json);
         survey.onComplete.add(this.sendDataToServer);
         Survey.SurveyNG.render("surveyElement", { model: survey });
+*/
     }
 
 
 
     sendDataToServer(survey) {
         //send Ajax request to your web server.
-        alert("The results are:" + JSON.stringify(survey.data));
+//        alert("The results are:" + JSON.stringify(survey.data));
     }
 
     MyTextValidator(params) {

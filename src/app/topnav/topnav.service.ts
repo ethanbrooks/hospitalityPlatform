@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 
 export class NavItems {
     text: string;
+    textb?: string;
     cssclass: string;
     imageSrc?: string;
     action: string;
@@ -11,9 +12,10 @@ export class NavItems {
 
 let navItems: NavItems[] = [
     {text: 'Home', cssclass: 'nav-icon', action: '/', imageSrc: '/assets/img/nav-icon/logo.svg'},
-    {text: 'The Hotel', cssclass: 'nav-icon', action: '/the-hotel', imageSrc: '/assets/img/nav-icon/hotel.svg'},
-    {text: 'The Restaurant', cssclass: 'nav-icon', action: '/the-restaurant', imageSrc:'/assets/img/nav-icon/restaurant.svg'},
-    {text: 'The Lounge',  cssclass: 'nav-icon', action: '/the-lounge', imageSrc:'/assets/img/nav-icon/bar.svg'},
+    {text: 'THE', textb:'hotel', cssclass: 'nav-icon', action: '/the-hotel'}, //, imageSrc: '/assets/img/nav-icon/hotel.svg'
+    {text: 'THE', textb:'restaurant', cssclass: 'nav-icon', action: '/the-restaurant'}, //, imageSrc:'/assets/img/nav-icon/restaurant.svg'
+    {text: 'THE', textb:'lounge',  cssclass: 'nav-icon', action: '/the-lounge'}, //, imageSrc:'/assets/img/nav-icon/bar.svg'
+    {text: 'THE', textb:'cellar',  cssclass: 'nav-icon', action: '/the-lounge'}, //, imageSrc:'/assets/img/nav-icon/bar.svg'
     {text: 'Explore',  cssclass: 'nav-icon', action: '/explore', imageSrc: '/assets/img/nav-icon/travel.svg',
     children:
         [

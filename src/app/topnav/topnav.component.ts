@@ -1,4 +1,4 @@
-import { NgModule, Component, enableProdMode,  ViewChild, ElementRef  } from '@angular/core';
+import { NgModule, Component, enableProdMode,  ContentChild, ElementRef  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
@@ -19,7 +19,7 @@ if(!/localhost/.test(document.location.host)) {
 })
 
 export class TopnavComponent {
-@ViewChild('navbar') navbar: ElementRef;
+@ContentChild('navbar', {static: false}) navbar: ElementRef;
     navBarData: NavItems[];
     listData: any[];
     currentData: any;
@@ -31,12 +31,12 @@ export class TopnavComponent {
     }
 
     constructor(service: topNavService) { 
-        this.navBarData = service.getNavItems();
-        
-
+        this.navBarData = service.getNavItems(); 
+    }
+  }
 /**
  * This is wonkey
- */
+
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
@@ -49,5 +49,4 @@ export class TopnavComponent {
         }
         
     }
-
-}
+ */

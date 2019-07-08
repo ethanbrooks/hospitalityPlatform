@@ -91,7 +91,7 @@ import { FooterComponent } from './footer/footer.component';
 
 //Utilities
 import {SafeHtmlPipe} from "./pipes/SafeHtmlPipe.pipe";
-
+import {SafeStylePipe} from "./pipes/SafeStylePipe.pipe";
 
 
 @NgModule({  
@@ -168,10 +168,13 @@ import {SafeHtmlPipe} from "./pipes/SafeHtmlPipe.pipe";
     FooterComponent,
     SlidecontentComponent,
     InvoiceComponent,
-    SafeHtmlPipe 
+    SafeHtmlPipe,
+    SafeStylePipe 
+
   ],
   exports:[
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    SafeStylePipe
   ],
   entryComponents: [ 
     VideoComponent, 

@@ -1,9 +1,8 @@
-import { Component, ViewChild, AfterViewInit, Pipe,PipeTransform } from '@angular/core';
+import { Component, ContentChild, AfterViewInit, Pipe, PipeTransform } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl, SafeUrl, SafeHtml } from '@angular/platform-browser';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import {  DxScrollViewModule, DxScrollViewComponent } from 'devextreme-angular';
-import notify from 'devextreme/ui/notify';
 import { BlogService } from './blog.service';
 
 @Component({
@@ -15,7 +14,7 @@ import { BlogService } from './blog.service';
     ]
 })
 export class BlogComponent implements AfterViewInit {
-    @ViewChild(DxScrollViewComponent) scrollView: DxScrollViewComponent;     
+    @ContentChild(DxScrollViewComponent, {static: false}) scrollView: DxScrollViewComponent;     
     updateContentTimer: any; 
     content: string = '';
 

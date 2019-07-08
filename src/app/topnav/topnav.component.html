@@ -5,10 +5,8 @@ id="navbar"
 [dataSource]="navBarData"
 contentTemplate="item">
     <div *dxTemplate="let navBarData of 'item'">
-        <figure>
-            <p><img class="nav-icon" src="{{navBarData.imageSrc}}" >
-            <figcaption>{{navBarData.text}}</figcaption>
-        </figure>           
+        <img src="{{navBarData.imageSrc}}">
+        <h1 style="padding:20px;">{{navBarData.text}}<i style="text-transform: lowercase;">{{navBarData.textb}}</i></h1>
     </div>
 </dx-nav-bar>
 

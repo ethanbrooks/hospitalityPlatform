@@ -1,4 +1,143 @@
 ::ng-deep #multiview {
+    width: 100%;
+    clear: both;
+}
+
+
+::ng-deep .display-t {
+background: #ffffff;
+}
+
+::ng-deep #multiview .hero-img {
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+::ng-deep #multiview .hero-flex {
+    width: 100%;
+    z-index: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+}
+::ng-deep #multiview .hero-flex .col-three-forth {
+    width: 60%;
+    z-index: -1;
+    float: left;
+    position: relative;
+}
+::ng-deep #multiview .hero-flex .col-one-forth {
+    width: 40%;
+    float: left;
+    position: relative;
+}
+::ng-deep #multiview .hero-flex .display-t {
+    display: table;
+    width: 100%;
+}
+::ng-deep #multiview .hero-flex .display-tc {
+    display: table-cell;
+    vertical-align: middle;
+}
+::ng-deep #multiview .hero-flex .number {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 220px;
+    text-align: right;
+    color: #f2f2f2;
+    font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+    ::ng-deep #multiview .hero-flex .number {
+        display: none;
+   }
+}
+::ng-deep #multiview .hero-flex .text-inner {
+    display: block;
+    width: 100%;
+    margin-left: 0em;
+    text-align: right;
+    padding: 10px;
+}
+::ng-deep #multiview .hero-flex .text-inner h2 {
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+@media screen and (max-width: 768px) {
+    ::ng-deep #multiview .hero-flex .text-inner h2 {
+        font-size: 24px;
+   }
+}
+::ng-deep #multiview .hero-flex .text-inner .tag {
+    display: block;
+    letter-spacing: 7px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+::ng-deep #multiview .hero-flex .text-inner .desc {
+    padding-right: 3em;
+    position: relative;
+}
+@media screen and (max-width: 768px) {
+    ::ng-deep #multiview .hero-flex .text-inner .desc {
+        padding: 1em;
+        background: #fff;
+        width: 100%;
+   }
+}
+@media screen and (max-width: 480px) {
+    ::ng-deep #multiview .hero-flex .text-inner .desc {
+        padding: 1em;
+        background: #fff;
+        width: 140%;
+   }
+}
+::ng-deep #multiview .hero-flex .text-inner .desc:after {
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    content: '';
+    width: 200px;
+    height: 1px;
+    background: #000;
+}
+@media screen and (max-width: 768px) {
+    ::ng-deep #multiview .hero-flex .text-inner .desc:after {
+        opacity: 0;
+   }
+}
+::ng-deep #multiview .hero-flex .text-inner .btn-view {
+    font-size: 13px;
+    letter-spacing: 7px;
+    color: #000;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    padding: 7px;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    ::ng-deep #multiview .hero-flex .text-inner .btn-view {
+        letter-spacing: 2px;
+   }
+}
+
+
+
+::ng-deep #multiview {
     margin-top: 25px;
 }
 ::ng-deep .multiview-item {
