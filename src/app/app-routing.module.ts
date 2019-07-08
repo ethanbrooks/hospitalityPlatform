@@ -8,22 +8,50 @@ import { Routes, RouterModule } from '@angular/router';
 // import { PageNotFoundComponent, LoginComponent, SignupComponent } from './general/';
 
 
-// Admin
-import { VideoComponent } from './video/video.component';
-import { InvoiceComponent } from './invoice/invoice.component';
-
+import {
+  BlogPageComponent,
+  ContactPageComponent,
+  ExplorePageComponent,
+  GuestPageComponent,
+  JobsPageComponent,
+  RestaurantPageComponent,
+  LoungePageComponent,
+  HotelPageComponent
+} from './pages/';
 
 const routes: Routes = [
-  { path: '',   redirectTo: 'invoice', pathMatch: 'full' },
+  { path: '',   redirectTo: 'blog', pathMatch: 'full' },
   {
-    path: 'invoice',
-    component: InvoiceComponent,
-//    canActivate: [AuthGuard]
+    path: 'blog',
+    component: BlogPageComponent,
   },
   {
-    path: 'video',
-    component: VideoComponent,
-//    canActivate: [AuthGuard]
+    path: 'contact',
+    component: ContactPageComponent,
+  },
+  {
+    path: 'explore',
+    component: ExplorePageComponent,
+  },
+  {
+    path: 'guest',
+    component: GuestPageComponent,
+  },
+  {
+    path: 'jobs',
+    component: JobsPageComponent,
+  },
+  {
+    path: 'the-restaurant',
+    component: RestaurantPageComponent,
+  },
+  {
+    path: 'the-lounge',
+    component: LoungePageComponent,
+  },
+  {
+    path: 'the-hotel',
+    component: HotelPageComponent,
   },
 //  { path: '**', component: PageNotFoundComponent }
 ];

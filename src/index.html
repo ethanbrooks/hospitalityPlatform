@@ -26,8 +26,9 @@
 
 
     <link rel="stylesheet" type="text/css" href="/assets/css/dx.common.css"/>
-    <link rel="dx-theme" data-theme="dx.ios7.default" href="/assets/css/dx.ios7.default.css" data-active="true" />
-
+    <link rel="dx-theme" data-theme="dx.material.custom-scheme" href="/assets/css/dx.material.custom-scheme.css" data-active="true" />
+    <link rel="dx-theme" data-theme="dx.ios7.default" href="/assets/css/dx.ios7.default.css" data-active="false" />
+    
     <link rel="icon" type="image/png" href="/assets/icon/Icon-16.png"/>
     <link rel="manifest" href="/manifest.json">
   
@@ -37,9 +38,6 @@
     <link rel="apple-touch-icon" href="/assets/img/app-icon/apple-touch-icon-180x180.png" sizes="180x180">
     <meta name="msapplication-config" content="/assets/img/app-icon/browserconfig.xml">
     <link href="https://fonts.googleapis.com/css?family=GFS+Didot&display=swap" rel="stylesheet">
-
-
-
     <!--//
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
 
@@ -47,72 +45,11 @@
     <meta http-equiv="X-Content-Security-Policy" content="connect-src *; report-uri /api/report"> 
     <meta http-equiv="X-WebKit-CSP" content="connect-src *; report-uri /api/report">
     //-->
-    <style>
-      @media only screen and (min-width: 640px) {
-        grid-container {
-          display: grid;
-          grid-template-rows: 1 1 1 1;
-          grid-template-areas: "header" "main" "section" "footer";
-        }
-        header { 
-          height: 260px;
-          width:100%;
-          align-items: center;
-          align-content: center;
-          text-align: center;
-        }
-        main { 
-          min-height: 200px; 
-          max-height: 1000px;
-        }
-        section { 
-          height:auto;
-          min-height: 200px; 
-          max-height: 500px;
-        }
-        footer { 
-          height:75px;
-          min-height: 75px; 
-          max-height: 75px;
-        }
-      }
-  
-      @media only screen and (max-width: 640px) {
-        .grid-container {
-          display: grid;
-          grid-template-rows: 1 1 1 1;
-          grid-template-areas: "header" "main" "section" "footer";
-        }
-      
-        main { 
-          height: 260px;
-          height:auto;
-          min-height: 200px; 
-          max-height: 1000px;
-        }
-        section { 
-          height:auto;
-          min-height: 200px; 
-          max-height: 500px;
-        }
-        footer { 
-          height:75px;
-          min-height: 75px; 
-          max-height: 75px;
-        }
-      }
-      header { grid-area: header; }
-      main { grid-area: main; } 
-      section { grid-area: section; } 
-      footer { grid-area: footer; }
-    </style>
-
     <link rel="icon" type="image/png" href="/assets/img/app-icon/favicon-16x16.png"/>
-
     <link rel="manifest" href="/manifest.json">
 </head>  
   <body class="dx-viewport">
     <app-root></app-root>
     <noscript>Please enable JavaScript to continue using this application.</noscript>
-</body>
+  </body>
 </html>

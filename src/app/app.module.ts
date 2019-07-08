@@ -67,34 +67,37 @@ import {
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
-import { VideoComponent } from './video/video.component';
 
 
-// Hospitality
-import { BookingComponent } from './booking/booking.component';
-import { FloorplanComponent } from './floorplan/floorplan.component';
-import { InvoiceComponent } from './invoice/invoice.component';
+import {
+  VideoComponent,
+  BookingComponent,
+  FloorplanComponent,
+  InvoiceComponent,
+  GalleryComponent,
+  JobsComponent,
+  TeaseComponent,
+  ContactComponent,
+  MapComponent,
+  EventComponent,
+  BlogComponent,
+  SlidecontentComponent,
+  SlideshowComponent,
+  TopnavComponent,
+  SidenavComponent,
+  FooterComponent
+  } from './plugins/';
 
-// Resturant
-import { GalleryComponent } from './gallery/gallery.component';
-
-// HR
-import { JobsComponent } from './jobs/jobs.component';
-
-// Website
-import { TeaseComponent } from './tease/tease.component';
-import { ContactComponent } from './contact/contact.component';
-import { MapComponent } from './map/map.component';
-import { EventComponent } from './event/event.component';
-import { BlogComponent } from './blog/blog.component';
-import { SlidecontentComponent } from './slidecontent/slidecontent.component';
-import { SlideshowComponent } from './slideshow/slideshow.component';
-
-
-// Nav
-import { TopnavComponent } from './topnav/topnav.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
-import { FooterComponent } from './footer/footer.component';
+import {
+    BlogPageComponent,
+    ContactPageComponent,
+    ExplorePageComponent,
+    GuestPageComponent,
+    JobsPageComponent,
+    RestaurantPageComponent,
+    LoungePageComponent,
+    HotelPageComponent
+  } from './pages/';
 
 
 // Utilities
@@ -160,12 +163,24 @@ import {SafeStylePipe} from './pipes/SafeStylePipe.pipe';
     DxBoxModule,
     DxScrollViewModule,
     DxSpeedDialActionModule,
+
+
 //    IonicModule,
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   declarations: [
     AppComponent,
+
+    BlogPageComponent,
+    ContactPageComponent,
+    ExplorePageComponent,
+    GuestPageComponent,
+    JobsPageComponent,
+    RestaurantPageComponent,
+    LoungePageComponent,
+    HotelPageComponent,
+
     VideoComponent,
     TopnavComponent,
     SidenavComponent,
@@ -182,6 +197,7 @@ import {SafeStylePipe} from './pipes/SafeStylePipe.pipe';
     FooterComponent,
     SlidecontentComponent,
     InvoiceComponent,
+
     SafeHtmlPipe,
     SafeStylePipe
   ],

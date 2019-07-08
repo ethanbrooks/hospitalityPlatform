@@ -1,6 +1,6 @@
 import { Component, HostListener, ContentChild } from '@angular/core';
 import { Router } from '@angular/router';
-//import themes from 'devextreme/ui/themes';
+import themes from 'devextreme/ui/themes';
 
 @Component({
     selector: 'app-root',
@@ -14,6 +14,6 @@ export class AppComponent {
     constructor(
         private router: Router,
     ) {
-//        themes.current('generic.light');
+        themes.current('dx.material.custom-scheme');
     }
 }
