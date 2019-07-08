@@ -24,50 +24,52 @@ export class VideoComponent implements AfterViewInit {
       controls: true,
       fluid: true,
       muted: true,
-      loop: false, 
+      loop: false,
       preload: 'auto',
       techOrder: ['html5'],
     };
 
-    let player = new videojs(this.vid.nativeElement, options, function onPlayerReady() {
+    const player = new videojs(this.vid.nativeElement, options, function onPlayerReady() {
       //      this.enterFullScreen();
       console.log('Your player is ready!');
       // How about an event listener?
-      this.on('ended', function() {
+      this.on('ended', () => {
         console.log('Awww...over so soon?!');
       });
     });
-    
+
+
 
     player.playlist([{
       sources: [{
-        type:"application/x-mpegURL", 
-        src:"https://hotel-herrera.s3.amazonaws.com/assets/video/hls/LogoFull_1/stream.m3u8"
+        type: 'application/x-mpegURL',
+        src: 'https://hotel-herrera.s3.amazonaws.com/assets/video/hls/LogoFull_1/stream.m3u8'
       }],
       poster: 'http://media.w3.org/2010/05/sintel/poster.png'
     }, {
       sources: [{
-        type:"application/x-mpegURL", 
-        src:"https://hotel-herrera.s3.amazonaws.com/assets/video/hls/HERRERA_1/stream.m3u8"  
+        type: 'application/x-mpegURL',
+        src: 'https://hotel-herrera.s3.amazonaws.com/assets/video/hls/HERRERA_1/stream.m3u8'
       }],
       poster: 'http://media.w3.org/2010/05/bunny/poster.png'
     }]);
 
- 
-    
-    var promise = player.play();    
+
+
+
+    const promise = player.play();
 
     if (promise !== undefined) {
-      promise.then(function() {
-        console.log('Autoplay started!');
-        document.getElementById('videocontent').style.display = 'block';
-        document.getElementById('must-click').style.display = 'none';              
-      }).catch(function(error) {
-        var d = new Date();
-        var time = d.getTime();
-        console.log('Autoplay was prevented at', time );
-        var promise = player.play();  
-      });
-    }
-  }
+  promise.then(() => {
+    console.log('Autoplay started!');
+    document.getElementById('videocontent').style.display = 'block';
+    document.getElementById('must-click').style.display = 'none';
+  }).catch((error) => {
+    const d = new Date();
+    const time = d.getTime();
+    console.log('Autoplay was prevented at', time );
+//        const promise = player.play();
+  });
+}
+}
 }

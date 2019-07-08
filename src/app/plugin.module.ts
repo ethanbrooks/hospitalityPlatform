@@ -1,9 +1,9 @@
 import { NgModule, Injector } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { createCustomElement } from '@angular/elements';
-import { BrowserModule } from '@angular/platform-browser'
+import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-//import { environment } from '../environments/environment';
+// import { environment } from '../environments/environment';
 
 import { HttpClientModule } from '@angular/common/http';
 
@@ -11,12 +11,12 @@ import {
   DxMultiViewModule,
   DxMapModule,
   DxNumberBoxModule,
-  DxDataGridModule, 
-  DxSliderModule,  
-  DxDrawerModule,  
-  DxRadioGroupModule,  
-  DxListModule,  
-  DxToolbarModule, 
+  DxDataGridModule,
+  DxSliderModule,
+  DxDrawerModule,
+  DxRadioGroupModule,
+  DxListModule,
+  DxToolbarModule,
   DxTreeViewModule,
   DxSchedulerModule,
   DxTemplateModule,
@@ -24,10 +24,10 @@ import {
   DxHtmlEditorModule,
   DxPivotGridModule,
   DxChartModule,
-  DxPopupModule, 
+  DxPopupModule,
   DxPopoverModule,
-  DxVectorMapModule, 
-  DxSelectBoxModule, 
+  DxVectorMapModule,
+  DxSelectBoxModule,
   DxTextBoxModule,
   DxFileUploaderModule,
   DxAccordionModule,
@@ -58,22 +58,22 @@ import {
 } from 'devextreme-angular';
 
 
-//Admin
+// Admin
 import { VideoComponent } from './video/video.component';
 
 
-//Hospitality
+// Hospitality
 import { BookingComponent } from './booking/booking.component';
 import { FloorplanComponent } from './floorplan/floorplan.component';
 import { InvoiceComponent } from './invoice/invoice.component';
 
-//Resturant
+// Resturant
 import { GalleryComponent } from './gallery/gallery.component';
 
-//HR
+// HR
 import { JobsComponent } from './jobs/jobs.component';
 
-//Website
+// Website
 import { TeaseComponent } from './tease/tease.component';
 import { ContactComponent } from './contact/contact.component';
 import { MapComponent } from './map/map.component';
@@ -83,18 +83,18 @@ import { SlidecontentComponent } from './slidecontent/slidecontent.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 
 
-//Nav
+// Nav
 import { TopnavComponent } from './topnav/topnav.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { FooterComponent } from './footer/footer.component';
 
 
-//Utilities
-import {SafeHtmlPipe} from "./pipes/SafeHtmlPipe.pipe";
-import {SafeStylePipe} from "./pipes/SafeStylePipe.pipe";
+// Utilities
+import {SafeHtmlPipe} from './pipes/SafeHtmlPipe.pipe';
+import {SafeStylePipe} from './pipes/SafeStylePipe.pipe';
 
 
-@NgModule({  
+@NgModule({
   imports: [
     HttpClientModule,
     BrowserModule,
@@ -120,12 +120,12 @@ import {SafeStylePipe} from "./pipes/SafeStylePipe.pipe";
     DxTemplateModule,
     DxPivotGridModule,
     DxChartModule,
-    DxButtonModule, 
-    DxPopupModule, 
+    DxButtonModule,
+    DxPopupModule,
     DxPopoverModule,
     DxMapModule,
-    DxVectorMapModule, 
-    DxSelectBoxModule, 
+    DxVectorMapModule,
+    DxSelectBoxModule,
     DxTextBoxModule,
     DxFileUploaderModule,
     DxAccordionModule,
@@ -147,62 +147,61 @@ import {SafeStylePipe} from "./pipes/SafeStylePipe.pipe";
     DxTreeListModule,
     DxFilterBuilderModule,
     DxNavBarModule,
-    DxBoxModule, 
+    DxBoxModule,
     DxScrollViewModule,
     DxSpeedDialActionModule
   ],
-  declarations: [ 
-    VideoComponent, 
-    TopnavComponent, 
-    SidenavComponent, 
-    BookingComponent, 
-    JobsComponent, 
-    TeaseComponent, 
-    ContactComponent, 
-    MapComponent, 
-    EventComponent, 
-    GalleryComponent, 
-    SlideshowComponent, 
-    FloorplanComponent, 
-    BlogComponent, 
+  declarations: [
+    VideoComponent,
+    TopnavComponent,
+    SidenavComponent,
+    BookingComponent,
+    JobsComponent,
+    TeaseComponent,
+    ContactComponent,
+    MapComponent,
+    EventComponent,
+    GalleryComponent,
+    SlideshowComponent,
+    FloorplanComponent,
+    BlogComponent,
     FooterComponent,
     SlidecontentComponent,
     InvoiceComponent,
     SafeHtmlPipe,
-    SafeStylePipe 
-
+    SafeStylePipe
   ],
-  exports:[
+  exports: [
     SafeHtmlPipe,
     SafeStylePipe
   ],
-  entryComponents: [ 
-    VideoComponent, 
-    TopnavComponent, 
-    SidenavComponent, 
-    BookingComponent, 
-    JobsComponent, 
-    TeaseComponent, 
-    ContactComponent, 
-    MapComponent, 
-    EventComponent, 
-    GalleryComponent, 
-    SlideshowComponent, 
-    FloorplanComponent, 
-    BlogComponent, 
+  entryComponents: [
+    VideoComponent,
+    TopnavComponent,
+    SidenavComponent,
+    BookingComponent,
+    JobsComponent,
+    TeaseComponent,
+    ContactComponent,
+    MapComponent,
+    EventComponent,
+    GalleryComponent,
+    SlideshowComponent,
+    FloorplanComponent,
+    BlogComponent,
     FooterComponent,
     SlidecontentComponent,
-    InvoiceComponent 
+    InvoiceComponent
   ]
 })
 
 export class PluginModule {
-  constructor(private injector:Injector){}
-  ngDoBootstrap(){
+  constructor(private injector: Injector) {}
+  ngDoBootstrap() {
 
     const VideoElement = createCustomElement(VideoComponent, { injector: this.injector });
     customElements.define('app-video', VideoElement);
-    
+
     const TopnavElement = createCustomElement(TopnavComponent, { injector: this.injector });
     customElements.define('app-topnav', TopnavElement);
 
@@ -244,10 +243,9 @@ export class PluginModule {
 
     const SlidecontentElement = createCustomElement(SlidecontentComponent, { injector: this.injector });
     customElements.define('app-slidecontent', SlidecontentElement);
-    
+
     const InvoiceElement = createCustomElement(InvoiceComponent, { injector: this.injector });
     customElements.define('app-invoice', InvoiceElement);
-    
 
   }
 }
