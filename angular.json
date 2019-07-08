@@ -24,7 +24,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "src/assets",
+                "input": "assets",
                 "output": "assets"
               },
               "src/manifest.json"

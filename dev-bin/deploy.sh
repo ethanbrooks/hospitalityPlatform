@@ -33,7 +33,7 @@ aws s3 sync www/ s3://${S3BUCKETNAME} --profile ${AWSPROFILE} --metadata-directi
 
 # Sync js&css
 #WTF is exclude *
-#aws s3 sync www/ s3://${S3BUCKETNAME} --profile ${AWSPROFILE} --metadata-directive REPLACE --cache-control max-age=31536000,public --acl public-read --exclude "*" --include "*.css" --include "*.js" || { echo 'ERROR: s3 js/css sync failed' ; exit 1; }
+aws s3 sync www/ s3://${S3BUCKETNAME} --profile ${AWSPROFILE} --metadata-directive REPLACE --cache-control max-age=31536000,public --acl public-read --exclude "*" --include "*.css" --include "*.js" || { echo 'ERROR: s3 js/css sync failed' ; exit 1; }
 
 # copy index.html making sure its not cached at the edge
 aws s3 cp www/index.html s3://${S3BUCKETNAME}/index.html --profile ${AWSPROFILE} --metadata-directive REPLACE --cache-control max-age=0,no-cache,no-store,must-revalidate --content-type text/html --acl public-read || { echo 'ERROR: s3 cp index failed' ; exit 1; }

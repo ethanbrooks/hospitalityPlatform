@@ -2,36 +2,114 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Encrypto Mobile</title>
+    <title>Hotel Herrera</title>
+    <base href="/">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F3EBDE"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#F3EBDE">
+    <meta name="theme-color" content="#F3EBDE">
   
     <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#17171f">
+    <meta name="theme-color" content="#F3EBDE">
     <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#17171f">
+    <meta name="msapplication-navbutton-color" content="#F3EBDE">
     <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#17171f">
-
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F3EBDE">
     <meta name="format-detection" content="telephone=no"/>
     <meta name="msapplication-tap-highlight" content="no"/>
+  
+    <link rel="stylesheet" type="text/css" href=""/>
+
 
     <link rel="stylesheet" type="text/css" href="/assets/css/dx.common.css"/>
+    <link rel="dx-theme" data-theme="dx.ios7.default" href="/assets/css/dx.ios7.default.css" data-active="true" />
 
-    <link rel="dx-theme" data-theme="generic.light" href="/assets/css/dx.light.css" data-active="true" />
-    <link rel="dx-theme" data-theme="generic.dark" href="/assets/css/dx.dark.css" data-active="false" />
-    <link rel="dx-theme" data-theme="generic.contrast" href="/assets/css/dx.contrast.css" data-active="false" />
-
-
-   
-    <base href="/"/>
     <link rel="icon" type="image/png" href="/assets/icon/Icon-16.png"/>
+    <link rel="manifest" href="/manifest.json">
+  
+    <link rel="icon" type="image/png" href="/assets/img/app-icon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/assets/img/app-icon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/img/app-icon/android-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/assets/img/app-icon/apple-touch-icon-180x180.png" sizes="180x180">
+    <meta name="msapplication-config" content="/assets/img/app-icon/browserconfig.xml">
+    <link href="https://fonts.googleapis.com/css?family=GFS+Didot&display=swap" rel="stylesheet">
+
+
+
+    <!--//
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+
+    <meta http-equiv="Content-Security-Policy" content="connect-src *; report-uri /api/report"> 
+    <meta http-equiv="X-Content-Security-Policy" content="connect-src *; report-uri /api/report"> 
+    <meta http-equiv="X-WebKit-CSP" content="connect-src *; report-uri /api/report">
+    //-->
+    <style>
+      @media only screen and (min-width: 640px) {
+        grid-container {
+          display: grid;
+          grid-template-rows: 1 1 1 1;
+          grid-template-areas: "header" "main" "section" "footer";
+        }
+        header { 
+          height: 260px;
+          width:100%;
+          align-items: center;
+          align-content: center;
+          text-align: center;
+        }
+        main { 
+          min-height: 200px; 
+          max-height: 1000px;
+        }
+        section { 
+          height:auto;
+          min-height: 200px; 
+          max-height: 500px;
+        }
+        footer { 
+          height:75px;
+          min-height: 75px; 
+          max-height: 75px;
+        }
+      }
+  
+      @media only screen and (max-width: 640px) {
+        .grid-container {
+          display: grid;
+          grid-template-rows: 1 1 1 1;
+          grid-template-areas: "header" "main" "section" "footer";
+        }
+      
+        main { 
+          height: 260px;
+          height:auto;
+          min-height: 200px; 
+          max-height: 1000px;
+        }
+        section { 
+          height:auto;
+          min-height: 200px; 
+          max-height: 500px;
+        }
+        footer { 
+          height:75px;
+          min-height: 75px; 
+          max-height: 75px;
+        }
+      }
+      header { grid-area: header; }
+      main { grid-area: main; } 
+      section { grid-area: section; } 
+      footer { grid-area: footer; }
+    </style>
+
+    <link rel="icon" type="image/png" href="/assets/img/app-icon/favicon-16x16.png"/>
 
     <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="white">
 </head>  
   <body class="dx-viewport">
     <app-root></app-root>
