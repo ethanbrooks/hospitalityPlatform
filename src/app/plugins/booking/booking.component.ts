@@ -1,4 +1,4 @@
-import { NgModule, Component, ContentChild, enableProdMode, ɵConsole } from '@angular/core';
+import { NgModule, Component, ViewChild, enableProdMode, ɵConsole } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import {
@@ -24,72 +24,75 @@ import { createOfflineCompileUrlResolver } from '@angular/compiler';
     styleUrls: ['./booking.component.css']
 })
 export class BookingComponent {
-    @ContentChild(DxFormComponent, {static: false}) form:DxFormComponent
+    @ViewChild(DxFormComponent, {static: false}) form: DxFormComponent
 
     now: Date = new Date();
     currentValue: Date = new Date();
-    firstDay: number = 0;
+    firstDay = 0;
 
     minDateValue: Date = undefined;
     maxDateValue: Date = undefined;
     disabledDates: Function = null;
     zoomLevels: string[] = [
-        "month", "year", "decade", "century"
+        'month', 'year', 'decade', 'century'
     ];
-    cellTemplate = "cell";
-    holydays: any = [[1,0], [4,6], [25,11]];
+    cellTemplate = 'cell';
+    holydays: any = [[1, 0], [4, 6], [25, 11]];
     isWeekend(date) {
-        var day = date.getDay();
-
+        const day = date.getDay();
         return day === 0 || day === 6;
     }
     setMinDate(e) {
-        if(e.value) {
-            this.minDateValue = new Date(this.now.getTime() - 1000*60*60*24*3);
+        if (e.value) {
+            this.minDateValue = new Date(this.now.getTime() - 1000 * 60 * 60 * 24 * 3);
         } else {
             this.minDateValue = undefined;
         }
     }
+
     setMaxDate(e) {
-        if(e.value) {
-            this.maxDateValue = new Date(this.now.getTime() + 1000*60*60*24*3);
+        if (e.value) {
+            this.maxDateValue = new Date(this.now.getTime() + 1000 * 60 * 60 * 24 * 3);
         } else {
             this.maxDateValue = undefined;
         }
     }
+
     disableWeekend(e) {
-        if(e.value) {
-            var that = this;
-            that.disabledDates = function(data) {
-                return data.view === "month" && that.isWeekend(data.date);
+        if (e.value) {
+            const that = this;
+            that.disabledDates = (data) => {
+                return data.view === 'month' && that.isWeekend(data.date);
             };
         } else {
             this.disabledDates = undefined;
         }
     }
+
     setFirstDay(e) {
-        if(e.value) {
+        if (e.value) {
             this.firstDay = 1;
         } else {
             this.firstDay = 0;
         }
     }
+
     useCellTemplate(e) {
-        if(e.value) {
-            this.cellTemplate = "custom";
+        if (e.value) {
+            this.cellTemplate = 'custom';
         } else {
-            this.cellTemplate = "cell";
+            this.cellTemplate = 'cell';
         }
     }
+
     getCellCssClass(date) {
-        var cssClass = "";
-
-        if(this.isWeekend(date))
-            cssClass = "weekend";
-
-        this.holydays.forEach(function(item) {
-            if(date.getDate() === item[0] && date.getMonth() === item[1]) {
-                cssClass = "holyday";
+        let cssClass = '';
+        if ( this.isWeekend(date) ) {
+            cssClass = 'weekend';
+        }
+        this.holydays.forEach((item) => {
+            if (date.getDate() === item[0] && date.getMonth() === item[1]) {
+                cssClass = 'holiday';
                 return false;
             }
         });
@@ -97,11 +100,13 @@ export class BookingComponent {
         return cssClass;
     }
 
-    password = "";
+    password = '';
+
     passwordOptions: any = {
         mode: "password",
         value: this.password
     };
+
     customer: Customer;
     countries: string[];
     cities: string[];
@@ -137,15 +142,14 @@ export class BookingComponent {
         this.customer = service.getCustomer();
     }
 
-    onFormSubmit = function(e) {
+    onFormSubmit = (e) => {
         notify({
-            message: "You have submitted the form",
+            message: 'You have submitted the form',
             position: {
-                my: "center top",
-                at: "center top"
+                my: 'center top',
+                at: 'center top'
             }
-        }, "success", 3000);
-        
+        }, 'success', 3000);
         e.preventDefault();
     }
 }

@@ -1,4 +1,4 @@
-import { NgModule, Component, enableProdMode,  ContentChild, ElementRef  } from '@angular/core';
+import { NgModule, Component, enableProdMode,  ViewChild, ElementRef  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
@@ -19,7 +19,7 @@ if (!/localhost/.test(document.location.host)) {
 })
 
 export class TopnavComponent {
-@ContentChild('navbar', {static: false}) navbar: ElementRef;
+@ViewChild('navbar', {static: false}) navbar: ElementRef;
     navBarData: NavItems[];
     listData: any[];
     currentData: any;

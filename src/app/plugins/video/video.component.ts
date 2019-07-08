@@ -1,5 +1,5 @@
 
-import { Component, Input, AfterViewInit, ContentChild, ElementRef } from '@angular/core';
+import { Component, Input, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import videojs from 'video.js';
 // import 'videojs-overlay';
 // import 'videojs-playlist';
@@ -14,7 +14,7 @@ import videojs from 'video.js';
 })
 
 export class VideoComponent implements AfterViewInit {
-//  @ContentChild('myvid', {static: false}) vid: ElementRef;
+  @ViewChild('myvid', {static: false}) vid: ElementRef;
   public async: any;
 
   ngAfterViewInit() {

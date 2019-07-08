@@ -1,4 +1,4 @@
-import { Component, ContentChild } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { DxDrawerComponent, DxDrawerModule, DxListModule, DxTileViewModule, DxSelectBoxModule, DxPopupModule, DxButtonModule, DxTemplateModule} from 'devextreme-angular';
 import { Item, galleryService } from './gallery.service';
 
@@ -10,7 +10,7 @@ import { Item, galleryService } from './gallery.service';
 })
 
 export class GalleryComponent {
-    @ContentChild(DxDrawerComponent, {static: false}) drawer: DxDrawerComponent;
+    @ViewChild(DxDrawerComponent, {static: false}) drawer: DxDrawerComponent;
     items: Item[];
     currentItem: Item = new Item();
     popupVisible = false;

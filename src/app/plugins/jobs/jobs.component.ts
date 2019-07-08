@@ -1,9 +1,9 @@
-import { Component, ContentChild, enableProdMode, Input, EventEmitter, Output, OnInit  } from '@angular/core';
+import { Component, enableProdMode, Input, EventEmitter, Output, OnInit  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-//import { KnockoutComputed, KnockoutObservable } from 'knockout';
-//import * as Survey from 'survey-angular';
-//Survey.StylesManager.applyTheme("default");
+// import { KnockoutComputed, KnockoutObservable } from 'knockout';
+// import * as Survey from 'survey-angular';
+// Survey.StylesManager.applyTheme("default");
 /*
                 "survey-angular": "^1.0.91",
                 "survey-creator": "latest",

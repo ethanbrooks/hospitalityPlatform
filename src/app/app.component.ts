@@ -1,4 +1,4 @@
-import { Component, HostListener, ContentChild } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import themes from 'devextreme/ui/themes';
 

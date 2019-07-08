@@ -1,4 +1,4 @@
-import { Component, ContentChild, AfterViewInit, Pipe, PipeTransform } from '@angular/core';
+import { Component, ViewChild, AfterViewInit, Pipe, PipeTransform } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl, SafeUrl, SafeHtml } from '@angular/platform-browser';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
@@ -14,45 +14,45 @@ import { BlogService } from './blog.service';
     ]
 })
 export class BlogComponent implements AfterViewInit {
-    @ContentChild(DxScrollViewComponent, {static: false}) scrollView: DxScrollViewComponent;     
-    updateContentTimer: any; 
-    content: string = '';
+    @ViewChild(DxScrollViewComponent, {static: false}) scrollView: DxScrollViewComponent;
+    updateContentTimer: any;
+    content: any = '';
 
-    constructor (
+    constructor(
         private serviceBlog: BlogService
     ) {}
-    
-    ngAfterViewInit(){ 
-        this.getEnduroJsDataLoad(); 
-        this.scrollView.instance.option("onReachBottom", this.updateBottomContent);   
+
+    ngAfterViewInit() {
+        this.getEnduroJsDataLoad();
+        this.scrollView.instance.option('onReachBottom', this.updateBottomContent);
     }
 
-    getEnduroJsDataLoad():void{ 
+    getEnduroJsDataLoad(): void {
         this.serviceBlog.enduroJsonStore.load().then(
         (enduroJsDataLoad: string) => {
             this.content = enduroJsDataLoad;
         });
     }
-    
-    updateTopContent(e){ 
+
+    updateTopContent(e) {
         this.serviceBlog.enduroJsonStore.load().then((enduroJsData: string) => {
     ////        this.serviceBlog.enduroJsonStore.byKey({ id: 1}).then(
-            if(this.updateContentTimer)clearTimeout(this.updateContentTimer); 
-            this.updateContentTimer = setTimeout(() => { 
-                this.content =  enduroJsData + this.content; 
-                e.component.release(); 
-            }, 1); 
+            if (this.updateContentTimer) {clearTimeout(this.updateContentTimer); }
+            this.updateContentTimer = setTimeout(() => {
+                this.content =  enduroJsData + this.content;
+                e.component.release();
+            }, 1);
         });
-    }  
+    }
 
-    updateBottomContent(e){ 
+    updateBottomContent(e) {
         this.serviceBlog.enduroJsonStore.load().then((enduroJsData: string) => {
 ////        this.serviceBlog.enduroJsonStore.byKey({ id: 1}).then(
-            if(this.updateContentTimer)clearTimeout(this.updateContentTimer); 
-            this.updateContentTimer = setTimeout(() => { 
-                this.content =  this.content + enduroJsData; 
-                e.component.release(); 
-            }, 1); 
+            if (this.updateContentTimer) {clearTimeout(this.updateContentTimer); }
+            this.updateContentTimer = setTimeout(() => {
+                this.content =  this.content + enduroJsData;
+                e.component.release();
+            }, 1);
         });
-    }        
+    }
 }
