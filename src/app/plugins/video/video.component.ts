@@ -1,6 +1,8 @@
+
 import { Component, Input, AfterViewInit, ContentChild, ElementRef } from '@angular/core';
 import videojs from 'video.js';
-import 'videojs-playlist';
+// import 'videojs-overlay';
+// import 'videojs-playlist';
 
 @Component({
   selector: 'app-video',
@@ -11,12 +13,8 @@ import 'videojs-playlist';
   ]
 })
 
-/*
-~/Documents/Bento4-SDK-1-5-1-628.universal-apple-macosx/bin/mp42hls ~/Downloads/BigBuckBunny_320x180.mp4
-mp4hls --encryption-key baab6d0dd153762d945d5a060abb5fcd --output-encryption-key ~/Downloads/BigBuckBunny_320x180.mp4
-*/
 export class VideoComponent implements AfterViewInit {
-  @ContentChild('myvid', {static: false}) vid: ElementRef;
+//  @ContentChild('myvid', {static: false}) vid: ElementRef;
   public async: any;
 
   ngAfterViewInit() {
@@ -29,17 +27,43 @@ export class VideoComponent implements AfterViewInit {
       techOrder: ['html5'],
     };
 
-    const player = new videojs(this.vid.nativeElement, options, function onPlayerReady() {
-      //      this.enterFullScreen();
-      console.log('Your player is ready!');
-      // How about an event listener?
-      this.on('ended', () => {
-        console.log('Awww...over so soon?!');
+    const player = new videojs('myvid', options, function onPlayerReady() {
+     /* player.overlay({
+        content: 'This is the default.',
+        align: 'top-right',
+        class: 'big-red',
+        overlays: [{
+          content: 'It is playing now',
+          align: 'top-left',
+          class: 'little-green',
+          start: 'play',
+          end: 'pause'
+        }]
       });
-    });
+*/
+      player.src([
+        {
+          type: 'application/x-mpegURL',
+          src: 'https://hotelherrera-608858759566-us-east-1.s3.amazonaws.com/output/hls/VID201907041748350045.m3u8'
+        }
+      ]);
+      const promise = player.play();
+      if (promise !== undefined) {
+        promise.then(() => {
+          console.log('Autoplay started!');
+          document.getElementById('videocontent').style.display = 'block';
+          document.getElementById('must-click').style.display = 'none';
+        }).catch((error) => {
 
+          const d = new Date();
+          const time = d.getTime();
+          console.log('Autoplay was prevented at', time );
+        });
+      }
+  });
+}
 
-
+/*
     player.playlist([{
       sources: [{
         type: 'application/x-mpegURL',
@@ -53,23 +77,5 @@ export class VideoComponent implements AfterViewInit {
       }],
       poster: 'http://media.w3.org/2010/05/bunny/poster.png'
     }]);
-
-
-
-
-    const promise = player.play();
-
-    if (promise !== undefined) {
-  promise.then(() => {
-    console.log('Autoplay started!');
-    document.getElementById('videocontent').style.display = 'block';
-    document.getElementById('must-click').style.display = 'none';
-  }).catch((error) => {
-    const d = new Date();
-    const time = d.getTime();
-    console.log('Autoplay was prevented at', time );
-//        const promise = player.play();
-  });
-}
-}
+*/
 }
