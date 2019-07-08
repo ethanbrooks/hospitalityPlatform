@@ -4,10 +4,10 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { DxBoxModule, DxListModule, DxNavBarModule, DxTemplateModule } from 'devextreme-angular';
 import DataSource from 'devextreme/data/data_source';
+import { Router } from '@angular/router';
+import { NavItems, TopNavService } from './topnav.service';
 
-import { NavItems, topNavService } from './topnav.service';
-
-if(!/localhost/.test(document.location.host)) {
+if (!/localhost/.test(document.location.host)) {
     enableProdMode();
 }
 
@@ -15,7 +15,7 @@ if(!/localhost/.test(document.location.host)) {
     selector: 'app-topnav',
     templateUrl: './topnav.component.html',
     styleUrls: ['./topnav.component.css'],
-    providers: [topNavService]
+    providers: [TopNavService]
 })
 
 export class TopnavComponent {
@@ -24,19 +24,21 @@ export class TopnavComponent {
     listData: any[];
     currentData: any;
 
-
-    actionItem(e){
-        this.currentData = this.navBarData[e.itemIndex];
-        window.location.href = this.currentData.action;
+    constructor(
+      service: TopNavService,
+      private router: Router
+    ) {
+      this.navBarData = service.getNavItems();
     }
 
-    constructor(service: topNavService) { 
-        this.navBarData = service.getNavItems(); 
+    actionItem(e) {
+      this.currentData = this.navBarData[e.itemIndex];
+      this.router.navigateByUrl(this.currentData.action);
+//        window.location.href = this.currentData.action;
     }
   }
-/**
+/*
  * This is wonkey
-
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
@@ -47,6 +49,5 @@ export class TopnavComponent {
           }
           prevScrollpos = currentScrollPos;
         }
-        
     }
  */

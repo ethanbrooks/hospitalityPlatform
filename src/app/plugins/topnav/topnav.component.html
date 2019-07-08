@@ -1,12 +1,10 @@
 <dx-nav-bar
-#navbar
 id="navbar"
 (onItemClick)="actionItem($event)"
 [dataSource]="navBarData"
 contentTemplate="item">
     <div *dxTemplate="let navBarData of 'item'">
-        <img src="{{navBarData.imageSrc}}">
-        <h1 style="padding:20px;">{{navBarData.text}}<i style="text-transform: lowercase;">{{navBarData.textb}}</i></h1>
+        <img class="{{navBarData.cssclass}}" src="{{navBarData.imageSrc}}">
+        <h1 *ngIf="navBarData.text" class="{{navBarData.cssclass}}">{{navBarData.text}}<i style="text-transform: lowercase;">{{navBarData.textb}}</i></h1>
     </div>
 </dx-nav-bar>
-

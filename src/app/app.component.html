@@ -1,5 +1,65 @@
-<router-outlet>
+<div id="page">
+    <dx-responsive-box
+        singleColumnScreen="sm"
+        [(screenByWidth)]="screen">
+        <dxi-row [ratio]="1"></dxi-row>
+        <dxi-row [ratio]="2" screen="xs"></dxi-row>
+        <dxi-row [ratio]="2"></dxi-row>
+        <dxi-row [ratio]="1"></dxi-row>
 
+        <dxi-col [ratio]="1"></dxi-col>
+        <dxi-col [ratio]="2" screen="lg"></dxi-col>
+        <dxi-col [ratio]="1"></dxi-col>
+        <dxi-item>
+            <dxi-location
+                [row]="0"
+                [col]="0"
+                [colspan]="2"
+                screen="lg"
+            ></dxi-location>
+            <dxi-location
+                [row]="0"
+                [col]="0"
+                [colspan]="2"
+                screen="sm"
+            ></dxi-location>
+            <div *dxTemplate class="header item">
+                <app-topnav></app-topnav>
+            </div>
+        </dxi-item>
+        <dxi-item>
+            <dxi-location
+                [row]="1"
+                [col]="1"
+                screen="lg"
+            ></dxi-location>
+            <dxi-location
+                [row]="1"
+                [col]="0"
+                [colspan]="2"
+                screen="sm"
+            ></dxi-location>
+            <div *dxTemplate class="content item">
+                <router-outlet></router-outlet>
+            </div>
+        </dxi-item>
+        <dxi-item>
+            <dxi-location
+                [row]="2"
+                [col]="0"
+                [colspan]="2"
+                screen="lg"
+            ></dxi-location>
+            <dxi-location
+                [row]="3"
+                [col]="0"
+                [colspan]="2"
+                screen="sm"
+            ></dxi-location>
+            <div *dxTemplate class="footer item">
+                <app-footer></app-footer>
+            </div>
+        </dxi-item>
+    </dx-responsive-box>
+</div>
 
-    
-</router-outlet>

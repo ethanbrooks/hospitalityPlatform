@@ -5,7 +5,7 @@ import themes from 'devextreme/ui/themes';
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
-    styleUrls: [],
+    styleUrls: ['./app.component.css'],
     providers: []
   })
 
@@ -15,5 +15,9 @@ export class AppComponent {
         private router: Router,
     ) {
         themes.current('dx.material.custom-scheme');
+    }
+
+    screen(width) {
+        return ( width < 700 ) ? 'sm' : 'lg';
     }
 }
