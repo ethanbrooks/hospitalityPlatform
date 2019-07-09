@@ -20,7 +20,10 @@ import {
 } from './pages/';
 
 const routes: Routes = [
-  { path: '',   redirectTo: 'blog', pathMatch: 'full' },
+  { path: '', redirectTo: 'blog', pathMatch: 'full' },
+  { path: 'blog:page',
+    component: BlogPageComponent
+  },
   {
     path: 'blog',
     component: BlogPageComponent,

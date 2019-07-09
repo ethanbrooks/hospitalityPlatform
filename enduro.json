@@ -4,5 +4,9 @@
 	"s3": {
 		"bucket": "hotel-herrera",
 		"region": "us-east-1"
-	}
+	},
+	"cultures": [
+		"es",
+		"en"
+	]
 }
