@@ -1,5 +1,5 @@
-import { Injectable } from "@angular/core";
-//import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
+import { Injectable } from '@angular/core';
+// import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import CustomStore from 'devextreme/data/custom_store';
 
@@ -10,63 +10,62 @@ export class BlogService {
     updateContentTimer: any;
     content: string;
     constructor(
-        private httpClient: HttpClient, 
+        private httpClient: HttpClient,
 //        private sanitizer: DomSanitizer
     ) {
         this.enduroJsonStore = new CustomStore({
            // key: ["path"],
-            errorHandler: function (error) {
+            errorHandler:  (error) => {
                 console.log(error.message);
             },
-            load: function () {
-                let params: HttpParams = new HttpParams();
-                [].forEach(function(i) {
+            load:  () => {
+                const params: HttpParams = new HttpParams();
+                [].forEach((i) => {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
-                var eduroJsUrl = '/blog/cookies';
-                var eduroJsUrl = '/blog/';
-                return httpClient.get(eduroJsUrl,{params:params, responseType: 'text'})
+//                const eduroJsUrl = '/blog/cookies';
+                const eduroJsUrl = 'http://localhost:5000/blog/';
+                return httpClient.get(eduroJsUrl, { params: params, responseType: 'text'})
                 .toPromise()
                 .then(
                     (enduroJsDataLoad: string) => {
-                        return enduroJsDataLoad;
+                        return enduroJsDataLoad ;
                     },
-                    (error) => { 
+                    (error) => {
                         console.log(error);
                     }
                 );
             },
             byKey: () => {
-                let params: HttpParams = new HttpParams();
-                [].forEach(function(i) {
+                const params: HttpParams = new HttpParams();
+                [].forEach((i) => {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
-                var eduroJsUrl = '/blog/cookies';
-                return httpClient.get(eduroJsUrl,{params:params, responseType: 'text'})
+                const eduroJsUrl = '/blog/cookies';
+                return httpClient.get(eduroJsUrl, { params: params, responseType: 'text'})
                 .toPromise()
                 .then(
                     (enduroJsData: string) => {
                         return enduroJsData;
                     },
-                    (error) => { 
+                    (error) => {
                         console.log(error);
                     }
                 );
-            }  
+            }
         });
     }
 }
 
 
-        /**
- 
+/*
     getHtml() : string {
         var hand;
         var content = '';
         var pull;
         var push;
        // for (let o of fruits) {
-        for(var i=0; i < 1; i++) { 
+        for(var i=0; i < 1; i++) {
             if(i % 2){
                 hand = 'left';
                 pull = '';
@@ -75,8 +74,8 @@ export class BlogService {
                 hand = 'right';
                 pull = ' col-md-pull-12';
                 push = ' col-md-push-10';
-            };  
-            content += 
+            };
+            content +=
             `<article class="col-md-12">
                 <div class="work-entry-flex animate-box js-fullheight fadeInUp animated" style="height: 296px;">
                     <div class="col-three-forth js-fullheight" style="height: 296px;">
@@ -104,7 +103,7 @@ export class BlogService {
                     </div>
                 </div>
             </article>`;
-        } 
-        return content; 
+        }
+        return content;
     }
-    */
+*/
