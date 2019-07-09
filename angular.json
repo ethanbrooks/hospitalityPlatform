@@ -27,6 +27,11 @@
                 "input": "assets",
                 "output": "assets"
               },
+              {
+                "glob": "**/*",
+                "input": "_generated",
+                "output": "assets/data"
+              },
               "src/manifest.json"
             ],
             "styles": [

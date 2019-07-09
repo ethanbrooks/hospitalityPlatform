@@ -1,33 +1,16 @@
-{{#blog}}
-{{{json this}}}
-	{{#each this}}
-		<article class="col-md-12">
-			<div id="article-image3" class="work-entry-flex animate-box js-fullheight fadeInUp animated" style="height: 296px;">
-				<div id="article-image2" class="col-three-forth js-fullheight" style="height: 296px;">
-					<div id="article-image1" class="row no-gutters">
-						<div id="article-image" class="col-md-12 no-gutters">
-							<div class="work-img js-fullheight" style="background-image: url('{{blog_entry.blog_image}}');">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-one-forth js-fullheight" style="height: 296px;">
-					<div class="row no-gutters">
-						<div id="article-text"  class="col-md-12 no-gutters">
-							<div class="display-t js-fullheight" style="height: 296px;">
-								<div class="display-tc js-fullheight" style="height: 296px;">
-									<div class="text-inner text-inner-hand">
-										<h2><a href="work-single.html">{{blog_entry.blog_title}}</a></h2>
-										<p>{{{blog_entry.blog_text}}}</p>
-										<p>{{{blog_entry.blog_article}}}</p>
-										<p><a href="/blog/{{blog_entry.page_slug}}" class="btn-view">Read More</a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</article>
-	{{/each}}
-{{/blog}}
+<div class="col-md-4">
+    <div class="article animate-box fadeInUp animated">
+        <a href="blog.html" class="blog-img">
+            <img class="img-responsive" src="images/img-1.jpg" alt="html5 bootstrap by colorlib.com">
+            <div class="overlay"></div>
+            <div class="link">
+                <span class="read">Read more</span>
+            </div>
+        </a>
+        <div class="desc">
+            <span class="meta">04, Mar 2018</span>
+            <h2><a href="blog.html">Collect some interesting images</a></h2>
+            <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove</p>
+        </div>
+    </div>
+</div>

@@ -23,9 +23,8 @@ export class BlogService {
                 [].forEach((i) => {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
-//                const eduroJsUrl = '/blog/cookies';
-                const eduroJsUrl = 'http://localhost:5000/en/blog/';
-                return httpClient.get(eduroJsUrl, { params: params, responseType: 'text'})
+                const eduroJsUrl = '/assets/data/en/blogs/';
+                return httpClient.get(eduroJsUrl, { params, responseType: 'text'})
                 .toPromise()
                 .then(
                     (enduroJsDataLoad: string) => {
@@ -42,7 +41,7 @@ export class BlogService {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
                 const eduroJsUrl = '/blog/cookies';
-                return httpClient.get(eduroJsUrl, { params: params, responseType: 'text'})
+                return httpClient.get(eduroJsUrl, { params, responseType: 'text'})
                 .toPromise()
                 .then(
                     (enduroJsData: string) => {

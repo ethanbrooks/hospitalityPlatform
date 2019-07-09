@@ -17,7 +17,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
-  return new TranslateHttpLoader(httpClient);
+  return new TranslateHttpLoader(httpClient, '/assets/i18n/', '.json');
 }
 
 import {
@@ -123,7 +123,13 @@ import {SafeStylePipe} from './pipes/SafeStylePipe.pipe';
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
-      }
+    //    useClass: CustomLoader
+      },
+// https://www.npmjs.com/package/@ngx-translate/core
+//      compiler: {provide: TranslateCompiler, useClass: CustomCompiler},
+//      parser: {provide: TranslateParser, useClass: CustomParser},
+//      missingTranslationHandler: {provide: MissingTranslationHandler, useClass: CustomHandler},
+//      isolate: true,
     }),
     BrowserModule,
     BrowserAnimationsModule,
