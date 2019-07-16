@@ -1,24 +1,6 @@
-::ng-deep article {
-    padding: 15px;
+::ng-deep #scrollview-demo {
+    min-height: 550px;
 }
-
-
-::ng-deep article:nth-child(odd) div div div #article-image:nth-child(odd) {
-    right: unset;
-}
-::ng-deep article:nth-child(odd)  div div div #article-text{
-    right: unset;
-}
-
-::ng-deep article:nth-child(even) div div div  #article-image {
-    left: 83.33333333%;
-    background: #000;
-}
-::ng-deep article:nth-child(even) div div div #article-text {
-    right: 100%;
-    background: #000
-}
-
 ::ng-deep #scrollview {
     height: auto;
     position: absolute;
@@ -27,35 +9,25 @@
     padding: 20px;
 }
 
-::ng-deep .options {
-    padding: 20px;
-    background-color: rgba(191, 191, 191, 0.15);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-*/
-::ng-deep .caption {
-    font-size: 18px;
-    font-weight: 500;
-}
-::ng-deep .option {
-    margin-top: 10px;
-}
-::ng-deep .option > span {
-    position: relative;
-    top: 2px;
-    margin-right: 10px;
-}
-::ng-deep .option > .dx-selectbox {
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 340px;
-    width: 100%;
-}
 
 
+::ng-deep article {
+    padding: 15px;
+}
+::ng-deep article:nth-child(odd) div div div #article-image:nth-child(odd) {
+    right: unset;
+}
+::ng-deep article:nth-child(odd)  div div div #article-text{
+    right: unset;
+}
+::ng-deep article:nth-child(even) div div div  #article-image {
+    left: 83.33333333%;
+    background: #000;
+}
+::ng-deep article:nth-child(even) div div div #article-text {
+    right: 100%;
+    background: #000
+}
 ::ng-deep article {
     display: block;
 }

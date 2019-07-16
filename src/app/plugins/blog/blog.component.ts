@@ -1,4 +1,4 @@
-import { Component, ViewChild, AfterViewInit, Pipe, PipeTransform } from '@angular/core';
+import { Component, ViewChild, HostListener, AfterViewInit, Pipe, PipeTransform } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl, SafeUrl, SafeHtml } from '@angular/platform-browser';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
@@ -15,12 +15,19 @@ import { BlogService } from './blog.service';
 })
 export class BlogComponent implements AfterViewInit {
     @ViewChild(DxScrollViewComponent, {static: false}) scrollView: DxScrollViewComponent;
+    @HostListener('window:resize', ['$event'])
+
+    innerWidth = 800;
     updateContentTimer: any;
     content: any = '';
-
     constructor(
         private serviceBlog: BlogService
     ) {}
+
+    onResize(event) {
+        console.log(event);
+        this.innerWidth = window.innerWidth;
+    }
 
     ngAfterViewInit() {
         this.getEnduroJsDataLoad();

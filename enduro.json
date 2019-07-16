@@ -6,7 +6,7 @@
 		"region": "us-east-1"
 	},
 	"cultures": [
-		"es",
-		"en"
+		"en_US",
+		"es_PA"
 	]
 }

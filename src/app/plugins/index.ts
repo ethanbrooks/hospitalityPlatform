@@ -14,3 +14,4 @@ export * from './event/event.component';
 export * from './contact/contact.component';
 export * from './booking/booking.component';
 export * from './blog/blog.component';
+export * from './language/language.component';

@@ -93,6 +93,7 @@ import {
   SlideshowComponent,
   TopnavComponent,
   SidenavComponent,
+  LanguageComponent,
   FooterComponent
   } from './plugins/';
 
@@ -218,6 +219,7 @@ import {SafeStylePipe} from './pipes/SafeStylePipe.pipe';
     FooterComponent,
     SlidecontentComponent,
     InvoiceComponent,
+    LanguageComponent,
 
     SafeHtmlPipe,
     SafeStylePipe

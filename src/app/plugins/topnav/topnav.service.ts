@@ -27,7 +27,7 @@ const navItems: NavItems[] = [
     },
     {cssclass: 'nav-icon',  action: '/contact', imageSrc: '/assets/img/nav-icon/contact.svg'},
     {cssclass: 'nav-icon',  action: '/jobs', imageSrc: '/assets/img/nav-icon/job.svg'}, // , badge:'New'
-    {cssclass: 'nav-icon', action: '/guest', imageSrc: '/assets/img/nav-icon/guest.svg'}
+//   {cssclass: 'nav-icon', action: '/guest', imageSrc: '/assets/img/nav-icon/guest.svg'}
 ];
 
 @Injectable()

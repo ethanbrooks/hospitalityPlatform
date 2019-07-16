@@ -1,11 +1,11 @@
 <dx-scroll-view 
     #scrollView
     id='scrollView'
-    [height]="1000"
+    [height]="innerWidth"
     direction="vertical"
-    [scrollByContent]="true"
+    [scrollByContent]="false"
     [scrollByThumb]="true"
-    showScrollbar="always"
+    [showScrollbar]="never"
     [bounceEnabled]="true"
     reachBottomText="Updating..."
     (onReachBottom)="updateBottomContent($event)"

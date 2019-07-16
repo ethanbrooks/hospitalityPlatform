@@ -6,7 +6,6 @@
         <dxi-row [ratio]="2" screen="xs"></dxi-row>
         <dxi-row [ratio]="2"></dxi-row>
         <dxi-row [ratio]="1"></dxi-row>
-
         <dxi-col [ratio]="1"></dxi-col>
         <dxi-col [ratio]="2" screen="lg"></dxi-col>
         <dxi-col [ratio]="1"></dxi-col>
@@ -40,7 +39,10 @@
                 screen="sm"
             ></dxi-location>
             <div *dxTemplate class="content item">
+
+
                 <router-outlet></router-outlet>
+                <app-language></app-language>
             </div>
         </dxi-item>
         <dxi-item>
