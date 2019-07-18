@@ -1,6 +1,4 @@
-import { NgModule, Component, enableProdMode } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-hotel-page',
@@ -9,6 +7,4 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
     providers: []
 })
 
-export class HotelPageComponent {
-
-}
+export class HotelPageComponent { }

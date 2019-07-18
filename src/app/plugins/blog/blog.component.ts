@@ -1,8 +1,5 @@
 import { Component, ViewChild, HostListener, AfterViewInit, Pipe, PipeTransform } from '@angular/core';
-import { DomSanitizer, SafeResourceUrl, SafeUrl, SafeHtml } from '@angular/platform-browser';
-import { BrowserModule } from '@angular/platform-browser';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import {  DxScrollViewModule, DxScrollViewComponent } from 'devextreme-angular';
+import {  DxScrollViewComponent } from 'devextreme-angular';
 import { BlogService } from './blog.service';
 
 @Component({

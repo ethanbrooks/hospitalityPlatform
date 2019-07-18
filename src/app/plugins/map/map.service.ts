@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-let markerUrl = "https://js.devexpress.com/Demos/RealtorApp/images/map-marker.png";
+const markerUrl = 'https://js.devexpress.com/Demos/RealtorApp/images/map-marker.png';
 
 export class MapSetting {
     key: string;
@@ -14,7 +14,7 @@ export class Tooltip {
 
 export class Marker {
     location: any;
-//Fix: this doesn't work
+// Fix: this doesn't work
     iconSrc: any;
     tooltip: any;
 }
@@ -24,43 +24,43 @@ export class Route {
     color: string;
     opacity: number;
     mode: string;
-    locations: any[]
+    locations: any[];
 }
 
-let markers: Marker[] = [{
-    location: "Hotel Herrera, Calle 9a Oeste, Panama City, Panama",
-    iconSrc: "/assets/img/app-icon/favicon-32x32.png",
+const markers: Marker[] = [{
+    location: 'Hotel Herrera, Calle 9a Oeste, Panama City, Panama',
+    iconSrc: '/assets/img/app-icon/favicon-32x32.png',
     tooltip: {
-        text: "Hotel Herrera"
+        text: 'Hotel Herrera'
     }
 }];
 
-let routes: Route[] = [{
+const routes: Route[] = [{
     weight: 6,
-    color: "blue",
+    color: 'blue',
     opacity: 0.5,
-    mode: "walking",
+    mode: 'walking',
     locations: [
         { lat:  8.9520449, lng: -79.5385695},
         { lat:  8.9520449, lng: -79}
     ]
 }];
 
-let mapTypes: MapSetting[] = [{
-    key: "roadmap",
-    name: "Road Map"
+const mapTypes: MapSetting[] = [{
+    key: 'roadmap',
+    name: 'Road Map'
 }, {
-    key: "satellite",
-    name: "Satellite (Photographic) Map"
+    key: 'satellite',
+    name: 'Satellite (Photographic) Map'
 }, {
-    key: "hybrid",
-    name: "Hybrid Map"
+    key: 'hybrid',
+    name: 'Hybrid Map'
 }];
 
 
 
 @Injectable()
-export class mapService {
+export class MapService {
     getMapTypes(): MapSetting[] {
         return mapTypes;
     }
@@ -70,7 +70,7 @@ export class mapService {
     getRoutes(): Route[] {
         return routes;
     }
-    getMarkerUrl() : string {
+    getMarkerUrl(): string {
         return markerUrl;
     }
 }

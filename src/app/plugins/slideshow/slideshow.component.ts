@@ -1,5 +1,4 @@
-import { Component, enableProdMode } from '@angular/core';
-import { DxGalleryModule } from 'devextreme-angular';
+import { Component } from '@angular/core';
 import { Item, slideshowService  } from './slideshow.service';
 
 

@@ -1,31 +1,30 @@
-<br>
-<br>
-<br>
-<br>
-<br>
 <dx-select-box
         #langSelect 
         [dataSource]="languages"
-        [(selectedItem)]="lang === translate.currentLang"
         showClearButton="true"
         displayExpr="Name"
         valueExpr="ID"
-        [value]="lang" 
-        (change)="translate.use(langSelect.value)"
->
-    <div *dxTemplate="let data of 'dropDownButton'">
-        <img *ngIf="selectedItem" src="/assets/img/language/{{selectedItem.IconSrc}}"
-                class="custom-icon"/>
-        <div *ngIf="!selectedItem" class="dx-dropdowneditor-icon"></div>
+        [value]="language" 
+        fieldTemplate="field"
+        (onChange)="consoler('dfdsafa')"
+    >
+    <div *dxTemplate="let data of 'field'">
+        <div class="custom-item">
+            <img src="/assets/img/language/{{data && data.IconSrc}}"/>
+            <dx-text-box class="product-name" 
+                [value]="data && data.Name" 
+                [readOnly]="true"
+            ></dx-text-box>
+        </div>
     </div>
-
-    <div *dxTemplate="let lang of translate.getLangs()" class="custom-item">
-        <div class='product-name'>{{ lang }}</div>
-        <img src="/assets/img/language/{{data.IconSrc}}"/>
+    <div *dxTemplate="let data of 'item'" class="custom-item">
+        <div class="custom-item">
+            <img src="/assets/img/language/{{data.IconSrc}}"/>
+            <div class="product-name">
+                {{data.Name}}
+            </div>
+        </div>
     </div>
 </dx-select-box>
 
-
 <h2>{{ 'HOME.TITLE' | translate }}</h2>
-
-let data of 'item'

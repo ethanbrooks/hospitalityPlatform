@@ -1,41 +1,40 @@
-import { Component, enableProdMode } from '@angular/core';
-import { DxVectorMapModule } from 'devextreme-angular';
-import DataSource from 'devextreme/data/data_source';
+import { Component } from '@angular/core';
 import { projection } from 'devextreme/viz/vector_map/projection';
 
-import {  FeatureCollection, floorplanService  } from './floorplan.service';
+import {  FeatureCollection, FloorplanService  } from './floorplan.service';
 
 
 @Component({
     selector: 'app-floorplan',
     templateUrl: './floorplan.component.html',
     styleUrls: ['./floorplan.component.css'],
-    providers: [floorplanService]
+    providers: [FloorplanService]
 })
 
 export class FloorplanComponent {
     projection: any;
     roomsData: FeatureCollection;
     buildingData: FeatureCollection;
-    
-    constructor(service: floorplanService) {
+
+    constructor(service: FloorplanService) {
         this.roomsData = service.getRoomsData();
         this.buildingData = service.getBuildingData();
         this.projection = projection({
-            to: function (coordinates) {
+            to(coordinates) {
                 return [coordinates[0] / 100, coordinates[1] / 100];
             },
 
-            from: function (coordinates) {
+            from(coordinates) {
                 return [coordinates[0] * 100, coordinates[1] * 100];
             }
         });
     }
-    
+
     customizeTooltip(arg) {
-        if(arg.layer.name === "rooms")
+        if (arg.layer.name === 'rooms') {
             return {
-                text: "Square: " + arg.attribute("square") + " ft&#178"
+                text: 'Square: ' + arg.attribute('square') + ' ft&#178'
             };
+        }
     }
 }

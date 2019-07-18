@@ -1,30 +1,17 @@
-import { NgModule, Component, ViewChild, enableProdMode, ɵConsole } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import {
-         DxCheckBoxModule,
-         DxDateBoxModule,
-         DxCalendarModule,
-         DxTemplateModule,
-         DxNumberBoxModule,
-         DxButtonModule,
-         DxFormModule,
-         DxAutocompleteModule,
-         DxFormComponent } from 'devextreme-angular';
+import { Component, ViewChild } from '@angular/core';
+import { DxFormComponent } from 'devextreme-angular';
 import notify from 'devextreme/ui/notify';
-
-import { Customer, bookingService } from './booking.service';
-import { createOfflineCompileUrlResolver } from '@angular/compiler';
-
+import { Customer, BookingService } from './booking.service';
 
 @Component({
     selector: 'app-booking',
-    providers: [ bookingService ],
+    providers: [ BookingService ],
     templateUrl: './booking.component.html',
     styleUrls: ['./booking.component.css']
 })
+
 export class BookingComponent {
-    @ViewChild(DxFormComponent, {static: false}) form: DxFormComponent
+    @ViewChild(DxFormComponent, {static: false}) form: DxFormComponent;
 
     now: Date = new Date();
     currentValue: Date = new Date();
@@ -32,16 +19,49 @@ export class BookingComponent {
 
     minDateValue: Date = undefined;
     maxDateValue: Date = undefined;
-    disabledDates: Function = null;
+    disabledDates: any;
     zoomLevels: string[] = [
         'month', 'year', 'decade', 'century'
     ];
     cellTemplate = 'cell';
     holydays: any = [[1, 0], [4, 6], [25, 11]];
+
+
+    password = '';
+
+    passwordOptions: any = {
+        mode: 'password',
+        value: this.password
+    };
+
+    customer: Customer;
+    countries: string[];
+    cities: string[];
+    maxDate: Date = new Date();
+    cityPattern = '^[^0-9]+$';
+    namePattern: any = /^[^0-9]+$/;
+    phonePattern: any = /^\+\s*1\s*\(\s*[02-9]\d{2}\)\s*\d{3}\s*-\s*\d{4}$/;
+    phoneRules: any = {
+        X: /[02-9]/
+    };
+    buttonOptions: any = {
+        text: 'Register',
+        type: 'success',
+        useSubmitBehavior: true
+    };
+
+    constructor(service: BookingService) {
+        this.maxDate = new Date(this.maxDate.setFullYear(this.maxDate.getFullYear() - 21));
+        this.countries = service.getCountries();
+        this.cities = service.getCities();
+        this.customer = service.getCustomer();
+    }
+
     isWeekend(date) {
         const day = date.getDay();
         return day === 0 || day === 6;
     }
+
     setMinDate(e) {
         if (e.value) {
             this.minDateValue = new Date(this.now.getTime() - 1000 * 60 * 60 * 24 * 3);
@@ -100,47 +120,16 @@ export class BookingComponent {
         return cssClass;
     }
 
-    password = '';
-
-    passwordOptions: any = {
-        mode: "password",
-        value: this.password
-    };
-
-    customer: Customer;
-    countries: string[];
-    cities: string[];
-    maxDate: Date = new Date();
-    cityPattern = "^[^0-9]+$";
-    namePattern: any = /^[^0-9]+$/;
-    phonePattern: any = /^\+\s*1\s*\(\s*[02-9]\d{2}\)\s*\d{3}\s*-\s*\d{4}$/;
-    phoneRules: any = {
-        X: /[02-9]/
-    }
-    buttonOptions: any = {
-        text: "Register",
-        type: "success",
-        useSubmitBehavior: true
-    }
-
-
 
 
     passwordComparison = () => {
-        return this.form.instance.option("formData").Password;
-    };
+        return this.form.instance.option('formData').Password;
+    }
+
     checkComparison() {
         return true;
     }
-    constructor(service: bookingService) {
 
-    console.log('dfads');
-
-        this.maxDate = new Date(this.maxDate.setFullYear(this.maxDate.getFullYear() - 21));
-        this.countries = service.getCountries();
-        this.cities = service.getCities();
-        this.customer = service.getCustomer();
-    }
 
     onFormSubmit = (e) => {
         notify({

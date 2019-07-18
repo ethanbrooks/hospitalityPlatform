@@ -1,19 +1,18 @@
-import { Component, Pipe, PipeTransform  } from '@angular/core';
-import { DxMultiViewModule, DxCheckBoxModule, DxTemplateModule } from 'devextreme-angular';
-import { Package, slidecontentService  } from './slidecontent.service';
+import { Component  } from '@angular/core';
+import { Package, SlidecontentService  } from './slidecontent.service';
 
 @Component({
     selector: 'app-slidecontent',
     templateUrl: './slidecontent.component.html',
     styleUrls: ['./slidecontent.component.css'],
-    providers: [slidecontentService]
+    providers: [SlidecontentService]
 })
 
 export class SlidecontentComponent {
     packages: Package[];
-    itemCount: number;  
+    itemCount: number;
 
-    constructor(serviceSlidecontent: slidecontentService) {
+    constructor(serviceSlidecontent: SlidecontentService) {
         this.packages = serviceSlidecontent.getPackages();
         this.itemCount = this.packages.length;
     }

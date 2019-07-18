@@ -1,5 +1,5 @@
 
-import { Component, Input, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import videojs from 'video.js';
 // import 'videojs-overlay';
 // import 'videojs-playlist';

@@ -1,21 +1,6 @@
-import { NgModule, Component, enableProdMode } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-
+import { Component } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
-
-import {
-    DxSelectBoxModule,
-    DxLoadIndicatorModule,
-    DxTemplateModule
-} from 'devextreme-angular';
-import ArrayStore from 'devextreme/data/array_store';
-
 import {Languages, Service} from './language.service';
-
-if (!/localhost/.test(document.location.host)) {
-    enableProdMode();
-}
 
 @Component({
     selector: 'app-language',
@@ -25,25 +10,39 @@ if (!/localhost/.test(document.location.host)) {
 })
 
 export class LanguageComponent {
-    simpleProducts: string[];
     languages: Languages[];
-    data: any;
-    isLoaded = true;
-    selectedItem: any;
-    deferredProducts: any;
+    language: Languages;
+
+    defaultLang = 'en_US';
 
     constructor(
         service: Service,
         public translate: TranslateService
     ) {
-        const that = this;
-        this.languages = service.getLanguages();
-        this.selectedItem = this.languages[0];
+        translate.addLangs(['en-US', 'es-PA']);
 
-        translate.addLangs(['en_US', 'es_PA']);
-        translate.setDefaultLang('en_US');
+        this.languages = service.getLanguages().filter((value) => {
+            if (translate.getLangs().includes(value.ID)) {
+                return value;
+            }
+        });
+
+        translate.setDefaultLang(this.defaultLang);
         const browserLang = translate.getBrowserLang();
-        translate.use(browserLang.match(/en|es/) ? browserLang : 'en_US');
+        const browserCultureLang = translate. getBrowserCultureLang();
+        translate.use('en-US');
+        translate.use(browserLang.match(/en|es/) ? browserCultureLang : 'en-US');
+
+        const languagesArr = this.languages.filter((value) => {
+            if (value.ID === translate.currentLang) {
+                return value;
+            }
+        });
+        this.language = languagesArr[0];
+      }
+
+      consoler(text) {
+        console.log(text);
       }
 
 }

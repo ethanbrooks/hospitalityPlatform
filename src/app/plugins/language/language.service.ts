@@ -1,19 +1,23 @@
 import {Injectable} from '@angular/core';
 
 export class Languages {
-    ID: number;
+    ID: string;
     Name: string;
     IconSrc: string;
 }
 
 const languages: Languages[] = [{
-    ID: 1,
-    Name: 'Español',
-    IconSrc: 'es_PA.svg'
+    ID: 'es-PA',
+    Name: 'Panameño Español ',
+    IconSrc: 'es-PA.svg'
 }, {
-    ID: 2,
-    Name: 'English',
-    IconSrc: 'en_US.svg'
+    ID: 'en-US',
+    Name: 'US English',
+    IconSrc: 'en-US.svg'
+}, {
+    ID: 'fr',
+    Name: 'French',
+    IconSrc: 'fr.svg'
 }];
 
 @Injectable()

@@ -21,13 +21,13 @@ export class FeatureGeometry {
     coordinates: number[][][];
 }
 
-let buildingData: FeatureCollection = {
-    type: "FeatureCollection",
+const buildingData: FeatureCollection = {
+    type: 'FeatureCollection',
     features: [
         {
-            type: "Feature",
+            type: 'Feature',
             geometry: {
-                type: "Polygon",
+                type: 'Polygon',
                 coordinates: [[
                     [10, -80],
                     [-80, -80],
@@ -65,17 +65,17 @@ let buildingData: FeatureCollection = {
     ]
 };
 
-let roomsData: FeatureCollection = {
-    type: "FeatureCollection",
+const roomsData: FeatureCollection = {
+    type: 'FeatureCollection',
     features: [
         {
-            type: "Feature",
+            type: 'Feature',
             properties: {
-                name: "Room 1",
+                name: 'Room 1',
                 square: 576
             },
             geometry: {
-                type: "Polygon",
+                type: 'Polygon',
                 coordinates: [[
                     [-74, -30],
                     [34, -30],
@@ -84,13 +84,13 @@ let roomsData: FeatureCollection = {
                 ]]
             }
         }, {
-            type: "Feature",
+            type: 'Feature',
             properties: {
-                name: "Room 2",
+                name: 'Room 2',
                 square: 600
             },
             geometry: {
-                type: "Polygon",
+                type: 'Polygon',
                 coordinates: [[
                     [-74, 24],
                     [34, 24],
@@ -99,13 +99,13 @@ let roomsData: FeatureCollection = {
                 ]]
             }
         }, {
-            type: "Feature",
+            type: 'Feature',
             properties: {
-                name: "Room 3",
+                name: 'Room 3',
                 square: 540
             },
             geometry: {
-                type: "Polygon",
+                type: 'Polygon',
                 coordinates: [[
                     [-74, 74],
                     [34, 74],
@@ -114,13 +114,13 @@ let roomsData: FeatureCollection = {
                 ]]
             }
         }, {
-            type: "Feature",
+            type: 'Feature',
             properties: {
-                name: "Room 4",
+                name: 'Room 4',
                 square: 288
             },
             geometry: {
-                type: "Polygon",
+                type: 'Polygon',
                 coordinates: [[
                     [40, -26],
                     [94, -26],
@@ -133,7 +133,7 @@ let roomsData: FeatureCollection = {
 };
 
 @Injectable()
-export class floorplanService {
+export class FloorplanService {
     getBuildingData(): FeatureCollection {
         return buildingData;
     }

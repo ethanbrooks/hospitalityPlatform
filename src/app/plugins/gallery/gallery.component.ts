@@ -1,10 +1,10 @@
 import { Component, ViewChild } from '@angular/core';
-import { DxDrawerComponent, DxDrawerModule, DxListModule, DxTileViewModule, DxSelectBoxModule, DxPopupModule, DxButtonModule, DxTemplateModule} from 'devextreme-angular';
-import { Item, galleryService } from './gallery.service';
+import { DxDrawerComponent } from 'devextreme-angular';
+import { Item, GalleryService } from './gallery.service';
 
 @Component({
     selector: 'app-gallery',
-    providers: [ galleryService ],
+    providers: [ GalleryService ],
     templateUrl: './gallery.component.html',
     styleUrls: ['./gallery.component.css']
 })
@@ -17,7 +17,6 @@ export class GalleryComponent {
 
     text: string;
     elementAttr: any;
-
 
     toolbarContent = [{
         widget: 'dxButton',
@@ -35,7 +34,7 @@ export class GalleryComponent {
         this.popupVisible = true;
     }
 
-    constructor(service: galleryService) {
+    constructor(service: GalleryService) {
         this.items = service.getItems();
     }
 }

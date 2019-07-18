@@ -1,15 +1,7 @@
-import { NgModule, Component, enableProdMode,  ViewChild, ElementRef  } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-
-import { DxBoxModule, DxListModule, DxNavBarModule, DxTemplateModule } from 'devextreme-angular';
-import DataSource from 'devextreme/data/data_source';
+import { Component, ViewChild, ElementRef  } from '@angular/core';
 import { Router } from '@angular/router';
 import { NavItems, TopNavService } from './topnav.service';
 
-if (!/localhost/.test(document.location.host)) {
-    enableProdMode();
-}
 
 @Component({
     selector: 'app-topnav',
