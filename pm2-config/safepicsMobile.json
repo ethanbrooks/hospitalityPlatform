@@ -1,0 +1,23 @@
+{
+  "apps" : [
+  {
+    "name"        : "ng-server",
+    "script"      : "../ng-server.sh",
+    "watch"       : true
+  }
+  ,{
+    "name"        : "signup-server",
+    "script"      : "../signup-server/signup-server.js",
+    "watch"       : true
+  }
+  ,{
+    "name"        : "auth-server",
+    "script"      : "../auth-server/auth-server.js",
+    "watch"       : true
+  }
+  ,{
+    "name"        : "companion-server",
+    "script"      : "../companion-server/companion-server.sh",
+    "watch"       : true
+  }]
+}

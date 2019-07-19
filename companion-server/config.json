@@ -1,0 +1,27 @@
+{
+	"providerOptions": {
+		"s3": {
+			"key": "AKIARNR7WYKQHEAA3PP5",
+			"secret": "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",
+			"bucket": "my.safepics.com",
+			"region": "us-east-1"
+		},
+		"dropbox": {
+			"key": "ffno53h4fug37yg",
+			"secret": "hxnvwqqwcuex3fp"
+		  }
+	},
+	"server": {
+		"redisUrl": "redis://127.0.0.1:6379/10",
+		"sendSelfEndpoint": "wwww.safepics.com/",
+		"debug": true,
+		"host": "www.safepics.com",
+		"path": "/",
+		"protocol": "https",
+		"oauthDomain": "www.safepics.com",
+		"validHosts": ["www.safepics.com"]
+	},
+	"secret": "rjpP7essLSuWpeQt2h76j36m",
+	"debug": true,
+	"filePath": "/tmp/"
+}

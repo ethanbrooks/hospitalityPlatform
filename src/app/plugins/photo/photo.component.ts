@@ -343,7 +343,7 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
     */
     .use(uppy.Webcam, {
       id: 'webcam',
-      title: 'Safepics Cam',
+      title: 'Camera / Video',
       target: uppy.Dashboard,
 //    onBeforeSnapshot: () => Promise.resolve(),
       countdown: false,
