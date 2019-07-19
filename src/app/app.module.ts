@@ -78,6 +78,12 @@ import { AppComponent } from './app.component';
 
 
 import {
+  TagsComponent,
+  UppyComponent,
+  FiltersComponent
+} from './features/';
+
+import {
   VideoComponent,
   BookingComponent,
   FloorplanComponent,
@@ -94,19 +100,22 @@ import {
   TopnavComponent,
   SidenavComponent,
   LanguageComponent,
-  FooterComponent
-  } from './plugins/';
+  FooterComponent,
+  PhotoComponent,
+  UploadComponent
+} from './plugins/';
 
 import {
-    BlogPageComponent,
-    ContactPageComponent,
-    ExplorePageComponent,
-    GuestPageComponent,
-    JobsPageComponent,
-    RestaurantPageComponent,
-    LoungePageComponent,
-    HotelPageComponent
-  } from './pages/';
+  BlogPageComponent,
+  ContactPageComponent,
+  ExplorePageComponent,
+  GuestPageComponent,
+  JobsPageComponent,
+  RestaurantPageComponent,
+  LoungePageComponent,
+  HotelPageComponent,
+  PhotoPageComponent
+} from './pages/';
 
 
 // Utilities
@@ -202,6 +211,7 @@ import {SafeStylePipe} from './pipes/SafeStylePipe.pipe';
     RestaurantPageComponent,
     LoungePageComponent,
     HotelPageComponent,
+    PhotoPageComponent,
 
     VideoComponent,
     TopnavComponent,
@@ -220,6 +230,12 @@ import {SafeStylePipe} from './pipes/SafeStylePipe.pipe';
     SlidecontentComponent,
     InvoiceComponent,
     LanguageComponent,
+    PhotoComponent,
+    UploadComponent,
+
+    TagsComponent,
+    UppyComponent,
+    FiltersComponent,
 
     SafeHtmlPipe,
     SafeStylePipe

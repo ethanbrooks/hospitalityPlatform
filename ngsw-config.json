@@ -25,7 +25,8 @@
           "/favicon.ico",
           "/index.html",
           "/*.css",
-          "/*.js"
+          "/*.js",
+          "/data/*_*/**/*.html"
         ]
       }
     }, {
@@ -34,7 +35,8 @@
       "updateMode": "prefetch",
       "resources": {
         "files": [
-          "/assets/**"
+          "/assets/**",
+          "/data/*_*/**"
         ]
       }
     }

@@ -28,9 +28,9 @@
                 "output": "assets"
               },
               {
-                "glob": "**/*",
+                "glob": "*_*/**/*.html",
                 "input": "_generated",
-                "output": "assets/data"
+                "output": "data"
               },
               "src/manifest.json"
             ],

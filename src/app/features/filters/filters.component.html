@@ -1,0 +1,14 @@
+<dx-filter-builder
+    [fields]="fields"
+    [(value)]="filter"
+    [customOperations]="customOperations"
+    (onInitialized)="updateTexts($event)"
+    (onValueChanged)="updateTexts($event)"
+    [allowHierarchicalFields]="true">
+    <dx-tag-box *dxTemplate="let condition of 'tagBoxTemplate'"
+        [value]="condition.value"
+        [items]="categories"
+        (onValueChanged)="condition.setValue($event.value)"
+        width="auto">
+    </dx-tag-box>
+</dx-filter-builder>

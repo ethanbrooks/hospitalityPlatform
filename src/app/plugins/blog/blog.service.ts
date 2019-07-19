@@ -21,7 +21,7 @@ export class BlogService {
                 [].forEach((i) => {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
-                const eduroJsUrl = '/assets/data/en_US/blogs/';
+                const eduroJsUrl = '/data/en_US/blogs/';
                 return httpClient.get(eduroJsUrl, { params, responseType: 'text'})
                 .toPromise()
                 .then(
@@ -38,7 +38,7 @@ export class BlogService {
                 [].forEach((i) => {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
-                const eduroJsUrl = '/blog/cookies';
+                const eduroJsUrl = '/data/en_US/blog/cookies';
                 return httpClient.get(eduroJsUrl, { params, responseType: 'text'})
                 .toPromise()
                 .then(

@@ -3,9 +3,9 @@
 	"compilerOptions": {
 		"experimentalDecorators": true,
 		"outDir": "../out-tsc/app",
-        	"module": "es2015",
+        	"module": "es6",
 		"types": [
-     			"knockout"
+//     			"knockout"
     		]
 	},
 	"exclude": [

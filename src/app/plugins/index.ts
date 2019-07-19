@@ -15,3 +15,5 @@ export * from './contact/contact.component';
 export * from './booking/booking.component';
 export * from './blog/blog.component';
 export * from './language/language.component';
+export * from './photo/photo.component';
+export * from './upload/upload.component';
