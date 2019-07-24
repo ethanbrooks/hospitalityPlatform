@@ -19,7 +19,7 @@ export class LanguageComponent {
         service: Service,
         public translate: TranslateService
     ) {
-        translate.addLangs(['en-US', 'es-PA']);
+        translate.addLangs(['en_US', 'es_PA']);
 
         this.languages = service.getLanguages().filter((value) => {
             if (translate.getLangs().includes(value.ID)) {
@@ -30,8 +30,8 @@ export class LanguageComponent {
         translate.setDefaultLang(this.defaultLang);
         const browserLang = translate.getBrowserLang();
         const browserCultureLang = translate. getBrowserCultureLang();
-        translate.use('en-US');
-        translate.use(browserLang.match(/en|es/) ? browserCultureLang : 'en-US');
+        translate.use('en_US');
+        translate.use(browserLang.match(/en|es/) ? browserCultureLang : 'en_US');
 
         const languagesArr = this.languages.filter((value) => {
             if (value.ID === translate.currentLang) {

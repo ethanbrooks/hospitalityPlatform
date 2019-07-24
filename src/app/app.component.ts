@@ -14,7 +14,7 @@ export class AppComponent {
     constructor(
         private router: Router,
     ) {
-        themes.current('dx.material.custom-scheme');
+     //   themes.current('dx.light');
     }
 
     screen(width) {

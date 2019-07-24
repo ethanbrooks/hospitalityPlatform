@@ -11,7 +11,7 @@ const languages: Languages[] = [{
     Name: 'Panameño Español ',
     IconSrc: 'es-PA.svg'
 }, {
-    ID: 'en-US',
+    ID: 'en_US',
     Name: 'US English',
     IconSrc: 'en-US.svg'
 }, {

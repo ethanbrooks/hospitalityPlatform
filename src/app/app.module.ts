@@ -106,7 +106,8 @@ import {
   LanguageComponent,
   FooterComponent,
   PhotoComponent,
-  UploadComponent
+  UploadComponent,
+  FilterComponent
 } from './plugins/';
 
 import {
@@ -242,6 +243,7 @@ import { TimePipe } from './pipes/TimePipe.pipe';
     LanguageComponent,
     PhotoComponent,
     UploadComponent,
+    FilterComponent,
 
     TagsComponent,
     FiltersComponent,
