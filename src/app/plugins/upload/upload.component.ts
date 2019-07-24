@@ -1,16 +1,11 @@
-import { Component, Pipe, PipeTransform, HostListener, ChangeDetectionStrategy, OnInit, ElementRef, ViewChild, ViewContainerRef } from '@angular/core';
+import { Component, HostListener, ChangeDetectionStrategy, OnInit, ElementRef, ViewChild, ViewContainerRef } from '@angular/core';
 import { DxPopupComponent } from 'devextreme-angular';
 import DataSource from 'devextreme/data/data_source';
 import notify from 'devextreme/ui/notify';
 import Popup from 'devextreme/ui/popup';
 import { ServiceUpload } from './upload.service';
 
-@Pipe({name: 'time'})
-export class TimePipe implements PipeTransform {
-    transform(value: number): string {
-        return '00:00:' + ('0' + value).slice(-2);
-    }
-}
+
 
 @Component({
   selector: 'app-upload',

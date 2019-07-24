@@ -1,3 +1,12 @@
+::ng-deep .toolbar-label,
+::ng-deep .toolbar-label > b {
+    font-size: 16px;
+}
+::ng-deep #products {
+    margin-top: 10px;
+}
+
+
 ::ng-deep #navbar {
   top:0px;
   min-height: 75px;

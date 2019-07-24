@@ -1,0 +1,70 @@
+{{#each elements}}
+    {{#if image_description_list}}
+        <section {{#if jump_id}}id="jump-{{jump_id}}"{{/if}} class="image-description-list {{#if dark}} dark {{/if}}">
+            <div class="flex container img-background {{#if image_on_left}} image-on-left {{/if}}">
+                {{#each list}}
+                    <div class="float_block">
+                        <div class="image">
+                            <img src="{{image}}">
+                        </div>
+                        <div class="text">
+                        {{#if headline}}<h3>{{headline}}</h3>{{/if}}
+                        <p>{{description}}</p>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </section>
+    {{else if image_description_split}}
+        <section {{#if jump_id}}id="jump-{{jump_id}}"{{/if}} class="{{#if dark}} dark {{/if}}{{#if dark}} dark {{/if}}">
+            <div class="split container flex {{#if invert}}invert{{/if}}">
+                <div class="img-container" style="background-image: url({{image}})">
+                </div>
+                <div class="description">
+                    <h2>{{headline}}</h2>
+                    {{{marked_description}}}
+                </div>
+            </div>
+        </section>
+    {{else if image_full}}
+        <section {{#if jump_id}}id="jump-{{jump_id}}"{{/if}} class="image-full{{#if dark}} dark {{/if}}">
+            <div class="container
+                {{#if full_width}} full-width {{/if}}"
+                {{#if style.set_size_manual}} style="max-width: {{style.max_width}}" {{/if}}
+            >
+                <img src="{{image}}" />
+                <small>{{underline}}</small>
+            </div>
+        </section>
+    {{else if description_full}}
+        <section {{#if jump_id}}id="jump-{{jump_id}}"{{/if}} class="description-full{{#if dark}} dark {{/if}}"
+            {{#if style.set_padding_manual}} style="padding-top: {{style.padding_top}}; padding-bottom: {{style.padding_bottom}}" {{/if}}
+        >
+            <div class="container {{#if small}} compress {{/if}} center">
+                <h2>{{headline}}</h2>
+                {{{marked_description}}}
+            </div>
+        </section>
+    {{else if team_cards}}
+        <section {{#if jump_id}}id="jump-{{jump_id}}"{{/if}} class="team-cards {{#if dark}} dark {{/if}}">
+            <div class="flex container">
+                {{#each list}}
+                    <div class="float_block">
+                        <div class="image">
+                            <img src="{{image}}">
+                        </div>
+                        <div class="text">
+                            <h3>{{name}}</h3>
+                            <small>{{position}}</small>
+
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </section>
+    {{else if fixed_background_picture}}
+        <div class="fixed-background-picture" style="background-image: url({{image}})"></div>
+    {{else if space}}
+        <div class="space" style="height: {{height}}"></div>
+    {{/if}}
+{{/each}}

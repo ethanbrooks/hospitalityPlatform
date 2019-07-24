@@ -5,7 +5,9 @@ import { takeUntil} from 'rxjs/operators';
 // import { contains } from 'ramda';
 import { DxDrawerComponent } from 'devextreme-angular';
 import notify from 'devextreme/ui/notify';
-// import { ToastrService } from 'ngx-toastr';
+import { ToastrService } from 'ngx-toastr';
+// import { TimePipe } from '../../pipes/TimePipe.pipe';
+
 /*
 import {Core,
   Url,
@@ -88,14 +90,14 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
 //    private router: Router,
 //    private location: Location,
     private uppyService: UppyService,
-//    private toastr: ToastrService
+    private toastr: ToastrService
   ) {
     this.uppyEvent.pipe(
       takeUntil(this.onDestroy$)
         // .filter(([ev]) => contains(ev, ['complete']))
     )
     .subscribe(([ev, data1, data2, data3]) =>
-//      this.toastr.success('Received \'' + ev + '\' event from instance 1', 'Upload complete'),
+      this.toastr.success('Received \'' + ev + '\' event from instance 1', 'Upload complete'),
       (err) => console.dir(err),
       () => console.log('done')
     );
@@ -411,7 +413,7 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
 */
     .use(uppy.AwsS3Multipart, {
       limit: 4,
-      companionUrl: 'https://eq5xamyc6h.execute-api.us-east-1.amazonaws.com/dev',
+      companionUrl: 'https://frofgzfaic.execute-api.us-east-1.amazonaws.com/dev',
 //      companionUrl: 'https://wwww.safepics.com/service/companion',
     })
     .run();

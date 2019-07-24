@@ -73,13 +73,17 @@ import {
 
 // Etc
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { UppyModule } from './features/uppy/uppy.module';
+import { ToastrModule } from 'ngx-toastr';
+
+
 import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 
 
 import {
   TagsComponent,
-  UppyComponent,
+//  UppyComponent,
   FiltersComponent
 } from './features/';
 
@@ -119,9 +123,10 @@ import {
 
 
 // Utilities
-import {SafeHtmlPipe} from './pipes/SafeHtmlPipe.pipe';
-import {SafeStylePipe} from './pipes/SafeStylePipe.pipe';
 
+import { SafeStylePipe } from './pipes/SafeStylePipe.pipe';
+import { SafeHtmlPipe } from './pipes/SafeHtmlPipe.pipe';
+import { TimePipe } from './pipes/TimePipe.pipe';
 
 
 @NgModule({
@@ -194,11 +199,16 @@ import {SafeStylePipe} from './pipes/SafeStylePipe.pipe';
     DxBoxModule,
     DxScrollViewModule,
     DxSpeedDialActionModule,
+    HttpClientModule,
+
+    UppyModule,
+
+    ToastrModule.forRoot(), BrowserAnimationsModule,
+    // ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+//    ServiceWorkerModule.register('@uppy/golden-retriever/lib/ServiceWorker', { enabled: environment.production })
 
 
 //    IonicModule,
-    HttpClientModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   declarations: [
     AppComponent,
@@ -234,9 +244,9 @@ import {SafeStylePipe} from './pipes/SafeStylePipe.pipe';
     UploadComponent,
 
     TagsComponent,
-    UppyComponent,
     FiltersComponent,
 
+    TimePipe,
     SafeHtmlPipe,
     SafeStylePipe
   ],

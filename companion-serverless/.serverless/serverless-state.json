@@ -6,21 +6,25 @@
     },
     "provider": {
       "stage": "dev",
-      "region": "us-east-1",
       "variableSyntax": "\\${([ ~:a-zA-Z0-9._@'\",\\-\\/\\(\\)*]+?)}",
       "name": "aws",
       "runtime": "nodejs8.10",
       "environment": {
-        "DOMAIN": "my.safepics.com",
-        "AWS_S3_BUCKET": "my.safepics.com",
+        "DOMAIN": "admin.hotelherrera.com",
+        "COMPANION_OAUTH_DOMAIN": "www.hotelherrera.com",
+        "COMPANION_DOMAINS": "hotelherrera.com, www.hotelherrera.com",
+        "COMPANION_SELF_ENDPOINT": "www.hotelherrera.com/Bla",
+        "COMPANION_UPLOAD_URLS": "http://www.hotelherrera.com/files/",
+        "AWS_S3_BUCKET": "hotel-herrera",
         "AWS_S3_REGION": "us-east-1",
-        "AWS_S3_KEY": "AKIARNR7WYKQHEAA3PP5",
-        "AWS_S3_SECRET": "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",
+        "AWS_S3_KEY": "AKIAY3QWPMGHF2GRXDMJ",
+        "AWS_S3_SECRET": "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",
         "SESSION_SECRET": "rjpP7essLSuWpeQt2h76j36m",
         "UPPY_SECRET": "rjpP7essLSuWpeQt2h76j36m",
         "DROPBOX_KEY": "ffno53h4fug37yg",
         "DROPBOX_SECRET": "hxnvwqqwcuex3fp"
       },
+      "region": "us-east-1",
       "versionFunctions": true,
       "remoteFunctionData": null,
       "compiledCloudFormationTemplate": {
@@ -88,7 +92,7 @@
                         ],
                         "Resource": [
                           {
-                            "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/uppyloader-dev-uppy:*"
+                            "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/uppyloader-dev*:*"
                           }
                         ]
                       },
@@ -99,7 +103,7 @@
                         ],
                         "Resource": [
                           {
-                            "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/uppyloader-dev-uppy:*:*"
+                            "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/uppyloader-dev*:*:*"
                           }
                         ]
                       }
@@ -114,7 +118,9 @@
                   [
                     "uppyloader",
                     "dev",
-                    "us-east-1",
+                    {
+                      "Ref": "AWS::Region"
+                    },
                     "lambdaRole"
                   ]
                 ]
@@ -128,7 +134,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/uppyloader/dev/1557160000010-2019-05-06T16:26:40.010Z/uppyloader.zip"
+                "S3Key": "serverless/uppyloader/dev/1563605092399-2019-07-20T06:44:52.399Z/uppyloader.zip"
               },
               "FunctionName": "uppyloader-dev-uppy",
               "Handler": "index.uppy",
@@ -143,11 +149,15 @@
               "Timeout": 6,
               "Environment": {
                 "Variables": {
-                  "DOMAIN": "my.safepics.com",
-                  "AWS_S3_BUCKET": "my.safepics.com",
+                  "DOMAIN": "admin.hotelherrera.com",
+                  "COMPANION_OAUTH_DOMAIN": "www.hotelherrera.com",
+                  "COMPANION_DOMAINS": "hotelherrera.com, www.hotelherrera.com",
+                  "COMPANION_SELF_ENDPOINT": "www.hotelherrera.com/Bla",
+                  "COMPANION_UPLOAD_URLS": "http://www.hotelherrera.com/files/",
+                  "AWS_S3_BUCKET": "hotel-herrera",
                   "AWS_S3_REGION": "us-east-1",
-                  "AWS_S3_KEY": "AKIARNR7WYKQHEAA3PP5",
-                  "AWS_S3_SECRET": "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",
+                  "AWS_S3_KEY": "AKIAY3QWPMGHF2GRXDMJ",
+                  "AWS_S3_SECRET": "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",
                   "SESSION_SECRET": "rjpP7essLSuWpeQt2h76j36m",
                   "UPPY_SECRET": "rjpP7essLSuWpeQt2h76j36m",
                   "DROPBOX_KEY": "ffno53h4fug37yg",
@@ -160,7 +170,7 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "UppyLambdaVersionmhEnqVdVwh6BtwpUvsZ0KYnCjPw69KJDNtonrqJ4": {
+          "UppyLambdaVersionmQKdqcWh0nElL9bmEsfhsE1sPksDmW3nbk0s7A5cyxs": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
@@ -285,7 +295,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1557159989742": {
+          "ApiGatewayDeployment1563605080345": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -308,17 +318,7 @@
                 ]
               },
               "Action": "lambda:InvokeFunction",
-              "Principal": {
-                "Fn::Join": [
-                  "",
-                  [
-                    "apigateway.",
-                    {
-                      "Ref": "AWS::URLSuffix"
-                    }
-                  ]
-                ]
-              },
+              "Principal": "apigateway.amazonaws.com",
               "SourceArn": {
                 "Fn::Join": [
                   "",
@@ -355,7 +355,7 @@
           "UppyLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "UppyLambdaVersionmhEnqVdVwh6BtwpUvsZ0KYnCjPw69KJDNtonrqJ4"
+              "Ref": "UppyLambdaVersionmQKdqcWh0nElL9bmEsfhsE1sPksDmW3nbk0s7A5cyxs"
             }
           },
           "ServiceEndpoint": {
@@ -368,7 +368,11 @@
                   {
                     "Ref": "ApiGatewayRestApi"
                   },
-                  ".execute-api.us-east-1.",
+                  ".execute-api.",
+                  {
+                    "Ref": "AWS::Region"
+                  },
+                  ".",
                   {
                     "Ref": "AWS::URLSuffix"
                   },
@@ -431,11 +435,12 @@
         "vpc": {}
       }
     },
+    "serviceFilename": "serverless.yml",
     "layers": {},
-    "artifact": "/Users/ethanbrooks/Documents/safepicsMobile/companion-serverless/.serverless/uppyloader.zip"
+    "artifact": "/Users/ethanbrooks/Documents/hotelHerrera/companion-serverless/.serverless/uppyloader.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/uppyloader/dev/1557160000010-2019-05-06T16:26:40.010Z",
+    "artifactDirectoryName": "serverless/uppyloader/dev/1563605092399-2019-07-20T06:44:52.399Z",
     "artifact": "uppyloader.zip"
   }
 }

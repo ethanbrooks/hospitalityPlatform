@@ -1,3 +1,4 @@
+<!--//
 <dx-nav-bar
 id="navbar"
 (onItemClick)="actionItem($event)"
@@ -8,3 +9,7 @@ contentTemplate="item">
         <h1 *ngIf="navBarData.text" class="{{navBarData.cssclass}}">{{navBarData.text}}<i style="text-transform: lowercase;">{{navBarData.textb}}</i></h1>
     </div>
 </dx-nav-bar>
+//-->
+
+<dx-toolbar [items]="items">
+</dx-toolbar>

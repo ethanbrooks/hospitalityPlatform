@@ -20,7 +20,7 @@ provider:
     
     # NOTE: Make sure you set the API Keys for your chosen provider
 
-    AWS_S3_BUCKET: my.safepics.com
+    AWS_S3_BUCKET: hotel-herrera
     AWS_S3_REGION: us-east-1 
     AWS_S3_KEY: AKIAY3QWPMGHF2GRXDMJ 
     AWS_S3_SECRET: bFRxeGsHCsT4uzh4oCqe7hDLVp4qhRJd6m0rjSYt

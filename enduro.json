@@ -8,5 +8,6 @@
 	"cultures": [
 		"en_US",
 		"es_PA"
-	]
+	],
+	"juicebox_enabled": false
 }
