@@ -21,6 +21,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 }
 
 import {
+//  DxServerTransferStateModule,
   DxMultiViewModule,
   DxMapModule,
   DxNumberBoxModule,
@@ -132,6 +133,7 @@ import { TimePipe } from './pipes/TimePipe.pipe';
 
 @NgModule({
   imports: [
+//    DxServerTransferStateModule,
     AppRoutingModule,
     HttpClientModule,
     TranslateModule.forRoot({

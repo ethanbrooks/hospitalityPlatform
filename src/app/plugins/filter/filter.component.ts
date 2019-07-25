@@ -18,6 +18,7 @@ const getOrderDay = (rowData: any): number => {
 
 export class FilterComponent {
     dataSource: any;
+    columns: any;
     filterValue: Array<any>;
     customOperations: Array<any>;
     popupPosition: any;

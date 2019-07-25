@@ -1,4 +1,4 @@
-import { Component, ViewChild, HostListener, AfterViewInit, Pipe, PipeTransform } from '@angular/core';
+import { Component, ViewChild, HostListener, AfterViewInit, ElementRef } from '@angular/core';
 import {  DxScrollViewComponent } from 'devextreme-angular';
 import { BlogService } from './blog.service';
 
@@ -14,21 +14,25 @@ export class BlogComponent implements AfterViewInit {
     @ViewChild(DxScrollViewComponent, {static: false}) scrollView: DxScrollViewComponent;
     @HostListener('window:resize', ['$event'])
 
-    innerWidth = 800;
     updateContentTimer: any;
     content: any = '';
     constructor(
+        private host: ElementRef,
         private serviceBlog: BlogService
     ) {}
 
     onResize(event) {
         console.log(event);
-        this.innerWidth = window.innerWidth;
+        return window.innerWidth;
     }
 
     ngAfterViewInit() {
+        const closetParent = this.host.nativeElement.parentNode.parentNode;
+        console.log(closetParent.offsetHeight);
+
         this.getEnduroJsDataLoad();
         this.scrollView.instance.option('onReachBottom', this.updateBottomContent);
+
     }
 
     getEnduroJsDataLoad(): void {

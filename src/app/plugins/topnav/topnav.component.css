@@ -1,3 +1,53 @@
+::ng-deep .nav-icon {
+  height: 72px;
+}
+
+::ng-deep .nav-text {
+  padding: 20px 10px 0px 10px;
+  font-size: 30px;
+  max-width: 100%;
+}
+
+
+::ng-deep #toolbar {
+  height: 72px;
+  z-index: 1500;
+  background-color: unset !important;
+  width: 100%;
+  min-height: 36px;
+  max-height: 72px;
+  transition: top 0.3s;
+}
+
+.sticky {
+  position: fixed;
+  top:0px;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 500px;
+}
+
+::ng-deep .dx-toolbar-item-content{
+  text-align: center;
+}
+
+::ng-deep .dx-toolbar .dx-toolbar-before {
+  background-image: linear-gradient(to top, rgba(255,0,0,0) 0px, #F3EBDE 20px); 
+  width: calc(50% - 34px);
+}
+
+::ng-deep  .dx-toolbar .dx-toolbar-after .dx-toolbar-menu-container{
+  justify-content: flex-end;
+  display: flex;
+}
+
+::ng-deep .dx-toolbar .dx-toolbar-after {
+  background-image: linear-gradient(to top, rgba(255,0,0,0) 0px, #F3EBDE 20px); 
+  width: calc(50% - 34px);
+}
+/*
 ::ng-deep .toolbar-label,
 ::ng-deep .toolbar-label > b {
     font-size: 16px;
@@ -47,10 +97,7 @@ bottom: 0;
   max-width: 100%;
 }
 
-::ng-deep .nav-text {
-  padding: 20px 0px 0px 20px;
-  max-width: 100%;
-}
+
 
 @media only screen and (min-width: 640px) {			
     ::ng-deep .nav-icon {
@@ -89,3 +136,4 @@ bottom: 0;
   position: absolute;
   bottom: 0;
 }
+*/

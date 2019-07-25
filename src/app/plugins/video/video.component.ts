@@ -44,7 +44,7 @@ export class VideoComponent implements AfterViewInit {
       player.src([
         {
           type: 'application/x-mpegURL',
-          src: 'https://hotelherrera-608858759566-us-east-1.s3.amazonaws.com/output/hls/VID201907041748350045.m3u8'
+          src: 'https://hotelherrera-vod-608858759566-us-east-1.s3.amazonaws.com/out/hls/SampleVideo1280x7201mb.m3u8'
         }
       ]);
       const promise = player.play();

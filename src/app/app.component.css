@@ -1,7 +1,16 @@
-::ng-deep .demo-container, #page{
-    height: 100%;
-    min-height: 300px;
+::ng-deep #top-content{
+    position: relative;
 }
+::ng-deep #header{
+    position: relative;
+}
+::ng-deep #content {
+    text-align: center;
+}
+::ng-deep #footer {
+    text-align: center;
+}
+
 /*
 ::ng-deep #page .header {
     background-color: rgba(243, 158, 108, 0.80);
@@ -19,12 +28,7 @@
 ::ng-deep #page .footer {
     background-color: rgba(123, 155, 207, 0.80);
 }
-*/
 ::ng-deep .item {
     height: 100%;
 }
-::ng-deep #page p {
-    font-size: 20px;
-    padding-top: 10px;
-    text-align: center;
-}
+*/
