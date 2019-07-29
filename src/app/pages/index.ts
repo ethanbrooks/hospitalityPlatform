@@ -6,5 +6,5 @@ export * from './jobs-page/jobs-page.component';
 export * from './restaurant-page/restaurant-page.component';
 export * from './lounge-page/lounge-page.component';
 export * from './hotel-page/hotel-page.component';
-export * from './photo-page/photo-page.component';
+// export * from './photo-page/photo-page.component';
 

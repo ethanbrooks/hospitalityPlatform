@@ -6,7 +6,6 @@
     <base href="/">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="msapplication-TileColor" content="#F3EBDE">
     <meta name="theme-color" content="#F3EBDE">
@@ -20,7 +19,7 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="msapplication-tap-highlight" content="no"/>
   
-
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/png" href="/assets/img/app-icon/Icon-16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/assets/img/app-icon/Icon-32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/assets/img/app-icon/Icon-192.png" sizes="192x192">
@@ -28,7 +27,6 @@
 
     <meta name="msapplication-config" content="/assets/img/app-icon/browserconfig.xml">
     <link href="https://fonts.googleapis.com/css?family=GFS+Didot&display=swap" rel="stylesheet">
-
     
     <!--//
     <meta http-equiv="Content-Security-Policy" content="connect-src *; report-uri /api/report"> 
@@ -36,20 +34,11 @@
     <meta http-equiv="X-WebKit-CSP" content="connect-src *; report-uri /api/report">
     //-->
     <link rel="manifest" href="/manifest.json">
-    <style type="text/css"> 
-      html, body { 
-        padding: 0px;
-        margin: 0px; 
-        width: 100vw;
-        height: 100vh;
-      }
-      * { 
-        font-family: "GFS Didot" !important; 
-      }
-    </style>
-</head>  
-  <body class="dx-viewport">
-    <app-root></app-root>
-    <noscript>Please enable JavaScript to continue using this application.</noscript>
-  </body>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+<body class="dx-viewport">
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+</body>
 </html>

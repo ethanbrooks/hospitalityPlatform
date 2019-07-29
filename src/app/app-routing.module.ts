@@ -17,14 +17,15 @@ import {
   RestaurantPageComponent,
   LoungePageComponent,
   HotelPageComponent,
-  PhotoPageComponent
+//  PhotoPageComponent
 } from './pages/';
 
 const routes: Routes = [
-  {
+/*  {
     path: 'photo',
     component: PhotoPageComponent,
   },
+*/
   { path: '', redirectTo: 'blog', pathMatch: 'full' },
   { path: 'blog:page',
     component: BlogPageComponent

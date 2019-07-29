@@ -72,15 +72,9 @@ import {
 } from 'devextreme-angular';
 
 
-// Etc
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { UppyModule } from './features/uppy/uppy.module';
-import { ToastrModule } from 'ngx-toastr';
+// import { UppyModule } from './features/uppy/uppy.module';
 
-
-import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
-
 
 import {
   TagsComponent,
@@ -106,8 +100,8 @@ import {
   SidenavComponent,
   LanguageComponent,
   FooterComponent,
-  PhotoComponent,
-  UploadComponent,
+//  PhotoComponent,
+//  UploadComponent,
   FilterComponent
 } from './plugins/';
 
@@ -120,7 +114,7 @@ import {
   RestaurantPageComponent,
   LoungePageComponent,
   HotelPageComponent,
-  PhotoPageComponent
+//  PhotoPageComponent
 } from './pages/';
 
 
@@ -204,9 +198,8 @@ import { TimePipe } from './pipes/TimePipe.pipe';
     DxSpeedDialActionModule,
     HttpClientModule,
 
-    UppyModule,
+//    UppyModule,
 
-    ToastrModule.forRoot(), BrowserAnimationsModule,
     // ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
 //    ServiceWorkerModule.register('@uppy/golden-retriever/lib/ServiceWorker', { enabled: environment.production })
 
@@ -224,7 +217,7 @@ import { TimePipe } from './pipes/TimePipe.pipe';
     RestaurantPageComponent,
     LoungePageComponent,
     HotelPageComponent,
-    PhotoPageComponent,
+//    PhotoPageComponent,
 
     VideoComponent,
     TopnavComponent,
@@ -243,8 +236,8 @@ import { TimePipe } from './pipes/TimePipe.pipe';
     SlidecontentComponent,
     InvoiceComponent,
     LanguageComponent,
-    PhotoComponent,
-    UploadComponent,
+//    PhotoComponent,
+//    UploadComponent,
     FilterComponent,
 
     TagsComponent,
