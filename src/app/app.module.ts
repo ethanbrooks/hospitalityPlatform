@@ -1,9 +1,3 @@
-/*
-import { Router } from '@angular/router';
-
-private router: Router,
-*/
-
 import {
   NgModule,
 } from '@angular/core';
@@ -121,8 +115,7 @@ import {
   JobsPageComponent,
   RestaurantPageComponent,
   LoungePageComponent,
-  HotelPageComponent,
-//  PhotoPageComponent
+  HotelPageComponent
 } from './pages/';
 
 
@@ -135,6 +128,7 @@ import { TimePipe } from './pipes/TimePipe.pipe';
 
 @NgModule({
   imports: [
+    BrowserModule.withServerTransition({ appId: 'hotelHerrera' }),
 //    DxServerTransferStateModule,
     AppRoutingModule,
     HttpClientModule,
@@ -225,7 +219,6 @@ import { TimePipe } from './pipes/TimePipe.pipe';
     RestaurantPageComponent,
     LoungePageComponent,
     HotelPageComponent,
-//    PhotoPageComponent,
 
     VideoComponent,
     TopnavComponent,

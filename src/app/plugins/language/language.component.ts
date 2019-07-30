@@ -22,16 +22,16 @@ export class LanguageComponent {
         translate.addLangs(['en_US', 'es_PA']);
 
         this.languages = service.getLanguages().filter((value) => {
-            if (translate.getLangs().includes(value.ID)) {
-                return value;
-            }
+//            if (translate.getLangs().includes(value.ID)) {
+//                return value;
+//            }
         });
 
-        translate.setDefaultLang(this.defaultLang);
-        const browserLang = translate.getBrowserLang();
-        const browserCultureLang = translate. getBrowserCultureLang();
-        translate.use('en_US');
-        translate.use(browserLang.match(/en|es/) ? browserCultureLang : 'en_US');
+ //       translate.setDefaultLang(this.defaultLang);
+        //const browserLang = translate.getBrowserLang();
+ ///       const browserCultureLang = translate. getBrowserCultureLang();
+  //      translate.use('en_US');
+        //translate.use(browserLang.match(/en|es/) ? browserCultureLang : 'en_US');
 
         const languagesArr = this.languages.filter((value) => {
             if (value.ID === translate.currentLang) {

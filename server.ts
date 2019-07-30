@@ -32,10 +32,10 @@ app.engine('html', ngExpressEngine({
 }));
 
 app.set('view engine', 'html');
-app.set('views', join(DIST_FOLDER, 'browser'));
+app.set('views', join(DIST_FOLDER, 'hotelHerrera'));
 
 // Server static files from /browser
-app.get('*.*', express.static(join(DIST_FOLDER, 'browser'), {
+app.get('*.*', express.static(join(DIST_FOLDER, 'hotelHerrera'), {
   maxAge: '1y'
 }));
 
