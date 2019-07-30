@@ -1,31 +1,25 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+
+
 // import { AuthGuard } from './_guards';
 
+import { 
+BlogPageComponent,
+ContactPageComponent,
+ExplorePageComponent,
+GuestPageComponent,
+JobsPageComponent,
+RestaurantPageComponent,
+LoungePageComponent,
+HotelPageComponent
+} from './pages/';
 
 // General
 // import { PageNotFoundComponent, LoginComponent, SignupComponent } from './general/';
 
-
-import {
-  BlogPageComponent,
-  ContactPageComponent,
-  ExplorePageComponent,
-  GuestPageComponent,
-  JobsPageComponent,
-  RestaurantPageComponent,
-  LoungePageComponent,
-  HotelPageComponent,
-//  PhotoPageComponent
-} from './pages/';
-
 const routes: Routes = [
-/*  {
-    path: 'photo',
-    component: PhotoPageComponent,
-  },
-*/
   { path: '', redirectTo: 'blog', pathMatch: 'full' },
   { path: 'blog:page',
     component: BlogPageComponent
@@ -66,9 +60,18 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [  RouterModule.forRoot(routes,  { enableTracing: false })],
-  exports: [RouterModule],
-  declarations: [],
-    providers: [],
+  imports: [RouterModule.forRoot(routes, { enableTracing: false })],
+  providers: [],
+  exports: [RouterModule]/*,
+  declarations: [
+    BlogPageComponent,
+    ContactPageComponent,
+    ExplorePageComponent,
+    GuestPageComponent,
+    JobsPageComponent,
+    RestaurantPageComponent,
+    LoungePageComponent,
+    HotelPageComponent
+  ]*/
 })
 export class AppRoutingModule { }

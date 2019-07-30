@@ -1,7 +1,20 @@
 {
-    "items": [],
-    "baseTheme": "material.orange.light",
-    "assetsBasePath": "../../../node_modules/devextreme/dist/css/",
-    "outputColorScheme": "base",
-    "base": true
+    "items": [
+        {
+            "key": "@base-font-family",
+            "value": "\"GFS Didot\", sans-serif\""
+        },
+        {
+            "key": "@base-accent",
+            "value": "#F3EBDE"
+        },
+        {
+            "key": "@overlay-shader-bg",
+            "value": "#F3EBDE"
+        }
+    ],
+    "baseTheme": "material.teal.light",
+    "outputColorScheme": "custom-scheme",
+    "makeSwatch": false,
+    "version": "19.1.4"
 }

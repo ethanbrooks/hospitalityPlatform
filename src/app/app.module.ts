@@ -1,3 +1,9 @@
+/*
+import { Router } from '@angular/router';
+
+private router: Router,
+*/
+
 import {
   NgModule,
 } from '@angular/core';
@@ -10,6 +16,8 @@ import { AppRoutingModule } from './app-routing.module';
 // import { IonicModule } from '@ionic/angular';
 
 import { HttpClient, HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+
+import { ScreenService } from './_services';
 
 
 import { TranslateModule, TranslateLoader} from '@ngx-translate/core';
@@ -247,7 +255,7 @@ import { TimePipe } from './pipes/TimePipe.pipe';
     SafeHtmlPipe,
     SafeStylePipe
   ],
-  providers: [],
+  providers: [ScreenService],
   bootstrap: [AppComponent],
 })
 
