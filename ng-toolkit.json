@@ -1,0 +1,18 @@
+{
+  "universal": {
+    "project": "hotelHerrera",
+    "skipInstall": false,
+    "directory": "."
+  },
+  "serverless": {
+    "project": "hotelHerrera",
+    "provider": "aws",
+    "skipInstall": false,
+    "directory": ".",
+    "clientProject": "hotelHerrera",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}

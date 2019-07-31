@@ -1,3 +1,4 @@
+import { NgtUniversalModule } from '@ng-toolkit/universal';
 import {
   NgModule,
 } from '@angular/core';
@@ -128,7 +129,7 @@ import { TimePipe } from './pipes/TimePipe.pipe';
 
 @NgModule({
   imports: [
-    BrowserModule.withServerTransition({ appId: 'hotelHerrera' }),
+    NgtUniversalModule,
 //    DxServerTransferStateModule,
     AppRoutingModule,
     HttpClientModule,

@@ -1,8 +1,12 @@
 {
     "items": [
         {
+            "key": "@font-family",
+            "value": "'GFS Didot', serif;"
+        },
+        {
             "key": "@base-font-family",
-            "value": "\"GFS Didot\", sans-serif\""
+            "value": "'GFS Didot', serif;"
         },
         {
             "key": "@base-accent",

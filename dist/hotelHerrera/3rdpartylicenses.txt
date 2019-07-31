@@ -66,6 +66,9 @@ MIT
 @angular/router
 MIT
 
+@ng-toolkit/universal
+MIT
+
 @ngx-translate/core
 MIT
 

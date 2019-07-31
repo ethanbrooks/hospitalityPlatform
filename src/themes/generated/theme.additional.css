@@ -193,12 +193,12 @@
   color: rgba(0, 0, 0, 0.87);
   font-weight: normal;
   font-size: 13px;
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-datagrid-column-chooser input,
 .dx-datagrid-column-chooser textarea {
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-datagrid-export-menu .dx-menu-item .dx-icon-exportxlsx {
@@ -392,12 +392,12 @@
   color: rgba(0, 0, 0, 0.87);
   font-weight: normal;
   font-size: 13px;
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-pivotgrid .dx-ie .dx-pivotgrid-fields-area input,
 .dx-pivotgrid .dx-ie .dx-pivotgrid-fields-area textarea {
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-pivotgrid .dx-column-header .dx-pivotgrid-fields-area {
@@ -1043,12 +1043,12 @@
   color: rgba(0, 0, 0, 0.87);
   font-weight: normal;
   font-size: 13px;
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-treelist-column-chooser input,
 .dx-treelist-column-chooser textarea {
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-treelist-export-menu .dx-menu-item .dx-icon-exportxlsx {
@@ -1408,12 +1408,12 @@
   color: rgba(0, 0, 0, 0.87);
   font-weight: normal;
   font-size: 13px;
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-theme-material-typography input,
 .dx-theme-material-typography textarea {
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-theme-material-typography h1 {
@@ -2532,12 +2532,12 @@
   color: rgba(0, 0, 0, 0.87);
   font-weight: normal;
   font-size: 13px;
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-widget input,
 .dx-widget textarea {
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-state-disabled.dx-widget,
@@ -6223,12 +6223,12 @@
   color: rgba(0, 0, 0, 0.87);
   font-weight: normal;
   font-size: 13px;
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-overlay-wrapper input,
 .dx-overlay-wrapper textarea {
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-toast-content {
@@ -10634,12 +10634,12 @@
   color: rgba(0, 0, 0, 0.87);
   font-weight: normal;
   font-size: 13px;
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-menu-base input,
 .dx-menu-base textarea {
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-menu-base.dx-state-focused {
@@ -11178,12 +11178,12 @@
   color: rgba(0, 0, 0, 0.87);
   font-weight: normal;
   font-size: 13px;
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-field input,
 .dx-field textarea {
-  font-family: "GFS Didot", sans-serif;
+  font-family: 'GFS Didot', serif;
   line-height: 1.2857;
 }
 .dx-field-label {
