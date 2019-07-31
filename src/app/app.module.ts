@@ -12,7 +12,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { HttpClient, HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
+// Utilities
 import { ScreenService } from './_services';
+import { SafeStylePipe, SafeHtmlPipe, TimePipe } from './_pipes/';
 
 
 import { TranslateModule, TranslateLoader} from '@ngx-translate/core';
@@ -120,11 +122,6 @@ import {
 } from './pages/';
 
 
-// Utilities
-
-import { SafeStylePipe } from './pipes/SafeStylePipe.pipe';
-import { SafeHtmlPipe } from './pipes/SafeHtmlPipe.pipe';
-import { TimePipe } from './pipes/TimePipe.pipe';
 
 
 @NgModule({

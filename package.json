@@ -6,7 +6,7 @@
 		"ng": "ng",
 		"start": "ng serve",
 		"build": "ng build --stats-json --prod --delete-output-path --output-path=www --subresourceIntegrity=true",
-		"deploy": "yarn run build && dev-bin/deploy.sh hotelherrera.com pp; serverless deploy",
+		"deploy": "yarn run build && dev-bin/deploy.sh hotelherrera.com pp",
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e",
