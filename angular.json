@@ -54,6 +54,7 @@
                 "output": "data"
               },
               "src/manifest.json",
+              "src/robots.txt",
               "src/favicon.ico"
             ],
             "styles": [
@@ -119,6 +120,7 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
+              "src/robots.txt",
               "src/assets"
             ],
             "styles": [

@@ -24,6 +24,7 @@
         "files": [
           "/favicon.ico",
           "/index.html",
+          "/robots.txt",
           "/*.css",
           "/*.js",
           "/data/*_*/**/*.html"

@@ -25,6 +25,7 @@
                 "input": "assets",
                 "output": "assets"
               },
+              "src/",
               "src/manifest.json"
             ],
             "styles": [

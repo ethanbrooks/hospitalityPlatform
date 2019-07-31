@@ -1,20 +1,14 @@
 import { Component, ViewChild, HostListener, AfterViewInit, ElementRef  } from '@angular/core';
 import { Router } from '@angular/router';
-import { NavItems, TopNavService, ProductType, Product, Service } from './topnav.service';
-
-
-
-import DataSource from 'devextreme/data/data_source';
-import notify from 'devextreme/ui/notify';
+import { TopNavService, NavItems, PortalType } from './topnav.service';
 
 
 @Component({
     selector: 'app-topnav',
     templateUrl: './topnav.component.html',
     styleUrls: ['./topnav.component.css'],
-    providers: [TopNavService, Service]
+    providers: [TopNavService]
 })
-
 export class TopnavComponent implements AfterViewInit {
 @ViewChild('navbar', {static: false}) navbar: ElementRef;
 // @HostListener('window:scroll', ['$event'])
@@ -23,8 +17,7 @@ export class TopnavComponent implements AfterViewInit {
     currentData: any;
 
     items: any[];
-    productTypes: ProductType[];
-    productsStore: any;
+    portalTypes: PortalType[];
 
     header: any;
     sticky: any;
@@ -51,71 +44,108 @@ export class TopnavComponent implements AfterViewInit {
     }
 
     constructor(
-        service: Service,
         topNavService: TopNavService,
         private router: Router
     ) {
         this.navBarData = topNavService.getNavItems();
 
-        const products = service.getProducts();
-        this.productTypes = service.getProductTypes();
+        this.portalTypes = topNavService.getPortalsTypes();
 
-        this.productsStore = new DataSource(products);
-        this.items = [
-            {
-                location: 'before',
-                locateInMenu: 'never',
+
+
+        this.items = [{
+            widget: 'dxButton',
+            locateInMenu: 'never',
+            location: 'before',
+            cssClass: 'nav-text',
+            options: {
+                onClick: () => {
+                    console.log('Back button has been clicked!');
+                },
                 template: () => {
-                    return '<span class="nav-text">THE<i style="text-transform: lowercase;">hotel</i></span>';
+                    return 'THE<i style="text-transform: lowercase;">lounge</i>';
                 }
-            }, {
-                location: 'before',
-                locateInMenu: 'never',
+            }
+        },
+        {
+            widget: 'dxButton',
+            locateInMenu: 'never',
+            location: 'before',
+            cssClass: 'nav-text',
+            options: {
+                onClick: () => {
+                    console.log('Back button has been clicked!');
+                },
                 template: () => {
-                    return '<span class="nav-text">THE<i style="text-transform: lowercase;">resturant</i></span>';
+                    return 'THE<i style="text-transform: lowercase;">lounge</i>';
                 }
-            },
-            {
-                location: 'after',
-                locateInMenu: 'never',
+            }
+        },
+        {
+            location: 'center',
+            locateInMenu: 'never',
+            html: '<img src="/assets/img/nav-icon/logo.svg">',
+            cssClass: 'nav-icon'
+        },
+        {
+            widget: 'dxButton',
+            location: 'after',
+            locateInMenu: 'never',
+            cssClass: 'nav-text',
+            options: {
+                onClick: () => {
+                    console.log('Back button has been clicked!');
+                },
                 template: () => {
-                    return '<span class="nav-text">THE<i style="text-transform: lowercase;">lounge</i></span>';
+                    return 'THE<i style="text-transform: lowercase;">lounge</i>';
                 }
-            },
-            {
-                location: 'after',
-                locateInMenu: 'never',
+            }
+        },
+        {
+            widget: 'dxButton',
+            location: 'after',
+            locateInMenu: 'never',
+            cssClass: 'nav-text',
+            options: {
+                onClick: () => {
+                    console.log('Back button has been clicked!');
+                },
                 template: () => {
-                    return '<span class="nav-text">THE<i style="text-transform: lowercase;">cellar</i></span>';
+                    return 'THE<i style="text-transform: lowercase;">lounge</i>';
+                },
+
+            }
+        },
+        {
+            location: 'before',
+            locateInMenu: 'always',
+            text: 'Contact'
+        },
+        {
+            location: 'before',
+            locateInMenu: 'always',
+            text: 'Jobs'
+        },
+        {
+            location: 'before',
+            locateInMenu: 'always',
+            text: 'Explore'
+        },
+        {
+            location: 'after',
+            widget: 'dxSelectBox',
+            locateInMenu: 'always',
+            options: {
+                width: 140,
+                items: this.portalTypes,
+                valueExpr: 'id',
+                displayExpr: 'text',
+                value: this.portalTypes[0].id,
+                onValueChanged: (args) => {
+                    console.log(args);
                 }
-            },
-            {
-                location: 'center',
-                locateInMenu: 'never',
-                template: () => {
-                    return '<img class="nav-icon" src="/assets/img/nav-icon/logo.svg">';
-                }
-            },
-            {
-                location: 'after',
-                widget: 'dxSelectBox',
-                locateInMenu: 'always',
-                options: {
-                    width: 140,
-                    items: this.productTypes,
-                    valueExpr: 'id',
-                    displayExpr: 'text',
-                    value: this.productTypes[0].id,
-                    onValueChanged: (args) => {
-                        if (args.value > 1) {
-                            this.productsStore.filter('type', '=', args.value);
-                        } else {
-                            this.productsStore.filter(null);
-                        }
-                        this.productsStore.load();
-                    }
-                }
-            }];
+            }
+        }];
     }
 
 actionItem(e) {
