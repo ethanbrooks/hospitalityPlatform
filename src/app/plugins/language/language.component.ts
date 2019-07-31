@@ -28,10 +28,10 @@ export class LanguageComponent {
         });
 
  //       translate.setDefaultLang(this.defaultLang);
-        //const browserLang = translate.getBrowserLang();
+        // const browserLang = translate.getBrowserLang();
  ///       const browserCultureLang = translate. getBrowserCultureLang();
   //      translate.use('en_US');
-        //translate.use(browserLang.match(/en|es/) ? browserCultureLang : 'en_US');
+        // translate.use(browserLang.match(/en|es/) ? browserCultureLang : 'en_US');
 
         const languagesArr = this.languages.filter((value) => {
             if (value.ID === translate.currentLang) {

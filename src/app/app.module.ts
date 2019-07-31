@@ -1,4 +1,4 @@
-import { NgtUniversalModule } from '@ng-toolkit/universal';
+// import { NgtUniversalModule } from '@ng-toolkit/universal';
 import {
   NgModule,
 } from '@angular/core';
@@ -24,6 +24,9 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient, '/assets/i18n/', '.json');
 }
+
+import { environment } from '../environments/environment';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 import {
 //  DxServerTransferStateModule,
@@ -118,7 +121,8 @@ import {
   JobsPageComponent,
   RestaurantPageComponent,
   LoungePageComponent,
-  HotelPageComponent
+  HotelPageComponent,
+  CellarPageComponent
 } from './pages/';
 
 
@@ -126,7 +130,6 @@ import {
 
 @NgModule({
   imports: [
-    NgtUniversalModule,
 //    DxServerTransferStateModule,
     AppRoutingModule,
     HttpClientModule,
@@ -199,8 +202,7 @@ import {
     HttpClientModule,
 
 //    UppyModule,
-
-    // ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
 //    ServiceWorkerModule.register('@uppy/golden-retriever/lib/ServiceWorker', { enabled: environment.production })
 
 
@@ -217,6 +219,7 @@ import {
     RestaurantPageComponent,
     LoungePageComponent,
     HotelPageComponent,
+    CellarPageComponent,
 
     VideoComponent,
     TopnavComponent,

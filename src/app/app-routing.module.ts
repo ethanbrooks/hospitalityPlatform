@@ -1,19 +1,18 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-
-
 // import { AuthGuard } from './_guards';
 
-import { 
-BlogPageComponent,
-ContactPageComponent,
-ExplorePageComponent,
-GuestPageComponent,
-JobsPageComponent,
-RestaurantPageComponent,
-LoungePageComponent,
-HotelPageComponent
+import {
+  BlogPageComponent,
+  ContactPageComponent,
+  ExplorePageComponent,
+  GuestPageComponent,
+  JobsPageComponent,
+  RestaurantPageComponent,
+  LoungePageComponent,
+  HotelPageComponent,
+  CellarPageComponent
 } from './pages/';
 
 // General
@@ -56,22 +55,16 @@ const routes: Routes = [
     path: 'the-hotel',
     component: HotelPageComponent,
   },
+  {
+    path: 'the-cellar',
+    component: CellarPageComponent,
+  }
 //  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { enableTracing: false })],
   providers: [],
-  exports: [RouterModule]/*,
-  declarations: [
-    BlogPageComponent,
-    ContactPageComponent,
-    ExplorePageComponent,
-    GuestPageComponent,
-    JobsPageComponent,
-    RestaurantPageComponent,
-    LoungePageComponent,
-    HotelPageComponent
-  ]*/
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -1,3 +1,3 @@
-export * from './SafeHtmlPipe.pipe';
-export * from './SafeStylePipe.pipe';
-export * from './TimePipe.pipe';
+export * from './SafeHtml.pipe';
+export * from './SafeStyle.pipe';
+export * from './Time.pipe';

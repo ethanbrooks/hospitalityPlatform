@@ -13,7 +13,7 @@ import { BlogService } from './blog.service';
 export class BlogComponent implements AfterViewInit {
     @ViewChild(DxScrollViewComponent, {static: false}) scrollView: DxScrollViewComponent;
     @HostListener('window:resize', ['$event'])
-
+    enduroJsData: any;
     updateContentTimer: any;
     content: any = '';
     constructor(

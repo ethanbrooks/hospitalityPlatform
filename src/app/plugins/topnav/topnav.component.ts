@@ -60,10 +60,10 @@ export class TopnavComponent implements AfterViewInit {
             cssClass: 'nav-text',
             options: {
                 onClick: () => {
-                    console.log('Back button has been clicked!');
+                    this.router.navigate(['/the-restaurant']);
                 },
                 template: () => {
-                    return 'THE<i style="text-transform: lowercase;">lounge</i>';
+                    return 'THE<i style="text-transform: lowercase;">Restaurant</i>';
                 }
             }
         },
@@ -74,18 +74,26 @@ export class TopnavComponent implements AfterViewInit {
             cssClass: 'nav-text',
             options: {
                 onClick: () => {
-                    console.log('Back button has been clicked!');
+                    this.router.navigate(['/the-hotel']);
                 },
                 template: () => {
-                    return 'THE<i style="text-transform: lowercase;">lounge</i>';
+                    return 'THE<i style="text-transform: lowercase;">hotel</i>';
                 }
             }
         },
         {
+            widget: 'dxButton',
             location: 'center',
             locateInMenu: 'never',
-            html: '<img src="/assets/img/nav-icon/logo.svg">',
-            cssClass: 'nav-icon'
+            cssClass: 'nav-icon',
+            options: {
+                onClick: () => {
+                    this.router.navigate(['/the-lounge']);
+                },
+                template: () => {
+                    return '<img src="/assets/img/nav-icon/logo.svg">';
+                }
+            }
         },
         {
             widget: 'dxButton',
@@ -94,7 +102,7 @@ export class TopnavComponent implements AfterViewInit {
             cssClass: 'nav-text',
             options: {
                 onClick: () => {
-                    console.log('Back button has been clicked!');
+                    this.router.navigate(['/the-lounge']);
                 },
                 template: () => {
                     return 'THE<i style="text-transform: lowercase;">lounge</i>';
@@ -108,28 +116,74 @@ export class TopnavComponent implements AfterViewInit {
             cssClass: 'nav-text',
             options: {
                 onClick: () => {
-                    console.log('Back button has been clicked!');
+                    this.router.navigate(['/the-cellar']);
                 },
                 template: () => {
-                    return 'THE<i style="text-transform: lowercase;">lounge</i>';
+                    return 'THE<i style="text-transform: lowercase;">cellar</i>';
                 },
 
             }
         },
         {
+            widget: 'dxButton',
             location: 'before',
             locateInMenu: 'always',
-            text: 'Contact'
+            options: {
+                text: 'Contact',
+                icon: 'assets/img/nav-icon/contact.svg',
+                onClick: () => {
+                    this.router.navigate(['/contact']);
+                }
+            }
         },
         {
+            widget: 'dxButton',
             location: 'before',
             locateInMenu: 'always',
-            text: 'Jobs'
+
+            options: {
+                text: 'Jobs',
+                icon: 'assets/img/nav-icon/jobs.svg',
+                onClick: () => {
+                    this.router.navigate(['/jobs']);
+                }
+            }
         },
         {
+            widget: 'dxButton',
             location: 'before',
             locateInMenu: 'always',
-            text: 'Explore'
+            options: {
+                icon: 'assets/img/nav-icon/travel.svg',
+                text: 'Explore',
+                onClick: () => {
+                    this.router.navigate(['/explore']);
+                }
+            }
+        },
+        {
+            widget: 'dxButton',
+            location: 'before',
+            locateInMenu: 'always',
+            options: {
+                icon: 'assets/img/nav-icon/guest.svg',
+                text: 'Guest Portal',
+                onClick: () => {
+                    this.router.navigate(['https://guest.hotelherrera.com']);
+                }
+            }
+        },
+        {
+            widget: 'dxButton',
+            location: 'before',
+            locateInMenu: 'always',
+            options: {
+                icon: 'assets/img/nav-icon/guest.svg',
+                text: 'Staff Portal',
+                onClick: () => {
+                    this.router.navigate(['https://staff.hotelherrera.com']);
+                }
+            }
         },
         {
             location: 'after',
@@ -137,9 +191,24 @@ export class TopnavComponent implements AfterViewInit {
             locateInMenu: 'always',
             options: {
                 width: 140,
-                items: this.portalTypes,
-                valueExpr: 'id',
-                displayExpr: 'text',
+                items: [{
+                    ID: 'es-PA',
+                    Name: 'Panameño Español ',
+                    IconSrc: 'assets/img/laguanges/es-PA.svg'
+                }, {
+                    ID: 'en_US',
+                    Name: 'US English',
+                    IconSrc: 'assets/img/laguanges/en-US.svg'
+                }, {
+                    ID: 'fr',
+                    Name: 'French',
+                    IconSrc: 'assets/img/laguanges/fr.svg'
+                }],
+                valueExpr: 'ID',
+                displayExpr: 'Name'/*(item) => {
+                    // "item" can be null
+                    return item && '<img src="' + item.IconSrc + '">' + item.Name;
+                }*/,
                 value: this.portalTypes[0].id,
                 onValueChanged: (args) => {
                     console.log(args);
