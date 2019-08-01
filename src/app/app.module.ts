@@ -80,7 +80,7 @@ import {
 } from 'devextreme-angular';
 
 
-// import { UppyModule } from './features/uppy/uppy.module';
+import { UppyModule } from './features/uppy/uppy.module';
 
 import { AppComponent } from './app.component';
 
@@ -108,7 +108,7 @@ import {
   SidenavComponent,
   LanguageComponent,
   FooterComponent,
-//  PhotoComponent,
+  PhotoComponent,
 //  UploadComponent,
   FilterComponent
 } from './plugins/';
@@ -122,7 +122,8 @@ import {
   RestaurantPageComponent,
   LoungePageComponent,
   HotelPageComponent,
-  CellarPageComponent
+  CellarPageComponent,
+  PhotoPageComponent
 } from './pages/';
 
 
@@ -201,7 +202,7 @@ import {
     DxSpeedDialActionModule,
     HttpClientModule,
 
-//    UppyModule,
+    UppyModule,
      ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
 //    ServiceWorkerModule.register('@uppy/golden-retriever/lib/ServiceWorker', { enabled: environment.production })
 
@@ -238,7 +239,7 @@ import {
     SlidecontentComponent,
     InvoiceComponent,
     LanguageComponent,
-//    PhotoComponent,
+    PhotoComponent,
 //    UploadComponent,
     FilterComponent,
 

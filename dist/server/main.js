@@ -5935,160 +5935,6 @@ exports.DxMultiViewComponentNgFactory = DxMultiViewComponentNgFactory;
 
 /***/ }),
 
-/***/ "./node_modules/devextreme-angular/ui/nested/adapter.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/devextreme-angular/ui/nested/adapter.js ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/*!
- * devextreme-angular
- * Version: 19.1.4
- * Build date: Mon Jun 17 2019
- *
- * Copyright (c) 2012 - 2019 Developer Express Inc. ALL RIGHTS RESERVED
- *
- * This software may be modified and distributed under the terms
- * of the MIT license. See the LICENSE file in the root of the project for details.
- *
- * https://github.com/DevExpress/devextreme-angular
- */
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-var nested_option_1 = __webpack_require__(/*! ../../core/nested-option */ "./node_modules/devextreme-angular/core/nested-option.js");
-var nested_option_2 = __webpack_require__(/*! ../../core/nested-option */ "./node_modules/devextreme-angular/core/nested-option.js");
-var DxoAdapterComponent = (function (_super) {
-    __extends(DxoAdapterComponent, _super);
-    function DxoAdapterComponent(parentOptionHost, optionHost) {
-        var _this = _super.call(this) || this;
-        parentOptionHost.setNestedOption(_this);
-        optionHost.setHost(_this, _this._fullOptionPath.bind(_this));
-        return _this;
-    }
-    Object.defineProperty(DxoAdapterComponent.prototype, "applyValidationResults", {
-        get: function () {
-            return this._getOption('applyValidationResults');
-        },
-        set: function (value) {
-            this._setOption('applyValidationResults', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxoAdapterComponent.prototype, "bypass", {
-        get: function () {
-            return this._getOption('bypass');
-        },
-        set: function (value) {
-            this._setOption('bypass', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxoAdapterComponent.prototype, "focus", {
-        get: function () {
-            return this._getOption('focus');
-        },
-        set: function (value) {
-            this._setOption('focus', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxoAdapterComponent.prototype, "getValue", {
-        get: function () {
-            return this._getOption('getValue');
-        },
-        set: function (value) {
-            this._setOption('getValue', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxoAdapterComponent.prototype, "reset", {
-        get: function () {
-            return this._getOption('reset');
-        },
-        set: function (value) {
-            this._setOption('reset', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxoAdapterComponent.prototype, "validationRequestsCallbacks", {
-        get: function () {
-            return this._getOption('validationRequestsCallbacks');
-        },
-        set: function (value) {
-            this._setOption('validationRequestsCallbacks', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxoAdapterComponent.prototype, "_optionPath", {
-        get: function () {
-            return 'adapter';
-        },
-        enumerable: true,
-        configurable: true
-    });
-    DxoAdapterComponent.decorators = [
-        { type: core_1.Component, args: [{
-                    selector: 'dxo-adapter',
-                    template: '',
-                    styles: [''],
-                    providers: [nested_option_1.NestedOptionHost]
-                },] },
-    ];
-    /** @nocollapse */
-    DxoAdapterComponent.ctorParameters = function () { return [
-        { type: nested_option_1.NestedOptionHost, decorators: [{ type: core_1.SkipSelf }, { type: core_1.Host },] },
-        { type: nested_option_1.NestedOptionHost, decorators: [{ type: core_1.Host },] },
-    ]; };
-    DxoAdapterComponent.propDecorators = {
-        "applyValidationResults": [{ type: core_1.Input },],
-        "bypass": [{ type: core_1.Input },],
-        "focus": [{ type: core_1.Input },],
-        "getValue": [{ type: core_1.Input },],
-        "reset": [{ type: core_1.Input },],
-        "validationRequestsCallbacks": [{ type: core_1.Input },],
-    };
-    return DxoAdapterComponent;
-}(nested_option_2.NestedOption));
-exports.DxoAdapterComponent = DxoAdapterComponent;
-var DxoAdapterModule = (function () {
-    function DxoAdapterModule() {
-    }
-    DxoAdapterModule.decorators = [
-        { type: core_1.NgModule, args: [{
-                    declarations: [
-                        DxoAdapterComponent
-                    ],
-                    exports: [
-                        DxoAdapterComponent
-                    ],
-                },] },
-    ];
-    return DxoAdapterModule;
-}());
-exports.DxoAdapterModule = DxoAdapterModule;
-//# sourceMappingURL=adapter.js.map
-
-/***/ }),
-
 /***/ "./node_modules/devextreme-angular/ui/nested/animation.js":
 /*!****************************************************************!*\
   !*** ./node_modules/devextreme-angular/ui/nested/animation.js ***!
@@ -19171,118 +19017,6 @@ exports.DxoOperationDescriptionsModule = DxoOperationDescriptionsModule;
 
 /***/ }),
 
-/***/ "./node_modules/devextreme-angular/ui/nested/options.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/devextreme-angular/ui/nested/options.js ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/*!
- * devextreme-angular
- * Version: 19.1.4
- * Build date: Mon Jun 17 2019
- *
- * Copyright (c) 2012 - 2019 Developer Express Inc. ALL RIGHTS RESERVED
- *
- * This software may be modified and distributed under the terms
- * of the MIT license. See the LICENSE file in the root of the project for details.
- *
- * https://github.com/DevExpress/devextreme-angular
- */
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-var nested_option_1 = __webpack_require__(/*! ../../core/nested-option */ "./node_modules/devextreme-angular/core/nested-option.js");
-var button_options_1 = __webpack_require__(/*! ./base/button-options */ "./node_modules/devextreme-angular/ui/nested/base/button-options.js");
-var DxoOptionsComponent = (function (_super) {
-    __extends(DxoOptionsComponent, _super);
-    function DxoOptionsComponent(parentOptionHost, optionHost) {
-        var _this = _super.call(this) || this;
-        parentOptionHost.setNestedOption(_this);
-        optionHost.setHost(_this, _this._fullOptionPath.bind(_this));
-        return _this;
-    }
-    Object.defineProperty(DxoOptionsComponent.prototype, "_optionPath", {
-        get: function () {
-            return 'options';
-        },
-        enumerable: true,
-        configurable: true
-    });
-    DxoOptionsComponent.decorators = [
-        { type: core_1.Component, args: [{
-                    selector: 'dxo-options',
-                    template: '',
-                    styles: [''],
-                    providers: [nested_option_1.NestedOptionHost],
-                    inputs: [
-                        'accessKey',
-                        'activeStateEnabled',
-                        'disabled',
-                        'elementAttr',
-                        'focusStateEnabled',
-                        'height',
-                        'hint',
-                        'hoverStateEnabled',
-                        'icon',
-                        'onClick',
-                        'onContentReady',
-                        'onDisposing',
-                        'onInitialized',
-                        'onOptionChanged',
-                        'rtlEnabled',
-                        'stylingMode',
-                        'tabIndex',
-                        'template',
-                        'text',
-                        'type',
-                        'useSubmitBehavior',
-                        'validationGroup',
-                        'visible',
-                        'width'
-                    ]
-                },] },
-    ];
-    /** @nocollapse */
-    DxoOptionsComponent.ctorParameters = function () { return [
-        { type: nested_option_1.NestedOptionHost, decorators: [{ type: core_1.SkipSelf }, { type: core_1.Host },] },
-        { type: nested_option_1.NestedOptionHost, decorators: [{ type: core_1.Host },] },
-    ]; };
-    return DxoOptionsComponent;
-}(button_options_1.DxoButtonOptions));
-exports.DxoOptionsComponent = DxoOptionsComponent;
-var DxoOptionsModule = (function () {
-    function DxoOptionsModule() {
-    }
-    DxoOptionsModule.decorators = [
-        { type: core_1.NgModule, args: [{
-                    declarations: [
-                        DxoOptionsComponent
-                    ],
-                    exports: [
-                        DxoOptionsComponent
-                    ],
-                },] },
-    ];
-    return DxoOptionsModule;
-}());
-exports.DxoOptionsModule = DxoOptionsModule;
-//# sourceMappingURL=options.js.map
-
-/***/ }),
-
 /***/ "./node_modules/devextreme-angular/ui/nested/pager.js":
 /*!************************************************************!*\
   !*** ./node_modules/devextreme-angular/ui/nested/pager.js ***!
@@ -27821,1139 +27555,6 @@ exports.DxScrollViewComponentNgFactory = DxScrollViewComponentNgFactory;
 
 /***/ }),
 
-/***/ "./node_modules/devextreme-angular/ui/select-box.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/devextreme-angular/ui/select-box.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/*!
- * devextreme-angular
- * Version: 19.1.4
- * Build date: Mon Jun 17 2019
- *
- * Copyright (c) 2012 - 2019 Developer Express Inc. ALL RIGHTS RESERVED
- *
- * This software may be modified and distributed under the terms
- * of the MIT license. See the LICENSE file in the root of the project for details.
- *
- * https://github.com/DevExpress/devextreme-angular
- */
-Object.defineProperty(exports, "__esModule", { value: true });
-var platform_browser_1 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-var platform_browser_2 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-var select_box_1 = __webpack_require__(/*! devextreme/ui/select_box */ "devextreme/ui/select_box");
-var validator_1 = __webpack_require__(/*! ./validator */ "./node_modules/devextreme-angular/ui/validator.js");
-var forms_1 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
-var component_1 = __webpack_require__(/*! ../core/component */ "./node_modules/devextreme-angular/core/component.js");
-var template_host_1 = __webpack_require__(/*! ../core/template-host */ "./node_modules/devextreme-angular/core/template-host.js");
-var integration_1 = __webpack_require__(/*! ../core/integration */ "./node_modules/devextreme-angular/core/integration.js");
-var template_1 = __webpack_require__(/*! ../core/template */ "./node_modules/devextreme-angular/core/template.js");
-var nested_option_1 = __webpack_require__(/*! ../core/nested-option */ "./node_modules/devextreme-angular/core/nested-option.js");
-var watcher_helper_1 = __webpack_require__(/*! ../core/watcher-helper */ "./node_modules/devextreme-angular/core/watcher-helper.js");
-var iterable_differ_helper_1 = __webpack_require__(/*! ../core/iterable-differ-helper */ "./node_modules/devextreme-angular/core/iterable-differ-helper.js");
-var button_dxi_1 = __webpack_require__(/*! ./nested/button-dxi */ "./node_modules/devextreme-angular/ui/nested/button-dxi.js");
-var options_1 = __webpack_require__(/*! ./nested/options */ "./node_modules/devextreme-angular/ui/nested/options.js");
-var item_dxi_1 = __webpack_require__(/*! ./nested/item-dxi */ "./node_modules/devextreme-angular/ui/nested/item-dxi.js");
-var button_dxi_2 = __webpack_require__(/*! ./nested/button-dxi */ "./node_modules/devextreme-angular/ui/nested/button-dxi.js");
-var item_dxi_2 = __webpack_require__(/*! ./nested/item-dxi */ "./node_modules/devextreme-angular/ui/nested/item-dxi.js");
-var CUSTOM_VALUE_ACCESSOR_PROVIDER = {
-    provide: forms_1.NG_VALUE_ACCESSOR,
-    useExisting: core_1.forwardRef(function () { return DxSelectBoxComponent; }),
-    multi: true
-};
-/**
- * The SelectBox widget is an editor that allows an end user to select an item from a drop-down list.
- */
-var DxSelectBoxComponent = (function (_super) {
-    __extends(DxSelectBoxComponent, _super);
-    function DxSelectBoxComponent(elementRef, ngZone, templateHost, _watcherHelper, _idh, optionHost, transferState, platformId) {
-        var _this = _super.call(this, elementRef, ngZone, templateHost, _watcherHelper, transferState, platformId) || this;
-        _this._watcherHelper = _watcherHelper;
-        _this._idh = _idh;
-        _this.touched = function (_) { };
-        _this._createEventEmitters([
-            { subscribe: 'change', emit: 'onChange' },
-            { subscribe: 'closed', emit: 'onClosed' },
-            { subscribe: 'contentReady', emit: 'onContentReady' },
-            { subscribe: 'copy', emit: 'onCopy' },
-            { subscribe: 'customItemCreating', emit: 'onCustomItemCreating' },
-            { subscribe: 'cut', emit: 'onCut' },
-            { subscribe: 'disposing', emit: 'onDisposing' },
-            { subscribe: 'enterKey', emit: 'onEnterKey' },
-            { subscribe: 'focusIn', emit: 'onFocusIn' },
-            { subscribe: 'focusOut', emit: 'onFocusOut' },
-            { subscribe: 'initialized', emit: 'onInitialized' },
-            { subscribe: 'input', emit: 'onInput' },
-            { subscribe: 'itemClick', emit: 'onItemClick' },
-            { subscribe: 'keyDown', emit: 'onKeyDown' },
-            { subscribe: 'keyPress', emit: 'onKeyPress' },
-            { subscribe: 'keyUp', emit: 'onKeyUp' },
-            { subscribe: 'opened', emit: 'onOpened' },
-            { subscribe: 'optionChanged', emit: 'onOptionChanged' },
-            { subscribe: 'paste', emit: 'onPaste' },
-            { subscribe: 'selectionChanged', emit: 'onSelectionChanged' },
-            { subscribe: 'valueChanged', emit: 'onValueChanged' },
-            { emit: 'acceptCustomValueChange' },
-            { emit: 'accessKeyChange' },
-            { emit: 'activeStateEnabledChange' },
-            { emit: 'buttonsChange' },
-            { emit: 'dataSourceChange' },
-            { emit: 'deferRenderingChange' },
-            { emit: 'disabledChange' },
-            { emit: 'displayExprChange' },
-            { emit: 'displayValueChange' },
-            { emit: 'dropDownButtonTemplateChange' },
-            { emit: 'elementAttrChange' },
-            { emit: 'fieldTemplateChange' },
-            { emit: 'focusStateEnabledChange' },
-            { emit: 'groupedChange' },
-            { emit: 'groupTemplateChange' },
-            { emit: 'heightChange' },
-            { emit: 'hintChange' },
-            { emit: 'hoverStateEnabledChange' },
-            { emit: 'inputAttrChange' },
-            { emit: 'isValidChange' },
-            { emit: 'itemsChange' },
-            { emit: 'itemTemplateChange' },
-            { emit: 'maxLengthChange' },
-            { emit: 'minSearchLengthChange' },
-            { emit: 'nameChange' },
-            { emit: 'noDataTextChange' },
-            { emit: 'openedChange' },
-            { emit: 'openOnFieldClickChange' },
-            { emit: 'placeholderChange' },
-            { emit: 'readOnlyChange' },
-            { emit: 'rtlEnabledChange' },
-            { emit: 'searchEnabledChange' },
-            { emit: 'searchExprChange' },
-            { emit: 'searchModeChange' },
-            { emit: 'searchTimeoutChange' },
-            { emit: 'selectedItemChange' },
-            { emit: 'showClearButtonChange' },
-            { emit: 'showDataBeforeSearchChange' },
-            { emit: 'showDropDownButtonChange' },
-            { emit: 'showSelectionControlsChange' },
-            { emit: 'spellcheckChange' },
-            { emit: 'stylingModeChange' },
-            { emit: 'tabIndexChange' },
-            { emit: 'textChange' },
-            { emit: 'validationErrorChange' },
-            { emit: 'validationMessageModeChange' },
-            { emit: 'valueChange' },
-            { emit: 'valueChangeEventChange' },
-            { emit: 'valueExprChange' },
-            { emit: 'visibleChange' },
-            { emit: 'widthChange' },
-            { emit: 'onBlur' }
-        ]);
-        _this._idh.setHost(_this);
-        optionHost.setHost(_this);
-        return _this;
-    }
-    Object.defineProperty(DxSelectBoxComponent.prototype, "acceptCustomValue", {
-        get: /**
-             * Specifies whether the widget allows a user to enter a custom value. Requires the onCustomItemCreating handler implementation.
-             */
-        function () {
-            return this._getOption('acceptCustomValue');
-        },
-        set: function (value) {
-            this._setOption('acceptCustomValue', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "accessKey", {
-        get: /**
-             * Specifies the shortcut key that sets focus on the widget.
-             */
-        function () {
-            return this._getOption('accessKey');
-        },
-        set: function (value) {
-            this._setOption('accessKey', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "activeStateEnabled", {
-        get: /**
-             * Specifies whether or not the widget changes its state when interacting with a user.
-             */
-        function () {
-            return this._getOption('activeStateEnabled');
-        },
-        set: function (value) {
-            this._setOption('activeStateEnabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "buttons", {
-        get: /**
-             * Allows you to add custom buttons to the input text field.
-             */
-        function () {
-            return this._getOption('buttons');
-        },
-        set: function (value) {
-            this._setOption('buttons', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "dataSource", {
-        get: /**
-             * Binds the widget to data.
-             */
-        function () {
-            return this._getOption('dataSource');
-        },
-        set: function (value) {
-            this._setOption('dataSource', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "deferRendering", {
-        get: /**
-             * Specifies whether to render the drop-down field's content when it is displayed. If false, the content is rendered immediately.
-             */
-        function () {
-            return this._getOption('deferRendering');
-        },
-        set: function (value) {
-            this._setOption('deferRendering', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "disabled", {
-        get: /**
-             * Specifies whether the widget responds to user interaction.
-             */
-        function () {
-            return this._getOption('disabled');
-        },
-        set: function (value) {
-            this._setOption('disabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "displayExpr", {
-        get: /**
-             * Specifies the data field whose values should be displayed.
-             */
-        function () {
-            return this._getOption('displayExpr');
-        },
-        set: function (value) {
-            this._setOption('displayExpr', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "displayValue", {
-        get: /**
-             * Returns the value currently displayed by the widget.
-             */
-        function () {
-            return this._getOption('displayValue');
-        },
-        set: function (value) {
-            this._setOption('displayValue', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "dropDownButtonTemplate", {
-        get: /**
-             * Specifies a custom template for the drop-down button.
-             */
-        function () {
-            return this._getOption('dropDownButtonTemplate');
-        },
-        set: function (value) {
-            this._setOption('dropDownButtonTemplate', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "elementAttr", {
-        get: /**
-             * Specifies the attributes to be attached to the widget's root element.
-             */
-        function () {
-            return this._getOption('elementAttr');
-        },
-        set: function (value) {
-            this._setOption('elementAttr', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "fieldTemplate", {
-        get: /**
-             * Specifies a custom template for the text field. Must contain the TextBox widget.
-             */
-        function () {
-            return this._getOption('fieldTemplate');
-        },
-        set: function (value) {
-            this._setOption('fieldTemplate', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "focusStateEnabled", {
-        get: /**
-             * Specifies whether the widget can be focused using keyboard navigation.
-             */
-        function () {
-            return this._getOption('focusStateEnabled');
-        },
-        set: function (value) {
-            this._setOption('focusStateEnabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "grouped", {
-        get: /**
-             * Specifies whether data items should be grouped.
-             */
-        function () {
-            return this._getOption('grouped');
-        },
-        set: function (value) {
-            this._setOption('grouped', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "groupTemplate", {
-        get: /**
-             * Specifies a custom template for group captions.
-             */
-        function () {
-            return this._getOption('groupTemplate');
-        },
-        set: function (value) {
-            this._setOption('groupTemplate', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "height", {
-        get: /**
-             * Specifies the widget's height.
-             */
-        function () {
-            return this._getOption('height');
-        },
-        set: function (value) {
-            this._setOption('height', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "hint", {
-        get: /**
-             * Specifies text for a hint that appears when a user pauses on the widget.
-             */
-        function () {
-            return this._getOption('hint');
-        },
-        set: function (value) {
-            this._setOption('hint', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "hoverStateEnabled", {
-        get: /**
-             * Specifies whether the widget changes its state when a user pauses on it.
-             */
-        function () {
-            return this._getOption('hoverStateEnabled');
-        },
-        set: function (value) {
-            this._setOption('hoverStateEnabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "inputAttr", {
-        get: /**
-             * Specifies the attributes to be passed on to the underlying HTML element.
-             */
-        function () {
-            return this._getOption('inputAttr');
-        },
-        set: function (value) {
-            this._setOption('inputAttr', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "isValid", {
-        get: /**
-             * Specifies whether the editor's value is valid.
-             */
-        function () {
-            return this._getOption('isValid');
-        },
-        set: function (value) {
-            this._setOption('isValid', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "items", {
-        get: /**
-             * An array of items displayed by the widget.
-             */
-        function () {
-            return this._getOption('items');
-        },
-        set: function (value) {
-            this._setOption('items', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "itemTemplate", {
-        get: /**
-             * Specifies a custom template for items.
-             */
-        function () {
-            return this._getOption('itemTemplate');
-        },
-        set: function (value) {
-            this._setOption('itemTemplate', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "maxLength", {
-        get: /**
-             * Specifies the maximum number of characters you can enter into the textbox.
-             */
-        function () {
-            return this._getOption('maxLength');
-        },
-        set: function (value) {
-            this._setOption('maxLength', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "minSearchLength", {
-        get: /**
-             * The minimum number of characters that must be entered into the text box to begin a search. Applies only if searchEnabled is true.
-             */
-        function () {
-            return this._getOption('minSearchLength');
-        },
-        set: function (value) {
-            this._setOption('minSearchLength', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "name", {
-        get: /**
-             * The value to be assigned to the `name` attribute of the underlying HTML element.
-             */
-        function () {
-            return this._getOption('name');
-        },
-        set: function (value) {
-            this._setOption('name', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "noDataText", {
-        get: /**
-             * The text or HTML markup displayed by the widget if the item collection is empty.
-             */
-        function () {
-            return this._getOption('noDataText');
-        },
-        set: function (value) {
-            this._setOption('noDataText', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "opened", {
-        get: /**
-             * Specifies whether or not the drop-down editor is displayed.
-             */
-        function () {
-            return this._getOption('opened');
-        },
-        set: function (value) {
-            this._setOption('opened', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "openOnFieldClick", {
-        get: /**
-             * Specifies whether a user can open the drop-down list by clicking a text field.
-             */
-        function () {
-            return this._getOption('openOnFieldClick');
-        },
-        set: function (value) {
-            this._setOption('openOnFieldClick', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "placeholder", {
-        get: /**
-             * The text that is provided as a hint in the select box editor.
-             */
-        function () {
-            return this._getOption('placeholder');
-        },
-        set: function (value) {
-            this._setOption('placeholder', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "readOnly", {
-        get: /**
-             * Specifies whether the editor is read-only.
-             */
-        function () {
-            return this._getOption('readOnly');
-        },
-        set: function (value) {
-            this._setOption('readOnly', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "rtlEnabled", {
-        get: /**
-             * Switches the widget to a right-to-left representation.
-             */
-        function () {
-            return this._getOption('rtlEnabled');
-        },
-        set: function (value) {
-            this._setOption('rtlEnabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "searchEnabled", {
-        get: /**
-             * Specifies whether to allow searching.
-             */
-        function () {
-            return this._getOption('searchEnabled');
-        },
-        set: function (value) {
-            this._setOption('searchEnabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "searchExpr", {
-        get: /**
-             * Specifies the name of a data source item field or an expression whose value is compared to the search criterion.
-             */
-        function () {
-            return this._getOption('searchExpr');
-        },
-        set: function (value) {
-            this._setOption('searchExpr', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "searchMode", {
-        get: /**
-             * Specifies a comparison operation used to search widget items.
-             */
-        function () {
-            return this._getOption('searchMode');
-        },
-        set: function (value) {
-            this._setOption('searchMode', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "searchTimeout", {
-        get: /**
-             * Specifies the time delay, in milliseconds, after the last character has been typed in, before a search is executed.
-             */
-        function () {
-            return this._getOption('searchTimeout');
-        },
-        set: function (value) {
-            this._setOption('searchTimeout', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "selectedItem", {
-        get: /**
-             * Gets the currently selected item.
-             */
-        function () {
-            return this._getOption('selectedItem');
-        },
-        set: function (value) {
-            this._setOption('selectedItem', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "showClearButton", {
-        get: /**
-             * Specifies whether to display the Clear button in the widget.
-             */
-        function () {
-            return this._getOption('showClearButton');
-        },
-        set: function (value) {
-            this._setOption('showClearButton', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "showDataBeforeSearch", {
-        get: /**
-             * Specifies whether or not the widget displays unfiltered values until a user types a number of characters exceeding the minSearchLength option value.
-             */
-        function () {
-            return this._getOption('showDataBeforeSearch');
-        },
-        set: function (value) {
-            this._setOption('showDataBeforeSearch', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "showDropDownButton", {
-        get: /**
-             * Specifies whether the drop-down button is visible.
-             */
-        function () {
-            return this._getOption('showDropDownButton');
-        },
-        set: function (value) {
-            this._setOption('showDropDownButton', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "showSelectionControls", {
-        get: /**
-             * Specifies whether or not to display selection controls.
-             */
-        function () {
-            return this._getOption('showSelectionControls');
-        },
-        set: function (value) {
-            this._setOption('showSelectionControls', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "spellcheck", {
-        get: /**
-             * Specifies whether or not the widget checks the inner text for spelling mistakes.
-             */
-        function () {
-            return this._getOption('spellcheck');
-        },
-        set: function (value) {
-            this._setOption('spellcheck', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "stylingMode", {
-        get: /**
-             * Specifies how the widget's text field is styled.
-             */
-        function () {
-            return this._getOption('stylingMode');
-        },
-        set: function (value) {
-            this._setOption('stylingMode', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "tabIndex", {
-        get: /**
-             * Specifies the number of the element when the Tab key is used for navigating.
-             */
-        function () {
-            return this._getOption('tabIndex');
-        },
-        set: function (value) {
-            this._setOption('tabIndex', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "text", {
-        get: /**
-             * The read-only option that holds the text displayed by the widget input element.
-             */
-        function () {
-            return this._getOption('text');
-        },
-        set: function (value) {
-            this._setOption('text', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "validationError", {
-        get: /**
-             * Specifies information on the validation error when using a custom validation engine. Should be changed at runtime along with the isValid option.
-             */
-        function () {
-            return this._getOption('validationError');
-        },
-        set: function (value) {
-            this._setOption('validationError', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "validationMessageMode", {
-        get: /**
-             * Specifies how the message about the validation rules that are not satisfied by this editor's value is displayed.
-             */
-        function () {
-            return this._getOption('validationMessageMode');
-        },
-        set: function (value) {
-            this._setOption('validationMessageMode', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "value", {
-        get: /**
-             * Specifies the currently selected value. May be an object if dataSource contains objects and valueExpr is not set.
-             */
-        function () {
-            return this._getOption('value');
-        },
-        set: function (value) {
-            this._setOption('value', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "valueChangeEvent", {
-        get: /**
-             * Specifies the DOM events after which the widget's value should be updated. Applies only if acceptCustomValue is set to true.
-             */
-        function () {
-            return this._getOption('valueChangeEvent');
-        },
-        set: function (value) {
-            this._setOption('valueChangeEvent', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "valueExpr", {
-        get: /**
-             * Specifies which data field provides unique values to the widget's value. When the data field is not set, the value is the entire data object.
-             */
-        function () {
-            return this._getOption('valueExpr');
-        },
-        set: function (value) {
-            this._setOption('valueExpr', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "visible", {
-        get: /**
-             * Specifies whether the widget is visible.
-             */
-        function () {
-            return this._getOption('visible');
-        },
-        set: function (value) {
-            this._setOption('visible', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "width", {
-        get: /**
-             * Specifies the widget's width.
-             */
-        function () {
-            return this._getOption('width');
-        },
-        set: function (value) {
-            this._setOption('width', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    DxSelectBoxComponent.prototype.change = function (_) { };
-    Object.defineProperty(DxSelectBoxComponent.prototype, "buttonsChildren", {
-        get: function () {
-            return this._getOption('buttons');
-        },
-        set: function (value) {
-            this.setChildren('buttons', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxSelectBoxComponent.prototype, "itemsChildren", {
-        get: function () {
-            return this._getOption('items');
-        },
-        set: function (value) {
-            this.setChildren('items', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    DxSelectBoxComponent.prototype._createInstance = function (element, options) {
-        return new select_box_1.default(element, options);
-    };
-    DxSelectBoxComponent.prototype.writeValue = function (value) {
-        this.eventHelper.lockedValueChangeEvent = true;
-        this.value = value;
-        this.eventHelper.lockedValueChangeEvent = false;
-    };
-    DxSelectBoxComponent.prototype.setDisabledState = function (isDisabled) {
-        this.disabled = isDisabled;
-    };
-    DxSelectBoxComponent.prototype.registerOnChange = function (fn) { this.change = fn; };
-    DxSelectBoxComponent.prototype.registerOnTouched = function (fn) { this.touched = fn; };
-    DxSelectBoxComponent.prototype._createWidget = function (element) {
-        var _this = this;
-        _super.prototype._createWidget.call(this, element);
-        this.instance.on('focusOut', function (e) {
-            _this.eventHelper.fireNgEvent('onBlur', [e]);
-        });
-    };
-    DxSelectBoxComponent.prototype.ngOnDestroy = function () {
-        this._destroyWidget();
-    };
-    DxSelectBoxComponent.prototype.ngOnChanges = function (changes) {
-        _super.prototype.ngOnChanges.call(this, changes);
-        this.setupChanges('buttons', changes);
-        this.setupChanges('dataSource', changes);
-        this.setupChanges('items', changes);
-        this.setupChanges('searchExpr', changes);
-    };
-    DxSelectBoxComponent.prototype.setupChanges = function (prop, changes) {
-        if (!(prop in this._optionsToUpdate)) {
-            this._idh.setup(prop, changes);
-        }
-    };
-    DxSelectBoxComponent.prototype.ngDoCheck = function () {
-        this._idh.doCheck('buttons');
-        this._idh.doCheck('dataSource');
-        this._idh.doCheck('items');
-        this._idh.doCheck('searchExpr');
-        this._watcherHelper.checkWatchers();
-        _super.prototype.ngDoCheck.call(this);
-        _super.prototype.clearChangedOptions.call(this);
-    };
-    DxSelectBoxComponent.prototype._setOption = function (name, value) {
-        var isSetup = this._idh.setupSingle(name, value);
-        var isChanged = this._idh.getChanges(name, value) !== null;
-        if (isSetup || isChanged) {
-            _super.prototype._setOption.call(this, name, value);
-        }
-    };
-    DxSelectBoxComponent.prototype.ngOnInit = function () {
-        _super.prototype.ngOnInit.call(this);
-        if (this.validator) {
-            this.validator.createInstanceOnInit = false;
-        }
-    };
-    DxSelectBoxComponent.prototype.ngAfterViewInit = function () {
-        _super.prototype.ngAfterViewInit.call(this);
-        if (this.validator) {
-            this.validator.createInstance(this.element.nativeElement);
-        }
-    };
-    DxSelectBoxComponent.decorators = [
-        { type: core_1.Component, args: [{
-                    selector: 'dx-select-box',
-                    template: '',
-                    providers: [
-                        template_host_1.DxTemplateHost,
-                        watcher_helper_1.WatcherHelper,
-                        CUSTOM_VALUE_ACCESSOR_PROVIDER,
-                        nested_option_1.NestedOptionHost,
-                        iterable_differ_helper_1.IterableDifferHelper
-                    ]
-                },] },
-    ];
-    /** @nocollapse */
-    DxSelectBoxComponent.ctorParameters = function () { return [
-        { type: core_1.ElementRef, },
-        { type: core_1.NgZone, },
-        { type: template_host_1.DxTemplateHost, },
-        { type: watcher_helper_1.WatcherHelper, },
-        { type: iterable_differ_helper_1.IterableDifferHelper, },
-        { type: nested_option_1.NestedOptionHost, },
-        { type: platform_browser_2.TransferState, },
-        { type: undefined, decorators: [{ type: core_1.Inject, args: [core_1.PLATFORM_ID,] },] },
-    ]; };
-    DxSelectBoxComponent.propDecorators = {
-        "validator": [{ type: core_1.ContentChild, args: [validator_1.DxValidatorComponent,] },],
-        "acceptCustomValue": [{ type: core_1.Input },],
-        "accessKey": [{ type: core_1.Input },],
-        "activeStateEnabled": [{ type: core_1.Input },],
-        "buttons": [{ type: core_1.Input },],
-        "dataSource": [{ type: core_1.Input },],
-        "deferRendering": [{ type: core_1.Input },],
-        "disabled": [{ type: core_1.Input },],
-        "displayExpr": [{ type: core_1.Input },],
-        "displayValue": [{ type: core_1.Input },],
-        "dropDownButtonTemplate": [{ type: core_1.Input },],
-        "elementAttr": [{ type: core_1.Input },],
-        "fieldTemplate": [{ type: core_1.Input },],
-        "focusStateEnabled": [{ type: core_1.Input },],
-        "grouped": [{ type: core_1.Input },],
-        "groupTemplate": [{ type: core_1.Input },],
-        "height": [{ type: core_1.Input },],
-        "hint": [{ type: core_1.Input },],
-        "hoverStateEnabled": [{ type: core_1.Input },],
-        "inputAttr": [{ type: core_1.Input },],
-        "isValid": [{ type: core_1.Input },],
-        "items": [{ type: core_1.Input },],
-        "itemTemplate": [{ type: core_1.Input },],
-        "maxLength": [{ type: core_1.Input },],
-        "minSearchLength": [{ type: core_1.Input },],
-        "name": [{ type: core_1.Input },],
-        "noDataText": [{ type: core_1.Input },],
-        "opened": [{ type: core_1.Input },],
-        "openOnFieldClick": [{ type: core_1.Input },],
-        "placeholder": [{ type: core_1.Input },],
-        "readOnly": [{ type: core_1.Input },],
-        "rtlEnabled": [{ type: core_1.Input },],
-        "searchEnabled": [{ type: core_1.Input },],
-        "searchExpr": [{ type: core_1.Input },],
-        "searchMode": [{ type: core_1.Input },],
-        "searchTimeout": [{ type: core_1.Input },],
-        "selectedItem": [{ type: core_1.Input },],
-        "showClearButton": [{ type: core_1.Input },],
-        "showDataBeforeSearch": [{ type: core_1.Input },],
-        "showDropDownButton": [{ type: core_1.Input },],
-        "showSelectionControls": [{ type: core_1.Input },],
-        "spellcheck": [{ type: core_1.Input },],
-        "stylingMode": [{ type: core_1.Input },],
-        "tabIndex": [{ type: core_1.Input },],
-        "text": [{ type: core_1.Input },],
-        "validationError": [{ type: core_1.Input },],
-        "validationMessageMode": [{ type: core_1.Input },],
-        "value": [{ type: core_1.Input },],
-        "valueChangeEvent": [{ type: core_1.Input },],
-        "valueExpr": [{ type: core_1.Input },],
-        "visible": [{ type: core_1.Input },],
-        "width": [{ type: core_1.Input },],
-        "onChange": [{ type: core_1.Output },],
-        "onClosed": [{ type: core_1.Output },],
-        "onContentReady": [{ type: core_1.Output },],
-        "onCopy": [{ type: core_1.Output },],
-        "onCustomItemCreating": [{ type: core_1.Output },],
-        "onCut": [{ type: core_1.Output },],
-        "onDisposing": [{ type: core_1.Output },],
-        "onEnterKey": [{ type: core_1.Output },],
-        "onFocusIn": [{ type: core_1.Output },],
-        "onFocusOut": [{ type: core_1.Output },],
-        "onInitialized": [{ type: core_1.Output },],
-        "onInput": [{ type: core_1.Output },],
-        "onItemClick": [{ type: core_1.Output },],
-        "onKeyDown": [{ type: core_1.Output },],
-        "onKeyPress": [{ type: core_1.Output },],
-        "onKeyUp": [{ type: core_1.Output },],
-        "onOpened": [{ type: core_1.Output },],
-        "onOptionChanged": [{ type: core_1.Output },],
-        "onPaste": [{ type: core_1.Output },],
-        "onSelectionChanged": [{ type: core_1.Output },],
-        "onValueChanged": [{ type: core_1.Output },],
-        "acceptCustomValueChange": [{ type: core_1.Output },],
-        "accessKeyChange": [{ type: core_1.Output },],
-        "activeStateEnabledChange": [{ type: core_1.Output },],
-        "buttonsChange": [{ type: core_1.Output },],
-        "dataSourceChange": [{ type: core_1.Output },],
-        "deferRenderingChange": [{ type: core_1.Output },],
-        "disabledChange": [{ type: core_1.Output },],
-        "displayExprChange": [{ type: core_1.Output },],
-        "displayValueChange": [{ type: core_1.Output },],
-        "dropDownButtonTemplateChange": [{ type: core_1.Output },],
-        "elementAttrChange": [{ type: core_1.Output },],
-        "fieldTemplateChange": [{ type: core_1.Output },],
-        "focusStateEnabledChange": [{ type: core_1.Output },],
-        "groupedChange": [{ type: core_1.Output },],
-        "groupTemplateChange": [{ type: core_1.Output },],
-        "heightChange": [{ type: core_1.Output },],
-        "hintChange": [{ type: core_1.Output },],
-        "hoverStateEnabledChange": [{ type: core_1.Output },],
-        "inputAttrChange": [{ type: core_1.Output },],
-        "isValidChange": [{ type: core_1.Output },],
-        "itemsChange": [{ type: core_1.Output },],
-        "itemTemplateChange": [{ type: core_1.Output },],
-        "maxLengthChange": [{ type: core_1.Output },],
-        "minSearchLengthChange": [{ type: core_1.Output },],
-        "nameChange": [{ type: core_1.Output },],
-        "noDataTextChange": [{ type: core_1.Output },],
-        "openedChange": [{ type: core_1.Output },],
-        "openOnFieldClickChange": [{ type: core_1.Output },],
-        "placeholderChange": [{ type: core_1.Output },],
-        "readOnlyChange": [{ type: core_1.Output },],
-        "rtlEnabledChange": [{ type: core_1.Output },],
-        "searchEnabledChange": [{ type: core_1.Output },],
-        "searchExprChange": [{ type: core_1.Output },],
-        "searchModeChange": [{ type: core_1.Output },],
-        "searchTimeoutChange": [{ type: core_1.Output },],
-        "selectedItemChange": [{ type: core_1.Output },],
-        "showClearButtonChange": [{ type: core_1.Output },],
-        "showDataBeforeSearchChange": [{ type: core_1.Output },],
-        "showDropDownButtonChange": [{ type: core_1.Output },],
-        "showSelectionControlsChange": [{ type: core_1.Output },],
-        "spellcheckChange": [{ type: core_1.Output },],
-        "stylingModeChange": [{ type: core_1.Output },],
-        "tabIndexChange": [{ type: core_1.Output },],
-        "textChange": [{ type: core_1.Output },],
-        "validationErrorChange": [{ type: core_1.Output },],
-        "validationMessageModeChange": [{ type: core_1.Output },],
-        "valueChange": [{ type: core_1.Output },],
-        "valueChangeEventChange": [{ type: core_1.Output },],
-        "valueExprChange": [{ type: core_1.Output },],
-        "visibleChange": [{ type: core_1.Output },],
-        "widthChange": [{ type: core_1.Output },],
-        "onBlur": [{ type: core_1.Output },],
-        "change": [{ type: core_1.HostListener, args: ['valueChange', ['$event'],] },],
-        "touched": [{ type: core_1.HostListener, args: ['onBlur', ['$event'],] },],
-        "buttonsChildren": [{ type: core_1.ContentChildren, args: [button_dxi_2.DxiButtonComponent,] },],
-        "itemsChildren": [{ type: core_1.ContentChildren, args: [item_dxi_2.DxiItemComponent,] },],
-    };
-    return DxSelectBoxComponent;
-}(component_1.DxComponent));
-exports.DxSelectBoxComponent = DxSelectBoxComponent;
-var DxSelectBoxModule = (function () {
-    function DxSelectBoxModule() {
-    }
-    DxSelectBoxModule.decorators = [
-        { type: core_1.NgModule, args: [{
-                    imports: [
-                        button_dxi_1.DxiButtonModule,
-                        options_1.DxoOptionsModule,
-                        item_dxi_1.DxiItemModule,
-                        integration_1.DxIntegrationModule,
-                        template_1.DxTemplateModule,
-                        platform_browser_1.BrowserTransferStateModule
-                    ],
-                    declarations: [
-                        DxSelectBoxComponent
-                    ],
-                    exports: [
-                        DxSelectBoxComponent,
-                        button_dxi_1.DxiButtonModule,
-                        options_1.DxoOptionsModule,
-                        item_dxi_1.DxiItemModule,
-                        template_1.DxTemplateModule
-                    ]
-                },] },
-    ];
-    return DxSelectBoxModule;
-}());
-exports.DxSelectBoxModule = DxSelectBoxModule;
-//# sourceMappingURL=select-box.js.map
-
-/***/ }),
-
-/***/ "./node_modules/devextreme-angular/ui/select-box.ngfactory.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/devextreme-angular/ui/select-box.ngfactory.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-Object.defineProperty(exports, "__esModule", { value: true });
-const i0 = __webpack_require__(/*! @angular/core */ "@angular/core");
-const i1 = __webpack_require__(/*! ./select-box */ "./node_modules/devextreme-angular/ui/select-box.js");
-const i2 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-const i3 = __webpack_require__(/*! @angular/common */ "@angular/common");
-const i4 = __webpack_require__(/*! ./nested/button-dxi */ "./node_modules/devextreme-angular/ui/nested/button-dxi.js");
-const i5 = __webpack_require__(/*! ./nested/options */ "./node_modules/devextreme-angular/ui/nested/options.js");
-const i6 = __webpack_require__(/*! ./nested/item-dxi */ "./node_modules/devextreme-angular/ui/nested/item-dxi.js");
-const i7 = __webpack_require__(/*! ../core/integration */ "./node_modules/devextreme-angular/core/integration.js");
-const i8 = __webpack_require__(/*! @angular/common/http */ "@angular/common/http");
-const i9 = __webpack_require__(/*! ../core/template */ "./node_modules/devextreme-angular/core/template.js");
-const i10 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
-const i11 = __webpack_require__(/*! ../core/template-host */ "./node_modules/devextreme-angular/core/template-host.js");
-const i12 = __webpack_require__(/*! ../core/watcher-helper */ "./node_modules/devextreme-angular/core/watcher-helper.js");
-const i13 = __webpack_require__(/*! ../core/iterable-differ-helper */ "./node_modules/devextreme-angular/core/iterable-differ-helper.js");
-const i14 = __webpack_require__(/*! ../core/nested-option */ "./node_modules/devextreme-angular/core/nested-option.js");
-var DxSelectBoxModuleNgFactory = i0.ɵcmf(i1.DxSelectBoxModule, [], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, []], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(5120, i2.TransferState, i2.ɵangular_packages_platform_browser_platform_browser_f, [i3.DOCUMENT, i0.APP_ID]), i0.ɵmpd(1073742336, i4.DxiButtonModule, i4.DxiButtonModule, []), i0.ɵmpd(1073742336, i5.DxoOptionsModule, i5.DxoOptionsModule, []), i0.ɵmpd(1073742336, i6.DxiItemModule, i6.DxiItemModule, []), i0.ɵmpd(1073742336, i7.DxIntegrationModule, i7.DxIntegrationModule, [i3.DOCUMENT, i0.NgZone, [2, i8.XhrFactory]]), i0.ɵmpd(1073742336, i9.DxTemplateModule, i9.DxTemplateModule, []), i0.ɵmpd(1073742336, i2.BrowserTransferStateModule, i2.BrowserTransferStateModule, []), i0.ɵmpd(1073742336, i1.DxSelectBoxModule, i1.DxSelectBoxModule, [])]); });
-exports.DxSelectBoxModuleNgFactory = DxSelectBoxModuleNgFactory;
-var styles_DxSelectBoxComponent = [];
-var RenderType_DxSelectBoxComponent = i0.ɵcrt({ encapsulation: 2, styles: styles_DxSelectBoxComponent, data: {} });
-exports.RenderType_DxSelectBoxComponent = RenderType_DxSelectBoxComponent;
-function View_DxSelectBoxComponent_0(_l) { return i0.ɵvid(0, [], null, null); }
-exports.View_DxSelectBoxComponent_0 = View_DxSelectBoxComponent_0;
-function View_DxSelectBoxComponent_Host_0(_l) { return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, 0, null, null, 9, "dx-select-box", [], null, [[null, "valueChange"], [null, "onBlur"]], function (_v, en, $event) { var ad = true; if (("valueChange" === en)) {
-        var pd_0 = (i0.ɵnov(_v, 6).change($event) !== false);
-        ad = (pd_0 && ad);
-    } if (("onBlur" === en)) {
-        var pd_1 = (i0.ɵnov(_v, 6).touched($event) !== false);
-        ad = (pd_1 && ad);
-    } return ad; }, View_DxSelectBoxComponent_0, RenderType_DxSelectBoxComponent)), i0.ɵprd(5120, null, i10.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i1.DxSelectBoxComponent]), i0.ɵprd(512, null, i11.DxTemplateHost, i11.DxTemplateHost, []), i0.ɵprd(512, null, i12.WatcherHelper, i12.WatcherHelper, []), i0.ɵprd(512, null, i13.IterableDifferHelper, i13.IterableDifferHelper, [i0.IterableDiffers]), i0.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i0.ɵdid(6, 7323648, null, 3, i1.DxSelectBoxComponent, [i0.ElementRef, i0.NgZone, i11.DxTemplateHost, i12.WatcherHelper, i13.IterableDifferHelper, i14.NestedOptionHost, i2.TransferState, i0.PLATFORM_ID], null, { valueChange: "valueChange", onBlur: "onBlur" }), i0.ɵqud(335544320, 1, { validator: 0 }), i0.ɵqud(603979776, 2, { buttonsChildren: 1 }), i0.ɵqud(603979776, 3, { itemsChildren: 1 })], function (_ck, _v) { _ck(_v, 6, 0); }, null); }
-exports.View_DxSelectBoxComponent_Host_0 = View_DxSelectBoxComponent_Host_0;
-var DxSelectBoxComponentNgFactory = i0.ɵccf("dx-select-box", i1.DxSelectBoxComponent, View_DxSelectBoxComponent_Host_0, { acceptCustomValue: "acceptCustomValue", accessKey: "accessKey", activeStateEnabled: "activeStateEnabled", buttons: "buttons", dataSource: "dataSource", deferRendering: "deferRendering", disabled: "disabled", displayExpr: "displayExpr", displayValue: "displayValue", dropDownButtonTemplate: "dropDownButtonTemplate", elementAttr: "elementAttr", fieldTemplate: "fieldTemplate", focusStateEnabled: "focusStateEnabled", grouped: "grouped", groupTemplate: "groupTemplate", height: "height", hint: "hint", hoverStateEnabled: "hoverStateEnabled", inputAttr: "inputAttr", isValid: "isValid", items: "items", itemTemplate: "itemTemplate", maxLength: "maxLength", minSearchLength: "minSearchLength", name: "name", noDataText: "noDataText", opened: "opened", openOnFieldClick: "openOnFieldClick", placeholder: "placeholder", readOnly: "readOnly", rtlEnabled: "rtlEnabled", searchEnabled: "searchEnabled", searchExpr: "searchExpr", searchMode: "searchMode", searchTimeout: "searchTimeout", selectedItem: "selectedItem", showClearButton: "showClearButton", showDataBeforeSearch: "showDataBeforeSearch", showDropDownButton: "showDropDownButton", showSelectionControls: "showSelectionControls", spellcheck: "spellcheck", stylingMode: "stylingMode", tabIndex: "tabIndex", text: "text", validationError: "validationError", validationMessageMode: "validationMessageMode", value: "value", valueChangeEvent: "valueChangeEvent", valueExpr: "valueExpr", visible: "visible", width: "width" }, { onChange: "onChange", onClosed: "onClosed", onContentReady: "onContentReady", onCopy: "onCopy", onCustomItemCreating: "onCustomItemCreating", onCut: "onCut", onDisposing: "onDisposing", onEnterKey: "onEnterKey", onFocusIn: "onFocusIn", onFocusOut: "onFocusOut", onInitialized: "onInitialized", onInput: "onInput", onItemClick: "onItemClick", onKeyDown: "onKeyDown", onKeyPress: "onKeyPress", onKeyUp: "onKeyUp", onOpened: "onOpened", onOptionChanged: "onOptionChanged", onPaste: "onPaste", onSelectionChanged: "onSelectionChanged", onValueChanged: "onValueChanged", acceptCustomValueChange: "acceptCustomValueChange", accessKeyChange: "accessKeyChange", activeStateEnabledChange: "activeStateEnabledChange", buttonsChange: "buttonsChange", dataSourceChange: "dataSourceChange", deferRenderingChange: "deferRenderingChange", disabledChange: "disabledChange", displayExprChange: "displayExprChange", displayValueChange: "displayValueChange", dropDownButtonTemplateChange: "dropDownButtonTemplateChange", elementAttrChange: "elementAttrChange", fieldTemplateChange: "fieldTemplateChange", focusStateEnabledChange: "focusStateEnabledChange", groupedChange: "groupedChange", groupTemplateChange: "groupTemplateChange", heightChange: "heightChange", hintChange: "hintChange", hoverStateEnabledChange: "hoverStateEnabledChange", inputAttrChange: "inputAttrChange", isValidChange: "isValidChange", itemsChange: "itemsChange", itemTemplateChange: "itemTemplateChange", maxLengthChange: "maxLengthChange", minSearchLengthChange: "minSearchLengthChange", nameChange: "nameChange", noDataTextChange: "noDataTextChange", openedChange: "openedChange", openOnFieldClickChange: "openOnFieldClickChange", placeholderChange: "placeholderChange", readOnlyChange: "readOnlyChange", rtlEnabledChange: "rtlEnabledChange", searchEnabledChange: "searchEnabledChange", searchExprChange: "searchExprChange", searchModeChange: "searchModeChange", searchTimeoutChange: "searchTimeoutChange", selectedItemChange: "selectedItemChange", showClearButtonChange: "showClearButtonChange", showDataBeforeSearchChange: "showDataBeforeSearchChange", showDropDownButtonChange: "showDropDownButtonChange", showSelectionControlsChange: "showSelectionControlsChange", spellcheckChange: "spellcheckChange", stylingModeChange: "stylingModeChange", tabIndexChange: "tabIndexChange", textChange: "textChange", validationErrorChange: "validationErrorChange", validationMessageModeChange: "validationMessageModeChange", valueChange: "valueChange", valueChangeEventChange: "valueChangeEventChange", valueExprChange: "valueExprChange", visibleChange: "visibleChange", widthChange: "widthChange", onBlur: "onBlur" }, []);
-exports.DxSelectBoxComponentNgFactory = DxSelectBoxComponentNgFactory;
-
-
-/***/ }),
-
 /***/ "./node_modules/devextreme-angular/ui/speed-dial-action.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/devextreme-angular/ui/speed-dial-action.js ***!
@@ -29257,835 +27858,6 @@ function View_DxSpeedDialActionComponent_Host_0(_l) { return i0.ɵvid(0, [(_l()(
 exports.View_DxSpeedDialActionComponent_Host_0 = View_DxSpeedDialActionComponent_Host_0;
 var DxSpeedDialActionComponentNgFactory = i0.ɵccf("dx-speed-dial-action", i1.DxSpeedDialActionComponent, View_DxSpeedDialActionComponent_Host_0, { accessKey: "accessKey", activeStateEnabled: "activeStateEnabled", elementAttr: "elementAttr", focusStateEnabled: "focusStateEnabled", hint: "hint", hoverStateEnabled: "hoverStateEnabled", icon: "icon", rtlEnabled: "rtlEnabled", tabIndex: "tabIndex" }, { onClick: "onClick", onContentReady: "onContentReady", onDisposing: "onDisposing", onInitialized: "onInitialized", onOptionChanged: "onOptionChanged", accessKeyChange: "accessKeyChange", activeStateEnabledChange: "activeStateEnabledChange", elementAttrChange: "elementAttrChange", focusStateEnabledChange: "focusStateEnabledChange", hintChange: "hintChange", hoverStateEnabledChange: "hoverStateEnabledChange", iconChange: "iconChange", rtlEnabledChange: "rtlEnabledChange", tabIndexChange: "tabIndexChange" }, []);
 exports.DxSpeedDialActionComponentNgFactory = DxSpeedDialActionComponentNgFactory;
-
-
-/***/ }),
-
-/***/ "./node_modules/devextreme-angular/ui/text-box.js":
-/*!********************************************************!*\
-  !*** ./node_modules/devextreme-angular/ui/text-box.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/*!
- * devextreme-angular
- * Version: 19.1.4
- * Build date: Mon Jun 17 2019
- *
- * Copyright (c) 2012 - 2019 Developer Express Inc. ALL RIGHTS RESERVED
- *
- * This software may be modified and distributed under the terms
- * of the MIT license. See the LICENSE file in the root of the project for details.
- *
- * https://github.com/DevExpress/devextreme-angular
- */
-Object.defineProperty(exports, "__esModule", { value: true });
-var platform_browser_1 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-var platform_browser_2 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-var text_box_1 = __webpack_require__(/*! devextreme/ui/text_box */ "devextreme/ui/text_box");
-var validator_1 = __webpack_require__(/*! ./validator */ "./node_modules/devextreme-angular/ui/validator.js");
-var forms_1 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
-var component_1 = __webpack_require__(/*! ../core/component */ "./node_modules/devextreme-angular/core/component.js");
-var template_host_1 = __webpack_require__(/*! ../core/template-host */ "./node_modules/devextreme-angular/core/template-host.js");
-var integration_1 = __webpack_require__(/*! ../core/integration */ "./node_modules/devextreme-angular/core/integration.js");
-var template_1 = __webpack_require__(/*! ../core/template */ "./node_modules/devextreme-angular/core/template.js");
-var nested_option_1 = __webpack_require__(/*! ../core/nested-option */ "./node_modules/devextreme-angular/core/nested-option.js");
-var watcher_helper_1 = __webpack_require__(/*! ../core/watcher-helper */ "./node_modules/devextreme-angular/core/watcher-helper.js");
-var iterable_differ_helper_1 = __webpack_require__(/*! ../core/iterable-differ-helper */ "./node_modules/devextreme-angular/core/iterable-differ-helper.js");
-var button_dxi_1 = __webpack_require__(/*! ./nested/button-dxi */ "./node_modules/devextreme-angular/ui/nested/button-dxi.js");
-var options_1 = __webpack_require__(/*! ./nested/options */ "./node_modules/devextreme-angular/ui/nested/options.js");
-var button_dxi_2 = __webpack_require__(/*! ./nested/button-dxi */ "./node_modules/devextreme-angular/ui/nested/button-dxi.js");
-var CUSTOM_VALUE_ACCESSOR_PROVIDER = {
-    provide: forms_1.NG_VALUE_ACCESSOR,
-    useExisting: core_1.forwardRef(function () { return DxTextBoxComponent; }),
-    multi: true
-};
-/**
- * The TextBox is a widget that enables a user to enter and edit a single line of text.
- */
-var DxTextBoxComponent = (function (_super) {
-    __extends(DxTextBoxComponent, _super);
-    function DxTextBoxComponent(elementRef, ngZone, templateHost, _watcherHelper, _idh, optionHost, transferState, platformId) {
-        var _this = _super.call(this, elementRef, ngZone, templateHost, _watcherHelper, transferState, platformId) || this;
-        _this._watcherHelper = _watcherHelper;
-        _this._idh = _idh;
-        _this.touched = function (_) { };
-        _this._createEventEmitters([
-            { subscribe: 'change', emit: 'onChange' },
-            { subscribe: 'contentReady', emit: 'onContentReady' },
-            { subscribe: 'copy', emit: 'onCopy' },
-            { subscribe: 'cut', emit: 'onCut' },
-            { subscribe: 'disposing', emit: 'onDisposing' },
-            { subscribe: 'enterKey', emit: 'onEnterKey' },
-            { subscribe: 'focusIn', emit: 'onFocusIn' },
-            { subscribe: 'focusOut', emit: 'onFocusOut' },
-            { subscribe: 'initialized', emit: 'onInitialized' },
-            { subscribe: 'input', emit: 'onInput' },
-            { subscribe: 'keyDown', emit: 'onKeyDown' },
-            { subscribe: 'keyPress', emit: 'onKeyPress' },
-            { subscribe: 'keyUp', emit: 'onKeyUp' },
-            { subscribe: 'optionChanged', emit: 'onOptionChanged' },
-            { subscribe: 'paste', emit: 'onPaste' },
-            { subscribe: 'valueChanged', emit: 'onValueChanged' },
-            { emit: 'accessKeyChange' },
-            { emit: 'activeStateEnabledChange' },
-            { emit: 'buttonsChange' },
-            { emit: 'disabledChange' },
-            { emit: 'elementAttrChange' },
-            { emit: 'focusStateEnabledChange' },
-            { emit: 'heightChange' },
-            { emit: 'hintChange' },
-            { emit: 'hoverStateEnabledChange' },
-            { emit: 'inputAttrChange' },
-            { emit: 'isValidChange' },
-            { emit: 'maskChange' },
-            { emit: 'maskCharChange' },
-            { emit: 'maskInvalidMessageChange' },
-            { emit: 'maskRulesChange' },
-            { emit: 'maxLengthChange' },
-            { emit: 'modeChange' },
-            { emit: 'nameChange' },
-            { emit: 'placeholderChange' },
-            { emit: 'readOnlyChange' },
-            { emit: 'rtlEnabledChange' },
-            { emit: 'showClearButtonChange' },
-            { emit: 'showMaskModeChange' },
-            { emit: 'spellcheckChange' },
-            { emit: 'stylingModeChange' },
-            { emit: 'tabIndexChange' },
-            { emit: 'textChange' },
-            { emit: 'useMaskedValueChange' },
-            { emit: 'validationErrorChange' },
-            { emit: 'validationMessageModeChange' },
-            { emit: 'valueChange' },
-            { emit: 'valueChangeEventChange' },
-            { emit: 'visibleChange' },
-            { emit: 'widthChange' },
-            { emit: 'onBlur' }
-        ]);
-        _this._idh.setHost(_this);
-        optionHost.setHost(_this);
-        return _this;
-    }
-    Object.defineProperty(DxTextBoxComponent.prototype, "accessKey", {
-        get: /**
-             * Specifies the shortcut key that sets focus on the widget.
-             */
-        function () {
-            return this._getOption('accessKey');
-        },
-        set: function (value) {
-            this._setOption('accessKey', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "activeStateEnabled", {
-        get: /**
-             * Specifies whether or not the widget changes its state when interacting with a user.
-             */
-        function () {
-            return this._getOption('activeStateEnabled');
-        },
-        set: function (value) {
-            this._setOption('activeStateEnabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "buttons", {
-        get: /**
-             * Allows you to add custom buttons to the input text field.
-             */
-        function () {
-            return this._getOption('buttons');
-        },
-        set: function (value) {
-            this._setOption('buttons', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "disabled", {
-        get: /**
-             * Specifies whether the widget responds to user interaction.
-             */
-        function () {
-            return this._getOption('disabled');
-        },
-        set: function (value) {
-            this._setOption('disabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "elementAttr", {
-        get: /**
-             * Specifies the attributes to be attached to the widget's root element.
-             */
-        function () {
-            return this._getOption('elementAttr');
-        },
-        set: function (value) {
-            this._setOption('elementAttr', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "focusStateEnabled", {
-        get: /**
-             * Specifies whether the widget can be focused using keyboard navigation.
-             */
-        function () {
-            return this._getOption('focusStateEnabled');
-        },
-        set: function (value) {
-            this._setOption('focusStateEnabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "height", {
-        get: /**
-             * Specifies the widget's height.
-             */
-        function () {
-            return this._getOption('height');
-        },
-        set: function (value) {
-            this._setOption('height', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "hint", {
-        get: /**
-             * Specifies text for a hint that appears when a user pauses on the widget.
-             */
-        function () {
-            return this._getOption('hint');
-        },
-        set: function (value) {
-            this._setOption('hint', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "hoverStateEnabled", {
-        get: /**
-             * Specifies whether the widget changes its state when a user pauses on it.
-             */
-        function () {
-            return this._getOption('hoverStateEnabled');
-        },
-        set: function (value) {
-            this._setOption('hoverStateEnabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "inputAttr", {
-        get: /**
-             * Specifies the attributes to be passed on to the underlying HTML element.
-             */
-        function () {
-            return this._getOption('inputAttr');
-        },
-        set: function (value) {
-            this._setOption('inputAttr', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "isValid", {
-        get: /**
-             * Specifies whether the editor's value is valid.
-             */
-        function () {
-            return this._getOption('isValid');
-        },
-        set: function (value) {
-            this._setOption('isValid', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "mask", {
-        get: /**
-             * The editor mask that specifies the format of the entered string.
-             */
-        function () {
-            return this._getOption('mask');
-        },
-        set: function (value) {
-            this._setOption('mask', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "maskChar", {
-        get: /**
-             * Specifies a mask placeholder character.
-             */
-        function () {
-            return this._getOption('maskChar');
-        },
-        set: function (value) {
-            this._setOption('maskChar', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "maskInvalidMessage", {
-        get: /**
-             * A message displayed when the entered text does not match the specified pattern.
-             */
-        function () {
-            return this._getOption('maskInvalidMessage');
-        },
-        set: function (value) {
-            this._setOption('maskInvalidMessage', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "maskRules", {
-        get: /**
-             * Specifies custom mask rules.
-             */
-        function () {
-            return this._getOption('maskRules');
-        },
-        set: function (value) {
-            this._setOption('maskRules', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "maxLength", {
-        get: /**
-             * Specifies the maximum number of characters you can enter into the textbox.
-             */
-        function () {
-            return this._getOption('maxLength');
-        },
-        set: function (value) {
-            this._setOption('maxLength', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "mode", {
-        get: /**
-             * The "mode" attribute value of the actual HTML input element representing the text box.
-             */
-        function () {
-            return this._getOption('mode');
-        },
-        set: function (value) {
-            this._setOption('mode', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "name", {
-        get: /**
-             * The value to be assigned to the `name` attribute of the underlying HTML element.
-             */
-        function () {
-            return this._getOption('name');
-        },
-        set: function (value) {
-            this._setOption('name', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "placeholder", {
-        get: /**
-             * The text displayed by the widget when the widget value is empty.
-             */
-        function () {
-            return this._getOption('placeholder');
-        },
-        set: function (value) {
-            this._setOption('placeholder', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "readOnly", {
-        get: /**
-             * Specifies whether the editor is read-only.
-             */
-        function () {
-            return this._getOption('readOnly');
-        },
-        set: function (value) {
-            this._setOption('readOnly', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "rtlEnabled", {
-        get: /**
-             * Switches the widget to a right-to-left representation.
-             */
-        function () {
-            return this._getOption('rtlEnabled');
-        },
-        set: function (value) {
-            this._setOption('rtlEnabled', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "showClearButton", {
-        get: /**
-             * Specifies whether to display the Clear button in the widget.
-             */
-        function () {
-            return this._getOption('showClearButton');
-        },
-        set: function (value) {
-            this._setOption('showClearButton', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "showMaskMode", {
-        get: /**
-             * Specifies when the widget shows the mask. Applies only if useMaskedValue is true.
-             */
-        function () {
-            return this._getOption('showMaskMode');
-        },
-        set: function (value) {
-            this._setOption('showMaskMode', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "spellcheck", {
-        get: /**
-             * Specifies whether or not the widget checks the inner text for spelling mistakes.
-             */
-        function () {
-            return this._getOption('spellcheck');
-        },
-        set: function (value) {
-            this._setOption('spellcheck', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "stylingMode", {
-        get: /**
-             * Specifies how the widget's text field is styled.
-             */
-        function () {
-            return this._getOption('stylingMode');
-        },
-        set: function (value) {
-            this._setOption('stylingMode', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "tabIndex", {
-        get: /**
-             * Specifies the number of the element when the Tab key is used for navigating.
-             */
-        function () {
-            return this._getOption('tabIndex');
-        },
-        set: function (value) {
-            this._setOption('tabIndex', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "text", {
-        get: /**
-             * The read-only option that holds the text displayed by the widget input element.
-             */
-        function () {
-            return this._getOption('text');
-        },
-        set: function (value) {
-            this._setOption('text', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "useMaskedValue", {
-        get: /**
-             * Specifies whether the value should contain mask characters or not.
-             */
-        function () {
-            return this._getOption('useMaskedValue');
-        },
-        set: function (value) {
-            this._setOption('useMaskedValue', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "validationError", {
-        get: /**
-             * Specifies information on the validation error when using a custom validation engine. Should be changed at runtime along with the isValid option.
-             */
-        function () {
-            return this._getOption('validationError');
-        },
-        set: function (value) {
-            this._setOption('validationError', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "validationMessageMode", {
-        get: /**
-             * Specifies how the message about the validation rules that are not satisfied by this editor's value is displayed.
-             */
-        function () {
-            return this._getOption('validationMessageMode');
-        },
-        set: function (value) {
-            this._setOption('validationMessageMode', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "value", {
-        get: /**
-             * Specifies a value the widget displays.
-             */
-        function () {
-            return this._getOption('value');
-        },
-        set: function (value) {
-            this._setOption('value', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "valueChangeEvent", {
-        get: /**
-             * Specifies the DOM events after which the widget's value should be updated.
-             */
-        function () {
-            return this._getOption('valueChangeEvent');
-        },
-        set: function (value) {
-            this._setOption('valueChangeEvent', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "visible", {
-        get: /**
-             * Specifies whether the widget is visible.
-             */
-        function () {
-            return this._getOption('visible');
-        },
-        set: function (value) {
-            this._setOption('visible', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxTextBoxComponent.prototype, "width", {
-        get: /**
-             * Specifies the widget's width.
-             */
-        function () {
-            return this._getOption('width');
-        },
-        set: function (value) {
-            this._setOption('width', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    DxTextBoxComponent.prototype.change = function (_) { };
-    Object.defineProperty(DxTextBoxComponent.prototype, "buttonsChildren", {
-        get: function () {
-            return this._getOption('buttons');
-        },
-        set: function (value) {
-            this.setChildren('buttons', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    DxTextBoxComponent.prototype._createInstance = function (element, options) {
-        return new text_box_1.default(element, options);
-    };
-    DxTextBoxComponent.prototype.writeValue = function (value) {
-        this.eventHelper.lockedValueChangeEvent = true;
-        this.value = value;
-        this.eventHelper.lockedValueChangeEvent = false;
-    };
-    DxTextBoxComponent.prototype.setDisabledState = function (isDisabled) {
-        this.disabled = isDisabled;
-    };
-    DxTextBoxComponent.prototype.registerOnChange = function (fn) { this.change = fn; };
-    DxTextBoxComponent.prototype.registerOnTouched = function (fn) { this.touched = fn; };
-    DxTextBoxComponent.prototype._createWidget = function (element) {
-        var _this = this;
-        _super.prototype._createWidget.call(this, element);
-        this.instance.on('focusOut', function (e) {
-            _this.eventHelper.fireNgEvent('onBlur', [e]);
-        });
-    };
-    DxTextBoxComponent.prototype.ngOnDestroy = function () {
-        this._destroyWidget();
-    };
-    DxTextBoxComponent.prototype.ngOnChanges = function (changes) {
-        _super.prototype.ngOnChanges.call(this, changes);
-        this.setupChanges('buttons', changes);
-    };
-    DxTextBoxComponent.prototype.setupChanges = function (prop, changes) {
-        if (!(prop in this._optionsToUpdate)) {
-            this._idh.setup(prop, changes);
-        }
-    };
-    DxTextBoxComponent.prototype.ngDoCheck = function () {
-        this._idh.doCheck('buttons');
-        this._watcherHelper.checkWatchers();
-        _super.prototype.ngDoCheck.call(this);
-        _super.prototype.clearChangedOptions.call(this);
-    };
-    DxTextBoxComponent.prototype._setOption = function (name, value) {
-        var isSetup = this._idh.setupSingle(name, value);
-        var isChanged = this._idh.getChanges(name, value) !== null;
-        if (isSetup || isChanged) {
-            _super.prototype._setOption.call(this, name, value);
-        }
-    };
-    DxTextBoxComponent.prototype.ngOnInit = function () {
-        _super.prototype.ngOnInit.call(this);
-        if (this.validator) {
-            this.validator.createInstanceOnInit = false;
-        }
-    };
-    DxTextBoxComponent.prototype.ngAfterViewInit = function () {
-        _super.prototype.ngAfterViewInit.call(this);
-        if (this.validator) {
-            this.validator.createInstance(this.element.nativeElement);
-        }
-    };
-    DxTextBoxComponent.decorators = [
-        { type: core_1.Component, args: [{
-                    selector: 'dx-text-box',
-                    template: '',
-                    providers: [
-                        template_host_1.DxTemplateHost,
-                        watcher_helper_1.WatcherHelper,
-                        CUSTOM_VALUE_ACCESSOR_PROVIDER,
-                        nested_option_1.NestedOptionHost,
-                        iterable_differ_helper_1.IterableDifferHelper
-                    ]
-                },] },
-    ];
-    /** @nocollapse */
-    DxTextBoxComponent.ctorParameters = function () { return [
-        { type: core_1.ElementRef, },
-        { type: core_1.NgZone, },
-        { type: template_host_1.DxTemplateHost, },
-        { type: watcher_helper_1.WatcherHelper, },
-        { type: iterable_differ_helper_1.IterableDifferHelper, },
-        { type: nested_option_1.NestedOptionHost, },
-        { type: platform_browser_2.TransferState, },
-        { type: undefined, decorators: [{ type: core_1.Inject, args: [core_1.PLATFORM_ID,] },] },
-    ]; };
-    DxTextBoxComponent.propDecorators = {
-        "validator": [{ type: core_1.ContentChild, args: [validator_1.DxValidatorComponent,] },],
-        "accessKey": [{ type: core_1.Input },],
-        "activeStateEnabled": [{ type: core_1.Input },],
-        "buttons": [{ type: core_1.Input },],
-        "disabled": [{ type: core_1.Input },],
-        "elementAttr": [{ type: core_1.Input },],
-        "focusStateEnabled": [{ type: core_1.Input },],
-        "height": [{ type: core_1.Input },],
-        "hint": [{ type: core_1.Input },],
-        "hoverStateEnabled": [{ type: core_1.Input },],
-        "inputAttr": [{ type: core_1.Input },],
-        "isValid": [{ type: core_1.Input },],
-        "mask": [{ type: core_1.Input },],
-        "maskChar": [{ type: core_1.Input },],
-        "maskInvalidMessage": [{ type: core_1.Input },],
-        "maskRules": [{ type: core_1.Input },],
-        "maxLength": [{ type: core_1.Input },],
-        "mode": [{ type: core_1.Input },],
-        "name": [{ type: core_1.Input },],
-        "placeholder": [{ type: core_1.Input },],
-        "readOnly": [{ type: core_1.Input },],
-        "rtlEnabled": [{ type: core_1.Input },],
-        "showClearButton": [{ type: core_1.Input },],
-        "showMaskMode": [{ type: core_1.Input },],
-        "spellcheck": [{ type: core_1.Input },],
-        "stylingMode": [{ type: core_1.Input },],
-        "tabIndex": [{ type: core_1.Input },],
-        "text": [{ type: core_1.Input },],
-        "useMaskedValue": [{ type: core_1.Input },],
-        "validationError": [{ type: core_1.Input },],
-        "validationMessageMode": [{ type: core_1.Input },],
-        "value": [{ type: core_1.Input },],
-        "valueChangeEvent": [{ type: core_1.Input },],
-        "visible": [{ type: core_1.Input },],
-        "width": [{ type: core_1.Input },],
-        "onChange": [{ type: core_1.Output },],
-        "onContentReady": [{ type: core_1.Output },],
-        "onCopy": [{ type: core_1.Output },],
-        "onCut": [{ type: core_1.Output },],
-        "onDisposing": [{ type: core_1.Output },],
-        "onEnterKey": [{ type: core_1.Output },],
-        "onFocusIn": [{ type: core_1.Output },],
-        "onFocusOut": [{ type: core_1.Output },],
-        "onInitialized": [{ type: core_1.Output },],
-        "onInput": [{ type: core_1.Output },],
-        "onKeyDown": [{ type: core_1.Output },],
-        "onKeyPress": [{ type: core_1.Output },],
-        "onKeyUp": [{ type: core_1.Output },],
-        "onOptionChanged": [{ type: core_1.Output },],
-        "onPaste": [{ type: core_1.Output },],
-        "onValueChanged": [{ type: core_1.Output },],
-        "accessKeyChange": [{ type: core_1.Output },],
-        "activeStateEnabledChange": [{ type: core_1.Output },],
-        "buttonsChange": [{ type: core_1.Output },],
-        "disabledChange": [{ type: core_1.Output },],
-        "elementAttrChange": [{ type: core_1.Output },],
-        "focusStateEnabledChange": [{ type: core_1.Output },],
-        "heightChange": [{ type: core_1.Output },],
-        "hintChange": [{ type: core_1.Output },],
-        "hoverStateEnabledChange": [{ type: core_1.Output },],
-        "inputAttrChange": [{ type: core_1.Output },],
-        "isValidChange": [{ type: core_1.Output },],
-        "maskChange": [{ type: core_1.Output },],
-        "maskCharChange": [{ type: core_1.Output },],
-        "maskInvalidMessageChange": [{ type: core_1.Output },],
-        "maskRulesChange": [{ type: core_1.Output },],
-        "maxLengthChange": [{ type: core_1.Output },],
-        "modeChange": [{ type: core_1.Output },],
-        "nameChange": [{ type: core_1.Output },],
-        "placeholderChange": [{ type: core_1.Output },],
-        "readOnlyChange": [{ type: core_1.Output },],
-        "rtlEnabledChange": [{ type: core_1.Output },],
-        "showClearButtonChange": [{ type: core_1.Output },],
-        "showMaskModeChange": [{ type: core_1.Output },],
-        "spellcheckChange": [{ type: core_1.Output },],
-        "stylingModeChange": [{ type: core_1.Output },],
-        "tabIndexChange": [{ type: core_1.Output },],
-        "textChange": [{ type: core_1.Output },],
-        "useMaskedValueChange": [{ type: core_1.Output },],
-        "validationErrorChange": [{ type: core_1.Output },],
-        "validationMessageModeChange": [{ type: core_1.Output },],
-        "valueChange": [{ type: core_1.Output },],
-        "valueChangeEventChange": [{ type: core_1.Output },],
-        "visibleChange": [{ type: core_1.Output },],
-        "widthChange": [{ type: core_1.Output },],
-        "onBlur": [{ type: core_1.Output },],
-        "change": [{ type: core_1.HostListener, args: ['valueChange', ['$event'],] },],
-        "touched": [{ type: core_1.HostListener, args: ['onBlur', ['$event'],] },],
-        "buttonsChildren": [{ type: core_1.ContentChildren, args: [button_dxi_2.DxiButtonComponent,] },],
-    };
-    return DxTextBoxComponent;
-}(component_1.DxComponent));
-exports.DxTextBoxComponent = DxTextBoxComponent;
-var DxTextBoxModule = (function () {
-    function DxTextBoxModule() {
-    }
-    DxTextBoxModule.decorators = [
-        { type: core_1.NgModule, args: [{
-                    imports: [
-                        button_dxi_1.DxiButtonModule,
-                        options_1.DxoOptionsModule,
-                        integration_1.DxIntegrationModule,
-                        template_1.DxTemplateModule,
-                        platform_browser_1.BrowserTransferStateModule
-                    ],
-                    declarations: [
-                        DxTextBoxComponent
-                    ],
-                    exports: [
-                        DxTextBoxComponent,
-                        button_dxi_1.DxiButtonModule,
-                        options_1.DxoOptionsModule,
-                        template_1.DxTemplateModule
-                    ]
-                },] },
-    ];
-    return DxTextBoxModule;
-}());
-exports.DxTextBoxModule = DxTextBoxModule;
-//# sourceMappingURL=text-box.js.map
-
-/***/ }),
-
-/***/ "./node_modules/devextreme-angular/ui/text-box.ngfactory.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/devextreme-angular/ui/text-box.ngfactory.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-Object.defineProperty(exports, "__esModule", { value: true });
-const i0 = __webpack_require__(/*! @angular/core */ "@angular/core");
-const i1 = __webpack_require__(/*! ./text-box */ "./node_modules/devextreme-angular/ui/text-box.js");
-const i2 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-const i3 = __webpack_require__(/*! @angular/common */ "@angular/common");
-const i4 = __webpack_require__(/*! ./nested/button-dxi */ "./node_modules/devextreme-angular/ui/nested/button-dxi.js");
-const i5 = __webpack_require__(/*! ./nested/options */ "./node_modules/devextreme-angular/ui/nested/options.js");
-const i6 = __webpack_require__(/*! ../core/integration */ "./node_modules/devextreme-angular/core/integration.js");
-const i7 = __webpack_require__(/*! @angular/common/http */ "@angular/common/http");
-const i8 = __webpack_require__(/*! ../core/template */ "./node_modules/devextreme-angular/core/template.js");
-const i9 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
-const i10 = __webpack_require__(/*! ../core/template-host */ "./node_modules/devextreme-angular/core/template-host.js");
-const i11 = __webpack_require__(/*! ../core/watcher-helper */ "./node_modules/devextreme-angular/core/watcher-helper.js");
-const i12 = __webpack_require__(/*! ../core/iterable-differ-helper */ "./node_modules/devextreme-angular/core/iterable-differ-helper.js");
-const i13 = __webpack_require__(/*! ../core/nested-option */ "./node_modules/devextreme-angular/core/nested-option.js");
-var DxTextBoxModuleNgFactory = i0.ɵcmf(i1.DxTextBoxModule, [], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, []], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(5120, i2.TransferState, i2.ɵangular_packages_platform_browser_platform_browser_f, [i3.DOCUMENT, i0.APP_ID]), i0.ɵmpd(1073742336, i4.DxiButtonModule, i4.DxiButtonModule, []), i0.ɵmpd(1073742336, i5.DxoOptionsModule, i5.DxoOptionsModule, []), i0.ɵmpd(1073742336, i6.DxIntegrationModule, i6.DxIntegrationModule, [i3.DOCUMENT, i0.NgZone, [2, i7.XhrFactory]]), i0.ɵmpd(1073742336, i8.DxTemplateModule, i8.DxTemplateModule, []), i0.ɵmpd(1073742336, i2.BrowserTransferStateModule, i2.BrowserTransferStateModule, []), i0.ɵmpd(1073742336, i1.DxTextBoxModule, i1.DxTextBoxModule, [])]); });
-exports.DxTextBoxModuleNgFactory = DxTextBoxModuleNgFactory;
-var styles_DxTextBoxComponent = [];
-var RenderType_DxTextBoxComponent = i0.ɵcrt({ encapsulation: 2, styles: styles_DxTextBoxComponent, data: {} });
-exports.RenderType_DxTextBoxComponent = RenderType_DxTextBoxComponent;
-function View_DxTextBoxComponent_0(_l) { return i0.ɵvid(0, [], null, null); }
-exports.View_DxTextBoxComponent_0 = View_DxTextBoxComponent_0;
-function View_DxTextBoxComponent_Host_0(_l) { return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, 0, null, null, 8, "dx-text-box", [], null, [[null, "valueChange"], [null, "onBlur"]], function (_v, en, $event) { var ad = true; if (("valueChange" === en)) {
-        var pd_0 = (i0.ɵnov(_v, 6).change($event) !== false);
-        ad = (pd_0 && ad);
-    } if (("onBlur" === en)) {
-        var pd_1 = (i0.ɵnov(_v, 6).touched($event) !== false);
-        ad = (pd_1 && ad);
-    } return ad; }, View_DxTextBoxComponent_0, RenderType_DxTextBoxComponent)), i0.ɵprd(5120, null, i9.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i1.DxTextBoxComponent]), i0.ɵprd(512, null, i10.DxTemplateHost, i10.DxTemplateHost, []), i0.ɵprd(512, null, i11.WatcherHelper, i11.WatcherHelper, []), i0.ɵprd(512, null, i12.IterableDifferHelper, i12.IterableDifferHelper, [i0.IterableDiffers]), i0.ɵprd(512, null, i13.NestedOptionHost, i13.NestedOptionHost, []), i0.ɵdid(6, 7323648, null, 2, i1.DxTextBoxComponent, [i0.ElementRef, i0.NgZone, i10.DxTemplateHost, i11.WatcherHelper, i12.IterableDifferHelper, i13.NestedOptionHost, i2.TransferState, i0.PLATFORM_ID], null, { valueChange: "valueChange", onBlur: "onBlur" }), i0.ɵqud(335544320, 1, { validator: 0 }), i0.ɵqud(603979776, 2, { buttonsChildren: 1 })], function (_ck, _v) { _ck(_v, 6, 0); }, null); }
-exports.View_DxTextBoxComponent_Host_0 = View_DxTextBoxComponent_Host_0;
-var DxTextBoxComponentNgFactory = i0.ɵccf("dx-text-box", i1.DxTextBoxComponent, View_DxTextBoxComponent_Host_0, { accessKey: "accessKey", activeStateEnabled: "activeStateEnabled", buttons: "buttons", disabled: "disabled", elementAttr: "elementAttr", focusStateEnabled: "focusStateEnabled", height: "height", hint: "hint", hoverStateEnabled: "hoverStateEnabled", inputAttr: "inputAttr", isValid: "isValid", mask: "mask", maskChar: "maskChar", maskInvalidMessage: "maskInvalidMessage", maskRules: "maskRules", maxLength: "maxLength", mode: "mode", name: "name", placeholder: "placeholder", readOnly: "readOnly", rtlEnabled: "rtlEnabled", showClearButton: "showClearButton", showMaskMode: "showMaskMode", spellcheck: "spellcheck", stylingMode: "stylingMode", tabIndex: "tabIndex", text: "text", useMaskedValue: "useMaskedValue", validationError: "validationError", validationMessageMode: "validationMessageMode", value: "value", valueChangeEvent: "valueChangeEvent", visible: "visible", width: "width" }, { onChange: "onChange", onContentReady: "onContentReady", onCopy: "onCopy", onCut: "onCut", onDisposing: "onDisposing", onEnterKey: "onEnterKey", onFocusIn: "onFocusIn", onFocusOut: "onFocusOut", onInitialized: "onInitialized", onInput: "onInput", onKeyDown: "onKeyDown", onKeyPress: "onKeyPress", onKeyUp: "onKeyUp", onOptionChanged: "onOptionChanged", onPaste: "onPaste", onValueChanged: "onValueChanged", accessKeyChange: "accessKeyChange", activeStateEnabledChange: "activeStateEnabledChange", buttonsChange: "buttonsChange", disabledChange: "disabledChange", elementAttrChange: "elementAttrChange", focusStateEnabledChange: "focusStateEnabledChange", heightChange: "heightChange", hintChange: "hintChange", hoverStateEnabledChange: "hoverStateEnabledChange", inputAttrChange: "inputAttrChange", isValidChange: "isValidChange", maskChange: "maskChange", maskCharChange: "maskCharChange", maskInvalidMessageChange: "maskInvalidMessageChange", maskRulesChange: "maskRulesChange", maxLengthChange: "maxLengthChange", modeChange: "modeChange", nameChange: "nameChange", placeholderChange: "placeholderChange", readOnlyChange: "readOnlyChange", rtlEnabledChange: "rtlEnabledChange", showClearButtonChange: "showClearButtonChange", showMaskModeChange: "showMaskModeChange", spellcheckChange: "spellcheckChange", stylingModeChange: "stylingModeChange", tabIndexChange: "tabIndexChange", textChange: "textChange", useMaskedValueChange: "useMaskedValueChange", validationErrorChange: "validationErrorChange", validationMessageModeChange: "validationMessageModeChange", valueChange: "valueChange", valueChangeEventChange: "valueChangeEventChange", visibleChange: "visibleChange", widthChange: "widthChange", onBlur: "onBlur" }, []);
-exports.DxTextBoxComponentNgFactory = DxTextBoxComponentNgFactory;
 
 
 /***/ }),
@@ -31114,284 +28886,6 @@ exports.DxToolbarComponentNgFactory = DxToolbarComponentNgFactory;
 
 /***/ }),
 
-/***/ "./node_modules/devextreme-angular/ui/validator.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/devextreme-angular/ui/validator.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/*!
- * devextreme-angular
- * Version: 19.1.4
- * Build date: Mon Jun 17 2019
- *
- * Copyright (c) 2012 - 2019 Developer Express Inc. ALL RIGHTS RESERVED
- *
- * This software may be modified and distributed under the terms
- * of the MIT license. See the LICENSE file in the root of the project for details.
- *
- * https://github.com/DevExpress/devextreme-angular
- */
-Object.defineProperty(exports, "__esModule", { value: true });
-var platform_browser_1 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-var platform_browser_2 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-var core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-var validator_1 = __webpack_require__(/*! devextreme/ui/validator */ "devextreme/ui/validator");
-var component_1 = __webpack_require__(/*! ../core/component */ "./node_modules/devextreme-angular/core/component.js");
-var template_host_1 = __webpack_require__(/*! ../core/template-host */ "./node_modules/devextreme-angular/core/template-host.js");
-var integration_1 = __webpack_require__(/*! ../core/integration */ "./node_modules/devextreme-angular/core/integration.js");
-var template_1 = __webpack_require__(/*! ../core/template */ "./node_modules/devextreme-angular/core/template.js");
-var nested_option_1 = __webpack_require__(/*! ../core/nested-option */ "./node_modules/devextreme-angular/core/nested-option.js");
-var watcher_helper_1 = __webpack_require__(/*! ../core/watcher-helper */ "./node_modules/devextreme-angular/core/watcher-helper.js");
-var iterable_differ_helper_1 = __webpack_require__(/*! ../core/iterable-differ-helper */ "./node_modules/devextreme-angular/core/iterable-differ-helper.js");
-var adapter_1 = __webpack_require__(/*! ./nested/adapter */ "./node_modules/devextreme-angular/ui/nested/adapter.js");
-var validation_rule_dxi_1 = __webpack_require__(/*! ./nested/validation-rule-dxi */ "./node_modules/devextreme-angular/ui/nested/validation-rule-dxi.js");
-var validation_rule_dxi_2 = __webpack_require__(/*! ./nested/validation-rule-dxi */ "./node_modules/devextreme-angular/ui/nested/validation-rule-dxi.js");
-/**
- * A widget that is used to validate the associated DevExtreme editors against the defined validation rules.
- */
-var DxValidatorComponent = (function (_super) {
-    __extends(DxValidatorComponent, _super);
-    function DxValidatorComponent(elementRef, ngZone, templateHost, _watcherHelper, _idh, optionHost, transferState, platformId) {
-        var _this = _super.call(this, elementRef, ngZone, templateHost, _watcherHelper, transferState, platformId) || this;
-        _this._watcherHelper = _watcherHelper;
-        _this._idh = _idh;
-        _this._createEventEmitters([
-            { subscribe: 'disposing', emit: 'onDisposing' },
-            { subscribe: 'initialized', emit: 'onInitialized' },
-            { subscribe: 'optionChanged', emit: 'onOptionChanged' },
-            { subscribe: 'validated', emit: 'onValidated' },
-            { emit: 'adapterChange' },
-            { emit: 'elementAttrChange' },
-            { emit: 'heightChange' },
-            { emit: 'nameChange' },
-            { emit: 'validationGroupChange' },
-            { emit: 'validationRulesChange' },
-            { emit: 'widthChange' }
-        ]);
-        _this._idh.setHost(_this);
-        optionHost.setHost(_this);
-        return _this;
-    }
-    Object.defineProperty(DxValidatorComponent.prototype, "adapter", {
-        get: /**
-             * An object that specifies what and when to validate, and how to apply the validation result.
-             */
-        function () {
-            return this._getOption('adapter');
-        },
-        set: function (value) {
-            this._setOption('adapter', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxValidatorComponent.prototype, "elementAttr", {
-        get: /**
-             * Specifies the attributes to be attached to the widget's root element.
-             */
-        function () {
-            return this._getOption('elementAttr');
-        },
-        set: function (value) {
-            this._setOption('elementAttr', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxValidatorComponent.prototype, "height", {
-        get: /**
-             * Specifies the widget's height.
-             */
-        function () {
-            return this._getOption('height');
-        },
-        set: function (value) {
-            this._setOption('height', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxValidatorComponent.prototype, "name", {
-        get: /**
-             * Specifies the editor name to be used in the validation default messages.
-             */
-        function () {
-            return this._getOption('name');
-        },
-        set: function (value) {
-            this._setOption('name', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxValidatorComponent.prototype, "validationGroup", {
-        get: /**
-             * Specifies the validation group the editor will be related to.
-             */
-        function () {
-            return this._getOption('validationGroup');
-        },
-        set: function (value) {
-            this._setOption('validationGroup', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxValidatorComponent.prototype, "validationRules", {
-        get: /**
-             * An array of validation rules to be checked for the editor with which the dxValidator object is associated.
-             */
-        function () {
-            return this._getOption('validationRules');
-        },
-        set: function (value) {
-            this._setOption('validationRules', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxValidatorComponent.prototype, "width", {
-        get: /**
-             * Specifies the widget's width.
-             */
-        function () {
-            return this._getOption('width');
-        },
-        set: function (value) {
-            this._setOption('width', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(DxValidatorComponent.prototype, "validationRulesChildren", {
-        get: function () {
-            return this._getOption('validationRules');
-        },
-        set: function (value) {
-            this.setChildren('validationRules', value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    DxValidatorComponent.prototype._createInstance = function (element, options) {
-        return new validator_1.default(element, options);
-    };
-    DxValidatorComponent.prototype.ngOnDestroy = function () {
-        this._destroyWidget();
-    };
-    DxValidatorComponent.prototype.ngOnChanges = function (changes) {
-        _super.prototype.ngOnChanges.call(this, changes);
-        this.setupChanges('validationRules', changes);
-    };
-    DxValidatorComponent.prototype.setupChanges = function (prop, changes) {
-        if (!(prop in this._optionsToUpdate)) {
-            this._idh.setup(prop, changes);
-        }
-    };
-    DxValidatorComponent.prototype.ngDoCheck = function () {
-        this._idh.doCheck('validationRules');
-        this._watcherHelper.checkWatchers();
-        _super.prototype.ngDoCheck.call(this);
-        _super.prototype.clearChangedOptions.call(this);
-    };
-    DxValidatorComponent.prototype._setOption = function (name, value) {
-        var isSetup = this._idh.setupSingle(name, value);
-        var isChanged = this._idh.getChanges(name, value) !== null;
-        if (isSetup || isChanged) {
-            _super.prototype._setOption.call(this, name, value);
-        }
-    };
-    DxValidatorComponent.decorators = [
-        { type: core_1.Component, args: [{
-                    selector: 'dx-validator',
-                    template: '',
-                    providers: [
-                        template_host_1.DxTemplateHost,
-                        watcher_helper_1.WatcherHelper,
-                        nested_option_1.NestedOptionHost,
-                        iterable_differ_helper_1.IterableDifferHelper
-                    ]
-                },] },
-    ];
-    /** @nocollapse */
-    DxValidatorComponent.ctorParameters = function () { return [
-        { type: core_1.ElementRef, },
-        { type: core_1.NgZone, },
-        { type: template_host_1.DxTemplateHost, },
-        { type: watcher_helper_1.WatcherHelper, },
-        { type: iterable_differ_helper_1.IterableDifferHelper, },
-        { type: nested_option_1.NestedOptionHost, },
-        { type: platform_browser_2.TransferState, },
-        { type: undefined, decorators: [{ type: core_1.Inject, args: [core_1.PLATFORM_ID,] },] },
-    ]; };
-    DxValidatorComponent.propDecorators = {
-        "adapter": [{ type: core_1.Input },],
-        "elementAttr": [{ type: core_1.Input },],
-        "height": [{ type: core_1.Input },],
-        "name": [{ type: core_1.Input },],
-        "validationGroup": [{ type: core_1.Input },],
-        "validationRules": [{ type: core_1.Input },],
-        "width": [{ type: core_1.Input },],
-        "onDisposing": [{ type: core_1.Output },],
-        "onInitialized": [{ type: core_1.Output },],
-        "onOptionChanged": [{ type: core_1.Output },],
-        "onValidated": [{ type: core_1.Output },],
-        "adapterChange": [{ type: core_1.Output },],
-        "elementAttrChange": [{ type: core_1.Output },],
-        "heightChange": [{ type: core_1.Output },],
-        "nameChange": [{ type: core_1.Output },],
-        "validationGroupChange": [{ type: core_1.Output },],
-        "validationRulesChange": [{ type: core_1.Output },],
-        "widthChange": [{ type: core_1.Output },],
-        "validationRulesChildren": [{ type: core_1.ContentChildren, args: [validation_rule_dxi_2.DxiValidationRuleComponent,] },],
-    };
-    return DxValidatorComponent;
-}(component_1.DxComponentExtension));
-exports.DxValidatorComponent = DxValidatorComponent;
-var DxValidatorModule = (function () {
-    function DxValidatorModule() {
-    }
-    DxValidatorModule.decorators = [
-        { type: core_1.NgModule, args: [{
-                    imports: [
-                        adapter_1.DxoAdapterModule,
-                        validation_rule_dxi_1.DxiValidationRuleModule,
-                        integration_1.DxIntegrationModule,
-                        template_1.DxTemplateModule,
-                        platform_browser_1.BrowserTransferStateModule
-                    ],
-                    declarations: [
-                        DxValidatorComponent
-                    ],
-                    exports: [
-                        DxValidatorComponent,
-                        adapter_1.DxoAdapterModule,
-                        validation_rule_dxi_1.DxiValidationRuleModule,
-                        template_1.DxTemplateModule
-                    ]
-                },] },
-    ];
-    return DxValidatorModule;
-}());
-exports.DxValidatorModule = DxValidatorModule;
-//# sourceMappingURL=validator.js.map
-
-/***/ }),
-
 /***/ "./node_modules/devextreme-angular/ui/vector-map.js":
 /*!**********************************************************!*\
   !*** ./node_modules/devextreme-angular/ui/vector-map.js ***!
@@ -32081,6 +29575,31 @@ exports.DxVectorMapComponentNgFactory = DxVectorMapComponentNgFactory;
 
 /***/ }),
 
+/***/ "./src/app/_pipes/SafeHtml.pipe.ts":
+/*!*****************************************!*\
+  !*** ./src/app/_pipes/SafeHtml.pipe.ts ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+class SafeHtmlPipe {
+    constructor(sanitized) {
+        this.sanitized = sanitized;
+    }
+    transform(value) {
+        value = this.sanitized.bypassSecurityTrustHtml(value);
+        return value;
+    }
+}
+exports.SafeHtmlPipe = SafeHtmlPipe;
+
+
+/***/ }),
+
 /***/ "./src/app/_services/echo.service.ts":
 /*!*******************************************!*\
   !*** ./src/app/_services/echo.service.ts ***!
@@ -32198,6 +29717,11 @@ const routes = [
         path: 'the-hotel',
         component: pages_1.HotelPageComponent,
     },
+    {
+        path: 'the-cellar',
+        component: pages_1.CellarPageComponent,
+    }
+    //  { path: '**', component: PageNotFoundComponent }
 ];
 class AppRoutingModule {
 }
@@ -32230,47 +29754,44 @@ const i4 = __webpack_require__(/*! ./plugins/topnav/topnav.component.ngfactory *
 const i5 = __webpack_require__(/*! ./plugins/topnav/topnav.service */ "./src/app/plugins/topnav/topnav.service.ts");
 const i6 = __webpack_require__(/*! ./plugins/topnav/topnav.component */ "./src/app/plugins/topnav/topnav.component.ts");
 const i7 = __webpack_require__(/*! @angular/router */ "@angular/router");
-const i8 = __webpack_require__(/*! ./plugins/language/language.component.ngfactory */ "./src/app/plugins/language/language.component.ngfactory.js");
-const i9 = __webpack_require__(/*! ./plugins/language/language.service */ "./src/app/plugins/language/language.service.ts");
-const i10 = __webpack_require__(/*! ./plugins/language/language.component */ "./src/app/plugins/language/language.component.ts");
-const i11 = __webpack_require__(/*! @ngx-translate/core */ "@ngx-translate/core");
-const i12 = __webpack_require__(/*! ./plugins/footer/footer.component.ngfactory */ "./src/app/plugins/footer/footer.component.ngfactory.js");
-const i13 = __webpack_require__(/*! ./plugins/footer/footer.component */ "./src/app/plugins/footer/footer.component.ts");
-const i14 = __webpack_require__(/*! ../../node_modules/devextreme-angular/ui/responsive-box.ngfactory */ "./node_modules/devextreme-angular/ui/responsive-box.ngfactory.js");
-const i15 = __webpack_require__(/*! devextreme-angular/core/template-host */ "devextreme-angular/core/template-host");
-const i16 = __webpack_require__(/*! devextreme-angular/core/watcher-helper */ "devextreme-angular/core/watcher-helper");
-const i17 = __webpack_require__(/*! devextreme-angular/core/iterable-differ-helper */ "devextreme-angular/core/iterable-differ-helper");
-const i18 = __webpack_require__(/*! devextreme-angular/core/nested-option */ "devextreme-angular/core/nested-option");
-const i19 = __webpack_require__(/*! devextreme-angular/ui/responsive-box */ "devextreme-angular/ui/responsive-box");
-const i20 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-const i21 = __webpack_require__(/*! ../../node_modules/devextreme-angular/ui/nested/row-dxi.ngfactory */ "./node_modules/devextreme-angular/ui/nested/row-dxi.ngfactory.js");
-const i22 = __webpack_require__(/*! devextreme-angular/ui/nested/row-dxi */ "devextreme-angular/ui/nested/row-dxi");
-const i23 = __webpack_require__(/*! ../../node_modules/devextreme-angular/ui/nested/col-dxi.ngfactory */ "./node_modules/devextreme-angular/ui/nested/col-dxi.ngfactory.js");
-const i24 = __webpack_require__(/*! devextreme-angular/ui/nested/col-dxi */ "devextreme-angular/ui/nested/col-dxi");
-const i25 = __webpack_require__(/*! ../../node_modules/devextreme-angular/ui/nested/item-dxi.ngfactory */ "./node_modules/devextreme-angular/ui/nested/item-dxi.ngfactory.js");
-const i26 = __webpack_require__(/*! devextreme-angular/ui/nested/item-dxi */ "devextreme-angular/ui/nested/item-dxi");
-const i27 = __webpack_require__(/*! @angular/common */ "@angular/common");
-const i28 = __webpack_require__(/*! ../../node_modules/devextreme-angular/ui/nested/location-dxi.ngfactory */ "./node_modules/devextreme-angular/ui/nested/location-dxi.ngfactory.js");
-const i29 = __webpack_require__(/*! devextreme-angular/ui/nested/location-dxi */ "devextreme-angular/ui/nested/location-dxi");
-const i30 = __webpack_require__(/*! devextreme-angular/core/template */ "devextreme-angular/core/template");
-const i31 = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-const i32 = __webpack_require__(/*! ./_services/echo.service */ "./src/app/_services/echo.service.ts");
-const i33 = __webpack_require__(/*! ./_services/screen.service */ "./src/app/_services/screen.service.ts");
+const i8 = __webpack_require__(/*! ./plugins/footer/footer.component.ngfactory */ "./src/app/plugins/footer/footer.component.ngfactory.js");
+const i9 = __webpack_require__(/*! ./plugins/footer/footer.component */ "./src/app/plugins/footer/footer.component.ts");
+const i10 = __webpack_require__(/*! ../../node_modules/devextreme-angular/ui/responsive-box.ngfactory */ "./node_modules/devextreme-angular/ui/responsive-box.ngfactory.js");
+const i11 = __webpack_require__(/*! devextreme-angular/core/template-host */ "devextreme-angular/core/template-host");
+const i12 = __webpack_require__(/*! devextreme-angular/core/watcher-helper */ "devextreme-angular/core/watcher-helper");
+const i13 = __webpack_require__(/*! devextreme-angular/core/iterable-differ-helper */ "devextreme-angular/core/iterable-differ-helper");
+const i14 = __webpack_require__(/*! devextreme-angular/core/nested-option */ "devextreme-angular/core/nested-option");
+const i15 = __webpack_require__(/*! devextreme-angular/ui/responsive-box */ "devextreme-angular/ui/responsive-box");
+const i16 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
+const i17 = __webpack_require__(/*! ../../node_modules/devextreme-angular/ui/nested/row-dxi.ngfactory */ "./node_modules/devextreme-angular/ui/nested/row-dxi.ngfactory.js");
+const i18 = __webpack_require__(/*! devextreme-angular/ui/nested/row-dxi */ "devextreme-angular/ui/nested/row-dxi");
+const i19 = __webpack_require__(/*! ../../node_modules/devextreme-angular/ui/nested/col-dxi.ngfactory */ "./node_modules/devextreme-angular/ui/nested/col-dxi.ngfactory.js");
+const i20 = __webpack_require__(/*! devextreme-angular/ui/nested/col-dxi */ "devextreme-angular/ui/nested/col-dxi");
+const i21 = __webpack_require__(/*! ../../node_modules/devextreme-angular/ui/nested/item-dxi.ngfactory */ "./node_modules/devextreme-angular/ui/nested/item-dxi.ngfactory.js");
+const i22 = __webpack_require__(/*! devextreme-angular/ui/nested/item-dxi */ "devextreme-angular/ui/nested/item-dxi");
+const i23 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i24 = __webpack_require__(/*! ../../node_modules/devextreme-angular/ui/nested/location-dxi.ngfactory */ "./node_modules/devextreme-angular/ui/nested/location-dxi.ngfactory.js");
+const i25 = __webpack_require__(/*! devextreme-angular/ui/nested/location-dxi */ "devextreme-angular/ui/nested/location-dxi");
+const i26 = __webpack_require__(/*! devextreme-angular/core/template */ "devextreme-angular/core/template");
+const i27 = __webpack_require__(/*! @angular/service-worker */ "@angular/service-worker");
+const i28 = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+const i29 = __webpack_require__(/*! ./_services/echo.service */ "./src/app/_services/echo.service.ts");
+const i30 = __webpack_require__(/*! ./_services/screen.service */ "./src/app/_services/screen.service.ts");
 var styles_AppComponent = [i0.styles];
 var RenderType_AppComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_AppComponent, data: {} });
 exports.RenderType_AppComponent = RenderType_AppComponent;
 function View_AppComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "header item"], ["id", "top-content"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "app-video", [], null, null, null, i2.View_VideoComponent_0, i2.RenderType_VideoComponent)), i1.ɵdid(2, 4243456, null, 0, i3.VideoComponent, [], null, null)], null, null); }
-function View_AppComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "div", [["class", "header item"], ["id", "header"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 3, "app-topnav", [], null, null, null, i4.View_TopnavComponent_0, i4.RenderType_TopnavComponent)), i1.ɵprd(512, null, i5.Service, i5.Service, []), i1.ɵprd(512, null, i5.TopNavService, i5.TopNavService, []), i1.ɵdid(4, 4243456, null, 0, i6.TopnavComponent, [i5.Service, i5.TopNavService, i7.Router], null, null)], null, null); }
+function View_AppComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 3, "div", [["class", "header item"], ["id", "header"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "app-topnav", [], null, null, null, i4.View_TopnavComponent_0, i4.RenderType_TopnavComponent)), i1.ɵprd(512, null, i5.TopNavService, i5.TopNavService, []), i1.ɵdid(3, 4243456, null, 0, i6.TopnavComponent, [i5.TopNavService, i7.Router], null, null)], null, null); }
 function View_AppComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "content item"], ["id", "content"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), i1.ɵdid(2, 212992, null, 0, i7.RouterOutlet, [i7.ChildrenOutletContexts, i1.ViewContainerRef, i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null)], function (_ck, _v) { _ck(_v, 2, 0); }, null); }
-function View_AppComponent_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 5, "div", [["class", "footer item"], ["id", "footer"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "app-language", [], null, null, null, i8.View_LanguageComponent_0, i8.RenderType_LanguageComponent)), i1.ɵprd(512, null, i9.Service, i9.Service, []), i1.ɵdid(3, 49152, null, 0, i10.LanguageComponent, [i9.Service, i11.TranslateService], null, null), (_l()(), i1.ɵeld(4, 0, null, null, 1, "app-footer", [], null, null, null, i12.View_FooterComponent_0, i12.RenderType_FooterComponent)), i1.ɵdid(5, 49152, null, 0, i13.FooterComponent, [], null, null)], null, null); }
+function View_AppComponent_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "footer item"], ["id", "footer"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "app-footer", [], null, null, null, i8.View_FooterComponent_0, i8.RenderType_FooterComponent)), i1.ɵdid(2, 49152, null, 0, i9.FooterComponent, [], null, null)], null, null); }
 function View_AppComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 90, "dx-responsive-box", [["singleColumnScreen", "sm"]], null, [[null, "screenByWidthChange"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("screenByWidthChange" === en)) {
         var pd_0 = ((_co.screenTest = $event) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, i14.View_DxResponsiveBoxComponent_0, i14.RenderType_DxResponsiveBoxComponent)), i1.ɵprd(512, null, i15.DxTemplateHost, i15.DxTemplateHost, []), i1.ɵprd(512, null, i16.WatcherHelper, i16.WatcherHelper, []), i1.ɵprd(512, null, i17.IterableDifferHelper, i17.IterableDifferHelper, [i1.IterableDiffers]), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(5, 7323648, null, 3, i19.DxResponsiveBoxComponent, [i1.ElementRef, i1.NgZone, i15.DxTemplateHost, i16.WatcherHelper, i17.IterableDifferHelper, i18.NestedOptionHost, i20.TransferState, i1.PLATFORM_ID], { screenByWidth: [0, "screenByWidth"], singleColumnScreen: [1, "singleColumnScreen"] }, { screenByWidthChange: "screenByWidthChange" }), i1.ɵqud(603979776, 1, { colsChildren: 1 }), i1.ɵqud(603979776, 2, { itemsChildren: 1 }), i1.ɵqud(603979776, 3, { rowsChildren: 1 }), (_l()(), i1.ɵeld(9, 0, null, null, 2, "dxi-row", [], null, null, null, i21.View_DxiRowComponent_0, i21.RenderType_DxiRowComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(11, 49152, [[3, 4]], 0, i22.DxiRowComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { ratio: [0, "ratio"] }, null), (_l()(), i1.ɵeld(12, 0, null, null, 2, "dxi-row", [], null, null, null, i21.View_DxiRowComponent_0, i21.RenderType_DxiRowComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(14, 49152, [[3, 4]], 0, i22.DxiRowComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { ratio: [0, "ratio"] }, null), (_l()(), i1.ɵeld(15, 0, null, null, 2, "dxi-row", [["screen", "xs"]], null, null, null, i21.View_DxiRowComponent_0, i21.RenderType_DxiRowComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(17, 49152, [[3, 4]], 0, i22.DxiRowComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { ratio: [0, "ratio"], screen: [1, "screen"] }, null), (_l()(), i1.ɵeld(18, 0, null, null, 2, "dxi-row", [], null, null, null, i21.View_DxiRowComponent_0, i21.RenderType_DxiRowComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(20, 49152, [[3, 4]], 0, i22.DxiRowComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { ratio: [0, "ratio"] }, null), (_l()(), i1.ɵeld(21, 0, null, null, 2, "dxi-row", [], null, null, null, i21.View_DxiRowComponent_0, i21.RenderType_DxiRowComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(23, 49152, [[3, 4]], 0, i22.DxiRowComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { ratio: [0, "ratio"] }, null), (_l()(), i1.ɵeld(24, 0, null, null, 2, "dxi-col", [], null, null, null, i23.View_DxiColComponent_0, i23.RenderType_DxiColComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(26, 49152, [[1, 4]], 0, i24.DxiColComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { ratio: [0, "ratio"] }, null), (_l()(), i1.ɵeld(27, 0, null, null, 15, "dxi-item", [], null, null, null, i25.View_DxiItemComponent_0, i25.RenderType_DxiItemComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵprd(512, null, i15.DxTemplateHost, i15.DxTemplateHost, []), i1.ɵdid(30, 4243456, [[4, 4], [2, 4]], 4, i26.DxiItemComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost, i1.Renderer2, i27.DOCUMENT, i15.DxTemplateHost, i1.ElementRef], null, null), i1.ɵqud(603979776, 4, { itemsChildren: 1 }), i1.ɵqud(603979776, 5, { validationRulesChildren: 1 }), i1.ɵqud(603979776, 6, { tabsChildren: 1 }), i1.ɵqud(603979776, 7, { locationChildren: 1 }), (_l()(), i1.ɵeld(35, 0, null, 0, 2, "dxi-location", [["screen", "lg"]], null, null, null, i28.View_DxiLocationComponent_0, i28.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(37, 49152, [[7, 4]], 0, i29.DxiLocationComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵeld(38, 0, null, 0, 2, "dxi-location", [["screen", "sm"]], null, null, null, i28.View_DxiLocationComponent_0, i28.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(40, 49152, [[7, 4]], 0, i29.DxiLocationComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AppComponent_1)), i1.ɵdid(42, 16384, null, 0, i30.DxTemplateDirective, [i1.TemplateRef, i1.ViewContainerRef, i15.DxTemplateHost, i1.Renderer2, i1.NgZone], null, null), (_l()(), i1.ɵeld(43, 0, null, null, 15, "dxi-item", [], null, null, null, i25.View_DxiItemComponent_0, i25.RenderType_DxiItemComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵprd(512, null, i15.DxTemplateHost, i15.DxTemplateHost, []), i1.ɵdid(46, 4243456, [[8, 4], [2, 4]], 4, i26.DxiItemComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost, i1.Renderer2, i27.DOCUMENT, i15.DxTemplateHost, i1.ElementRef], null, null), i1.ɵqud(603979776, 8, { itemsChildren: 1 }), i1.ɵqud(603979776, 9, { validationRulesChildren: 1 }), i1.ɵqud(603979776, 10, { tabsChildren: 1 }), i1.ɵqud(603979776, 11, { locationChildren: 1 }), (_l()(), i1.ɵeld(51, 0, null, 0, 2, "dxi-location", [["screen", "lg"]], null, null, null, i28.View_DxiLocationComponent_0, i28.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(53, 49152, [[11, 4]], 0, i29.DxiLocationComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵeld(54, 0, null, 0, 2, "dxi-location", [["screen", "sm"]], null, null, null, i28.View_DxiLocationComponent_0, i28.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(56, 49152, [[11, 4]], 0, i29.DxiLocationComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AppComponent_2)), i1.ɵdid(58, 16384, null, 0, i30.DxTemplateDirective, [i1.TemplateRef, i1.ViewContainerRef, i15.DxTemplateHost, i1.Renderer2, i1.NgZone], null, null), (_l()(), i1.ɵeld(59, 0, null, null, 15, "dxi-item", [], null, null, null, i25.View_DxiItemComponent_0, i25.RenderType_DxiItemComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵprd(512, null, i15.DxTemplateHost, i15.DxTemplateHost, []), i1.ɵdid(62, 4243456, [[12, 4], [2, 4]], 4, i26.DxiItemComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost, i1.Renderer2, i27.DOCUMENT, i15.DxTemplateHost, i1.ElementRef], null, null), i1.ɵqud(603979776, 12, { itemsChildren: 1 }), i1.ɵqud(603979776, 13, { validationRulesChildren: 1 }), i1.ɵqud(603979776, 14, { tabsChildren: 1 }), i1.ɵqud(603979776, 15, { locationChildren: 1 }), (_l()(), i1.ɵeld(67, 0, null, 0, 2, "dxi-location", [["screen", "lg"]], null, null, null, i28.View_DxiLocationComponent_0, i28.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(69, 49152, [[15, 4]], 0, i29.DxiLocationComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵeld(70, 0, null, 0, 2, "dxi-location", [["screen", "sm"]], null, null, null, i28.View_DxiLocationComponent_0, i28.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(72, 49152, [[15, 4]], 0, i29.DxiLocationComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AppComponent_3)), i1.ɵdid(74, 16384, null, 0, i30.DxTemplateDirective, [i1.TemplateRef, i1.ViewContainerRef, i15.DxTemplateHost, i1.Renderer2, i1.NgZone], null, null), (_l()(), i1.ɵeld(75, 0, null, null, 15, "dxi-item", [], null, null, null, i25.View_DxiItemComponent_0, i25.RenderType_DxiItemComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵprd(512, null, i15.DxTemplateHost, i15.DxTemplateHost, []), i1.ɵdid(78, 4243456, [[16, 4], [2, 4]], 4, i26.DxiItemComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost, i1.Renderer2, i27.DOCUMENT, i15.DxTemplateHost, i1.ElementRef], null, null), i1.ɵqud(603979776, 16, { itemsChildren: 1 }), i1.ɵqud(603979776, 17, { validationRulesChildren: 1 }), i1.ɵqud(603979776, 18, { tabsChildren: 1 }), i1.ɵqud(603979776, 19, { locationChildren: 1 }), (_l()(), i1.ɵeld(83, 0, null, 0, 2, "dxi-location", [["screen", "lg"]], null, null, null, i28.View_DxiLocationComponent_0, i28.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(85, 49152, [[19, 4]], 0, i29.DxiLocationComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵeld(86, 0, null, 0, 2, "dxi-location", [["screen", "sm"]], null, null, null, i28.View_DxiLocationComponent_0, i28.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i18.NestedOptionHost, i18.NestedOptionHost, []), i1.ɵdid(88, 49152, [[19, 4]], 0, i29.DxiLocationComponent, [[1, i18.NestedOptionHost], i18.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AppComponent_4)), i1.ɵdid(90, 16384, null, 0, i30.DxTemplateDirective, [i1.TemplateRef, i1.ViewContainerRef, i15.DxTemplateHost, i1.Renderer2, i1.NgZone], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.screenTest; var currVal_1 = "sm"; _ck(_v, 5, 0, currVal_0, currVal_1); var currVal_2 = 50; _ck(_v, 11, 0, currVal_2); var currVal_3 = 1; _ck(_v, 14, 0, currVal_3); var currVal_4 = 50; var currVal_5 = "xs"; _ck(_v, 17, 0, currVal_4, currVal_5); var currVal_6 = 50; _ck(_v, 20, 0, currVal_6); var currVal_7 = 1; _ck(_v, 23, 0, currVal_7); var currVal_8 = 1; _ck(_v, 26, 0, currVal_8); var currVal_9 = 0; var currVal_10 = 1; var currVal_11 = 0; var currVal_12 = "lg"; _ck(_v, 37, 0, currVal_9, currVal_10, currVal_11, currVal_12); var currVal_13 = 0; var currVal_14 = 1; var currVal_15 = 0; var currVal_16 = "sm"; _ck(_v, 40, 0, currVal_13, currVal_14, currVal_15, currVal_16); var currVal_17 = 0; var currVal_18 = 1; var currVal_19 = 1; var currVal_20 = "lg"; _ck(_v, 53, 0, currVal_17, currVal_18, currVal_19, currVal_20); var currVal_21 = 0; var currVal_22 = 1; var currVal_23 = 1; var currVal_24 = "sm"; _ck(_v, 56, 0, currVal_21, currVal_22, currVal_23, currVal_24); var currVal_25 = 0; var currVal_26 = 1; var currVal_27 = 2; var currVal_28 = "lg"; _ck(_v, 69, 0, currVal_25, currVal_26, currVal_27, currVal_28); var currVal_29 = 0; var currVal_30 = 1; var currVal_31 = 2; var currVal_32 = "sm"; _ck(_v, 72, 0, currVal_29, currVal_30, currVal_31, currVal_32); var currVal_33 = 0; var currVal_34 = 1; var currVal_35 = 3; var currVal_36 = "lg"; _ck(_v, 85, 0, currVal_33, currVal_34, currVal_35, currVal_36); var currVal_37 = 0; var currVal_38 = 1; var currVal_39 = 3; var currVal_40 = "sm"; _ck(_v, 88, 0, currVal_37, currVal_38, currVal_39, currVal_40); }, null); }
+    } return ad; }, i10.View_DxResponsiveBoxComponent_0, i10.RenderType_DxResponsiveBoxComponent)), i1.ɵprd(512, null, i11.DxTemplateHost, i11.DxTemplateHost, []), i1.ɵprd(512, null, i12.WatcherHelper, i12.WatcherHelper, []), i1.ɵprd(512, null, i13.IterableDifferHelper, i13.IterableDifferHelper, [i1.IterableDiffers]), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(5, 7323648, null, 3, i15.DxResponsiveBoxComponent, [i1.ElementRef, i1.NgZone, i11.DxTemplateHost, i12.WatcherHelper, i13.IterableDifferHelper, i14.NestedOptionHost, i16.TransferState, i1.PLATFORM_ID], { screenByWidth: [0, "screenByWidth"], singleColumnScreen: [1, "singleColumnScreen"] }, { screenByWidthChange: "screenByWidthChange" }), i1.ɵqud(603979776, 1, { colsChildren: 1 }), i1.ɵqud(603979776, 2, { itemsChildren: 1 }), i1.ɵqud(603979776, 3, { rowsChildren: 1 }), (_l()(), i1.ɵeld(9, 0, null, null, 2, "dxi-row", [], null, null, null, i17.View_DxiRowComponent_0, i17.RenderType_DxiRowComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(11, 49152, [[3, 4]], 0, i18.DxiRowComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { ratio: [0, "ratio"] }, null), (_l()(), i1.ɵeld(12, 0, null, null, 2, "dxi-row", [], null, null, null, i17.View_DxiRowComponent_0, i17.RenderType_DxiRowComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(14, 49152, [[3, 4]], 0, i18.DxiRowComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { ratio: [0, "ratio"] }, null), (_l()(), i1.ɵeld(15, 0, null, null, 2, "dxi-row", [["screen", "xs"]], null, null, null, i17.View_DxiRowComponent_0, i17.RenderType_DxiRowComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(17, 49152, [[3, 4]], 0, i18.DxiRowComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { ratio: [0, "ratio"], screen: [1, "screen"] }, null), (_l()(), i1.ɵeld(18, 0, null, null, 2, "dxi-row", [], null, null, null, i17.View_DxiRowComponent_0, i17.RenderType_DxiRowComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(20, 49152, [[3, 4]], 0, i18.DxiRowComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { ratio: [0, "ratio"] }, null), (_l()(), i1.ɵeld(21, 0, null, null, 2, "dxi-row", [], null, null, null, i17.View_DxiRowComponent_0, i17.RenderType_DxiRowComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(23, 49152, [[3, 4]], 0, i18.DxiRowComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { ratio: [0, "ratio"] }, null), (_l()(), i1.ɵeld(24, 0, null, null, 2, "dxi-col", [], null, null, null, i19.View_DxiColComponent_0, i19.RenderType_DxiColComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(26, 49152, [[1, 4]], 0, i20.DxiColComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { ratio: [0, "ratio"] }, null), (_l()(), i1.ɵeld(27, 0, null, null, 15, "dxi-item", [], null, null, null, i21.View_DxiItemComponent_0, i21.RenderType_DxiItemComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵprd(512, null, i11.DxTemplateHost, i11.DxTemplateHost, []), i1.ɵdid(30, 4243456, [[4, 4], [2, 4]], 4, i22.DxiItemComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost, i1.Renderer2, i23.DOCUMENT, i11.DxTemplateHost, i1.ElementRef], null, null), i1.ɵqud(603979776, 4, { itemsChildren: 1 }), i1.ɵqud(603979776, 5, { validationRulesChildren: 1 }), i1.ɵqud(603979776, 6, { tabsChildren: 1 }), i1.ɵqud(603979776, 7, { locationChildren: 1 }), (_l()(), i1.ɵeld(35, 0, null, 0, 2, "dxi-location", [["screen", "lg"]], null, null, null, i24.View_DxiLocationComponent_0, i24.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(37, 49152, [[7, 4]], 0, i25.DxiLocationComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵeld(38, 0, null, 0, 2, "dxi-location", [["screen", "sm"]], null, null, null, i24.View_DxiLocationComponent_0, i24.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(40, 49152, [[7, 4]], 0, i25.DxiLocationComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AppComponent_1)), i1.ɵdid(42, 16384, null, 0, i26.DxTemplateDirective, [i1.TemplateRef, i1.ViewContainerRef, i11.DxTemplateHost, i1.Renderer2, i1.NgZone], null, null), (_l()(), i1.ɵeld(43, 0, null, null, 15, "dxi-item", [], null, null, null, i21.View_DxiItemComponent_0, i21.RenderType_DxiItemComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵprd(512, null, i11.DxTemplateHost, i11.DxTemplateHost, []), i1.ɵdid(46, 4243456, [[8, 4], [2, 4]], 4, i22.DxiItemComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost, i1.Renderer2, i23.DOCUMENT, i11.DxTemplateHost, i1.ElementRef], null, null), i1.ɵqud(603979776, 8, { itemsChildren: 1 }), i1.ɵqud(603979776, 9, { validationRulesChildren: 1 }), i1.ɵqud(603979776, 10, { tabsChildren: 1 }), i1.ɵqud(603979776, 11, { locationChildren: 1 }), (_l()(), i1.ɵeld(51, 0, null, 0, 2, "dxi-location", [["screen", "lg"]], null, null, null, i24.View_DxiLocationComponent_0, i24.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(53, 49152, [[11, 4]], 0, i25.DxiLocationComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵeld(54, 0, null, 0, 2, "dxi-location", [["screen", "sm"]], null, null, null, i24.View_DxiLocationComponent_0, i24.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(56, 49152, [[11, 4]], 0, i25.DxiLocationComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AppComponent_2)), i1.ɵdid(58, 16384, null, 0, i26.DxTemplateDirective, [i1.TemplateRef, i1.ViewContainerRef, i11.DxTemplateHost, i1.Renderer2, i1.NgZone], null, null), (_l()(), i1.ɵeld(59, 0, null, null, 15, "dxi-item", [], null, null, null, i21.View_DxiItemComponent_0, i21.RenderType_DxiItemComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵprd(512, null, i11.DxTemplateHost, i11.DxTemplateHost, []), i1.ɵdid(62, 4243456, [[12, 4], [2, 4]], 4, i22.DxiItemComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost, i1.Renderer2, i23.DOCUMENT, i11.DxTemplateHost, i1.ElementRef], null, null), i1.ɵqud(603979776, 12, { itemsChildren: 1 }), i1.ɵqud(603979776, 13, { validationRulesChildren: 1 }), i1.ɵqud(603979776, 14, { tabsChildren: 1 }), i1.ɵqud(603979776, 15, { locationChildren: 1 }), (_l()(), i1.ɵeld(67, 0, null, 0, 2, "dxi-location", [["screen", "lg"]], null, null, null, i24.View_DxiLocationComponent_0, i24.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(69, 49152, [[15, 4]], 0, i25.DxiLocationComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵeld(70, 0, null, 0, 2, "dxi-location", [["screen", "sm"]], null, null, null, i24.View_DxiLocationComponent_0, i24.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(72, 49152, [[15, 4]], 0, i25.DxiLocationComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AppComponent_3)), i1.ɵdid(74, 16384, null, 0, i26.DxTemplateDirective, [i1.TemplateRef, i1.ViewContainerRef, i11.DxTemplateHost, i1.Renderer2, i1.NgZone], null, null), (_l()(), i1.ɵeld(75, 0, null, null, 15, "dxi-item", [], null, null, null, i21.View_DxiItemComponent_0, i21.RenderType_DxiItemComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵprd(512, null, i11.DxTemplateHost, i11.DxTemplateHost, []), i1.ɵdid(78, 4243456, [[16, 4], [2, 4]], 4, i22.DxiItemComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost, i1.Renderer2, i23.DOCUMENT, i11.DxTemplateHost, i1.ElementRef], null, null), i1.ɵqud(603979776, 16, { itemsChildren: 1 }), i1.ɵqud(603979776, 17, { validationRulesChildren: 1 }), i1.ɵqud(603979776, 18, { tabsChildren: 1 }), i1.ɵqud(603979776, 19, { locationChildren: 1 }), (_l()(), i1.ɵeld(83, 0, null, 0, 2, "dxi-location", [["screen", "lg"]], null, null, null, i24.View_DxiLocationComponent_0, i24.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(85, 49152, [[19, 4]], 0, i25.DxiLocationComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵeld(86, 0, null, 0, 2, "dxi-location", [["screen", "sm"]], null, null, null, i24.View_DxiLocationComponent_0, i24.RenderType_DxiLocationComponent)), i1.ɵprd(512, null, i14.NestedOptionHost, i14.NestedOptionHost, []), i1.ɵdid(88, 49152, [[19, 4]], 0, i25.DxiLocationComponent, [[1, i14.NestedOptionHost], i14.NestedOptionHost], { col: [0, "col"], colspan: [1, "colspan"], row: [2, "row"], screen: [3, "screen"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AppComponent_4)), i1.ɵdid(90, 16384, null, 0, i26.DxTemplateDirective, [i1.TemplateRef, i1.ViewContainerRef, i11.DxTemplateHost, i1.Renderer2, i1.NgZone], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.screenTest; var currVal_1 = "sm"; _ck(_v, 5, 0, currVal_0, currVal_1); var currVal_2 = 50; _ck(_v, 11, 0, currVal_2); var currVal_3 = 1; _ck(_v, 14, 0, currVal_3); var currVal_4 = 50; var currVal_5 = "xs"; _ck(_v, 17, 0, currVal_4, currVal_5); var currVal_6 = 50; _ck(_v, 20, 0, currVal_6); var currVal_7 = 1; _ck(_v, 23, 0, currVal_7); var currVal_8 = 1; _ck(_v, 26, 0, currVal_8); var currVal_9 = 0; var currVal_10 = 1; var currVal_11 = 0; var currVal_12 = "lg"; _ck(_v, 37, 0, currVal_9, currVal_10, currVal_11, currVal_12); var currVal_13 = 0; var currVal_14 = 1; var currVal_15 = 0; var currVal_16 = "sm"; _ck(_v, 40, 0, currVal_13, currVal_14, currVal_15, currVal_16); var currVal_17 = 0; var currVal_18 = 1; var currVal_19 = 1; var currVal_20 = "lg"; _ck(_v, 53, 0, currVal_17, currVal_18, currVal_19, currVal_20); var currVal_21 = 0; var currVal_22 = 1; var currVal_23 = 1; var currVal_24 = "sm"; _ck(_v, 56, 0, currVal_21, currVal_22, currVal_23, currVal_24); var currVal_25 = 0; var currVal_26 = 1; var currVal_27 = 2; var currVal_28 = "lg"; _ck(_v, 69, 0, currVal_25, currVal_26, currVal_27, currVal_28); var currVal_29 = 0; var currVal_30 = 1; var currVal_31 = 2; var currVal_32 = "sm"; _ck(_v, 72, 0, currVal_29, currVal_30, currVal_31, currVal_32); var currVal_33 = 0; var currVal_34 = 1; var currVal_35 = 3; var currVal_36 = "lg"; _ck(_v, 85, 0, currVal_33, currVal_34, currVal_35, currVal_36); var currVal_37 = 0; var currVal_38 = 1; var currVal_39 = 3; var currVal_40 = "sm"; _ck(_v, 88, 0, currVal_37, currVal_38, currVal_39, currVal_40); }, null); }
 exports.View_AppComponent_0 = View_AppComponent_0;
-function View_AppComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-root", [], [[8, "className", 0]], null, null, View_AppComponent_0, RenderType_AppComponent)), i1.ɵdid(1, 114688, null, 0, i31.AppComponent, [i32.EchoService, i33.ScreenService], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 1).getClass; _ck(_v, 0, 0, currVal_0); }); }
+function View_AppComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "app-root", [], [[8, "className", 0]], null, null, View_AppComponent_0, RenderType_AppComponent)), i1.ɵprd(512, null, i27.SwUpdate, i27.SwUpdate, [i27.ɵangular_packages_service_worker_service_worker_a]), i1.ɵdid(2, 4243456, null, 0, i28.AppComponent, [i27.SwUpdate, i29.EchoService, i30.ScreenService], null, null)], null, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 2).getClass; _ck(_v, 0, 0, currVal_0); }); }
 exports.View_AppComponent_Host_0 = View_AppComponent_Host_0;
-var AppComponentNgFactory = i1.ɵccf("app-root", i31.AppComponent, View_AppComponent_Host_0, {}, {}, []);
+var AppComponentNgFactory = i1.ɵccf("app-root", i28.AppComponent, View_AppComponent_Host_0, {}, {}, []);
 exports.AppComponentNgFactory = AppComponentNgFactory;
 
 
@@ -32292,7 +29813,7 @@ exports.AppComponentNgFactory = AppComponentNgFactory;
  * tslint:disable
  */ 
 Object.defineProperty(exports, "__esModule", { value: true });
-var styles = ["#top-content {\n  position: relative; }\n\n  #header {\n  position: relative; }\n\n  #content {\n  text-align: center; }\n\n  #footer {\n  text-align: center; }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9ldGhhbmJyb29rcy9Eb2N1bWVudHMvaG90ZWxIZXJyZXJhL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQWtCLEVBQUE7O0FBRXRCO0VBQ0ksa0JBQWtCLEVBQUE7O0FBRXRCO0VBQ0ksa0JBQWtCLEVBQUE7O0FBRXRCO0VBQ0ksa0JBQWtCLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6Om5nLWRlZXAgI3RvcC1jb250ZW50e1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cbjo6bmctZGVlcCAjaGVhZGVye1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cbjo6bmctZGVlcCAjY29udGVudCB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuOjpuZy1kZWVwICNmb290ZXIge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn0iXX0= */"];
+var styles = ["#top-content {\n  position: relative;\n  max-height: calc(100% - 72px); }\n\n  #header {\n  position: relative; }\n\n  #content {\n  position: relative;\n  text-align: center; }\n\n  #footer {\n  text-align: center; }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9ldGhhbmJyb29rcy9Eb2N1bWVudHMvaG90ZWxIZXJyZXJhL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksa0JBQWtCO0VBQ2xCLDZCQUE2QixFQUFBOztBQUVqQztFQUNJLGtCQUFrQixFQUFBOztBQUV0QjtFQUNJLGtCQUFrQjtFQUNsQixrQkFBa0IsRUFBQTs7QUFFdEI7RUFDSSxrQkFBa0IsRUFBQSIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjo6bmctZGVlcCAjdG9wLWNvbnRlbnR7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIG1heC1oZWlnaHQ6IGNhbGMoMTAwJSAtIDcycHgpO1xufVxuOjpuZy1kZWVwICNoZWFkZXJ7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuOjpuZy1kZWVwICNjb250ZW50IHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuOjpuZy1kZWVwICNmb290ZXIge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbiJdfQ== */"];
 exports.styles = styles;
 
 
@@ -32309,17 +29830,31 @@ exports.styles = styles;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const service_worker_1 = __webpack_require__(/*! @angular/service-worker */ "@angular/service-worker");
 class AppComponent {
-    constructor(echoService, 
+    constructor(swUpdateService, echoService, 
     //    private authService: AuthService,
     screen) {
+        this.swUpdateService = swUpdateService;
         this.echoService = echoService;
         this.screen = screen;
     }
     get getClass() {
         return Object.keys(this.screen.sizes).filter(cl => this.screen.sizes[cl]).join(' ');
     }
-    ngOnInit() {
+    ngAfterViewInit() {
+        if (this.swUpdateService.isEnabled) {
+            this.swUpdateService.available.subscribe(() => {
+                /* this.swUpdate
+                 .activateUpdate()
+                 .then(() => {
+                   window.location.reload();
+                 });*/
+                if (confirm('New version available. Load New Version?')) {
+                    window.location.reload();
+                }
+            });
+        }
         this.response = this.echoService.makeCall();
     }
     screenTest(width) {
@@ -32384,245 +29919,248 @@ const i8 = __webpack_require__(/*! ./pages/jobs-page/jobs-page.component.ngfacto
 const i9 = __webpack_require__(/*! ./pages/restaurant-page/restaurant-page.component.ngfactory */ "./src/app/pages/restaurant-page/restaurant-page.component.ngfactory.js");
 const i10 = __webpack_require__(/*! ./pages/lounge-page/lounge-page.component.ngfactory */ "./src/app/pages/lounge-page/lounge-page.component.ngfactory.js");
 const i11 = __webpack_require__(/*! ./pages/hotel-page/hotel-page.component.ngfactory */ "./src/app/pages/hotel-page/hotel-page.component.ngfactory.js");
-const i12 = __webpack_require__(/*! ./app.component.ngfactory */ "./src/app/app.component.ngfactory.js");
-const i13 = __webpack_require__(/*! @angular/common */ "@angular/common");
-const i14 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-const i15 = __webpack_require__(/*! @angular/platform-server */ "@angular/platform-server");
-const i16 = __webpack_require__(/*! @angular/animations/browser */ "@angular/animations/browser");
-const i17 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
-const i18 = __webpack_require__(/*! @angular/router */ "@angular/router");
-const i19 = __webpack_require__(/*! @angular/common/http */ "@angular/common/http");
-const i20 = __webpack_require__(/*! @angular/animations */ "@angular/animations");
-const i21 = __webpack_require__(/*! @ngx-translate/core */ "@ngx-translate/core");
-const i22 = __webpack_require__(/*! ./app.module */ "./src/app/app.module.ts");
-const i23 = __webpack_require__(/*! ./_services/screen.service */ "./src/app/_services/screen.service.ts");
-const i24 = __webpack_require__(/*! @angular/cdk/layout */ "@angular/cdk/layout");
-const i25 = __webpack_require__(/*! @nguniversal/module-map-ngfactory-loader */ "@nguniversal/module-map-ngfactory-loader");
-const i26 = __webpack_require__(/*! ./pages/blog-page/blog-page.component */ "./src/app/pages/blog-page/blog-page.component.ts");
-const i27 = __webpack_require__(/*! ./pages/contact-page/contact-page.component */ "./src/app/pages/contact-page/contact-page.component.ts");
-const i28 = __webpack_require__(/*! ./pages/explore-page/explore-page.component */ "./src/app/pages/explore-page/explore-page.component.ts");
-const i29 = __webpack_require__(/*! ./pages/guest-page/guest-page.component */ "./src/app/pages/guest-page/guest-page.component.ts");
-const i30 = __webpack_require__(/*! ./pages/jobs-page/jobs-page.component */ "./src/app/pages/jobs-page/jobs-page.component.ts");
-const i31 = __webpack_require__(/*! ./pages/restaurant-page/restaurant-page.component */ "./src/app/pages/restaurant-page/restaurant-page.component.ts");
-const i32 = __webpack_require__(/*! ./pages/lounge-page/lounge-page.component */ "./src/app/pages/lounge-page/lounge-page.component.ts");
-const i33 = __webpack_require__(/*! ./pages/hotel-page/hotel-page.component */ "./src/app/pages/hotel-page/hotel-page.component.ts");
-const i34 = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-const i35 = __webpack_require__(/*! devextreme-angular/ui/nested/item-dxi */ "devextreme-angular/ui/nested/item-dxi");
-const i36 = __webpack_require__(/*! devextreme-angular/core/integration */ "devextreme-angular/core/integration");
-const i37 = __webpack_require__(/*! devextreme-angular/core/template */ "devextreme-angular/core/template");
-const i38 = __webpack_require__(/*! devextreme-angular/ui/multi-view */ "devextreme-angular/ui/multi-view");
-const i39 = __webpack_require__(/*! devextreme-angular/ui/calendar */ "devextreme-angular/ui/calendar");
-const i40 = __webpack_require__(/*! devextreme-angular/ui/nested/button-dxi */ "devextreme-angular/ui/nested/button-dxi");
-const i41 = __webpack_require__(/*! devextreme-angular/ui/nested/options */ "devextreme-angular/ui/nested/options");
-const i42 = __webpack_require__(/*! devextreme-angular/ui/nested/format */ "devextreme-angular/ui/nested/format");
-const i43 = __webpack_require__(/*! devextreme-angular/ui/number-box */ "devextreme-angular/ui/number-box");
-const i44 = __webpack_require__(/*! devextreme-angular/ui/check-box */ "devextreme-angular/ui/check-box");
-const i45 = __webpack_require__(/*! devextreme-angular/ui/button-group */ "devextreme-angular/ui/button-group");
-const i46 = __webpack_require__(/*! devextreme-angular/ui/nested/col-count-by-screen */ "devextreme-angular/ui/nested/col-count-by-screen");
-const i47 = __webpack_require__(/*! devextreme-angular/ui/nested/label */ "devextreme-angular/ui/nested/label");
-const i48 = __webpack_require__(/*! devextreme-angular/ui/nested/validation-rule-dxi */ "devextreme-angular/ui/nested/validation-rule-dxi");
-const i49 = __webpack_require__(/*! devextreme-angular/ui/nested/tab-panel-options */ "devextreme-angular/ui/nested/tab-panel-options");
-const i50 = __webpack_require__(/*! devextreme-angular/ui/nested/tab-dxi */ "devextreme-angular/ui/nested/tab-dxi");
-const i51 = __webpack_require__(/*! devextreme-angular/ui/nested/button-options */ "devextreme-angular/ui/nested/button-options");
-const i52 = __webpack_require__(/*! devextreme-angular/ui/form */ "devextreme-angular/ui/form");
-const i53 = __webpack_require__(/*! devextreme-angular/ui/drawer */ "devextreme-angular/ui/drawer");
-const i54 = __webpack_require__(/*! devextreme-angular/ui/radio-group */ "devextreme-angular/ui/radio-group");
-const i55 = __webpack_require__(/*! devextreme-angular/ui/nested/menu-item-dxi */ "devextreme-angular/ui/nested/menu-item-dxi");
-const i56 = __webpack_require__(/*! devextreme-angular/ui/nested/search-editor-options */ "devextreme-angular/ui/nested/search-editor-options");
-const i57 = __webpack_require__(/*! devextreme-angular/ui/list */ "devextreme-angular/ui/list");
-const i58 = __webpack_require__(/*! devextreme-angular/ui/toolbar */ "devextreme-angular/ui/toolbar");
-const i59 = __webpack_require__(/*! devextreme-angular/ui/nested/media-resizing */ "devextreme-angular/ui/nested/media-resizing");
-const i60 = __webpack_require__(/*! devextreme-angular/ui/nested/mention-dxi */ "devextreme-angular/ui/nested/mention-dxi");
-const i61 = __webpack_require__(/*! devextreme-angular/ui/nested/toolbar */ "devextreme-angular/ui/nested/toolbar");
-const i62 = __webpack_require__(/*! devextreme-angular/ui/nested/variables */ "devextreme-angular/ui/nested/variables");
-const i63 = __webpack_require__(/*! devextreme-angular/ui/html-editor */ "devextreme-angular/ui/html-editor");
-const i64 = __webpack_require__(/*! devextreme-angular/ui/tree-view */ "devextreme-angular/ui/tree-view");
-const i65 = __webpack_require__(/*! devextreme-angular/ui/nested/column-chooser */ "devextreme-angular/ui/nested/column-chooser");
-const i66 = __webpack_require__(/*! devextreme-angular/ui/nested/column-fixing */ "devextreme-angular/ui/nested/column-fixing");
-const i67 = __webpack_require__(/*! devextreme-angular/ui/nested/texts */ "devextreme-angular/ui/nested/texts");
-const i68 = __webpack_require__(/*! devextreme-angular/ui/nested/column-dxi */ "devextreme-angular/ui/nested/column-dxi");
-const i69 = __webpack_require__(/*! devextreme-angular/ui/nested/header-filter */ "devextreme-angular/ui/nested/header-filter");
-const i70 = __webpack_require__(/*! devextreme-angular/ui/nested/lookup */ "devextreme-angular/ui/nested/lookup");
-const i71 = __webpack_require__(/*! devextreme-angular/ui/nested/form-item */ "devextreme-angular/ui/nested/form-item");
-const i72 = __webpack_require__(/*! devextreme-angular/ui/nested/editing */ "devextreme-angular/ui/nested/editing");
-const i73 = __webpack_require__(/*! devextreme-angular/ui/nested/form */ "devextreme-angular/ui/nested/form");
-const i74 = __webpack_require__(/*! devextreme-angular/ui/nested/popup */ "devextreme-angular/ui/nested/popup");
-const i75 = __webpack_require__(/*! devextreme-angular/ui/nested/animation */ "devextreme-angular/ui/nested/animation");
-const i76 = __webpack_require__(/*! devextreme-angular/ui/nested/hide */ "devextreme-angular/ui/nested/hide");
-const i77 = __webpack_require__(/*! devextreme-angular/ui/nested/show */ "devextreme-angular/ui/nested/show");
-const i78 = __webpack_require__(/*! devextreme-angular/ui/nested/position */ "devextreme-angular/ui/nested/position");
-const i79 = __webpack_require__(/*! devextreme-angular/ui/nested/at */ "devextreme-angular/ui/nested/at");
-const i80 = __webpack_require__(/*! devextreme-angular/ui/nested/boundary-offset */ "devextreme-angular/ui/nested/boundary-offset");
-const i81 = __webpack_require__(/*! devextreme-angular/ui/nested/collision */ "devextreme-angular/ui/nested/collision");
-const i82 = __webpack_require__(/*! devextreme-angular/ui/nested/my */ "devextreme-angular/ui/nested/my");
-const i83 = __webpack_require__(/*! devextreme-angular/ui/nested/offset */ "devextreme-angular/ui/nested/offset");
-const i84 = __webpack_require__(/*! devextreme-angular/ui/nested/toolbar-item-dxi */ "devextreme-angular/ui/nested/toolbar-item-dxi");
-const i85 = __webpack_require__(/*! devextreme-angular/ui/nested/export */ "devextreme-angular/ui/nested/export");
-const i86 = __webpack_require__(/*! devextreme-angular/ui/nested/filter-builder */ "devextreme-angular/ui/nested/filter-builder");
-const i87 = __webpack_require__(/*! devextreme-angular/ui/nested/custom-operation-dxi */ "devextreme-angular/ui/nested/custom-operation-dxi");
-const i88 = __webpack_require__(/*! devextreme-angular/ui/nested/field-dxi */ "devextreme-angular/ui/nested/field-dxi");
-const i89 = __webpack_require__(/*! devextreme-angular/ui/nested/filter-operation-descriptions */ "devextreme-angular/ui/nested/filter-operation-descriptions");
-const i90 = __webpack_require__(/*! devextreme-angular/ui/nested/group-operation-descriptions */ "devextreme-angular/ui/nested/group-operation-descriptions");
-const i91 = __webpack_require__(/*! devextreme-angular/ui/nested/filter-builder-popup */ "devextreme-angular/ui/nested/filter-builder-popup");
-const i92 = __webpack_require__(/*! devextreme-angular/ui/nested/filter-panel */ "devextreme-angular/ui/nested/filter-panel");
-const i93 = __webpack_require__(/*! devextreme-angular/ui/nested/filter-row */ "devextreme-angular/ui/nested/filter-row");
-const i94 = __webpack_require__(/*! devextreme-angular/ui/nested/operation-descriptions */ "devextreme-angular/ui/nested/operation-descriptions");
-const i95 = __webpack_require__(/*! devextreme-angular/ui/nested/grouping */ "devextreme-angular/ui/nested/grouping");
-const i96 = __webpack_require__(/*! devextreme-angular/ui/nested/group-panel */ "devextreme-angular/ui/nested/group-panel");
-const i97 = __webpack_require__(/*! devextreme-angular/ui/nested/keyboard-navigation */ "devextreme-angular/ui/nested/keyboard-navigation");
-const i98 = __webpack_require__(/*! devextreme-angular/ui/nested/load-panel */ "devextreme-angular/ui/nested/load-panel");
-const i99 = __webpack_require__(/*! devextreme-angular/ui/nested/master-detail */ "devextreme-angular/ui/nested/master-detail");
-const i100 = __webpack_require__(/*! devextreme-angular/ui/nested/pager */ "devextreme-angular/ui/nested/pager");
-const i101 = __webpack_require__(/*! devextreme-angular/ui/nested/paging */ "devextreme-angular/ui/nested/paging");
-const i102 = __webpack_require__(/*! devextreme-angular/ui/nested/remote-operations */ "devextreme-angular/ui/nested/remote-operations");
-const i103 = __webpack_require__(/*! devextreme-angular/ui/nested/scrolling */ "devextreme-angular/ui/nested/scrolling");
-const i104 = __webpack_require__(/*! devextreme-angular/ui/nested/search-panel */ "devextreme-angular/ui/nested/search-panel");
-const i105 = __webpack_require__(/*! devextreme-angular/ui/nested/selection */ "devextreme-angular/ui/nested/selection");
-const i106 = __webpack_require__(/*! devextreme-angular/ui/nested/sort-by-group-summary-info-dxi */ "devextreme-angular/ui/nested/sort-by-group-summary-info-dxi");
-const i107 = __webpack_require__(/*! devextreme-angular/ui/nested/sorting */ "devextreme-angular/ui/nested/sorting");
-const i108 = __webpack_require__(/*! devextreme-angular/ui/nested/state-storing */ "devextreme-angular/ui/nested/state-storing");
-const i109 = __webpack_require__(/*! devextreme-angular/ui/nested/summary */ "devextreme-angular/ui/nested/summary");
-const i110 = __webpack_require__(/*! devextreme-angular/ui/nested/group-item-dxi */ "devextreme-angular/ui/nested/group-item-dxi");
-const i111 = __webpack_require__(/*! devextreme-angular/ui/nested/value-format */ "devextreme-angular/ui/nested/value-format");
-const i112 = __webpack_require__(/*! devextreme-angular/ui/nested/total-item-dxi */ "devextreme-angular/ui/nested/total-item-dxi");
-const i113 = __webpack_require__(/*! devextreme-angular/ui/data-grid */ "devextreme-angular/ui/data-grid");
-const i114 = __webpack_require__(/*! devextreme-angular/ui/nested/tooltip */ "devextreme-angular/ui/nested/tooltip");
-const i115 = __webpack_require__(/*! devextreme-angular/ui/slider */ "devextreme-angular/ui/slider");
-const i116 = __webpack_require__(/*! devextreme-angular/ui/tree-list */ "devextreme-angular/ui/tree-list");
-const i117 = __webpack_require__(/*! devextreme-angular/ui/nested/resource-dxi */ "devextreme-angular/ui/nested/resource-dxi");
-const i118 = __webpack_require__(/*! devextreme-angular/ui/nested/view-dxi */ "devextreme-angular/ui/nested/view-dxi");
-const i119 = __webpack_require__(/*! devextreme-angular/ui/scheduler */ "devextreme-angular/ui/scheduler");
-const i120 = __webpack_require__(/*! devextreme-angular/ui/nested/data-source */ "devextreme-angular/ui/nested/data-source");
-const i121 = __webpack_require__(/*! devextreme-angular/ui/nested/store */ "devextreme-angular/ui/nested/store");
-const i122 = __webpack_require__(/*! devextreme-angular/ui/nested/field-chooser */ "devextreme-angular/ui/nested/field-chooser");
-const i123 = __webpack_require__(/*! devextreme-angular/ui/nested/field-panel */ "devextreme-angular/ui/nested/field-panel");
-const i124 = __webpack_require__(/*! devextreme-angular/ui/pivot-grid */ "devextreme-angular/ui/pivot-grid");
-const i125 = __webpack_require__(/*! devextreme-angular/ui/nested/adaptive-layout */ "devextreme-angular/ui/nested/adaptive-layout");
-const i126 = __webpack_require__(/*! devextreme-angular/ui/nested/annotation-dxi */ "devextreme-angular/ui/nested/annotation-dxi");
-const i127 = __webpack_require__(/*! devextreme-angular/ui/nested/border */ "devextreme-angular/ui/nested/border");
-const i128 = __webpack_require__(/*! devextreme-angular/ui/nested/font */ "devextreme-angular/ui/nested/font");
-const i129 = __webpack_require__(/*! devextreme-angular/ui/nested/image */ "devextreme-angular/ui/nested/image");
-const i130 = __webpack_require__(/*! devextreme-angular/ui/nested/shadow */ "devextreme-angular/ui/nested/shadow");
-const i131 = __webpack_require__(/*! devextreme-angular/ui/nested/argument-axis */ "devextreme-angular/ui/nested/argument-axis");
-const i132 = __webpack_require__(/*! devextreme-angular/ui/nested/aggregation-interval */ "devextreme-angular/ui/nested/aggregation-interval");
-const i133 = __webpack_require__(/*! devextreme-angular/ui/nested/break-dxi */ "devextreme-angular/ui/nested/break-dxi");
-const i134 = __webpack_require__(/*! devextreme-angular/ui/nested/break-style */ "devextreme-angular/ui/nested/break-style");
-const i135 = __webpack_require__(/*! devextreme-angular/ui/nested/constant-line-dxi */ "devextreme-angular/ui/nested/constant-line-dxi");
-const i136 = __webpack_require__(/*! devextreme-angular/ui/nested/constant-line-style */ "devextreme-angular/ui/nested/constant-line-style");
-const i137 = __webpack_require__(/*! devextreme-angular/ui/nested/grid */ "devextreme-angular/ui/nested/grid");
-const i138 = __webpack_require__(/*! devextreme-angular/ui/nested/minor-grid */ "devextreme-angular/ui/nested/minor-grid");
-const i139 = __webpack_require__(/*! devextreme-angular/ui/nested/minor-tick */ "devextreme-angular/ui/nested/minor-tick");
-const i140 = __webpack_require__(/*! devextreme-angular/ui/nested/minor-tick-interval */ "devextreme-angular/ui/nested/minor-tick-interval");
-const i141 = __webpack_require__(/*! devextreme-angular/ui/nested/min-visual-range-length */ "devextreme-angular/ui/nested/min-visual-range-length");
-const i142 = __webpack_require__(/*! devextreme-angular/ui/nested/strip-dxi */ "devextreme-angular/ui/nested/strip-dxi");
-const i143 = __webpack_require__(/*! devextreme-angular/ui/nested/strip-style */ "devextreme-angular/ui/nested/strip-style");
-const i144 = __webpack_require__(/*! devextreme-angular/ui/nested/tick */ "devextreme-angular/ui/nested/tick");
-const i145 = __webpack_require__(/*! devextreme-angular/ui/nested/tick-interval */ "devextreme-angular/ui/nested/tick-interval");
-const i146 = __webpack_require__(/*! devextreme-angular/ui/nested/title */ "devextreme-angular/ui/nested/title");
-const i147 = __webpack_require__(/*! devextreme-angular/ui/nested/common-annotation-settings */ "devextreme-angular/ui/nested/common-annotation-settings");
-const i148 = __webpack_require__(/*! devextreme-angular/ui/nested/common-axis-settings */ "devextreme-angular/ui/nested/common-axis-settings");
-const i149 = __webpack_require__(/*! devextreme-angular/ui/nested/common-pane-settings */ "devextreme-angular/ui/nested/common-pane-settings");
-const i150 = __webpack_require__(/*! devextreme-angular/ui/nested/common-series-settings */ "devextreme-angular/ui/nested/common-series-settings");
-const i151 = __webpack_require__(/*! devextreme-angular/ui/nested/aggregation */ "devextreme-angular/ui/nested/aggregation");
-const i152 = __webpack_require__(/*! devextreme-angular/ui/nested/area */ "devextreme-angular/ui/nested/area");
-const i153 = __webpack_require__(/*! devextreme-angular/ui/nested/hover-style */ "devextreme-angular/ui/nested/hover-style");
-const i154 = __webpack_require__(/*! devextreme-angular/ui/nested/hatching */ "devextreme-angular/ui/nested/hatching");
-const i155 = __webpack_require__(/*! devextreme-angular/ui/nested/connector */ "devextreme-angular/ui/nested/connector");
-const i156 = __webpack_require__(/*! devextreme-angular/ui/nested/point */ "devextreme-angular/ui/nested/point");
-const i157 = __webpack_require__(/*! devextreme-angular/ui/nested/height */ "devextreme-angular/ui/nested/height");
-const i158 = __webpack_require__(/*! devextreme-angular/ui/nested/url */ "devextreme-angular/ui/nested/url");
-const i159 = __webpack_require__(/*! devextreme-angular/ui/nested/width */ "devextreme-angular/ui/nested/width");
-const i160 = __webpack_require__(/*! devextreme-angular/ui/nested/selection-style */ "devextreme-angular/ui/nested/selection-style");
-const i161 = __webpack_require__(/*! devextreme-angular/ui/nested/reduction */ "devextreme-angular/ui/nested/reduction");
-const i162 = __webpack_require__(/*! devextreme-angular/ui/nested/value-error-bar */ "devextreme-angular/ui/nested/value-error-bar");
-const i163 = __webpack_require__(/*! devextreme-angular/ui/nested/bar */ "devextreme-angular/ui/nested/bar");
-const i164 = __webpack_require__(/*! devextreme-angular/ui/nested/bubble */ "devextreme-angular/ui/nested/bubble");
-const i165 = __webpack_require__(/*! devextreme-angular/ui/nested/candlestick */ "devextreme-angular/ui/nested/candlestick");
-const i166 = __webpack_require__(/*! devextreme-angular/ui/nested/fullstackedarea */ "devextreme-angular/ui/nested/fullstackedarea");
-const i167 = __webpack_require__(/*! devextreme-angular/ui/nested/fullstackedbar */ "devextreme-angular/ui/nested/fullstackedbar");
-const i168 = __webpack_require__(/*! devextreme-angular/ui/nested/fullstackedline */ "devextreme-angular/ui/nested/fullstackedline");
-const i169 = __webpack_require__(/*! devextreme-angular/ui/nested/fullstackedspline */ "devextreme-angular/ui/nested/fullstackedspline");
-const i170 = __webpack_require__(/*! devextreme-angular/ui/nested/fullstackedsplinearea */ "devextreme-angular/ui/nested/fullstackedsplinearea");
-const i171 = __webpack_require__(/*! devextreme-angular/ui/nested/argument-format */ "devextreme-angular/ui/nested/argument-format");
-const i172 = __webpack_require__(/*! devextreme-angular/ui/nested/line */ "devextreme-angular/ui/nested/line");
-const i173 = __webpack_require__(/*! devextreme-angular/ui/nested/rangearea */ "devextreme-angular/ui/nested/rangearea");
-const i174 = __webpack_require__(/*! devextreme-angular/ui/nested/rangebar */ "devextreme-angular/ui/nested/rangebar");
-const i175 = __webpack_require__(/*! devextreme-angular/ui/nested/scatter */ "devextreme-angular/ui/nested/scatter");
-const i176 = __webpack_require__(/*! devextreme-angular/ui/nested/spline */ "devextreme-angular/ui/nested/spline");
-const i177 = __webpack_require__(/*! devextreme-angular/ui/nested/splinearea */ "devextreme-angular/ui/nested/splinearea");
-const i178 = __webpack_require__(/*! devextreme-angular/ui/nested/stackedarea */ "devextreme-angular/ui/nested/stackedarea");
-const i179 = __webpack_require__(/*! devextreme-angular/ui/nested/stackedbar */ "devextreme-angular/ui/nested/stackedbar");
-const i180 = __webpack_require__(/*! devextreme-angular/ui/nested/stackedline */ "devextreme-angular/ui/nested/stackedline");
-const i181 = __webpack_require__(/*! devextreme-angular/ui/nested/stackedspline */ "devextreme-angular/ui/nested/stackedspline");
-const i182 = __webpack_require__(/*! devextreme-angular/ui/nested/stackedsplinearea */ "devextreme-angular/ui/nested/stackedsplinearea");
-const i183 = __webpack_require__(/*! devextreme-angular/ui/nested/steparea */ "devextreme-angular/ui/nested/steparea");
-const i184 = __webpack_require__(/*! devextreme-angular/ui/nested/stepline */ "devextreme-angular/ui/nested/stepline");
-const i185 = __webpack_require__(/*! devextreme-angular/ui/nested/stock */ "devextreme-angular/ui/nested/stock");
-const i186 = __webpack_require__(/*! devextreme-angular/ui/nested/crosshair */ "devextreme-angular/ui/nested/crosshair");
-const i187 = __webpack_require__(/*! devextreme-angular/ui/nested/horizontal-line */ "devextreme-angular/ui/nested/horizontal-line");
-const i188 = __webpack_require__(/*! devextreme-angular/ui/nested/vertical-line */ "devextreme-angular/ui/nested/vertical-line");
-const i189 = __webpack_require__(/*! devextreme-angular/ui/nested/data-prepare-settings */ "devextreme-angular/ui/nested/data-prepare-settings");
-const i190 = __webpack_require__(/*! devextreme-angular/ui/nested/legend */ "devextreme-angular/ui/nested/legend");
-const i191 = __webpack_require__(/*! devextreme-angular/ui/nested/margin */ "devextreme-angular/ui/nested/margin");
-const i192 = __webpack_require__(/*! devextreme-angular/ui/nested/subtitle */ "devextreme-angular/ui/nested/subtitle");
-const i193 = __webpack_require__(/*! devextreme-angular/ui/nested/loading-indicator */ "devextreme-angular/ui/nested/loading-indicator");
-const i194 = __webpack_require__(/*! devextreme-angular/ui/nested/pane-dxi */ "devextreme-angular/ui/nested/pane-dxi");
-const i195 = __webpack_require__(/*! devextreme-angular/ui/nested/scroll-bar */ "devextreme-angular/ui/nested/scroll-bar");
-const i196 = __webpack_require__(/*! devextreme-angular/ui/nested/series-dxi */ "devextreme-angular/ui/nested/series-dxi");
-const i197 = __webpack_require__(/*! devextreme-angular/ui/nested/series-template */ "devextreme-angular/ui/nested/series-template");
-const i198 = __webpack_require__(/*! devextreme-angular/ui/nested/size */ "devextreme-angular/ui/nested/size");
-const i199 = __webpack_require__(/*! devextreme-angular/ui/nested/value-axis-dxi */ "devextreme-angular/ui/nested/value-axis-dxi");
-const i200 = __webpack_require__(/*! devextreme-angular/ui/nested/zoom-and-pan */ "devextreme-angular/ui/nested/zoom-and-pan");
-const i201 = __webpack_require__(/*! devextreme-angular/ui/nested/drag-box-style */ "devextreme-angular/ui/nested/drag-box-style");
-const i202 = __webpack_require__(/*! devextreme-angular/ui/chart */ "devextreme-angular/ui/chart");
-const i203 = __webpack_require__(/*! devextreme-angular/ui/button */ "devextreme-angular/ui/button");
-const i204 = __webpack_require__(/*! devextreme-angular/ui/popup */ "devextreme-angular/ui/popup");
-const i205 = __webpack_require__(/*! devextreme-angular/ui/nested/hide-event */ "devextreme-angular/ui/nested/hide-event");
-const i206 = __webpack_require__(/*! devextreme-angular/ui/nested/show-event */ "devextreme-angular/ui/nested/show-event");
-const i207 = __webpack_require__(/*! devextreme-angular/ui/popover */ "devextreme-angular/ui/popover");
-const i208 = __webpack_require__(/*! devextreme-angular/ui/nested/center-dxi */ "devextreme-angular/ui/nested/center-dxi");
-const i209 = __webpack_require__(/*! devextreme-angular/ui/nested/key */ "devextreme-angular/ui/nested/key");
-const i210 = __webpack_require__(/*! devextreme-angular/ui/nested/marker-dxi */ "devextreme-angular/ui/nested/marker-dxi");
-const i211 = __webpack_require__(/*! devextreme-angular/ui/nested/location-dxi */ "devextreme-angular/ui/nested/location-dxi");
-const i212 = __webpack_require__(/*! devextreme-angular/ui/nested/route-dxi */ "devextreme-angular/ui/nested/route-dxi");
-const i213 = __webpack_require__(/*! devextreme-angular/ui/map */ "devextreme-angular/ui/map");
-const i214 = __webpack_require__(/*! devextreme-angular/ui/nested/background */ "devextreme-angular/ui/nested/background");
-const i215 = __webpack_require__(/*! devextreme-angular/ui/nested/control-bar */ "devextreme-angular/ui/nested/control-bar");
-const i216 = __webpack_require__(/*! devextreme-angular/ui/nested/layer-dxi */ "devextreme-angular/ui/nested/layer-dxi");
-const i217 = __webpack_require__(/*! devextreme-angular/ui/nested/legend-dxi */ "devextreme-angular/ui/nested/legend-dxi");
-const i218 = __webpack_require__(/*! devextreme-angular/ui/nested/source */ "devextreme-angular/ui/nested/source");
-const i219 = __webpack_require__(/*! devextreme-angular/ui/vector-map */ "devextreme-angular/ui/vector-map");
-const i220 = __webpack_require__(/*! devextreme-angular/ui/select-box */ "devextreme-angular/ui/select-box");
-const i221 = __webpack_require__(/*! devextreme-angular/ui/text-box */ "devextreme-angular/ui/text-box");
-const i222 = __webpack_require__(/*! devextreme-angular/ui/file-uploader */ "devextreme-angular/ui/file-uploader");
-const i223 = __webpack_require__(/*! devextreme-angular/ui/accordion */ "devextreme-angular/ui/accordion");
-const i224 = __webpack_require__(/*! devextreme-angular/ui/tag-box */ "devextreme-angular/ui/tag-box");
-const i225 = __webpack_require__(/*! devextreme-angular/ui/slide-out */ "devextreme-angular/ui/slide-out");
-const i226 = __webpack_require__(/*! devextreme-angular/ui/switch */ "devextreme-angular/ui/switch");
-const i227 = __webpack_require__(/*! devextreme-angular/ui/bullet */ "devextreme-angular/ui/bullet");
-const i228 = __webpack_require__(/*! devextreme-angular/ui/nested/drop-down-options */ "devextreme-angular/ui/nested/drop-down-options");
-const i229 = __webpack_require__(/*! devextreme-angular/ui/drop-down-box */ "devextreme-angular/ui/drop-down-box");
-const i230 = __webpack_require__(/*! devextreme-angular/ui/tab-panel */ "devextreme-angular/ui/tab-panel");
-const i231 = __webpack_require__(/*! devextreme-angular/ui/action-sheet */ "devextreme-angular/ui/action-sheet");
-const i232 = __webpack_require__(/*! devextreme-angular/ui/nested/calendar-options */ "devextreme-angular/ui/nested/calendar-options");
-const i233 = __webpack_require__(/*! devextreme-angular/ui/nested/display-format */ "devextreme-angular/ui/nested/display-format");
-const i234 = __webpack_require__(/*! devextreme-angular/ui/date-box */ "devextreme-angular/ui/date-box");
-const i235 = __webpack_require__(/*! devextreme-angular/ui/nested/adapter */ "devextreme-angular/ui/nested/adapter");
-const i236 = __webpack_require__(/*! devextreme-angular/ui/validator */ "devextreme-angular/ui/validator");
-const i237 = __webpack_require__(/*! devextreme-angular/ui/validation-summary */ "devextreme-angular/ui/validation-summary");
-const i238 = __webpack_require__(/*! devextreme-angular/ui/progress-bar */ "devextreme-angular/ui/progress-bar");
-const i239 = __webpack_require__(/*! devextreme-angular/ui/nested/col-dxi */ "devextreme-angular/ui/nested/col-dxi");
-const i240 = __webpack_require__(/*! devextreme-angular/ui/nested/row-dxi */ "devextreme-angular/ui/nested/row-dxi");
-const i241 = __webpack_require__(/*! devextreme-angular/ui/responsive-box */ "devextreme-angular/ui/responsive-box");
-const i242 = __webpack_require__(/*! devextreme-angular/ui/gallery */ "devextreme-angular/ui/gallery");
-const i243 = __webpack_require__(/*! devextreme-angular/ui/tile-view */ "devextreme-angular/ui/tile-view");
-const i244 = __webpack_require__(/*! devextreme-angular/ui/filter-builder */ "devextreme-angular/ui/filter-builder");
-const i245 = __webpack_require__(/*! devextreme-angular/ui/nav-bar */ "devextreme-angular/ui/nav-bar");
-const i246 = __webpack_require__(/*! devextreme-angular/ui/nested/box */ "devextreme-angular/ui/nested/box");
-const i247 = __webpack_require__(/*! devextreme-angular/ui/box */ "devextreme-angular/ui/box");
-const i248 = __webpack_require__(/*! devextreme-angular/ui/scroll-view */ "devextreme-angular/ui/scroll-view");
-const i249 = __webpack_require__(/*! devextreme-angular/ui/speed-dial-action */ "devextreme-angular/ui/speed-dial-action");
-var AppServerModuleNgFactory = i0.ɵcmf(i1.AppServerModule, [i2.AppComponent], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i3.ɵangular_packages_router_router_lNgFactory, i4.BlogPageComponentNgFactory, i5.ContactPageComponentNgFactory, i6.ExplorePageComponentNgFactory, i7.GuestPageComponentNgFactory, i8.JobsPageComponentNgFactory, i9.RestaurantPageComponentNgFactory, i10.LoungePageComponentNgFactory, i11.HotelPageComponentNgFactory, i12.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(5120, i0.LOCALE_ID, i0.ɵangular_packages_core_core_q, [[3, i0.LOCALE_ID]]), i0.ɵmpd(4608, i13.NgLocalization, i13.NgLocaleLocalization, [i0.LOCALE_ID, [2, i13.ɵangular_packages_common_common_a]]), i0.ɵmpd(5120, i0.ɵangular_packages_core_core_bb, i0.ɵangular_packages_core_core_s, [i0.NgZone]), i0.ɵmpd(5120, i0.IterableDiffers, i0.ɵangular_packages_core_core_o, []), i0.ɵmpd(5120, i0.KeyValueDiffers, i0.ɵangular_packages_core_core_p, []), i0.ɵmpd(4608, i14.DomSanitizer, i14.ɵDomSanitizerImpl, [i13.DOCUMENT]), i0.ɵmpd(6144, i0.Sanitizer, null, [i14.DomSanitizer]), i0.ɵmpd(4608, i14.HAMMER_GESTURE_CONFIG, i14.HammerGestureConfig, []), i0.ɵmpd(5120, i14.EVENT_MANAGER_PLUGINS, function (p0_0, p0_1, p0_2, p1_0, p2_0, p2_1, p2_2, p2_3, p3_0) { return [new i14.ɵDomEventsPlugin(p0_0, p0_1, p0_2), new i14.ɵKeyEventsPlugin(p1_0), new i14.ɵHammerGesturesPlugin(p2_0, p2_1, p2_2, p2_3), new i15.ɵangular_packages_platform_server_platform_server_d(p3_0)]; }, [i13.DOCUMENT, i0.NgZone, i0.PLATFORM_ID, i13.DOCUMENT, i13.DOCUMENT, i14.HAMMER_GESTURE_CONFIG, i0.ɵConsole, [2, i14.HAMMER_LOADER], i13.DOCUMENT]), i0.ɵmpd(4608, i14.EventManager, i14.EventManager, [i14.EVENT_MANAGER_PLUGINS, i0.NgZone]), i0.ɵmpd(135680, i14.ɵDomSharedStylesHost, i14.ɵDomSharedStylesHost, [i13.DOCUMENT]), i0.ɵmpd(4608, i14.ɵDomRendererFactory2, i14.ɵDomRendererFactory2, [i14.EventManager, i14.ɵDomSharedStylesHost, i0.APP_ID]), i0.ɵmpd(4608, i15.ɵangular_packages_platform_server_platform_server_c, i15.ɵangular_packages_platform_server_platform_server_c, [i13.DOCUMENT, [2, i14.ɵTRANSITION_ID]]), i0.ɵmpd(6144, i14.ɵSharedStylesHost, null, [i15.ɵangular_packages_platform_server_platform_server_c]), i0.ɵmpd(4608, i15.ɵServerRendererFactory2, i15.ɵServerRendererFactory2, [i14.EventManager, i0.NgZone, i13.DOCUMENT, i14.ɵSharedStylesHost]), i0.ɵmpd(4608, i16.AnimationDriver, i16.ɵNoopAnimationDriver, []), i0.ɵmpd(5120, i16.ɵAnimationStyleNormalizer, i17.ɵangular_packages_platform_browser_animations_animations_b, []), i0.ɵmpd(4608, i16.ɵAnimationEngine, i17.ɵInjectableAnimationEngine, [i13.DOCUMENT, i16.AnimationDriver, i16.ɵAnimationStyleNormalizer]), i0.ɵmpd(5120, i0.RendererFactory2, i15.ɵangular_packages_platform_server_platform_server_a, [i15.ɵServerRendererFactory2, i16.ɵAnimationEngine, i0.NgZone]), i0.ɵmpd(4352, i0.Testability, null, []), i0.ɵmpd(5120, i18.ActivatedRoute, i18.ɵangular_packages_router_router_g, [i18.Router]), i0.ɵmpd(4608, i18.NoPreloading, i18.NoPreloading, []), i0.ɵmpd(6144, i18.PreloadingStrategy, null, [i18.NoPreloading]), i0.ɵmpd(135680, i18.RouterPreloader, i18.RouterPreloader, [i18.Router, i0.NgModuleFactoryLoader, i0.Compiler, i0.Injector, i18.PreloadingStrategy]), i0.ɵmpd(4608, i18.PreloadAllModules, i18.PreloadAllModules, []), i0.ɵmpd(4608, i13.ViewportScroller, i13.ɵNullViewportScroller, []), i0.ɵmpd(5120, i18.ɵangular_packages_router_router_o, i18.ɵangular_packages_router_router_c, [i18.Router, i13.ViewportScroller, i18.ROUTER_CONFIGURATION]), i0.ɵmpd(5120, i18.ROUTER_INITIALIZER, i18.ɵangular_packages_router_router_j, [i18.ɵangular_packages_router_router_h]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) { return [p0_0]; }, [i18.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i19.HttpXsrfTokenExtractor, i19.ɵangular_packages_common_http_http_g, [i13.DOCUMENT, i0.PLATFORM_ID, i19.ɵangular_packages_common_http_http_e]), i0.ɵmpd(4608, i19.ɵangular_packages_common_http_http_h, i19.ɵangular_packages_common_http_http_h, [i19.HttpXsrfTokenExtractor, i19.ɵangular_packages_common_http_http_f]), i0.ɵmpd(5120, i19.HTTP_INTERCEPTORS, function (p0_0) { return [p0_0]; }, [i19.ɵangular_packages_common_http_http_h]), i0.ɵmpd(4608, i19.HttpXhrBackend, i19.HttpXhrBackend, [i19.XhrFactory]), i0.ɵmpd(6144, i19.HttpBackend, null, [i19.HttpXhrBackend]), i0.ɵmpd(5120, i19.HttpHandler, i15.ɵangular_packages_platform_server_platform_server_f, [i19.HttpBackend, i0.Injector]), i0.ɵmpd(4608, i19.HttpClient, i19.HttpClient, [i19.HttpHandler]), i0.ɵmpd(4608, i19.ɵangular_packages_common_http_http_d, i19.ɵangular_packages_common_http_http_d, []), i0.ɵmpd(4608, i20.AnimationBuilder, i17.ɵBrowserAnimationBuilder, [i0.RendererFactory2, i13.DOCUMENT]), i0.ɵmpd(4608, i14.TransferState, i14.TransferState, []), i0.ɵmpd(5120, i21.TranslateLoader, i22.HttpLoaderFactory, [i19.HttpClient]), i0.ɵmpd(4608, i21.TranslateCompiler, i21.TranslateFakeCompiler, []), i0.ɵmpd(4608, i21.TranslateParser, i21.TranslateDefaultParser, []), i0.ɵmpd(4608, i21.MissingTranslationHandler, i21.FakeMissingTranslationHandler, []), i0.ɵmpd(4608, i21.TranslateStore, i21.TranslateStore, []), i0.ɵmpd(4608, i21.TranslateService, i21.TranslateService, [i21.TranslateStore, i21.TranslateLoader, i21.TranslateCompiler, i21.TranslateParser, i21.MissingTranslationHandler, i21.USE_DEFAULT_LANG, i21.USE_STORE]), i0.ɵmpd(4608, i23.ScreenService, i23.ScreenService, [i24.BreakpointObserver]), i0.ɵmpd(5120, i15.BEFORE_APP_SERIALIZED, function (p0_0, p0_1, p0_2) { return [i15.ɵangular_packages_platform_server_platform_server_b(p0_0, p0_1, p0_2)]; }, [i13.DOCUMENT, i0.APP_ID, i14.TransferState]), i0.ɵmpd(1073742336, i13.CommonModule, i13.CommonModule, []), i0.ɵmpd(1024, i0.ErrorHandler, i14.ɵangular_packages_platform_browser_platform_browser_a, []), i0.ɵmpd(1024, i0.NgProbeToken, function () { return [i18.ɵangular_packages_router_router_b()]; }, []), i0.ɵmpd(512, i18.ɵangular_packages_router_router_h, i18.ɵangular_packages_router_router_h, [i0.Injector]), i0.ɵmpd(256, i0.APP_ID, "app-root", []), i0.ɵmpd(2048, i14.ɵTRANSITION_ID, null, [i0.APP_ID]), i0.ɵmpd(1024, i0.APP_INITIALIZER, function (p0_0, p1_0, p2_0, p2_1, p2_2) { return [i14.ɵangular_packages_platform_browser_platform_browser_j(p0_0), i18.ɵangular_packages_router_router_i(p1_0), i14.ɵangular_packages_platform_browser_platform_browser_h(p2_0, p2_1, p2_2)]; }, [[2, i0.NgProbeToken], i18.ɵangular_packages_router_router_h, i14.ɵTRANSITION_ID, i13.DOCUMENT, i0.Injector]), i0.ɵmpd(512, i0.ApplicationInitStatus, i0.ApplicationInitStatus, [[2, i0.APP_INITIALIZER]]), i0.ɵmpd(131584, i0.ApplicationRef, i0.ApplicationRef, [i0.NgZone, i0.ɵConsole, i0.Injector, i0.ErrorHandler, i0.ComponentFactoryResolver, i0.ApplicationInitStatus]), i0.ɵmpd(1073742336, i0.ApplicationModule, i0.ApplicationModule, [i0.ApplicationRef]), i0.ɵmpd(1073742336, i14.BrowserModule, i14.BrowserModule, [[3, i14.BrowserModule]]), i0.ɵmpd(1024, i18.ɵangular_packages_router_router_a, i18.ɵangular_packages_router_router_e, [[3, i18.Router]]), i0.ɵmpd(512, i18.UrlSerializer, i18.DefaultUrlSerializer, []), i0.ɵmpd(512, i18.ChildrenOutletContexts, i18.ChildrenOutletContexts, []), i0.ɵmpd(256, i18.ROUTER_CONFIGURATION, { enableTracing: false }, []), i0.ɵmpd(1024, i13.LocationStrategy, i18.ɵangular_packages_router_router_d, [i13.PlatformLocation, [2, i13.APP_BASE_HREF], i18.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i13.Location, i13.Location, [i13.LocationStrategy, i13.PlatformLocation]), i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i25.ModuleMapNgFactoryLoader, [i0.Compiler, i25.MODULE_MAP]), i0.ɵmpd(1024, i18.ROUTES, function () { return [[{ path: "", redirectTo: "blog", pathMatch: "full" }, { path: "blog:page", component: i26.BlogPageComponent }, { path: "blog", component: i26.BlogPageComponent }, { path: "contact", component: i27.ContactPageComponent }, { path: "explore", component: i28.ExplorePageComponent }, { path: "guest", component: i29.GuestPageComponent }, { path: "jobs", component: i30.JobsPageComponent }, { path: "the-restaurant", component: i31.RestaurantPageComponent }, { path: "the-lounge", component: i32.LoungePageComponent }, { path: "the-hotel", component: i33.HotelPageComponent }]]; }, []), i0.ɵmpd(1024, i18.Router, i18.ɵangular_packages_router_router_f, [i0.ApplicationRef, i18.UrlSerializer, i18.ChildrenOutletContexts, i13.Location, i0.Injector, i0.NgModuleFactoryLoader, i0.Compiler, i18.ROUTES, i18.ROUTER_CONFIGURATION, [2, i18.UrlHandlingStrategy], [2, i18.RouteReuseStrategy]]), i0.ɵmpd(1073742336, i18.RouterModule, i18.RouterModule, [[2, i18.ɵangular_packages_router_router_a], [2, i18.Router]]), i0.ɵmpd(1073742336, i34.AppRoutingModule, i34.AppRoutingModule, []), i0.ɵmpd(1073742336, i19.HttpClientXsrfModule, i19.HttpClientXsrfModule, []), i0.ɵmpd(1073742336, i19.HttpClientModule, i19.HttpClientModule, []), i0.ɵmpd(1073742336, i21.TranslateModule, i21.TranslateModule, []), i0.ɵmpd(1073742336, i17.BrowserAnimationsModule, i17.BrowserAnimationsModule, []), i0.ɵmpd(1073742336, i35.DxiItemModule, i35.DxiItemModule, []), i0.ɵmpd(512, i19.XhrFactory, i15.ɵangular_packages_platform_server_platform_server_e, []), i0.ɵmpd(1073742336, i36.DxIntegrationModule, i36.DxIntegrationModule, [i13.DOCUMENT, i0.NgZone, [2, i19.XhrFactory]]), i0.ɵmpd(1073742336, i37.DxTemplateModule, i37.DxTemplateModule, []), i0.ɵmpd(1073742336, i14.BrowserTransferStateModule, i14.BrowserTransferStateModule, []), i0.ɵmpd(1073742336, i38.DxMultiViewModule, i38.DxMultiViewModule, []), i0.ɵmpd(1073742336, i39.DxCalendarModule, i39.DxCalendarModule, []), i0.ɵmpd(1073742336, i40.DxiButtonModule, i40.DxiButtonModule, []), i0.ɵmpd(1073742336, i41.DxoOptionsModule, i41.DxoOptionsModule, []), i0.ɵmpd(1073742336, i42.DxoFormatModule, i42.DxoFormatModule, []), i0.ɵmpd(1073742336, i43.DxNumberBoxModule, i43.DxNumberBoxModule, []), i0.ɵmpd(1073742336, i44.DxCheckBoxModule, i44.DxCheckBoxModule, []), i0.ɵmpd(1073742336, i45.DxButtonGroupModule, i45.DxButtonGroupModule, []), i0.ɵmpd(1073742336, i46.DxoColCountByScreenModule, i46.DxoColCountByScreenModule, []), i0.ɵmpd(1073742336, i47.DxoLabelModule, i47.DxoLabelModule, []), i0.ɵmpd(1073742336, i48.DxiValidationRuleModule, i48.DxiValidationRuleModule, []), i0.ɵmpd(1073742336, i49.DxoTabPanelOptionsModule, i49.DxoTabPanelOptionsModule, []), i0.ɵmpd(1073742336, i50.DxiTabModule, i50.DxiTabModule, []), i0.ɵmpd(1073742336, i51.DxoButtonOptionsModule, i51.DxoButtonOptionsModule, []), i0.ɵmpd(1073742336, i52.DxFormModule, i52.DxFormModule, []), i0.ɵmpd(1073742336, i53.DxDrawerModule, i53.DxDrawerModule, []), i0.ɵmpd(1073742336, i54.DxRadioGroupModule, i54.DxRadioGroupModule, []), i0.ɵmpd(1073742336, i55.DxiMenuItemModule, i55.DxiMenuItemModule, []), i0.ɵmpd(1073742336, i56.DxoSearchEditorOptionsModule, i56.DxoSearchEditorOptionsModule, []), i0.ɵmpd(1073742336, i57.DxListModule, i57.DxListModule, []), i0.ɵmpd(1073742336, i58.DxToolbarModule, i58.DxToolbarModule, []), i0.ɵmpd(1073742336, i59.DxoMediaResizingModule, i59.DxoMediaResizingModule, []), i0.ɵmpd(1073742336, i60.DxiMentionModule, i60.DxiMentionModule, []), i0.ɵmpd(1073742336, i61.DxoToolbarModule, i61.DxoToolbarModule, []), i0.ɵmpd(1073742336, i62.DxoVariablesModule, i62.DxoVariablesModule, []), i0.ɵmpd(1073742336, i63.DxHtmlEditorModule, i63.DxHtmlEditorModule, []), i0.ɵmpd(1073742336, i64.DxTreeViewModule, i64.DxTreeViewModule, []), i0.ɵmpd(1073742336, i65.DxoColumnChooserModule, i65.DxoColumnChooserModule, []), i0.ɵmpd(1073742336, i66.DxoColumnFixingModule, i66.DxoColumnFixingModule, []), i0.ɵmpd(1073742336, i67.DxoTextsModule, i67.DxoTextsModule, []), i0.ɵmpd(1073742336, i68.DxiColumnModule, i68.DxiColumnModule, []), i0.ɵmpd(1073742336, i69.DxoHeaderFilterModule, i69.DxoHeaderFilterModule, []), i0.ɵmpd(1073742336, i70.DxoLookupModule, i70.DxoLookupModule, []), i0.ɵmpd(1073742336, i71.DxoFormItemModule, i71.DxoFormItemModule, []), i0.ɵmpd(1073742336, i72.DxoEditingModule, i72.DxoEditingModule, []), i0.ɵmpd(1073742336, i73.DxoFormModule, i73.DxoFormModule, []), i0.ɵmpd(1073742336, i74.DxoPopupModule, i74.DxoPopupModule, []), i0.ɵmpd(1073742336, i75.DxoAnimationModule, i75.DxoAnimationModule, []), i0.ɵmpd(1073742336, i76.DxoHideModule, i76.DxoHideModule, []), i0.ɵmpd(1073742336, i77.DxoShowModule, i77.DxoShowModule, []), i0.ɵmpd(1073742336, i78.DxoPositionModule, i78.DxoPositionModule, []), i0.ɵmpd(1073742336, i79.DxoAtModule, i79.DxoAtModule, []), i0.ɵmpd(1073742336, i80.DxoBoundaryOffsetModule, i80.DxoBoundaryOffsetModule, []), i0.ɵmpd(1073742336, i81.DxoCollisionModule, i81.DxoCollisionModule, []), i0.ɵmpd(1073742336, i82.DxoMyModule, i82.DxoMyModule, []), i0.ɵmpd(1073742336, i83.DxoOffsetModule, i83.DxoOffsetModule, []), i0.ɵmpd(1073742336, i84.DxiToolbarItemModule, i84.DxiToolbarItemModule, []), i0.ɵmpd(1073742336, i85.DxoExportModule, i85.DxoExportModule, []), i0.ɵmpd(1073742336, i86.DxoFilterBuilderModule, i86.DxoFilterBuilderModule, []), i0.ɵmpd(1073742336, i87.DxiCustomOperationModule, i87.DxiCustomOperationModule, []), i0.ɵmpd(1073742336, i88.DxiFieldModule, i88.DxiFieldModule, []), i0.ɵmpd(1073742336, i89.DxoFilterOperationDescriptionsModule, i89.DxoFilterOperationDescriptionsModule, []), i0.ɵmpd(1073742336, i90.DxoGroupOperationDescriptionsModule, i90.DxoGroupOperationDescriptionsModule, []), i0.ɵmpd(1073742336, i91.DxoFilterBuilderPopupModule, i91.DxoFilterBuilderPopupModule, []), i0.ɵmpd(1073742336, i92.DxoFilterPanelModule, i92.DxoFilterPanelModule, []), i0.ɵmpd(1073742336, i93.DxoFilterRowModule, i93.DxoFilterRowModule, []), i0.ɵmpd(1073742336, i94.DxoOperationDescriptionsModule, i94.DxoOperationDescriptionsModule, []), i0.ɵmpd(1073742336, i95.DxoGroupingModule, i95.DxoGroupingModule, []), i0.ɵmpd(1073742336, i96.DxoGroupPanelModule, i96.DxoGroupPanelModule, []), i0.ɵmpd(1073742336, i97.DxoKeyboardNavigationModule, i97.DxoKeyboardNavigationModule, []), i0.ɵmpd(1073742336, i98.DxoLoadPanelModule, i98.DxoLoadPanelModule, []), i0.ɵmpd(1073742336, i99.DxoMasterDetailModule, i99.DxoMasterDetailModule, []), i0.ɵmpd(1073742336, i100.DxoPagerModule, i100.DxoPagerModule, []), i0.ɵmpd(1073742336, i101.DxoPagingModule, i101.DxoPagingModule, []), i0.ɵmpd(1073742336, i102.DxoRemoteOperationsModule, i102.DxoRemoteOperationsModule, []), i0.ɵmpd(1073742336, i103.DxoScrollingModule, i103.DxoScrollingModule, []), i0.ɵmpd(1073742336, i104.DxoSearchPanelModule, i104.DxoSearchPanelModule, []), i0.ɵmpd(1073742336, i105.DxoSelectionModule, i105.DxoSelectionModule, []), i0.ɵmpd(1073742336, i106.DxiSortByGroupSummaryInfoModule, i106.DxiSortByGroupSummaryInfoModule, []), i0.ɵmpd(1073742336, i107.DxoSortingModule, i107.DxoSortingModule, []), i0.ɵmpd(1073742336, i108.DxoStateStoringModule, i108.DxoStateStoringModule, []), i0.ɵmpd(1073742336, i109.DxoSummaryModule, i109.DxoSummaryModule, []), i0.ɵmpd(1073742336, i110.DxiGroupItemModule, i110.DxiGroupItemModule, []), i0.ɵmpd(1073742336, i111.DxoValueFormatModule, i111.DxoValueFormatModule, []), i0.ɵmpd(1073742336, i112.DxiTotalItemModule, i112.DxiTotalItemModule, []), i0.ɵmpd(1073742336, i113.DxDataGridModule, i113.DxDataGridModule, []), i0.ɵmpd(1073742336, i114.DxoTooltipModule, i114.DxoTooltipModule, []), i0.ɵmpd(1073742336, i115.DxSliderModule, i115.DxSliderModule, []), i0.ɵmpd(1073742336, i116.DxTreeListModule, i116.DxTreeListModule, []), i0.ɵmpd(1073742336, i117.DxiResourceModule, i117.DxiResourceModule, []), i0.ɵmpd(1073742336, i118.DxiViewModule, i118.DxiViewModule, []), i0.ɵmpd(1073742336, i119.DxSchedulerModule, i119.DxSchedulerModule, []), i0.ɵmpd(1073742336, i120.DxoDataSourceModule, i120.DxoDataSourceModule, []), i0.ɵmpd(1073742336, i121.DxoStoreModule, i121.DxoStoreModule, []), i0.ɵmpd(1073742336, i122.DxoFieldChooserModule, i122.DxoFieldChooserModule, []), i0.ɵmpd(1073742336, i123.DxoFieldPanelModule, i123.DxoFieldPanelModule, []), i0.ɵmpd(1073742336, i124.DxPivotGridModule, i124.DxPivotGridModule, []), i0.ɵmpd(1073742336, i125.DxoAdaptiveLayoutModule, i125.DxoAdaptiveLayoutModule, []), i0.ɵmpd(1073742336, i126.DxiAnnotationModule, i126.DxiAnnotationModule, []), i0.ɵmpd(1073742336, i127.DxoBorderModule, i127.DxoBorderModule, []), i0.ɵmpd(1073742336, i128.DxoFontModule, i128.DxoFontModule, []), i0.ɵmpd(1073742336, i129.DxoImageModule, i129.DxoImageModule, []), i0.ɵmpd(1073742336, i130.DxoShadowModule, i130.DxoShadowModule, []), i0.ɵmpd(1073742336, i131.DxoArgumentAxisModule, i131.DxoArgumentAxisModule, []), i0.ɵmpd(1073742336, i132.DxoAggregationIntervalModule, i132.DxoAggregationIntervalModule, []), i0.ɵmpd(1073742336, i133.DxiBreakModule, i133.DxiBreakModule, []), i0.ɵmpd(1073742336, i134.DxoBreakStyleModule, i134.DxoBreakStyleModule, []), i0.ɵmpd(1073742336, i135.DxiConstantLineModule, i135.DxiConstantLineModule, []), i0.ɵmpd(1073742336, i136.DxoConstantLineStyleModule, i136.DxoConstantLineStyleModule, []), i0.ɵmpd(1073742336, i137.DxoGridModule, i137.DxoGridModule, []), i0.ɵmpd(1073742336, i138.DxoMinorGridModule, i138.DxoMinorGridModule, []), i0.ɵmpd(1073742336, i139.DxoMinorTickModule, i139.DxoMinorTickModule, []), i0.ɵmpd(1073742336, i140.DxoMinorTickIntervalModule, i140.DxoMinorTickIntervalModule, []), i0.ɵmpd(1073742336, i141.DxoMinVisualRangeLengthModule, i141.DxoMinVisualRangeLengthModule, []), i0.ɵmpd(1073742336, i142.DxiStripModule, i142.DxiStripModule, []), i0.ɵmpd(1073742336, i143.DxoStripStyleModule, i143.DxoStripStyleModule, []), i0.ɵmpd(1073742336, i144.DxoTickModule, i144.DxoTickModule, []), i0.ɵmpd(1073742336, i145.DxoTickIntervalModule, i145.DxoTickIntervalModule, []), i0.ɵmpd(1073742336, i146.DxoTitleModule, i146.DxoTitleModule, []), i0.ɵmpd(1073742336, i147.DxoCommonAnnotationSettingsModule, i147.DxoCommonAnnotationSettingsModule, []), i0.ɵmpd(1073742336, i148.DxoCommonAxisSettingsModule, i148.DxoCommonAxisSettingsModule, []), i0.ɵmpd(1073742336, i149.DxoCommonPaneSettingsModule, i149.DxoCommonPaneSettingsModule, []), i0.ɵmpd(1073742336, i150.DxoCommonSeriesSettingsModule, i150.DxoCommonSeriesSettingsModule, []), i0.ɵmpd(1073742336, i151.DxoAggregationModule, i151.DxoAggregationModule, []), i0.ɵmpd(1073742336, i152.DxoAreaModule, i152.DxoAreaModule, []), i0.ɵmpd(1073742336, i153.DxoHoverStyleModule, i153.DxoHoverStyleModule, []), i0.ɵmpd(1073742336, i154.DxoHatchingModule, i154.DxoHatchingModule, []), i0.ɵmpd(1073742336, i155.DxoConnectorModule, i155.DxoConnectorModule, []), i0.ɵmpd(1073742336, i156.DxoPointModule, i156.DxoPointModule, []), i0.ɵmpd(1073742336, i157.DxoHeightModule, i157.DxoHeightModule, []), i0.ɵmpd(1073742336, i158.DxoUrlModule, i158.DxoUrlModule, []), i0.ɵmpd(1073742336, i159.DxoWidthModule, i159.DxoWidthModule, []), i0.ɵmpd(1073742336, i160.DxoSelectionStyleModule, i160.DxoSelectionStyleModule, []), i0.ɵmpd(1073742336, i161.DxoReductionModule, i161.DxoReductionModule, []), i0.ɵmpd(1073742336, i162.DxoValueErrorBarModule, i162.DxoValueErrorBarModule, []), i0.ɵmpd(1073742336, i163.DxoBarModule, i163.DxoBarModule, []), i0.ɵmpd(1073742336, i164.DxoBubbleModule, i164.DxoBubbleModule, []), i0.ɵmpd(1073742336, i165.DxoCandlestickModule, i165.DxoCandlestickModule, []), i0.ɵmpd(1073742336, i166.DxoFullstackedareaModule, i166.DxoFullstackedareaModule, []), i0.ɵmpd(1073742336, i167.DxoFullstackedbarModule, i167.DxoFullstackedbarModule, []), i0.ɵmpd(1073742336, i168.DxoFullstackedlineModule, i168.DxoFullstackedlineModule, []), i0.ɵmpd(1073742336, i169.DxoFullstackedsplineModule, i169.DxoFullstackedsplineModule, []), i0.ɵmpd(1073742336, i170.DxoFullstackedsplineareaModule, i170.DxoFullstackedsplineareaModule, []), i0.ɵmpd(1073742336, i171.DxoArgumentFormatModule, i171.DxoArgumentFormatModule, []), i0.ɵmpd(1073742336, i172.DxoLineModule, i172.DxoLineModule, []), i0.ɵmpd(1073742336, i173.DxoRangeareaModule, i173.DxoRangeareaModule, []), i0.ɵmpd(1073742336, i174.DxoRangebarModule, i174.DxoRangebarModule, []), i0.ɵmpd(1073742336, i175.DxoScatterModule, i175.DxoScatterModule, []), i0.ɵmpd(1073742336, i176.DxoSplineModule, i176.DxoSplineModule, []), i0.ɵmpd(1073742336, i177.DxoSplineareaModule, i177.DxoSplineareaModule, []), i0.ɵmpd(1073742336, i178.DxoStackedareaModule, i178.DxoStackedareaModule, []), i0.ɵmpd(1073742336, i179.DxoStackedbarModule, i179.DxoStackedbarModule, []), i0.ɵmpd(1073742336, i180.DxoStackedlineModule, i180.DxoStackedlineModule, []), i0.ɵmpd(1073742336, i181.DxoStackedsplineModule, i181.DxoStackedsplineModule, []), i0.ɵmpd(1073742336, i182.DxoStackedsplineareaModule, i182.DxoStackedsplineareaModule, []), i0.ɵmpd(1073742336, i183.DxoStepareaModule, i183.DxoStepareaModule, []), i0.ɵmpd(1073742336, i184.DxoSteplineModule, i184.DxoSteplineModule, []), i0.ɵmpd(1073742336, i185.DxoStockModule, i185.DxoStockModule, []), i0.ɵmpd(1073742336, i186.DxoCrosshairModule, i186.DxoCrosshairModule, []), i0.ɵmpd(1073742336, i187.DxoHorizontalLineModule, i187.DxoHorizontalLineModule, []), i0.ɵmpd(1073742336, i188.DxoVerticalLineModule, i188.DxoVerticalLineModule, []), i0.ɵmpd(1073742336, i189.DxoDataPrepareSettingsModule, i189.DxoDataPrepareSettingsModule, []), i0.ɵmpd(1073742336, i190.DxoLegendModule, i190.DxoLegendModule, []), i0.ɵmpd(1073742336, i191.DxoMarginModule, i191.DxoMarginModule, []), i0.ɵmpd(1073742336, i192.DxoSubtitleModule, i192.DxoSubtitleModule, []), i0.ɵmpd(1073742336, i193.DxoLoadingIndicatorModule, i193.DxoLoadingIndicatorModule, []), i0.ɵmpd(1073742336, i194.DxiPaneModule, i194.DxiPaneModule, []), i0.ɵmpd(1073742336, i195.DxoScrollBarModule, i195.DxoScrollBarModule, []), i0.ɵmpd(1073742336, i196.DxiSeriesModule, i196.DxiSeriesModule, []), i0.ɵmpd(1073742336, i197.DxoSeriesTemplateModule, i197.DxoSeriesTemplateModule, []), i0.ɵmpd(1073742336, i198.DxoSizeModule, i198.DxoSizeModule, []), i0.ɵmpd(1073742336, i199.DxiValueAxisModule, i199.DxiValueAxisModule, []), i0.ɵmpd(1073742336, i200.DxoZoomAndPanModule, i200.DxoZoomAndPanModule, []), i0.ɵmpd(1073742336, i201.DxoDragBoxStyleModule, i201.DxoDragBoxStyleModule, []), i0.ɵmpd(1073742336, i202.DxChartModule, i202.DxChartModule, []), i0.ɵmpd(1073742336, i203.DxButtonModule, i203.DxButtonModule, []), i0.ɵmpd(1073742336, i204.DxPopupModule, i204.DxPopupModule, []), i0.ɵmpd(1073742336, i205.DxoHideEventModule, i205.DxoHideEventModule, []), i0.ɵmpd(1073742336, i206.DxoShowEventModule, i206.DxoShowEventModule, []), i0.ɵmpd(1073742336, i207.DxPopoverModule, i207.DxPopoverModule, []), i0.ɵmpd(1073742336, i208.DxiCenterModule, i208.DxiCenterModule, []), i0.ɵmpd(1073742336, i209.DxoKeyModule, i209.DxoKeyModule, []), i0.ɵmpd(1073742336, i210.DxiMarkerModule, i210.DxiMarkerModule, []), i0.ɵmpd(1073742336, i211.DxiLocationModule, i211.DxiLocationModule, []), i0.ɵmpd(1073742336, i212.DxiRouteModule, i212.DxiRouteModule, []), i0.ɵmpd(1073742336, i213.DxMapModule, i213.DxMapModule, []), i0.ɵmpd(1073742336, i214.DxoBackgroundModule, i214.DxoBackgroundModule, []), i0.ɵmpd(1073742336, i215.DxoControlBarModule, i215.DxoControlBarModule, []), i0.ɵmpd(1073742336, i216.DxiLayerModule, i216.DxiLayerModule, []), i0.ɵmpd(1073742336, i217.DxiLegendModule, i217.DxiLegendModule, []), i0.ɵmpd(1073742336, i218.DxoSourceModule, i218.DxoSourceModule, []), i0.ɵmpd(1073742336, i219.DxVectorMapModule, i219.DxVectorMapModule, []), i0.ɵmpd(1073742336, i220.DxSelectBoxModule, i220.DxSelectBoxModule, []), i0.ɵmpd(1073742336, i221.DxTextBoxModule, i221.DxTextBoxModule, []), i0.ɵmpd(1073742336, i222.DxFileUploaderModule, i222.DxFileUploaderModule, []), i0.ɵmpd(1073742336, i223.DxAccordionModule, i223.DxAccordionModule, []), i0.ɵmpd(1073742336, i224.DxTagBoxModule, i224.DxTagBoxModule, []), i0.ɵmpd(1073742336, i225.DxSlideOutModule, i225.DxSlideOutModule, []), i0.ɵmpd(1073742336, i226.DxSwitchModule, i226.DxSwitchModule, []), i0.ɵmpd(1073742336, i227.DxBulletModule, i227.DxBulletModule, []), i0.ɵmpd(1073742336, i228.DxoDropDownOptionsModule, i228.DxoDropDownOptionsModule, []), i0.ɵmpd(1073742336, i229.DxDropDownBoxModule, i229.DxDropDownBoxModule, []), i0.ɵmpd(1073742336, i230.DxTabPanelModule, i230.DxTabPanelModule, []), i0.ɵmpd(1073742336, i231.DxActionSheetModule, i231.DxActionSheetModule, []), i0.ɵmpd(1073742336, i232.DxoCalendarOptionsModule, i232.DxoCalendarOptionsModule, []), i0.ɵmpd(1073742336, i233.DxoDisplayFormatModule, i233.DxoDisplayFormatModule, []), i0.ɵmpd(1073742336, i234.DxDateBoxModule, i234.DxDateBoxModule, []), i0.ɵmpd(1073742336, i235.DxoAdapterModule, i235.DxoAdapterModule, []), i0.ɵmpd(1073742336, i236.DxValidatorModule, i236.DxValidatorModule, []), i0.ɵmpd(1073742336, i237.DxValidationSummaryModule, i237.DxValidationSummaryModule, []), i0.ɵmpd(1073742336, i238.DxProgressBarModule, i238.DxProgressBarModule, []), i0.ɵmpd(1073742336, i239.DxiColModule, i239.DxiColModule, []), i0.ɵmpd(1073742336, i240.DxiRowModule, i240.DxiRowModule, []), i0.ɵmpd(1073742336, i241.DxResponsiveBoxModule, i241.DxResponsiveBoxModule, []), i0.ɵmpd(1073742336, i242.DxGalleryModule, i242.DxGalleryModule, []), i0.ɵmpd(1073742336, i243.DxTileViewModule, i243.DxTileViewModule, []), i0.ɵmpd(1073742336, i244.DxFilterBuilderModule, i244.DxFilterBuilderModule, []), i0.ɵmpd(1073742336, i245.DxNavBarModule, i245.DxNavBarModule, []), i0.ɵmpd(1073742336, i246.DxoBoxModule, i246.DxoBoxModule, []), i0.ɵmpd(1073742336, i247.DxBoxModule, i247.DxBoxModule, []), i0.ɵmpd(1073742336, i248.DxScrollViewModule, i248.DxScrollViewModule, []), i0.ɵmpd(1073742336, i249.DxSpeedDialActionModule, i249.DxSpeedDialActionModule, []), i0.ɵmpd(1073742336, i22.AppModule, i22.AppModule, []), i0.ɵmpd(1073742336, i17.NoopAnimationsModule, i17.NoopAnimationsModule, []), i0.ɵmpd(1073742336, i15.ServerModule, i15.ServerModule, []), i0.ɵmpd(1073742336, i25.ModuleMapLoaderModule, i25.ModuleMapLoaderModule, []), i0.ɵmpd(1073742336, i15.ServerTransferStateModule, i15.ServerTransferStateModule, []), i0.ɵmpd(1073742336, i1.AppServerModule, i1.AppServerModule, []), i0.ɵmpd(256, i0.ɵAPP_ROOT, true, []), i0.ɵmpd(256, i19.ɵangular_packages_common_http_http_e, "XSRF-TOKEN", []), i0.ɵmpd(256, i19.ɵangular_packages_common_http_http_f, "X-XSRF-TOKEN", []), i0.ɵmpd(256, i17.ANIMATION_MODULE_TYPE, "NoopAnimations", []), i0.ɵmpd(256, i21.USE_STORE, undefined, []), i0.ɵmpd(256, i21.USE_DEFAULT_LANG, undefined, [])]); });
+const i12 = __webpack_require__(/*! ./pages/cellar-page/cellar-page.component.ngfactory */ "./src/app/pages/cellar-page/cellar-page.component.ngfactory.js");
+const i13 = __webpack_require__(/*! ./app.component.ngfactory */ "./src/app/app.component.ngfactory.js");
+const i14 = __webpack_require__(/*! @angular/router */ "@angular/router");
+const i15 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i16 = __webpack_require__(/*! @angular/common/http */ "@angular/common/http");
+const i17 = __webpack_require__(/*! @angular/platform-server */ "@angular/platform-server");
+const i18 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
+const i19 = __webpack_require__(/*! @angular/animations/browser */ "@angular/animations/browser");
+const i20 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i21 = __webpack_require__(/*! @angular/animations */ "@angular/animations");
+const i22 = __webpack_require__(/*! @angular/service-worker */ "@angular/service-worker");
+const i23 = __webpack_require__(/*! @ngx-translate/core */ "@ngx-translate/core");
+const i24 = __webpack_require__(/*! ./app.module */ "./src/app/app.module.ts");
+const i25 = __webpack_require__(/*! ./_services/screen.service */ "./src/app/_services/screen.service.ts");
+const i26 = __webpack_require__(/*! @angular/cdk/layout */ "@angular/cdk/layout");
+const i27 = __webpack_require__(/*! @nguniversal/module-map-ngfactory-loader */ "@nguniversal/module-map-ngfactory-loader");
+const i28 = __webpack_require__(/*! ./pages/blog-page/blog-page.component */ "./src/app/pages/blog-page/blog-page.component.ts");
+const i29 = __webpack_require__(/*! ./pages/contact-page/contact-page.component */ "./src/app/pages/contact-page/contact-page.component.ts");
+const i30 = __webpack_require__(/*! ./pages/explore-page/explore-page.component */ "./src/app/pages/explore-page/explore-page.component.ts");
+const i31 = __webpack_require__(/*! ./pages/guest-page/guest-page.component */ "./src/app/pages/guest-page/guest-page.component.ts");
+const i32 = __webpack_require__(/*! ./pages/jobs-page/jobs-page.component */ "./src/app/pages/jobs-page/jobs-page.component.ts");
+const i33 = __webpack_require__(/*! ./pages/restaurant-page/restaurant-page.component */ "./src/app/pages/restaurant-page/restaurant-page.component.ts");
+const i34 = __webpack_require__(/*! ./pages/lounge-page/lounge-page.component */ "./src/app/pages/lounge-page/lounge-page.component.ts");
+const i35 = __webpack_require__(/*! ./pages/hotel-page/hotel-page.component */ "./src/app/pages/hotel-page/hotel-page.component.ts");
+const i36 = __webpack_require__(/*! ./pages/cellar-page/cellar-page.component */ "./src/app/pages/cellar-page/cellar-page.component.ts");
+const i37 = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+const i38 = __webpack_require__(/*! devextreme-angular/ui/nested/item-dxi */ "devextreme-angular/ui/nested/item-dxi");
+const i39 = __webpack_require__(/*! devextreme-angular/core/integration */ "devextreme-angular/core/integration");
+const i40 = __webpack_require__(/*! devextreme-angular/core/template */ "devextreme-angular/core/template");
+const i41 = __webpack_require__(/*! devextreme-angular/ui/multi-view */ "devextreme-angular/ui/multi-view");
+const i42 = __webpack_require__(/*! devextreme-angular/ui/calendar */ "devextreme-angular/ui/calendar");
+const i43 = __webpack_require__(/*! devextreme-angular/ui/nested/button-dxi */ "devextreme-angular/ui/nested/button-dxi");
+const i44 = __webpack_require__(/*! devextreme-angular/ui/nested/options */ "devextreme-angular/ui/nested/options");
+const i45 = __webpack_require__(/*! devextreme-angular/ui/nested/format */ "devextreme-angular/ui/nested/format");
+const i46 = __webpack_require__(/*! devextreme-angular/ui/number-box */ "devextreme-angular/ui/number-box");
+const i47 = __webpack_require__(/*! devextreme-angular/ui/check-box */ "devextreme-angular/ui/check-box");
+const i48 = __webpack_require__(/*! devextreme-angular/ui/button-group */ "devextreme-angular/ui/button-group");
+const i49 = __webpack_require__(/*! devextreme-angular/ui/nested/col-count-by-screen */ "devextreme-angular/ui/nested/col-count-by-screen");
+const i50 = __webpack_require__(/*! devextreme-angular/ui/nested/label */ "devextreme-angular/ui/nested/label");
+const i51 = __webpack_require__(/*! devextreme-angular/ui/nested/validation-rule-dxi */ "devextreme-angular/ui/nested/validation-rule-dxi");
+const i52 = __webpack_require__(/*! devextreme-angular/ui/nested/tab-panel-options */ "devextreme-angular/ui/nested/tab-panel-options");
+const i53 = __webpack_require__(/*! devextreme-angular/ui/nested/tab-dxi */ "devextreme-angular/ui/nested/tab-dxi");
+const i54 = __webpack_require__(/*! devextreme-angular/ui/nested/button-options */ "devextreme-angular/ui/nested/button-options");
+const i55 = __webpack_require__(/*! devextreme-angular/ui/form */ "devextreme-angular/ui/form");
+const i56 = __webpack_require__(/*! devextreme-angular/ui/drawer */ "devextreme-angular/ui/drawer");
+const i57 = __webpack_require__(/*! devextreme-angular/ui/radio-group */ "devextreme-angular/ui/radio-group");
+const i58 = __webpack_require__(/*! devextreme-angular/ui/nested/menu-item-dxi */ "devextreme-angular/ui/nested/menu-item-dxi");
+const i59 = __webpack_require__(/*! devextreme-angular/ui/nested/search-editor-options */ "devextreme-angular/ui/nested/search-editor-options");
+const i60 = __webpack_require__(/*! devextreme-angular/ui/list */ "devextreme-angular/ui/list");
+const i61 = __webpack_require__(/*! devextreme-angular/ui/toolbar */ "devextreme-angular/ui/toolbar");
+const i62 = __webpack_require__(/*! devextreme-angular/ui/nested/media-resizing */ "devextreme-angular/ui/nested/media-resizing");
+const i63 = __webpack_require__(/*! devextreme-angular/ui/nested/mention-dxi */ "devextreme-angular/ui/nested/mention-dxi");
+const i64 = __webpack_require__(/*! devextreme-angular/ui/nested/toolbar */ "devextreme-angular/ui/nested/toolbar");
+const i65 = __webpack_require__(/*! devextreme-angular/ui/nested/variables */ "devextreme-angular/ui/nested/variables");
+const i66 = __webpack_require__(/*! devextreme-angular/ui/html-editor */ "devextreme-angular/ui/html-editor");
+const i67 = __webpack_require__(/*! devextreme-angular/ui/tree-view */ "devextreme-angular/ui/tree-view");
+const i68 = __webpack_require__(/*! devextreme-angular/ui/nested/column-chooser */ "devextreme-angular/ui/nested/column-chooser");
+const i69 = __webpack_require__(/*! devextreme-angular/ui/nested/column-fixing */ "devextreme-angular/ui/nested/column-fixing");
+const i70 = __webpack_require__(/*! devextreme-angular/ui/nested/texts */ "devextreme-angular/ui/nested/texts");
+const i71 = __webpack_require__(/*! devextreme-angular/ui/nested/column-dxi */ "devextreme-angular/ui/nested/column-dxi");
+const i72 = __webpack_require__(/*! devextreme-angular/ui/nested/header-filter */ "devextreme-angular/ui/nested/header-filter");
+const i73 = __webpack_require__(/*! devextreme-angular/ui/nested/lookup */ "devextreme-angular/ui/nested/lookup");
+const i74 = __webpack_require__(/*! devextreme-angular/ui/nested/form-item */ "devextreme-angular/ui/nested/form-item");
+const i75 = __webpack_require__(/*! devextreme-angular/ui/nested/editing */ "devextreme-angular/ui/nested/editing");
+const i76 = __webpack_require__(/*! devextreme-angular/ui/nested/form */ "devextreme-angular/ui/nested/form");
+const i77 = __webpack_require__(/*! devextreme-angular/ui/nested/popup */ "devextreme-angular/ui/nested/popup");
+const i78 = __webpack_require__(/*! devextreme-angular/ui/nested/animation */ "devextreme-angular/ui/nested/animation");
+const i79 = __webpack_require__(/*! devextreme-angular/ui/nested/hide */ "devextreme-angular/ui/nested/hide");
+const i80 = __webpack_require__(/*! devextreme-angular/ui/nested/show */ "devextreme-angular/ui/nested/show");
+const i81 = __webpack_require__(/*! devextreme-angular/ui/nested/position */ "devextreme-angular/ui/nested/position");
+const i82 = __webpack_require__(/*! devextreme-angular/ui/nested/at */ "devextreme-angular/ui/nested/at");
+const i83 = __webpack_require__(/*! devextreme-angular/ui/nested/boundary-offset */ "devextreme-angular/ui/nested/boundary-offset");
+const i84 = __webpack_require__(/*! devextreme-angular/ui/nested/collision */ "devextreme-angular/ui/nested/collision");
+const i85 = __webpack_require__(/*! devextreme-angular/ui/nested/my */ "devextreme-angular/ui/nested/my");
+const i86 = __webpack_require__(/*! devextreme-angular/ui/nested/offset */ "devextreme-angular/ui/nested/offset");
+const i87 = __webpack_require__(/*! devextreme-angular/ui/nested/toolbar-item-dxi */ "devextreme-angular/ui/nested/toolbar-item-dxi");
+const i88 = __webpack_require__(/*! devextreme-angular/ui/nested/export */ "devextreme-angular/ui/nested/export");
+const i89 = __webpack_require__(/*! devextreme-angular/ui/nested/filter-builder */ "devextreme-angular/ui/nested/filter-builder");
+const i90 = __webpack_require__(/*! devextreme-angular/ui/nested/custom-operation-dxi */ "devextreme-angular/ui/nested/custom-operation-dxi");
+const i91 = __webpack_require__(/*! devextreme-angular/ui/nested/field-dxi */ "devextreme-angular/ui/nested/field-dxi");
+const i92 = __webpack_require__(/*! devextreme-angular/ui/nested/filter-operation-descriptions */ "devextreme-angular/ui/nested/filter-operation-descriptions");
+const i93 = __webpack_require__(/*! devextreme-angular/ui/nested/group-operation-descriptions */ "devextreme-angular/ui/nested/group-operation-descriptions");
+const i94 = __webpack_require__(/*! devextreme-angular/ui/nested/filter-builder-popup */ "devextreme-angular/ui/nested/filter-builder-popup");
+const i95 = __webpack_require__(/*! devextreme-angular/ui/nested/filter-panel */ "devextreme-angular/ui/nested/filter-panel");
+const i96 = __webpack_require__(/*! devextreme-angular/ui/nested/filter-row */ "devextreme-angular/ui/nested/filter-row");
+const i97 = __webpack_require__(/*! devextreme-angular/ui/nested/operation-descriptions */ "devextreme-angular/ui/nested/operation-descriptions");
+const i98 = __webpack_require__(/*! devextreme-angular/ui/nested/grouping */ "devextreme-angular/ui/nested/grouping");
+const i99 = __webpack_require__(/*! devextreme-angular/ui/nested/group-panel */ "devextreme-angular/ui/nested/group-panel");
+const i100 = __webpack_require__(/*! devextreme-angular/ui/nested/keyboard-navigation */ "devextreme-angular/ui/nested/keyboard-navigation");
+const i101 = __webpack_require__(/*! devextreme-angular/ui/nested/load-panel */ "devextreme-angular/ui/nested/load-panel");
+const i102 = __webpack_require__(/*! devextreme-angular/ui/nested/master-detail */ "devextreme-angular/ui/nested/master-detail");
+const i103 = __webpack_require__(/*! devextreme-angular/ui/nested/pager */ "devextreme-angular/ui/nested/pager");
+const i104 = __webpack_require__(/*! devextreme-angular/ui/nested/paging */ "devextreme-angular/ui/nested/paging");
+const i105 = __webpack_require__(/*! devextreme-angular/ui/nested/remote-operations */ "devextreme-angular/ui/nested/remote-operations");
+const i106 = __webpack_require__(/*! devextreme-angular/ui/nested/scrolling */ "devextreme-angular/ui/nested/scrolling");
+const i107 = __webpack_require__(/*! devextreme-angular/ui/nested/search-panel */ "devextreme-angular/ui/nested/search-panel");
+const i108 = __webpack_require__(/*! devextreme-angular/ui/nested/selection */ "devextreme-angular/ui/nested/selection");
+const i109 = __webpack_require__(/*! devextreme-angular/ui/nested/sort-by-group-summary-info-dxi */ "devextreme-angular/ui/nested/sort-by-group-summary-info-dxi");
+const i110 = __webpack_require__(/*! devextreme-angular/ui/nested/sorting */ "devextreme-angular/ui/nested/sorting");
+const i111 = __webpack_require__(/*! devextreme-angular/ui/nested/state-storing */ "devextreme-angular/ui/nested/state-storing");
+const i112 = __webpack_require__(/*! devextreme-angular/ui/nested/summary */ "devextreme-angular/ui/nested/summary");
+const i113 = __webpack_require__(/*! devextreme-angular/ui/nested/group-item-dxi */ "devextreme-angular/ui/nested/group-item-dxi");
+const i114 = __webpack_require__(/*! devextreme-angular/ui/nested/value-format */ "devextreme-angular/ui/nested/value-format");
+const i115 = __webpack_require__(/*! devextreme-angular/ui/nested/total-item-dxi */ "devextreme-angular/ui/nested/total-item-dxi");
+const i116 = __webpack_require__(/*! devextreme-angular/ui/data-grid */ "devextreme-angular/ui/data-grid");
+const i117 = __webpack_require__(/*! devextreme-angular/ui/nested/tooltip */ "devextreme-angular/ui/nested/tooltip");
+const i118 = __webpack_require__(/*! devextreme-angular/ui/slider */ "devextreme-angular/ui/slider");
+const i119 = __webpack_require__(/*! devextreme-angular/ui/tree-list */ "devextreme-angular/ui/tree-list");
+const i120 = __webpack_require__(/*! devextreme-angular/ui/nested/resource-dxi */ "devextreme-angular/ui/nested/resource-dxi");
+const i121 = __webpack_require__(/*! devextreme-angular/ui/nested/view-dxi */ "devextreme-angular/ui/nested/view-dxi");
+const i122 = __webpack_require__(/*! devextreme-angular/ui/scheduler */ "devextreme-angular/ui/scheduler");
+const i123 = __webpack_require__(/*! devextreme-angular/ui/nested/data-source */ "devextreme-angular/ui/nested/data-source");
+const i124 = __webpack_require__(/*! devextreme-angular/ui/nested/store */ "devextreme-angular/ui/nested/store");
+const i125 = __webpack_require__(/*! devextreme-angular/ui/nested/field-chooser */ "devextreme-angular/ui/nested/field-chooser");
+const i126 = __webpack_require__(/*! devextreme-angular/ui/nested/field-panel */ "devextreme-angular/ui/nested/field-panel");
+const i127 = __webpack_require__(/*! devextreme-angular/ui/pivot-grid */ "devextreme-angular/ui/pivot-grid");
+const i128 = __webpack_require__(/*! devextreme-angular/ui/nested/adaptive-layout */ "devextreme-angular/ui/nested/adaptive-layout");
+const i129 = __webpack_require__(/*! devextreme-angular/ui/nested/annotation-dxi */ "devextreme-angular/ui/nested/annotation-dxi");
+const i130 = __webpack_require__(/*! devextreme-angular/ui/nested/border */ "devextreme-angular/ui/nested/border");
+const i131 = __webpack_require__(/*! devextreme-angular/ui/nested/font */ "devextreme-angular/ui/nested/font");
+const i132 = __webpack_require__(/*! devextreme-angular/ui/nested/image */ "devextreme-angular/ui/nested/image");
+const i133 = __webpack_require__(/*! devextreme-angular/ui/nested/shadow */ "devextreme-angular/ui/nested/shadow");
+const i134 = __webpack_require__(/*! devextreme-angular/ui/nested/argument-axis */ "devextreme-angular/ui/nested/argument-axis");
+const i135 = __webpack_require__(/*! devextreme-angular/ui/nested/aggregation-interval */ "devextreme-angular/ui/nested/aggregation-interval");
+const i136 = __webpack_require__(/*! devextreme-angular/ui/nested/break-dxi */ "devextreme-angular/ui/nested/break-dxi");
+const i137 = __webpack_require__(/*! devextreme-angular/ui/nested/break-style */ "devextreme-angular/ui/nested/break-style");
+const i138 = __webpack_require__(/*! devextreme-angular/ui/nested/constant-line-dxi */ "devextreme-angular/ui/nested/constant-line-dxi");
+const i139 = __webpack_require__(/*! devextreme-angular/ui/nested/constant-line-style */ "devextreme-angular/ui/nested/constant-line-style");
+const i140 = __webpack_require__(/*! devextreme-angular/ui/nested/grid */ "devextreme-angular/ui/nested/grid");
+const i141 = __webpack_require__(/*! devextreme-angular/ui/nested/minor-grid */ "devextreme-angular/ui/nested/minor-grid");
+const i142 = __webpack_require__(/*! devextreme-angular/ui/nested/minor-tick */ "devextreme-angular/ui/nested/minor-tick");
+const i143 = __webpack_require__(/*! devextreme-angular/ui/nested/minor-tick-interval */ "devextreme-angular/ui/nested/minor-tick-interval");
+const i144 = __webpack_require__(/*! devextreme-angular/ui/nested/min-visual-range-length */ "devextreme-angular/ui/nested/min-visual-range-length");
+const i145 = __webpack_require__(/*! devextreme-angular/ui/nested/strip-dxi */ "devextreme-angular/ui/nested/strip-dxi");
+const i146 = __webpack_require__(/*! devextreme-angular/ui/nested/strip-style */ "devextreme-angular/ui/nested/strip-style");
+const i147 = __webpack_require__(/*! devextreme-angular/ui/nested/tick */ "devextreme-angular/ui/nested/tick");
+const i148 = __webpack_require__(/*! devextreme-angular/ui/nested/tick-interval */ "devextreme-angular/ui/nested/tick-interval");
+const i149 = __webpack_require__(/*! devextreme-angular/ui/nested/title */ "devextreme-angular/ui/nested/title");
+const i150 = __webpack_require__(/*! devextreme-angular/ui/nested/common-annotation-settings */ "devextreme-angular/ui/nested/common-annotation-settings");
+const i151 = __webpack_require__(/*! devextreme-angular/ui/nested/common-axis-settings */ "devextreme-angular/ui/nested/common-axis-settings");
+const i152 = __webpack_require__(/*! devextreme-angular/ui/nested/common-pane-settings */ "devextreme-angular/ui/nested/common-pane-settings");
+const i153 = __webpack_require__(/*! devextreme-angular/ui/nested/common-series-settings */ "devextreme-angular/ui/nested/common-series-settings");
+const i154 = __webpack_require__(/*! devextreme-angular/ui/nested/aggregation */ "devextreme-angular/ui/nested/aggregation");
+const i155 = __webpack_require__(/*! devextreme-angular/ui/nested/area */ "devextreme-angular/ui/nested/area");
+const i156 = __webpack_require__(/*! devextreme-angular/ui/nested/hover-style */ "devextreme-angular/ui/nested/hover-style");
+const i157 = __webpack_require__(/*! devextreme-angular/ui/nested/hatching */ "devextreme-angular/ui/nested/hatching");
+const i158 = __webpack_require__(/*! devextreme-angular/ui/nested/connector */ "devextreme-angular/ui/nested/connector");
+const i159 = __webpack_require__(/*! devextreme-angular/ui/nested/point */ "devextreme-angular/ui/nested/point");
+const i160 = __webpack_require__(/*! devextreme-angular/ui/nested/height */ "devextreme-angular/ui/nested/height");
+const i161 = __webpack_require__(/*! devextreme-angular/ui/nested/url */ "devextreme-angular/ui/nested/url");
+const i162 = __webpack_require__(/*! devextreme-angular/ui/nested/width */ "devextreme-angular/ui/nested/width");
+const i163 = __webpack_require__(/*! devextreme-angular/ui/nested/selection-style */ "devextreme-angular/ui/nested/selection-style");
+const i164 = __webpack_require__(/*! devextreme-angular/ui/nested/reduction */ "devextreme-angular/ui/nested/reduction");
+const i165 = __webpack_require__(/*! devextreme-angular/ui/nested/value-error-bar */ "devextreme-angular/ui/nested/value-error-bar");
+const i166 = __webpack_require__(/*! devextreme-angular/ui/nested/bar */ "devextreme-angular/ui/nested/bar");
+const i167 = __webpack_require__(/*! devextreme-angular/ui/nested/bubble */ "devextreme-angular/ui/nested/bubble");
+const i168 = __webpack_require__(/*! devextreme-angular/ui/nested/candlestick */ "devextreme-angular/ui/nested/candlestick");
+const i169 = __webpack_require__(/*! devextreme-angular/ui/nested/fullstackedarea */ "devextreme-angular/ui/nested/fullstackedarea");
+const i170 = __webpack_require__(/*! devextreme-angular/ui/nested/fullstackedbar */ "devextreme-angular/ui/nested/fullstackedbar");
+const i171 = __webpack_require__(/*! devextreme-angular/ui/nested/fullstackedline */ "devextreme-angular/ui/nested/fullstackedline");
+const i172 = __webpack_require__(/*! devextreme-angular/ui/nested/fullstackedspline */ "devextreme-angular/ui/nested/fullstackedspline");
+const i173 = __webpack_require__(/*! devextreme-angular/ui/nested/fullstackedsplinearea */ "devextreme-angular/ui/nested/fullstackedsplinearea");
+const i174 = __webpack_require__(/*! devextreme-angular/ui/nested/argument-format */ "devextreme-angular/ui/nested/argument-format");
+const i175 = __webpack_require__(/*! devextreme-angular/ui/nested/line */ "devextreme-angular/ui/nested/line");
+const i176 = __webpack_require__(/*! devextreme-angular/ui/nested/rangearea */ "devextreme-angular/ui/nested/rangearea");
+const i177 = __webpack_require__(/*! devextreme-angular/ui/nested/rangebar */ "devextreme-angular/ui/nested/rangebar");
+const i178 = __webpack_require__(/*! devextreme-angular/ui/nested/scatter */ "devextreme-angular/ui/nested/scatter");
+const i179 = __webpack_require__(/*! devextreme-angular/ui/nested/spline */ "devextreme-angular/ui/nested/spline");
+const i180 = __webpack_require__(/*! devextreme-angular/ui/nested/splinearea */ "devextreme-angular/ui/nested/splinearea");
+const i181 = __webpack_require__(/*! devextreme-angular/ui/nested/stackedarea */ "devextreme-angular/ui/nested/stackedarea");
+const i182 = __webpack_require__(/*! devextreme-angular/ui/nested/stackedbar */ "devextreme-angular/ui/nested/stackedbar");
+const i183 = __webpack_require__(/*! devextreme-angular/ui/nested/stackedline */ "devextreme-angular/ui/nested/stackedline");
+const i184 = __webpack_require__(/*! devextreme-angular/ui/nested/stackedspline */ "devextreme-angular/ui/nested/stackedspline");
+const i185 = __webpack_require__(/*! devextreme-angular/ui/nested/stackedsplinearea */ "devextreme-angular/ui/nested/stackedsplinearea");
+const i186 = __webpack_require__(/*! devextreme-angular/ui/nested/steparea */ "devextreme-angular/ui/nested/steparea");
+const i187 = __webpack_require__(/*! devextreme-angular/ui/nested/stepline */ "devextreme-angular/ui/nested/stepline");
+const i188 = __webpack_require__(/*! devextreme-angular/ui/nested/stock */ "devextreme-angular/ui/nested/stock");
+const i189 = __webpack_require__(/*! devextreme-angular/ui/nested/crosshair */ "devextreme-angular/ui/nested/crosshair");
+const i190 = __webpack_require__(/*! devextreme-angular/ui/nested/horizontal-line */ "devextreme-angular/ui/nested/horizontal-line");
+const i191 = __webpack_require__(/*! devextreme-angular/ui/nested/vertical-line */ "devextreme-angular/ui/nested/vertical-line");
+const i192 = __webpack_require__(/*! devextreme-angular/ui/nested/data-prepare-settings */ "devextreme-angular/ui/nested/data-prepare-settings");
+const i193 = __webpack_require__(/*! devextreme-angular/ui/nested/legend */ "devextreme-angular/ui/nested/legend");
+const i194 = __webpack_require__(/*! devextreme-angular/ui/nested/margin */ "devextreme-angular/ui/nested/margin");
+const i195 = __webpack_require__(/*! devextreme-angular/ui/nested/subtitle */ "devextreme-angular/ui/nested/subtitle");
+const i196 = __webpack_require__(/*! devextreme-angular/ui/nested/loading-indicator */ "devextreme-angular/ui/nested/loading-indicator");
+const i197 = __webpack_require__(/*! devextreme-angular/ui/nested/pane-dxi */ "devextreme-angular/ui/nested/pane-dxi");
+const i198 = __webpack_require__(/*! devextreme-angular/ui/nested/scroll-bar */ "devextreme-angular/ui/nested/scroll-bar");
+const i199 = __webpack_require__(/*! devextreme-angular/ui/nested/series-dxi */ "devextreme-angular/ui/nested/series-dxi");
+const i200 = __webpack_require__(/*! devextreme-angular/ui/nested/series-template */ "devextreme-angular/ui/nested/series-template");
+const i201 = __webpack_require__(/*! devextreme-angular/ui/nested/size */ "devextreme-angular/ui/nested/size");
+const i202 = __webpack_require__(/*! devextreme-angular/ui/nested/value-axis-dxi */ "devextreme-angular/ui/nested/value-axis-dxi");
+const i203 = __webpack_require__(/*! devextreme-angular/ui/nested/zoom-and-pan */ "devextreme-angular/ui/nested/zoom-and-pan");
+const i204 = __webpack_require__(/*! devextreme-angular/ui/nested/drag-box-style */ "devextreme-angular/ui/nested/drag-box-style");
+const i205 = __webpack_require__(/*! devextreme-angular/ui/chart */ "devextreme-angular/ui/chart");
+const i206 = __webpack_require__(/*! devextreme-angular/ui/button */ "devextreme-angular/ui/button");
+const i207 = __webpack_require__(/*! devextreme-angular/ui/popup */ "devextreme-angular/ui/popup");
+const i208 = __webpack_require__(/*! devextreme-angular/ui/nested/hide-event */ "devextreme-angular/ui/nested/hide-event");
+const i209 = __webpack_require__(/*! devextreme-angular/ui/nested/show-event */ "devextreme-angular/ui/nested/show-event");
+const i210 = __webpack_require__(/*! devextreme-angular/ui/popover */ "devextreme-angular/ui/popover");
+const i211 = __webpack_require__(/*! devextreme-angular/ui/nested/center-dxi */ "devextreme-angular/ui/nested/center-dxi");
+const i212 = __webpack_require__(/*! devextreme-angular/ui/nested/key */ "devextreme-angular/ui/nested/key");
+const i213 = __webpack_require__(/*! devextreme-angular/ui/nested/marker-dxi */ "devextreme-angular/ui/nested/marker-dxi");
+const i214 = __webpack_require__(/*! devextreme-angular/ui/nested/location-dxi */ "devextreme-angular/ui/nested/location-dxi");
+const i215 = __webpack_require__(/*! devextreme-angular/ui/nested/route-dxi */ "devextreme-angular/ui/nested/route-dxi");
+const i216 = __webpack_require__(/*! devextreme-angular/ui/map */ "devextreme-angular/ui/map");
+const i217 = __webpack_require__(/*! devextreme-angular/ui/nested/background */ "devextreme-angular/ui/nested/background");
+const i218 = __webpack_require__(/*! devextreme-angular/ui/nested/control-bar */ "devextreme-angular/ui/nested/control-bar");
+const i219 = __webpack_require__(/*! devextreme-angular/ui/nested/layer-dxi */ "devextreme-angular/ui/nested/layer-dxi");
+const i220 = __webpack_require__(/*! devextreme-angular/ui/nested/legend-dxi */ "devextreme-angular/ui/nested/legend-dxi");
+const i221 = __webpack_require__(/*! devextreme-angular/ui/nested/source */ "devextreme-angular/ui/nested/source");
+const i222 = __webpack_require__(/*! devextreme-angular/ui/vector-map */ "devextreme-angular/ui/vector-map");
+const i223 = __webpack_require__(/*! devextreme-angular/ui/select-box */ "devextreme-angular/ui/select-box");
+const i224 = __webpack_require__(/*! devextreme-angular/ui/text-box */ "devextreme-angular/ui/text-box");
+const i225 = __webpack_require__(/*! devextreme-angular/ui/file-uploader */ "devextreme-angular/ui/file-uploader");
+const i226 = __webpack_require__(/*! devextreme-angular/ui/accordion */ "devextreme-angular/ui/accordion");
+const i227 = __webpack_require__(/*! devextreme-angular/ui/tag-box */ "devextreme-angular/ui/tag-box");
+const i228 = __webpack_require__(/*! devextreme-angular/ui/slide-out */ "devextreme-angular/ui/slide-out");
+const i229 = __webpack_require__(/*! devextreme-angular/ui/switch */ "devextreme-angular/ui/switch");
+const i230 = __webpack_require__(/*! devextreme-angular/ui/bullet */ "devextreme-angular/ui/bullet");
+const i231 = __webpack_require__(/*! devextreme-angular/ui/nested/drop-down-options */ "devextreme-angular/ui/nested/drop-down-options");
+const i232 = __webpack_require__(/*! devextreme-angular/ui/drop-down-box */ "devextreme-angular/ui/drop-down-box");
+const i233 = __webpack_require__(/*! devextreme-angular/ui/tab-panel */ "devextreme-angular/ui/tab-panel");
+const i234 = __webpack_require__(/*! devextreme-angular/ui/action-sheet */ "devextreme-angular/ui/action-sheet");
+const i235 = __webpack_require__(/*! devextreme-angular/ui/nested/calendar-options */ "devextreme-angular/ui/nested/calendar-options");
+const i236 = __webpack_require__(/*! devextreme-angular/ui/nested/display-format */ "devextreme-angular/ui/nested/display-format");
+const i237 = __webpack_require__(/*! devextreme-angular/ui/date-box */ "devextreme-angular/ui/date-box");
+const i238 = __webpack_require__(/*! devextreme-angular/ui/nested/adapter */ "devextreme-angular/ui/nested/adapter");
+const i239 = __webpack_require__(/*! devextreme-angular/ui/validator */ "devextreme-angular/ui/validator");
+const i240 = __webpack_require__(/*! devextreme-angular/ui/validation-summary */ "devextreme-angular/ui/validation-summary");
+const i241 = __webpack_require__(/*! devextreme-angular/ui/progress-bar */ "devextreme-angular/ui/progress-bar");
+const i242 = __webpack_require__(/*! devextreme-angular/ui/nested/col-dxi */ "devextreme-angular/ui/nested/col-dxi");
+const i243 = __webpack_require__(/*! devextreme-angular/ui/nested/row-dxi */ "devextreme-angular/ui/nested/row-dxi");
+const i244 = __webpack_require__(/*! devextreme-angular/ui/responsive-box */ "devextreme-angular/ui/responsive-box");
+const i245 = __webpack_require__(/*! devextreme-angular/ui/gallery */ "devextreme-angular/ui/gallery");
+const i246 = __webpack_require__(/*! devextreme-angular/ui/tile-view */ "devextreme-angular/ui/tile-view");
+const i247 = __webpack_require__(/*! devextreme-angular/ui/filter-builder */ "devextreme-angular/ui/filter-builder");
+const i248 = __webpack_require__(/*! devextreme-angular/ui/nav-bar */ "devextreme-angular/ui/nav-bar");
+const i249 = __webpack_require__(/*! devextreme-angular/ui/nested/box */ "devextreme-angular/ui/nested/box");
+const i250 = __webpack_require__(/*! devextreme-angular/ui/box */ "devextreme-angular/ui/box");
+const i251 = __webpack_require__(/*! devextreme-angular/ui/scroll-view */ "devextreme-angular/ui/scroll-view");
+const i252 = __webpack_require__(/*! devextreme-angular/ui/speed-dial-action */ "devextreme-angular/ui/speed-dial-action");
+var AppServerModuleNgFactory = i0.ɵcmf(i1.AppServerModule, [i2.AppComponent], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i3.ɵangular_packages_router_router_lNgFactory, i4.BlogPageComponentNgFactory, i5.ContactPageComponentNgFactory, i6.ExplorePageComponentNgFactory, i7.GuestPageComponentNgFactory, i8.JobsPageComponentNgFactory, i9.RestaurantPageComponentNgFactory, i10.LoungePageComponentNgFactory, i11.HotelPageComponentNgFactory, i12.CellarPageComponentNgFactory, i13.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(5120, i14.ActivatedRoute, i14.ɵangular_packages_router_router_g, [i14.Router]), i0.ɵmpd(4608, i14.NoPreloading, i14.NoPreloading, []), i0.ɵmpd(6144, i14.PreloadingStrategy, null, [i14.NoPreloading]), i0.ɵmpd(135680, i14.RouterPreloader, i14.RouterPreloader, [i14.Router, i0.NgModuleFactoryLoader, i0.Compiler, i0.Injector, i14.PreloadingStrategy]), i0.ɵmpd(4608, i14.PreloadAllModules, i14.PreloadAllModules, []), i0.ɵmpd(4608, i15.ViewportScroller, i15.ɵNullViewportScroller, []), i0.ɵmpd(5120, i14.ɵangular_packages_router_router_o, i14.ɵangular_packages_router_router_c, [i14.Router, i15.ViewportScroller, i14.ROUTER_CONFIGURATION]), i0.ɵmpd(5120, i14.ROUTER_INITIALIZER, i14.ɵangular_packages_router_router_j, [i14.ɵangular_packages_router_router_h]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) { return [p0_0]; }, [i14.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i16.HttpXsrfTokenExtractor, i16.ɵangular_packages_common_http_http_g, [i15.DOCUMENT, i0.PLATFORM_ID, i16.ɵangular_packages_common_http_http_e]), i0.ɵmpd(4608, i16.ɵangular_packages_common_http_http_h, i16.ɵangular_packages_common_http_http_h, [i16.HttpXsrfTokenExtractor, i16.ɵangular_packages_common_http_http_f]), i0.ɵmpd(5120, i16.HTTP_INTERCEPTORS, function (p0_0) { return [p0_0]; }, [i16.ɵangular_packages_common_http_http_h]), i0.ɵmpd(4608, i16.HttpXhrBackend, i16.HttpXhrBackend, [i16.XhrFactory]), i0.ɵmpd(6144, i16.HttpBackend, null, [i16.HttpXhrBackend]), i0.ɵmpd(5120, i16.HttpHandler, i17.ɵangular_packages_platform_server_platform_server_f, [i16.HttpBackend, i0.Injector]), i0.ɵmpd(4608, i16.HttpClient, i16.HttpClient, [i16.HttpHandler]), i0.ɵmpd(4608, i16.ɵangular_packages_common_http_http_d, i16.ɵangular_packages_common_http_http_d, []), i0.ɵmpd(5120, i0.LOCALE_ID, i0.ɵangular_packages_core_core_q, [[3, i0.LOCALE_ID]]), i0.ɵmpd(4608, i15.NgLocalization, i15.NgLocaleLocalization, [i0.LOCALE_ID, [2, i15.ɵangular_packages_common_common_a]]), i0.ɵmpd(5120, i0.ɵangular_packages_core_core_bb, i0.ɵangular_packages_core_core_s, [i0.NgZone]), i0.ɵmpd(5120, i0.IterableDiffers, i0.ɵangular_packages_core_core_o, []), i0.ɵmpd(5120, i0.KeyValueDiffers, i0.ɵangular_packages_core_core_p, []), i0.ɵmpd(4608, i18.DomSanitizer, i18.ɵDomSanitizerImpl, [i15.DOCUMENT]), i0.ɵmpd(6144, i0.Sanitizer, null, [i18.DomSanitizer]), i0.ɵmpd(4608, i18.HAMMER_GESTURE_CONFIG, i18.HammerGestureConfig, []), i0.ɵmpd(5120, i18.EVENT_MANAGER_PLUGINS, function (p0_0, p0_1, p0_2, p1_0, p2_0, p2_1, p2_2, p2_3, p3_0) { return [new i18.ɵDomEventsPlugin(p0_0, p0_1, p0_2), new i18.ɵKeyEventsPlugin(p1_0), new i18.ɵHammerGesturesPlugin(p2_0, p2_1, p2_2, p2_3), new i17.ɵangular_packages_platform_server_platform_server_d(p3_0)]; }, [i15.DOCUMENT, i0.NgZone, i0.PLATFORM_ID, i15.DOCUMENT, i15.DOCUMENT, i18.HAMMER_GESTURE_CONFIG, i0.ɵConsole, [2, i18.HAMMER_LOADER], i15.DOCUMENT]), i0.ɵmpd(4608, i18.EventManager, i18.EventManager, [i18.EVENT_MANAGER_PLUGINS, i0.NgZone]), i0.ɵmpd(135680, i18.ɵDomSharedStylesHost, i18.ɵDomSharedStylesHost, [i15.DOCUMENT]), i0.ɵmpd(4608, i18.ɵDomRendererFactory2, i18.ɵDomRendererFactory2, [i18.EventManager, i18.ɵDomSharedStylesHost, i0.APP_ID]), i0.ɵmpd(4608, i17.ɵangular_packages_platform_server_platform_server_c, i17.ɵangular_packages_platform_server_platform_server_c, [i15.DOCUMENT, [2, i18.ɵTRANSITION_ID]]), i0.ɵmpd(6144, i18.ɵSharedStylesHost, null, [i17.ɵangular_packages_platform_server_platform_server_c]), i0.ɵmpd(4608, i17.ɵServerRendererFactory2, i17.ɵServerRendererFactory2, [i18.EventManager, i0.NgZone, i15.DOCUMENT, i18.ɵSharedStylesHost]), i0.ɵmpd(4608, i19.AnimationDriver, i19.ɵNoopAnimationDriver, []), i0.ɵmpd(5120, i19.ɵAnimationStyleNormalizer, i20.ɵangular_packages_platform_browser_animations_animations_b, []), i0.ɵmpd(4608, i19.ɵAnimationEngine, i20.ɵInjectableAnimationEngine, [i15.DOCUMENT, i19.AnimationDriver, i19.ɵAnimationStyleNormalizer]), i0.ɵmpd(5120, i0.RendererFactory2, i17.ɵangular_packages_platform_server_platform_server_a, [i17.ɵServerRendererFactory2, i19.ɵAnimationEngine, i0.NgZone]), i0.ɵmpd(4352, i0.Testability, null, []), i0.ɵmpd(4608, i21.AnimationBuilder, i20.ɵBrowserAnimationBuilder, [i0.RendererFactory2, i15.DOCUMENT]), i0.ɵmpd(4608, i18.TransferState, i18.TransferState, []), i0.ɵmpd(5120, i22.ɵangular_packages_service_worker_service_worker_a, i22.ɵangular_packages_service_worker_service_worker_d, [i22.SwRegistrationOptions, i0.PLATFORM_ID]), i0.ɵmpd(4608, i22.SwPush, i22.SwPush, [i22.ɵangular_packages_service_worker_service_worker_a]), i0.ɵmpd(4608, i22.SwUpdate, i22.SwUpdate, [i22.ɵangular_packages_service_worker_service_worker_a]), i0.ɵmpd(5120, i23.TranslateLoader, i24.HttpLoaderFactory, [i16.HttpClient]), i0.ɵmpd(4608, i23.TranslateCompiler, i23.TranslateFakeCompiler, []), i0.ɵmpd(4608, i23.TranslateParser, i23.TranslateDefaultParser, []), i0.ɵmpd(4608, i23.MissingTranslationHandler, i23.FakeMissingTranslationHandler, []), i0.ɵmpd(4608, i23.TranslateStore, i23.TranslateStore, []), i0.ɵmpd(4608, i23.TranslateService, i23.TranslateService, [i23.TranslateStore, i23.TranslateLoader, i23.TranslateCompiler, i23.TranslateParser, i23.MissingTranslationHandler, i23.USE_DEFAULT_LANG, i23.USE_STORE]), i0.ɵmpd(4608, i25.ScreenService, i25.ScreenService, [i26.BreakpointObserver]), i0.ɵmpd(5120, i17.BEFORE_APP_SERIALIZED, function (p0_0, p0_1, p0_2) { return [i17.ɵangular_packages_platform_server_platform_server_b(p0_0, p0_1, p0_2)]; }, [i15.DOCUMENT, i0.APP_ID, i18.TransferState]), i0.ɵmpd(1024, i14.ɵangular_packages_router_router_a, i14.ɵangular_packages_router_router_e, [[3, i14.Router]]), i0.ɵmpd(1024, i0.ErrorHandler, i18.ɵangular_packages_platform_browser_platform_browser_a, []), i0.ɵmpd(512, i14.ɵangular_packages_router_router_h, i14.ɵangular_packages_router_router_h, [i0.Injector]), i0.ɵmpd(1024, i0.NgProbeToken, function () { return [i14.ɵangular_packages_router_router_b()]; }, []), i0.ɵmpd(256, i22.ɵangular_packages_service_worker_service_worker_b, "ngsw-worker.js", []), i0.ɵmpd(256, i22.SwRegistrationOptions, { enabled: false }, []), i0.ɵmpd(256, i0.APP_ID, "app-root", []), i0.ɵmpd(2048, i18.ɵTRANSITION_ID, null, [i0.APP_ID]), i0.ɵmpd(1024, i0.APP_INITIALIZER, function (p0_0, p1_0, p2_0, p2_1, p2_2, p2_3, p3_0, p3_1, p3_2) { return [i14.ɵangular_packages_router_router_i(p0_0), i18.ɵangular_packages_platform_browser_platform_browser_j(p1_0), i22.ɵangular_packages_service_worker_service_worker_c(p2_0, p2_1, p2_2, p2_3), i18.ɵangular_packages_platform_browser_platform_browser_h(p3_0, p3_1, p3_2)]; }, [i14.ɵangular_packages_router_router_h, [2, i0.NgProbeToken], i0.Injector, i22.ɵangular_packages_service_worker_service_worker_b, i22.SwRegistrationOptions, i0.PLATFORM_ID, i18.ɵTRANSITION_ID, i15.DOCUMENT, i0.Injector]), i0.ɵmpd(512, i0.ApplicationInitStatus, i0.ApplicationInitStatus, [[2, i0.APP_INITIALIZER]]), i0.ɵmpd(131584, i0.ApplicationRef, i0.ApplicationRef, [i0.NgZone, i0.ɵConsole, i0.Injector, i0.ErrorHandler, i0.ComponentFactoryResolver, i0.ApplicationInitStatus]), i0.ɵmpd(512, i14.UrlSerializer, i14.DefaultUrlSerializer, []), i0.ɵmpd(512, i14.ChildrenOutletContexts, i14.ChildrenOutletContexts, []), i0.ɵmpd(256, i14.ROUTER_CONFIGURATION, { enableTracing: false }, []), i0.ɵmpd(1024, i15.LocationStrategy, i14.ɵangular_packages_router_router_d, [i15.PlatformLocation, [2, i15.APP_BASE_HREF], i14.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i15.Location, i15.Location, [i15.LocationStrategy, i15.PlatformLocation]), i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i27.ModuleMapNgFactoryLoader, [i0.Compiler, i27.MODULE_MAP]), i0.ɵmpd(1024, i14.ROUTES, function () { return [[{ path: "", redirectTo: "blog", pathMatch: "full" }, { path: "blog:page", component: i28.BlogPageComponent }, { path: "blog", component: i28.BlogPageComponent }, { path: "contact", component: i29.ContactPageComponent }, { path: "explore", component: i30.ExplorePageComponent }, { path: "guest", component: i31.GuestPageComponent }, { path: "jobs", component: i32.JobsPageComponent }, { path: "the-restaurant", component: i33.RestaurantPageComponent }, { path: "the-lounge", component: i34.LoungePageComponent }, { path: "the-hotel", component: i35.HotelPageComponent }, { path: "the-cellar", component: i36.CellarPageComponent }]]; }, []), i0.ɵmpd(1024, i14.Router, i14.ɵangular_packages_router_router_f, [i0.ApplicationRef, i14.UrlSerializer, i14.ChildrenOutletContexts, i15.Location, i0.Injector, i0.NgModuleFactoryLoader, i0.Compiler, i14.ROUTES, i14.ROUTER_CONFIGURATION, [2, i14.UrlHandlingStrategy], [2, i14.RouteReuseStrategy]]), i0.ɵmpd(1073742336, i14.RouterModule, i14.RouterModule, [[2, i14.ɵangular_packages_router_router_a], [2, i14.Router]]), i0.ɵmpd(1073742336, i37.AppRoutingModule, i37.AppRoutingModule, []), i0.ɵmpd(1073742336, i16.HttpClientXsrfModule, i16.HttpClientXsrfModule, []), i0.ɵmpd(1073742336, i16.HttpClientModule, i16.HttpClientModule, []), i0.ɵmpd(1073742336, i23.TranslateModule, i23.TranslateModule, []), i0.ɵmpd(1073742336, i15.CommonModule, i15.CommonModule, []), i0.ɵmpd(1073742336, i0.ApplicationModule, i0.ApplicationModule, [i0.ApplicationRef]), i0.ɵmpd(1073742336, i18.BrowserModule, i18.BrowserModule, [[3, i18.BrowserModule]]), i0.ɵmpd(1073742336, i20.BrowserAnimationsModule, i20.BrowserAnimationsModule, []), i0.ɵmpd(1073742336, i38.DxiItemModule, i38.DxiItemModule, []), i0.ɵmpd(512, i16.XhrFactory, i17.ɵangular_packages_platform_server_platform_server_e, []), i0.ɵmpd(1073742336, i39.DxIntegrationModule, i39.DxIntegrationModule, [i15.DOCUMENT, i0.NgZone, [2, i16.XhrFactory]]), i0.ɵmpd(1073742336, i40.DxTemplateModule, i40.DxTemplateModule, []), i0.ɵmpd(1073742336, i18.BrowserTransferStateModule, i18.BrowserTransferStateModule, []), i0.ɵmpd(1073742336, i41.DxMultiViewModule, i41.DxMultiViewModule, []), i0.ɵmpd(1073742336, i42.DxCalendarModule, i42.DxCalendarModule, []), i0.ɵmpd(1073742336, i43.DxiButtonModule, i43.DxiButtonModule, []), i0.ɵmpd(1073742336, i44.DxoOptionsModule, i44.DxoOptionsModule, []), i0.ɵmpd(1073742336, i45.DxoFormatModule, i45.DxoFormatModule, []), i0.ɵmpd(1073742336, i46.DxNumberBoxModule, i46.DxNumberBoxModule, []), i0.ɵmpd(1073742336, i47.DxCheckBoxModule, i47.DxCheckBoxModule, []), i0.ɵmpd(1073742336, i48.DxButtonGroupModule, i48.DxButtonGroupModule, []), i0.ɵmpd(1073742336, i49.DxoColCountByScreenModule, i49.DxoColCountByScreenModule, []), i0.ɵmpd(1073742336, i50.DxoLabelModule, i50.DxoLabelModule, []), i0.ɵmpd(1073742336, i51.DxiValidationRuleModule, i51.DxiValidationRuleModule, []), i0.ɵmpd(1073742336, i52.DxoTabPanelOptionsModule, i52.DxoTabPanelOptionsModule, []), i0.ɵmpd(1073742336, i53.DxiTabModule, i53.DxiTabModule, []), i0.ɵmpd(1073742336, i54.DxoButtonOptionsModule, i54.DxoButtonOptionsModule, []), i0.ɵmpd(1073742336, i55.DxFormModule, i55.DxFormModule, []), i0.ɵmpd(1073742336, i56.DxDrawerModule, i56.DxDrawerModule, []), i0.ɵmpd(1073742336, i57.DxRadioGroupModule, i57.DxRadioGroupModule, []), i0.ɵmpd(1073742336, i58.DxiMenuItemModule, i58.DxiMenuItemModule, []), i0.ɵmpd(1073742336, i59.DxoSearchEditorOptionsModule, i59.DxoSearchEditorOptionsModule, []), i0.ɵmpd(1073742336, i60.DxListModule, i60.DxListModule, []), i0.ɵmpd(1073742336, i61.DxToolbarModule, i61.DxToolbarModule, []), i0.ɵmpd(1073742336, i62.DxoMediaResizingModule, i62.DxoMediaResizingModule, []), i0.ɵmpd(1073742336, i63.DxiMentionModule, i63.DxiMentionModule, []), i0.ɵmpd(1073742336, i64.DxoToolbarModule, i64.DxoToolbarModule, []), i0.ɵmpd(1073742336, i65.DxoVariablesModule, i65.DxoVariablesModule, []), i0.ɵmpd(1073742336, i66.DxHtmlEditorModule, i66.DxHtmlEditorModule, []), i0.ɵmpd(1073742336, i67.DxTreeViewModule, i67.DxTreeViewModule, []), i0.ɵmpd(1073742336, i68.DxoColumnChooserModule, i68.DxoColumnChooserModule, []), i0.ɵmpd(1073742336, i69.DxoColumnFixingModule, i69.DxoColumnFixingModule, []), i0.ɵmpd(1073742336, i70.DxoTextsModule, i70.DxoTextsModule, []), i0.ɵmpd(1073742336, i71.DxiColumnModule, i71.DxiColumnModule, []), i0.ɵmpd(1073742336, i72.DxoHeaderFilterModule, i72.DxoHeaderFilterModule, []), i0.ɵmpd(1073742336, i73.DxoLookupModule, i73.DxoLookupModule, []), i0.ɵmpd(1073742336, i74.DxoFormItemModule, i74.DxoFormItemModule, []), i0.ɵmpd(1073742336, i75.DxoEditingModule, i75.DxoEditingModule, []), i0.ɵmpd(1073742336, i76.DxoFormModule, i76.DxoFormModule, []), i0.ɵmpd(1073742336, i77.DxoPopupModule, i77.DxoPopupModule, []), i0.ɵmpd(1073742336, i78.DxoAnimationModule, i78.DxoAnimationModule, []), i0.ɵmpd(1073742336, i79.DxoHideModule, i79.DxoHideModule, []), i0.ɵmpd(1073742336, i80.DxoShowModule, i80.DxoShowModule, []), i0.ɵmpd(1073742336, i81.DxoPositionModule, i81.DxoPositionModule, []), i0.ɵmpd(1073742336, i82.DxoAtModule, i82.DxoAtModule, []), i0.ɵmpd(1073742336, i83.DxoBoundaryOffsetModule, i83.DxoBoundaryOffsetModule, []), i0.ɵmpd(1073742336, i84.DxoCollisionModule, i84.DxoCollisionModule, []), i0.ɵmpd(1073742336, i85.DxoMyModule, i85.DxoMyModule, []), i0.ɵmpd(1073742336, i86.DxoOffsetModule, i86.DxoOffsetModule, []), i0.ɵmpd(1073742336, i87.DxiToolbarItemModule, i87.DxiToolbarItemModule, []), i0.ɵmpd(1073742336, i88.DxoExportModule, i88.DxoExportModule, []), i0.ɵmpd(1073742336, i89.DxoFilterBuilderModule, i89.DxoFilterBuilderModule, []), i0.ɵmpd(1073742336, i90.DxiCustomOperationModule, i90.DxiCustomOperationModule, []), i0.ɵmpd(1073742336, i91.DxiFieldModule, i91.DxiFieldModule, []), i0.ɵmpd(1073742336, i92.DxoFilterOperationDescriptionsModule, i92.DxoFilterOperationDescriptionsModule, []), i0.ɵmpd(1073742336, i93.DxoGroupOperationDescriptionsModule, i93.DxoGroupOperationDescriptionsModule, []), i0.ɵmpd(1073742336, i94.DxoFilterBuilderPopupModule, i94.DxoFilterBuilderPopupModule, []), i0.ɵmpd(1073742336, i95.DxoFilterPanelModule, i95.DxoFilterPanelModule, []), i0.ɵmpd(1073742336, i96.DxoFilterRowModule, i96.DxoFilterRowModule, []), i0.ɵmpd(1073742336, i97.DxoOperationDescriptionsModule, i97.DxoOperationDescriptionsModule, []), i0.ɵmpd(1073742336, i98.DxoGroupingModule, i98.DxoGroupingModule, []), i0.ɵmpd(1073742336, i99.DxoGroupPanelModule, i99.DxoGroupPanelModule, []), i0.ɵmpd(1073742336, i100.DxoKeyboardNavigationModule, i100.DxoKeyboardNavigationModule, []), i0.ɵmpd(1073742336, i101.DxoLoadPanelModule, i101.DxoLoadPanelModule, []), i0.ɵmpd(1073742336, i102.DxoMasterDetailModule, i102.DxoMasterDetailModule, []), i0.ɵmpd(1073742336, i103.DxoPagerModule, i103.DxoPagerModule, []), i0.ɵmpd(1073742336, i104.DxoPagingModule, i104.DxoPagingModule, []), i0.ɵmpd(1073742336, i105.DxoRemoteOperationsModule, i105.DxoRemoteOperationsModule, []), i0.ɵmpd(1073742336, i106.DxoScrollingModule, i106.DxoScrollingModule, []), i0.ɵmpd(1073742336, i107.DxoSearchPanelModule, i107.DxoSearchPanelModule, []), i0.ɵmpd(1073742336, i108.DxoSelectionModule, i108.DxoSelectionModule, []), i0.ɵmpd(1073742336, i109.DxiSortByGroupSummaryInfoModule, i109.DxiSortByGroupSummaryInfoModule, []), i0.ɵmpd(1073742336, i110.DxoSortingModule, i110.DxoSortingModule, []), i0.ɵmpd(1073742336, i111.DxoStateStoringModule, i111.DxoStateStoringModule, []), i0.ɵmpd(1073742336, i112.DxoSummaryModule, i112.DxoSummaryModule, []), i0.ɵmpd(1073742336, i113.DxiGroupItemModule, i113.DxiGroupItemModule, []), i0.ɵmpd(1073742336, i114.DxoValueFormatModule, i114.DxoValueFormatModule, []), i0.ɵmpd(1073742336, i115.DxiTotalItemModule, i115.DxiTotalItemModule, []), i0.ɵmpd(1073742336, i116.DxDataGridModule, i116.DxDataGridModule, []), i0.ɵmpd(1073742336, i117.DxoTooltipModule, i117.DxoTooltipModule, []), i0.ɵmpd(1073742336, i118.DxSliderModule, i118.DxSliderModule, []), i0.ɵmpd(1073742336, i119.DxTreeListModule, i119.DxTreeListModule, []), i0.ɵmpd(1073742336, i120.DxiResourceModule, i120.DxiResourceModule, []), i0.ɵmpd(1073742336, i121.DxiViewModule, i121.DxiViewModule, []), i0.ɵmpd(1073742336, i122.DxSchedulerModule, i122.DxSchedulerModule, []), i0.ɵmpd(1073742336, i123.DxoDataSourceModule, i123.DxoDataSourceModule, []), i0.ɵmpd(1073742336, i124.DxoStoreModule, i124.DxoStoreModule, []), i0.ɵmpd(1073742336, i125.DxoFieldChooserModule, i125.DxoFieldChooserModule, []), i0.ɵmpd(1073742336, i126.DxoFieldPanelModule, i126.DxoFieldPanelModule, []), i0.ɵmpd(1073742336, i127.DxPivotGridModule, i127.DxPivotGridModule, []), i0.ɵmpd(1073742336, i128.DxoAdaptiveLayoutModule, i128.DxoAdaptiveLayoutModule, []), i0.ɵmpd(1073742336, i129.DxiAnnotationModule, i129.DxiAnnotationModule, []), i0.ɵmpd(1073742336, i130.DxoBorderModule, i130.DxoBorderModule, []), i0.ɵmpd(1073742336, i131.DxoFontModule, i131.DxoFontModule, []), i0.ɵmpd(1073742336, i132.DxoImageModule, i132.DxoImageModule, []), i0.ɵmpd(1073742336, i133.DxoShadowModule, i133.DxoShadowModule, []), i0.ɵmpd(1073742336, i134.DxoArgumentAxisModule, i134.DxoArgumentAxisModule, []), i0.ɵmpd(1073742336, i135.DxoAggregationIntervalModule, i135.DxoAggregationIntervalModule, []), i0.ɵmpd(1073742336, i136.DxiBreakModule, i136.DxiBreakModule, []), i0.ɵmpd(1073742336, i137.DxoBreakStyleModule, i137.DxoBreakStyleModule, []), i0.ɵmpd(1073742336, i138.DxiConstantLineModule, i138.DxiConstantLineModule, []), i0.ɵmpd(1073742336, i139.DxoConstantLineStyleModule, i139.DxoConstantLineStyleModule, []), i0.ɵmpd(1073742336, i140.DxoGridModule, i140.DxoGridModule, []), i0.ɵmpd(1073742336, i141.DxoMinorGridModule, i141.DxoMinorGridModule, []), i0.ɵmpd(1073742336, i142.DxoMinorTickModule, i142.DxoMinorTickModule, []), i0.ɵmpd(1073742336, i143.DxoMinorTickIntervalModule, i143.DxoMinorTickIntervalModule, []), i0.ɵmpd(1073742336, i144.DxoMinVisualRangeLengthModule, i144.DxoMinVisualRangeLengthModule, []), i0.ɵmpd(1073742336, i145.DxiStripModule, i145.DxiStripModule, []), i0.ɵmpd(1073742336, i146.DxoStripStyleModule, i146.DxoStripStyleModule, []), i0.ɵmpd(1073742336, i147.DxoTickModule, i147.DxoTickModule, []), i0.ɵmpd(1073742336, i148.DxoTickIntervalModule, i148.DxoTickIntervalModule, []), i0.ɵmpd(1073742336, i149.DxoTitleModule, i149.DxoTitleModule, []), i0.ɵmpd(1073742336, i150.DxoCommonAnnotationSettingsModule, i150.DxoCommonAnnotationSettingsModule, []), i0.ɵmpd(1073742336, i151.DxoCommonAxisSettingsModule, i151.DxoCommonAxisSettingsModule, []), i0.ɵmpd(1073742336, i152.DxoCommonPaneSettingsModule, i152.DxoCommonPaneSettingsModule, []), i0.ɵmpd(1073742336, i153.DxoCommonSeriesSettingsModule, i153.DxoCommonSeriesSettingsModule, []), i0.ɵmpd(1073742336, i154.DxoAggregationModule, i154.DxoAggregationModule, []), i0.ɵmpd(1073742336, i155.DxoAreaModule, i155.DxoAreaModule, []), i0.ɵmpd(1073742336, i156.DxoHoverStyleModule, i156.DxoHoverStyleModule, []), i0.ɵmpd(1073742336, i157.DxoHatchingModule, i157.DxoHatchingModule, []), i0.ɵmpd(1073742336, i158.DxoConnectorModule, i158.DxoConnectorModule, []), i0.ɵmpd(1073742336, i159.DxoPointModule, i159.DxoPointModule, []), i0.ɵmpd(1073742336, i160.DxoHeightModule, i160.DxoHeightModule, []), i0.ɵmpd(1073742336, i161.DxoUrlModule, i161.DxoUrlModule, []), i0.ɵmpd(1073742336, i162.DxoWidthModule, i162.DxoWidthModule, []), i0.ɵmpd(1073742336, i163.DxoSelectionStyleModule, i163.DxoSelectionStyleModule, []), i0.ɵmpd(1073742336, i164.DxoReductionModule, i164.DxoReductionModule, []), i0.ɵmpd(1073742336, i165.DxoValueErrorBarModule, i165.DxoValueErrorBarModule, []), i0.ɵmpd(1073742336, i166.DxoBarModule, i166.DxoBarModule, []), i0.ɵmpd(1073742336, i167.DxoBubbleModule, i167.DxoBubbleModule, []), i0.ɵmpd(1073742336, i168.DxoCandlestickModule, i168.DxoCandlestickModule, []), i0.ɵmpd(1073742336, i169.DxoFullstackedareaModule, i169.DxoFullstackedareaModule, []), i0.ɵmpd(1073742336, i170.DxoFullstackedbarModule, i170.DxoFullstackedbarModule, []), i0.ɵmpd(1073742336, i171.DxoFullstackedlineModule, i171.DxoFullstackedlineModule, []), i0.ɵmpd(1073742336, i172.DxoFullstackedsplineModule, i172.DxoFullstackedsplineModule, []), i0.ɵmpd(1073742336, i173.DxoFullstackedsplineareaModule, i173.DxoFullstackedsplineareaModule, []), i0.ɵmpd(1073742336, i174.DxoArgumentFormatModule, i174.DxoArgumentFormatModule, []), i0.ɵmpd(1073742336, i175.DxoLineModule, i175.DxoLineModule, []), i0.ɵmpd(1073742336, i176.DxoRangeareaModule, i176.DxoRangeareaModule, []), i0.ɵmpd(1073742336, i177.DxoRangebarModule, i177.DxoRangebarModule, []), i0.ɵmpd(1073742336, i178.DxoScatterModule, i178.DxoScatterModule, []), i0.ɵmpd(1073742336, i179.DxoSplineModule, i179.DxoSplineModule, []), i0.ɵmpd(1073742336, i180.DxoSplineareaModule, i180.DxoSplineareaModule, []), i0.ɵmpd(1073742336, i181.DxoStackedareaModule, i181.DxoStackedareaModule, []), i0.ɵmpd(1073742336, i182.DxoStackedbarModule, i182.DxoStackedbarModule, []), i0.ɵmpd(1073742336, i183.DxoStackedlineModule, i183.DxoStackedlineModule, []), i0.ɵmpd(1073742336, i184.DxoStackedsplineModule, i184.DxoStackedsplineModule, []), i0.ɵmpd(1073742336, i185.DxoStackedsplineareaModule, i185.DxoStackedsplineareaModule, []), i0.ɵmpd(1073742336, i186.DxoStepareaModule, i186.DxoStepareaModule, []), i0.ɵmpd(1073742336, i187.DxoSteplineModule, i187.DxoSteplineModule, []), i0.ɵmpd(1073742336, i188.DxoStockModule, i188.DxoStockModule, []), i0.ɵmpd(1073742336, i189.DxoCrosshairModule, i189.DxoCrosshairModule, []), i0.ɵmpd(1073742336, i190.DxoHorizontalLineModule, i190.DxoHorizontalLineModule, []), i0.ɵmpd(1073742336, i191.DxoVerticalLineModule, i191.DxoVerticalLineModule, []), i0.ɵmpd(1073742336, i192.DxoDataPrepareSettingsModule, i192.DxoDataPrepareSettingsModule, []), i0.ɵmpd(1073742336, i193.DxoLegendModule, i193.DxoLegendModule, []), i0.ɵmpd(1073742336, i194.DxoMarginModule, i194.DxoMarginModule, []), i0.ɵmpd(1073742336, i195.DxoSubtitleModule, i195.DxoSubtitleModule, []), i0.ɵmpd(1073742336, i196.DxoLoadingIndicatorModule, i196.DxoLoadingIndicatorModule, []), i0.ɵmpd(1073742336, i197.DxiPaneModule, i197.DxiPaneModule, []), i0.ɵmpd(1073742336, i198.DxoScrollBarModule, i198.DxoScrollBarModule, []), i0.ɵmpd(1073742336, i199.DxiSeriesModule, i199.DxiSeriesModule, []), i0.ɵmpd(1073742336, i200.DxoSeriesTemplateModule, i200.DxoSeriesTemplateModule, []), i0.ɵmpd(1073742336, i201.DxoSizeModule, i201.DxoSizeModule, []), i0.ɵmpd(1073742336, i202.DxiValueAxisModule, i202.DxiValueAxisModule, []), i0.ɵmpd(1073742336, i203.DxoZoomAndPanModule, i203.DxoZoomAndPanModule, []), i0.ɵmpd(1073742336, i204.DxoDragBoxStyleModule, i204.DxoDragBoxStyleModule, []), i0.ɵmpd(1073742336, i205.DxChartModule, i205.DxChartModule, []), i0.ɵmpd(1073742336, i206.DxButtonModule, i206.DxButtonModule, []), i0.ɵmpd(1073742336, i207.DxPopupModule, i207.DxPopupModule, []), i0.ɵmpd(1073742336, i208.DxoHideEventModule, i208.DxoHideEventModule, []), i0.ɵmpd(1073742336, i209.DxoShowEventModule, i209.DxoShowEventModule, []), i0.ɵmpd(1073742336, i210.DxPopoverModule, i210.DxPopoverModule, []), i0.ɵmpd(1073742336, i211.DxiCenterModule, i211.DxiCenterModule, []), i0.ɵmpd(1073742336, i212.DxoKeyModule, i212.DxoKeyModule, []), i0.ɵmpd(1073742336, i213.DxiMarkerModule, i213.DxiMarkerModule, []), i0.ɵmpd(1073742336, i214.DxiLocationModule, i214.DxiLocationModule, []), i0.ɵmpd(1073742336, i215.DxiRouteModule, i215.DxiRouteModule, []), i0.ɵmpd(1073742336, i216.DxMapModule, i216.DxMapModule, []), i0.ɵmpd(1073742336, i217.DxoBackgroundModule, i217.DxoBackgroundModule, []), i0.ɵmpd(1073742336, i218.DxoControlBarModule, i218.DxoControlBarModule, []), i0.ɵmpd(1073742336, i219.DxiLayerModule, i219.DxiLayerModule, []), i0.ɵmpd(1073742336, i220.DxiLegendModule, i220.DxiLegendModule, []), i0.ɵmpd(1073742336, i221.DxoSourceModule, i221.DxoSourceModule, []), i0.ɵmpd(1073742336, i222.DxVectorMapModule, i222.DxVectorMapModule, []), i0.ɵmpd(1073742336, i223.DxSelectBoxModule, i223.DxSelectBoxModule, []), i0.ɵmpd(1073742336, i224.DxTextBoxModule, i224.DxTextBoxModule, []), i0.ɵmpd(1073742336, i225.DxFileUploaderModule, i225.DxFileUploaderModule, []), i0.ɵmpd(1073742336, i226.DxAccordionModule, i226.DxAccordionModule, []), i0.ɵmpd(1073742336, i227.DxTagBoxModule, i227.DxTagBoxModule, []), i0.ɵmpd(1073742336, i228.DxSlideOutModule, i228.DxSlideOutModule, []), i0.ɵmpd(1073742336, i229.DxSwitchModule, i229.DxSwitchModule, []), i0.ɵmpd(1073742336, i230.DxBulletModule, i230.DxBulletModule, []), i0.ɵmpd(1073742336, i231.DxoDropDownOptionsModule, i231.DxoDropDownOptionsModule, []), i0.ɵmpd(1073742336, i232.DxDropDownBoxModule, i232.DxDropDownBoxModule, []), i0.ɵmpd(1073742336, i233.DxTabPanelModule, i233.DxTabPanelModule, []), i0.ɵmpd(1073742336, i234.DxActionSheetModule, i234.DxActionSheetModule, []), i0.ɵmpd(1073742336, i235.DxoCalendarOptionsModule, i235.DxoCalendarOptionsModule, []), i0.ɵmpd(1073742336, i236.DxoDisplayFormatModule, i236.DxoDisplayFormatModule, []), i0.ɵmpd(1073742336, i237.DxDateBoxModule, i237.DxDateBoxModule, []), i0.ɵmpd(1073742336, i238.DxoAdapterModule, i238.DxoAdapterModule, []), i0.ɵmpd(1073742336, i239.DxValidatorModule, i239.DxValidatorModule, []), i0.ɵmpd(1073742336, i240.DxValidationSummaryModule, i240.DxValidationSummaryModule, []), i0.ɵmpd(1073742336, i241.DxProgressBarModule, i241.DxProgressBarModule, []), i0.ɵmpd(1073742336, i242.DxiColModule, i242.DxiColModule, []), i0.ɵmpd(1073742336, i243.DxiRowModule, i243.DxiRowModule, []), i0.ɵmpd(1073742336, i244.DxResponsiveBoxModule, i244.DxResponsiveBoxModule, []), i0.ɵmpd(1073742336, i245.DxGalleryModule, i245.DxGalleryModule, []), i0.ɵmpd(1073742336, i246.DxTileViewModule, i246.DxTileViewModule, []), i0.ɵmpd(1073742336, i247.DxFilterBuilderModule, i247.DxFilterBuilderModule, []), i0.ɵmpd(1073742336, i248.DxNavBarModule, i248.DxNavBarModule, []), i0.ɵmpd(1073742336, i249.DxoBoxModule, i249.DxoBoxModule, []), i0.ɵmpd(1073742336, i250.DxBoxModule, i250.DxBoxModule, []), i0.ɵmpd(1073742336, i251.DxScrollViewModule, i251.DxScrollViewModule, []), i0.ɵmpd(1073742336, i252.DxSpeedDialActionModule, i252.DxSpeedDialActionModule, []), i0.ɵmpd(1073742336, i22.ServiceWorkerModule, i22.ServiceWorkerModule, []), i0.ɵmpd(1073742336, i24.AppModule, i24.AppModule, []), i0.ɵmpd(1073742336, i20.NoopAnimationsModule, i20.NoopAnimationsModule, []), i0.ɵmpd(1073742336, i17.ServerModule, i17.ServerModule, []), i0.ɵmpd(1073742336, i27.ModuleMapLoaderModule, i27.ModuleMapLoaderModule, []), i0.ɵmpd(1073742336, i17.ServerTransferStateModule, i17.ServerTransferStateModule, []), i0.ɵmpd(1073742336, i1.AppServerModule, i1.AppServerModule, []), i0.ɵmpd(256, i16.ɵangular_packages_common_http_http_e, "XSRF-TOKEN", []), i0.ɵmpd(256, i16.ɵangular_packages_common_http_http_f, "X-XSRF-TOKEN", []), i0.ɵmpd(256, i0.ɵAPP_ROOT, true, []), i0.ɵmpd(256, i20.ANIMATION_MODULE_TYPE, "NoopAnimations", []), i0.ɵmpd(256, i23.USE_STORE, undefined, []), i0.ɵmpd(256, i23.USE_DEFAULT_LANG, undefined, [])]); });
 exports.AppServerModuleNgFactory = AppServerModuleNgFactory;
 
 
@@ -32671,7 +30209,7 @@ var styles_BlogPageComponent = [];
 var RenderType_BlogPageComponent = i0.ɵcrt({ encapsulation: 2, styles: styles_BlogPageComponent, data: {} });
 exports.RenderType_BlogPageComponent = RenderType_BlogPageComponent;
 function View_BlogPageComponent_0(_l) { return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, 0, null, null, 2, "app-blog", [["class", "right-side-bar item"]], null, [["window", "resize"]], function (_v, en, $event) { var ad = true; if (("window:resize" === en)) {
-        var pd_0 = (i0.ɵnov(_v, 2).updateContentTimer($event) !== false);
+        var pd_0 = (i0.ɵnov(_v, 2).enduroJsData($event) !== false);
         ad = (pd_0 && ad);
     } return ad; }, i1.View_BlogComponent_0, i1.RenderType_BlogComponent)), i0.ɵprd(512, null, i2.BlogService, i2.BlogService, [i3.HttpClient]), i0.ɵdid(2, 4243456, null, 0, i4.BlogComponent, [i0.ElementRef, i2.BlogService], null, null)], null, null); }
 exports.View_BlogPageComponent_0 = View_BlogPageComponent_0;
@@ -32696,6 +30234,80 @@ Object.defineProperty(exports, "__esModule", { value: true });
 class BlogPageComponent {
 }
 exports.BlogPageComponent = BlogPageComponent;
+
+
+/***/ }),
+
+/***/ "./src/app/pages/cellar-page/cellar-page.component.css.shim.ngstyle.js":
+/*!*****************************************************************************!*\
+  !*** ./src/app/pages/cellar-page/cellar-page.component.css.shim.ngstyle.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var styles = ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2NlbGxhci1wYWdlL2NlbGxhci1wYWdlLmNvbXBvbmVudC5jc3MifQ== */"];
+exports.styles = styles;
+
+
+/***/ }),
+
+/***/ "./src/app/pages/cellar-page/cellar-page.component.ngfactory.js":
+/*!**********************************************************************!*\
+  !*** ./src/app/pages/cellar-page/cellar-page.component.ngfactory.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+const i0 = __webpack_require__(/*! ./cellar-page.component.css.shim.ngstyle */ "./src/app/pages/cellar-page/cellar-page.component.css.shim.ngstyle.js");
+const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i2 = __webpack_require__(/*! ../../plugins/slideshow/slideshow.component.ngfactory */ "./src/app/plugins/slideshow/slideshow.component.ngfactory.js");
+const i3 = __webpack_require__(/*! ../../plugins/slideshow/slideshow.service */ "./src/app/plugins/slideshow/slideshow.service.ts");
+const i4 = __webpack_require__(/*! ../../plugins/slideshow/slideshow.component */ "./src/app/plugins/slideshow/slideshow.component.ts");
+const i5 = __webpack_require__(/*! ./cellar-page.component */ "./src/app/pages/cellar-page/cellar-page.component.ts");
+var styles_CellarPageComponent = [i0.styles];
+var RenderType_CellarPageComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_CellarPageComponent, data: {} });
+exports.RenderType_CellarPageComponent = RenderType_CellarPageComponent;
+function View_CellarPageComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "app-slideshow", [], null, null, null, i2.View_SlideshowComponent_0, i2.RenderType_SlideshowComponent)), i1.ɵprd(512, null, i3.slideshowService, i3.slideshowService, []), i1.ɵdid(2, 49152, null, 0, i4.SlideshowComponent, [i3.slideshowService], null, null)], null, null); }
+exports.View_CellarPageComponent_0 = View_CellarPageComponent_0;
+function View_CellarPageComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-cellar-page", [], null, null, null, View_CellarPageComponent_0, RenderType_CellarPageComponent)), i1.ɵdid(1, 49152, null, 0, i5.CellarPageComponent, [], null, null)], null, null); }
+exports.View_CellarPageComponent_Host_0 = View_CellarPageComponent_Host_0;
+var CellarPageComponentNgFactory = i1.ɵccf("app-cellar-page", i5.CellarPageComponent, View_CellarPageComponent_Host_0, {}, {}, []);
+exports.CellarPageComponentNgFactory = CellarPageComponentNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/pages/cellar-page/cellar-page.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/pages/cellar-page/cellar-page.component.ts ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+class CellarPageComponent {
+}
+exports.CellarPageComponent = CellarPageComponent;
 
 
 /***/ }),
@@ -33018,6 +30630,7 @@ tslib_1.__exportStar(__webpack_require__(/*! ./jobs-page/jobs-page.component */ 
 tslib_1.__exportStar(__webpack_require__(/*! ./restaurant-page/restaurant-page.component */ "./src/app/pages/restaurant-page/restaurant-page.component.ts"), exports);
 tslib_1.__exportStar(__webpack_require__(/*! ./lounge-page/lounge-page.component */ "./src/app/pages/lounge-page/lounge-page.component.ts"), exports);
 tslib_1.__exportStar(__webpack_require__(/*! ./hotel-page/hotel-page.component */ "./src/app/pages/hotel-page/hotel-page.component.ts"), exports);
+tslib_1.__exportStar(__webpack_require__(/*! ./cellar-page/cellar-page.component */ "./src/app/pages/cellar-page/cellar-page.component.ts"), exports);
 
 
 /***/ }),
@@ -33247,31 +30860,6 @@ exports.RestaurantPageComponent = RestaurantPageComponent;
 
 /***/ }),
 
-/***/ "./src/app/pipes/SafeHtmlPipe.pipe.ts":
-/*!********************************************!*\
-  !*** ./src/app/pipes/SafeHtmlPipe.pipe.ts ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-class SafeHtmlPipe {
-    constructor(sanitized) {
-        this.sanitized = sanitized;
-    }
-    transform(value) {
-        value = this.sanitized.bypassSecurityTrustHtml(value);
-        return value;
-    }
-}
-exports.SafeHtmlPipe = SafeHtmlPipe;
-
-
-/***/ }),
-
 /***/ "./src/app/plugins/blog/blog.component.css.shim.ngstyle.js":
 /*!*****************************************************************!*\
   !*** ./src/app/plugins/blog/blog.component.css.shim.ngstyle.js ***!
@@ -33312,7 +30900,7 @@ exports.styles = styles;
 Object.defineProperty(exports, "__esModule", { value: true });
 const i0 = __webpack_require__(/*! ./blog.component.css.shim.ngstyle */ "./src/app/plugins/blog/blog.component.css.shim.ngstyle.js");
 const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-const i2 = __webpack_require__(/*! ../../pipes/SafeHtmlPipe.pipe */ "./src/app/pipes/SafeHtmlPipe.pipe.ts");
+const i2 = __webpack_require__(/*! ../../_pipes/SafeHtml.pipe */ "./src/app/_pipes/SafeHtml.pipe.ts");
 const i3 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
 const i4 = __webpack_require__(/*! ../../../../node_modules/devextreme-angular/ui/scroll-view.ngfactory */ "./node_modules/devextreme-angular/ui/scroll-view.ngfactory.js");
 const i5 = __webpack_require__(/*! devextreme-angular/core/template-host */ "devextreme-angular/core/template-host");
@@ -33334,7 +30922,7 @@ function View_BlogComponent_0(_l) { return i1.ɵvid(0, [i1.ɵpid(0, i2.SafeHtmlP
     } return ad; }, i4.View_DxScrollViewComponent_0, i4.RenderType_DxScrollViewComponent)), i1.ɵprd(512, null, i5.DxTemplateHost, i5.DxTemplateHost, []), i1.ɵprd(512, null, i6.WatcherHelper, i6.WatcherHelper, []), i1.ɵprd(512, null, i7.NestedOptionHost, i7.NestedOptionHost, []), i1.ɵdid(6, 7323648, [[1, 4], ["scrollView", 4]], 0, i8.DxScrollViewComponent, [i1.ElementRef, i1.NgZone, i5.DxTemplateHost, i6.WatcherHelper, i7.NestedOptionHost, i3.TransferState, i1.PLATFORM_ID], { bounceEnabled: [0, "bounceEnabled"], direction: [1, "direction"], height: [2, "height"], reachBottomText: [3, "reachBottomText"], scrollByContent: [4, "scrollByContent"], scrollByThumb: [5, "scrollByThumb"], showScrollbar: [6, "showScrollbar"] }, { onReachBottom: "onReachBottom" }), (_l()(), i1.ɵeld(7, 0, null, 0, 1, "div", [["class", "container"]], [[8, "innerHTML", 1]], null, null, null, null)), i1.ɵppd(8, 1)], function (_ck, _v) { var _co = _v.component; var currVal_0 = true; var currVal_1 = "vertical"; var currVal_2 = _co.onResize; var currVal_3 = "Updating..."; var currVal_4 = false; var currVal_5 = true; var currVal_6 = false; _ck(_v, 6, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); }, function (_ck, _v) { var _co = _v.component; var currVal_7 = i1.ɵunv(_v, 7, 0, _ck(_v, 8, 0, i1.ɵnov(_v, 0), _co.content)); _ck(_v, 7, 0, currVal_7); }); }
 exports.View_BlogComponent_0 = View_BlogComponent_0;
 function View_BlogComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "app-blog", [], null, [["window", "resize"]], function (_v, en, $event) { var ad = true; if (("window:resize" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 2).updateContentTimer($event) !== false);
+        var pd_0 = (i1.ɵnov(_v, 2).enduroJsData($event) !== false);
         ad = (pd_0 && ad);
     } return ad; }, View_BlogComponent_0, RenderType_BlogComponent)), i1.ɵprd(512, null, i9.BlogService, i9.BlogService, [i10.HttpClient]), i1.ɵdid(2, 4243456, null, 0, i11.BlogComponent, [i1.ElementRef, i9.BlogService], null, null)], null, null); }
 exports.View_BlogComponent_Host_0 = View_BlogComponent_Host_0;
@@ -34158,7 +31746,7 @@ exports.FooterComponent = FooterComponent;
  * tslint:disable
  */ 
 Object.defineProperty(exports, "__esModule", { value: true });
-var styles = [".popup-vert .dx-popup-content {\n    padding: 0px;\n    margin-top: -3px;\n}\n\n  .popup-hor .dx-popup-content {\n    padding: 0px;\n    margin-top: -4px;\n}\n\n  .dx-popup-wrapper > .dx-overlay-content {\n    background-color: rgba(255, 255, 255, 0.45);\n}\n\n  .dx-gallery-item {\n    width: 507px;\n    max-width: 100%;\n}\n\n  .dx-gallery-item img {\n    height: 300px;\n    width: 507px;\n    max-width: 100%;\n}\n\n  .dx-gallery-item .item-price {\n    font-size: 20px;\n    font-weight: bold;\n}\n\n  .dx-gallery-item .item-price {\n    font-size: 20px;\n    font-weight: bold;\n}\n\n  .border-shadow-vert {\n    box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);\n    width: 508px;\n}\n\n  .border-img-vert-a {\n    background-image: url(/assets/img/borders/la-001.svg);\n    background-repeat: no-repeat;\n    padding: 61px 0px 0px 110px;\n    height:968px;\n}\n\n  .border-img-vert-b {\n    background-image: url(/assets/img/borders/la-002.svg);\n    background-repeat: no-repeat;\n    padding: 61px 0px 0px 110px;\n    height: 968px;\n }\n\n  .main-img-vert-a {\n    background-image: url(/assets/img/slideshow/drink_46039172.png);\n    background-repeat: no-repeat;\n    background-clip: content-box;\n    width: 618px;\n    height:791px;\n}\n\n  .main-img-vert-b {\n    background-image: url(/assets/img/slideshow/drink_46039172.png);\n    background-repeat: no-repeat;\n    background-clip: content-box;\n    width: 618px;\n    height:791px;\n}\n\n  .border-img-hor-a {\n    background-image: url(/assets/img/borders/sm-001.svg);\n    background-repeat: no-repeat;\n    padding: 62px 0px 0px 60px;\n    width:915px;\n    height:791px;\n}\n\n  .main-img-hor-a {\n    background-image: url(/assets/img/menu/31645232-italian-spaghetti-on-rustic-wooden-table.jpg);\n    background-repeat: no-repeat;\n    height: 600px;\n    width: 793px;\n}\n\n  .border-shadow-hor {\n    box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);\n    width: 793px;\n    height: 596px;\n    padding: 25px;\n    background-color: whitesmoke;\n}\n\n  .article {\n    display: block;\n}\n\n  .article .blog-img {\n    margin-bottom: 50px;\n    display: block;\n    position: relative;\n    overflow: hidden;\n    width: 100%;\n    z-index: 1;\n}\n\n  .article .blog-img img {\n    position: relative;\n    max-width: 100%;\n    -webkit-transform: scale(1);\n    transform: scale(1);\n    -webkit-transition: 0.7s;\n    transition: 0.7s;\n}\n\n  .article .blog-img .overlay {\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background: rgba(0, 0, 0, 0.6);\n    opacity: 0;\n    -webkit-transition: 0.3s;\n    transition: 0.3s;\n}\n\n  .article .blog-img .link {\n    position: absolute;\n    top: 0;\n    left: 90%;\n    display: table;\n    width: 100%;\n    opacity: 0;\n    -webkit-transition: 0.7s;\n    transition: 0.7s;\n}\n\n  .article .blog-img .link .read {\n    display: table-cell;\n    vertical-align: middle;\n    font-family: \"Karla\", Arial, sans-serif;\n    color: #fff;\n    font-size: 12px;\n    text-transform: uppercase;\n    letter-spacing: 5px;\n    -webkit-transform: rotate(-90deg);\n    transform: rotate(-90deg);\n    -webkit-transform-origin: 0;\n    transform-origin: 0;\n    position: relative;\n}\n\n  .article .blog-img .link .read:after {\n    position: absolute;\n    top: 10px;\n    left: -50px;\n    content: '';\n    background: #fff;\n    width: 40px;\n    height: 1px;\n}\n\n  .article .blog-img:hover .overlay {\n    opacity: 1;\n}\n\n  .article .blog-img:hover .link {\n    opacity: 1;\n    top: 120px;\n}\n\n  .article .blog-img:hover img {\n    -webkit-transform: scale(1.1);\n    transform: scale(1.1);\n}\n\n  .article .desc {\n    position: relative;\n    z-index: 1;\n    margin-top: -5em;\n    width: 90%;\n    background: #fff;\n    padding: 1em;\n    padding-top: 2em;\n}\n\n  .article .desc .meta {\n    position: absolute;\n    top: -60px;\n    left: 20px;\n    background: #FFE9E3;\n    color: #000;\n    padding: 20px 10px;\n    font-size: 12px;\n    text-transform: uppercase;\n    letter-spacing: 4px;\n    -webkit-transition: 1s;\n    transition: 1s;\n    -ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);\n    -o-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);\n    box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);\n}\n\n  .article .desc h2 {\n    font-size: 24px;\n}\n\n  .article .desc h2 a {\n    text-decoration: none;\n    color: #000;\n}\n\n  .article:hover .meta {\n    background: #fff;\n}\n\n  .dx-tile-content {\n    height: 100%;\n    padding: 0;\n    position: relative;\n}\n\n  .dx-tile-content .image {\n    height: 100%;\n    width: 100%;\n    background-position: center;\n    background-size: cover;\n    padding: 10px;\n    display: block;\n}\n\n  .dx-tile {\n    border: 1px solid #999;\n}\n\n  .dx-tile.dx-state-hover {\n    border-color: #EEE;\n}\n\n  .dx-tile-content .name {\n    font-size: 12px;\n    position: absolute;\n    background-color: black;\n    color: white;\n    opacity: 0.6;\n    padding: 2px;\n    left: 9px;\n    top: 9px;\n}\n\n  .dx-tile-content .price {\n    font-size: 12px;\n    position: absolute;\n    background-color: black;\n    color: white;\n    opacity: 0.6;\n    padding: 2px;\n    left: 9px;\n    bottom: 9px;\n}\n\n  #popup {\n    padding: 10px;\n}\n\n  #popup ul {\n    list-style-type: none;\n    text-align: center;\n}\n\n  #popup ul li {\n    display: inline-block;\n    width: 160px;\n    margin: 10px;\n}\n\n  #popup ul li img{\n    width: 100px;\n}\n\n  .button-info {\n    margin: 10px;\n}\n\n  .popup p {\n    margin-bottom: 10px;\n    margin-top: 0;\n}\n\n  .list-container {\n    min-height: 440px;\n    height: auto;\n    position: absolute;\n    top: 0;\n    bottom: 0;\n}\n\n  .item {\n    height: 65px;\n}\n\n  .item > img {\n    height: 100%;\n    width: 95px;\n    float: left;\n}\n\n  .item > div {\n    padding-left: 10px;\n    vertical-align: top;\n    line-height: 65px;\n    font-size: 15px;\n    float: left;\n}\n\n  .item > div.price {\n    float: right;\n    font-size: 18px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGx1Z2lucy9nYWxsZXJ5L2dhbGxlcnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSSxZQUFZO0lBQ1osZ0JBQWdCO0FBQ3BCOztBQUdBO0lBQ0ksMkNBQTJDO0FBQy9DOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGVBQWU7QUFDbkI7O0FBQ0E7SUFDSSxhQUFhO0lBQ2IsWUFBWTtJQUNaLGVBQWU7QUFDbkI7O0FBQ0E7SUFDSSxlQUFlO0lBQ2YsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksZUFBZTtJQUNmLGlCQUFpQjtBQUNyQjs7QUFHQTtJQUdJLGdEQUFnRDtJQUNoRCxZQUFZO0FBQ2hCOztBQUVBO0lBQ0kscURBQXFEO0lBQ3JELDRCQUE0QjtJQUM1QiwyQkFBMkI7SUFDM0IsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLHFEQUFxRDtJQUNyRCw0QkFBNEI7SUFDNUIsMkJBQTJCO0lBQzNCLGFBQWE7Q0FDaEI7O0FBRUQ7SUFDSSwrREFBK0Q7SUFDL0QsNEJBQTRCO0lBQzVCLDRCQUE0QjtJQUM1QixZQUFZO0lBQ1osWUFBWTtBQUNoQjs7QUFFQTtJQUNJLCtEQUErRDtJQUMvRCw0QkFBNEI7SUFDNUIsNEJBQTRCO0lBQzVCLFlBQVk7SUFDWixZQUFZO0FBQ2hCOztBQUVBO0lBQ0kscURBQXFEO0lBQ3JELDRCQUE0QjtJQUM1QiwwQkFBMEI7SUFDMUIsV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBR0E7SUFDSSw2RkFBNkY7SUFDN0YsNEJBQTRCO0lBQzVCLGFBQWE7SUFDYixZQUFZO0FBQ2hCOztBQUVBO0lBR0ksZ0RBQWdEO0lBQ2hELFlBQVk7SUFDWixhQUFhO0lBQ2IsYUFBYTtJQUNiLDRCQUE0QjtBQUNoQzs7QUFHQTtJQUNJLGNBQWM7QUFDbEI7O0FBQ0E7SUFDSSxtQkFBbUI7SUFDbkIsY0FBYztJQUNkLGtCQUFrQjtJQUNsQixnQkFBZ0I7SUFDaEIsV0FBVztJQUNYLFVBQVU7QUFDZDs7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixlQUFlO0lBQ2YsMkJBQTJCO0lBSTNCLG1CQUFtQjtJQUNuQix3QkFBd0I7SUFFeEIsZ0JBQWdCO0FBQ3BCOztBQUNBO0lBQ0ksa0JBQWtCO0lBQ2xCLE1BQU07SUFDTixPQUFPO0lBQ1AsUUFBUTtJQUNSLFNBQVM7SUFDVCw4QkFBOEI7SUFDOUIsVUFBVTtJQUNWLHdCQUF3QjtJQUV4QixnQkFBZ0I7QUFDcEI7O0FBQ0E7SUFDSSxrQkFBa0I7SUFDbEIsTUFBTTtJQUNOLFNBQVM7SUFDVCxjQUFjO0lBQ2QsV0FBVztJQUNYLFVBQVU7SUFDVix3QkFBd0I7SUFFeEIsZ0JBQWdCO0FBQ3BCOztBQUNBO0lBQ0ksbUJBQW1CO0lBQ25CLHNCQUFzQjtJQUN0Qix1Q0FBdUM7SUFDdkMsV0FBVztJQUNYLGVBQWU7SUFDZix5QkFBeUI7SUFDekIsbUJBQW1CO0lBQ25CLGlDQUFpQztJQUlqQyx5QkFBeUI7SUFDekIsMkJBQTJCO0lBRTNCLG1CQUFtQjtJQUNuQixrQkFBa0I7QUFDdEI7O0FBQ0E7SUFDSSxrQkFBa0I7SUFDbEIsU0FBUztJQUNULFdBQVc7SUFDWCxXQUFXO0lBQ1gsZ0JBQWdCO0lBQ2hCLFdBQVc7SUFDWCxXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSxVQUFVO0FBQ2Q7O0FBQ0E7SUFDSSxVQUFVO0lBQ1YsVUFBVTtBQUNkOztBQUNBO0lBQ0ksNkJBQTZCO0lBSTdCLHFCQUFxQjtBQUN6Qjs7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixVQUFVO0lBQ1YsZ0JBQWdCO0lBQ2hCLFVBQVU7SUFDVixnQkFBZ0I7SUFDaEIsWUFBWTtJQUNaLGdCQUFnQjtBQUNwQjs7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixVQUFVO0lBQ1YsVUFBVTtJQUNWLG1CQUFtQjtJQUNuQixXQUFXO0lBQ1gsa0JBQWtCO0lBQ2xCLGVBQWU7SUFDZix5QkFBeUI7SUFDekIsbUJBQW1CO0lBQ25CLHNCQUFzQjtJQUV0QixjQUFjO0lBR2QscURBQXFEO0lBQ3JELG9EQUFvRDtJQUNwRCxpREFBaUQ7QUFDckQ7O0FBQ0E7SUFDSSxlQUFlO0FBQ25COztBQUNBO0lBQ0kscUJBQXFCO0lBQ3JCLFdBQVc7QUFDZjs7QUFDQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLFlBQVk7SUFDWixVQUFVO0lBQ1Ysa0JBQWtCO0FBQ3RCOztBQUNBO0lBQ0ksWUFBWTtJQUNaLFdBQVc7SUFDWCwyQkFBMkI7SUFDM0Isc0JBQXNCO0lBQ3RCLGFBQWE7SUFDYixjQUFjO0FBQ2xCOztBQUNBO0lBQ0ksc0JBQXNCO0FBQzFCOztBQUNBO0lBQ0ksa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksZUFBZTtJQUNmLGtCQUFrQjtJQUNsQix1QkFBdUI7SUFDdkIsWUFBWTtJQUNaLFlBQVk7SUFDWixZQUFZO0lBQ1osU0FBUztJQUNULFFBQVE7QUFDWjs7QUFFQTtJQUNJLGVBQWU7SUFDZixrQkFBa0I7SUFDbEIsdUJBQXVCO0lBQ3ZCLFlBQVk7SUFDWixZQUFZO0lBQ1osWUFBWTtJQUNaLFNBQVM7SUFDVCxXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxhQUFhO0FBQ2pCOztBQUNBO0lBQ0kscUJBQXFCO0lBQ3JCLGtCQUFrQjtBQUN0Qjs7QUFDQTtJQUNJLHFCQUFxQjtJQUNyQixZQUFZO0lBQ1osWUFBWTtBQUNoQjs7QUFDQTtJQUNJLFlBQVk7QUFDaEI7O0FBQ0E7SUFDSSxZQUFZO0FBQ2hCOztBQUNBO0lBQ0ksbUJBQW1CO0lBQ25CLGFBQWE7QUFDakI7O0FBRUE7SUFDSSxpQkFBaUI7SUFDakIsWUFBWTtJQUNaLGtCQUFrQjtJQUNsQixNQUFNO0lBQ04sU0FBUztBQUNiOztBQUVBO0lBQ0ksWUFBWTtBQUNoQjs7QUFDQTtJQUNJLFlBQVk7SUFDWixXQUFXO0lBQ1gsV0FBVztBQUNmOztBQUNBO0lBQ0ksa0JBQWtCO0lBQ2xCLG1CQUFtQjtJQUNuQixpQkFBaUI7SUFDakIsZUFBZTtJQUNmLFdBQVc7QUFDZjs7QUFDQTtJQUNJLFlBQVk7SUFDWixlQUFlO0FBQ25CIiwiZmlsZSI6InNyYy9hcHAvcGx1Z2lucy9nYWxsZXJ5L2dhbGxlcnkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjo6bmctZGVlcCAucG9wdXAtdmVydCAuZHgtcG9wdXAtY29udGVudCB7XG4gICAgcGFkZGluZzogMHB4O1xuICAgIG1hcmdpbi10b3A6IC0zcHg7XG59XG5cbjo6bmctZGVlcCAucG9wdXAtaG9yIC5keC1wb3B1cC1jb250ZW50IHtcbiAgICBwYWRkaW5nOiAwcHg7XG4gICAgbWFyZ2luLXRvcDogLTRweDtcbn1cblxuXG46Om5nLWRlZXAgLmR4LXBvcHVwLXdyYXBwZXIgPiAuZHgtb3ZlcmxheS1jb250ZW50IHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNDUpO1xufVxuXG46Om5nLWRlZXAgLmR4LWdhbGxlcnktaXRlbSB7XG4gICAgd2lkdGg6IDUwN3B4O1xuICAgIG1heC13aWR0aDogMTAwJTtcbn1cbjo6bmctZGVlcCAuZHgtZ2FsbGVyeS1pdGVtIGltZyB7XG4gICAgaGVpZ2h0OiAzMDBweDtcbiAgICB3aWR0aDogNTA3cHg7XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xufVxuOjpuZy1kZWVwIC5keC1nYWxsZXJ5LWl0ZW0gLml0ZW0tcHJpY2Uge1xuICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuOjpuZy1kZWVwIC5keC1nYWxsZXJ5LWl0ZW0gLml0ZW0tcHJpY2Uge1xuICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuXG46Om5nLWRlZXAgLmJvcmRlci1zaGFkb3ctdmVydCB7XG4gICAgLXdlYmtpdC1ib3gtc2hhZG93OiBpbnNldCAxNXB4IDEwcHggMTVweCByZ2JhKDAsMCwwLC41NSk7XG4gICAgLW1vei1ib3gtc2hhZG93OiBpbnNldCAxNXB4IDEwcHggMTVweCByZ2JhKDAsMCwwLC41NSk7XG4gICAgYm94LXNoYWRvdzogaW5zZXQgMTVweCAxMHB4IDE1cHggcmdiYSgwLDAsMCwuNTUpO1xuICAgIHdpZHRoOiA1MDhweDtcbn1cblxuOjpuZy1kZWVwIC5ib3JkZXItaW1nLXZlcnQtYSB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC9hc3NldHMvaW1nL2JvcmRlcnMvbGEtMDAxLnN2Zyk7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBwYWRkaW5nOiA2MXB4IDBweCAwcHggMTEwcHg7XG4gICAgaGVpZ2h0Ojk2OHB4O1xufVxuXG46Om5nLWRlZXAgLmJvcmRlci1pbWctdmVydC1iIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvYm9yZGVycy9sYS0wMDIuc3ZnKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIHBhZGRpbmc6IDYxcHggMHB4IDBweCAxMTBweDtcbiAgICBoZWlnaHQ6IDk2OHB4O1xuIH1cblxuOjpuZy1kZWVwIC5tYWluLWltZy12ZXJ0LWEge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9zbGlkZXNob3cvZHJpbmtfNDYwMzkxNzIucG5nKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIGJhY2tncm91bmQtY2xpcDogY29udGVudC1ib3g7XG4gICAgd2lkdGg6IDYxOHB4O1xuICAgIGhlaWdodDo3OTFweDtcbn1cblxuOjpuZy1kZWVwIC5tYWluLWltZy12ZXJ0LWIge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9zbGlkZXNob3cvZHJpbmtfNDYwMzkxNzIucG5nKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIGJhY2tncm91bmQtY2xpcDogY29udGVudC1ib3g7XG4gICAgd2lkdGg6IDYxOHB4O1xuICAgIGhlaWdodDo3OTFweDtcbn1cblxuOjpuZy1kZWVwIC5ib3JkZXItaW1nLWhvci1hIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvYm9yZGVycy9zbS0wMDEuc3ZnKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIHBhZGRpbmc6IDYycHggMHB4IDBweCA2MHB4O1xuICAgIHdpZHRoOjkxNXB4O1xuICAgIGhlaWdodDo3OTFweDtcbn1cblxuXG46Om5nLWRlZXAgLm1haW4taW1nLWhvci1hIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvbWVudS8zMTY0NTIzMi1pdGFsaWFuLXNwYWdoZXR0aS1vbi1ydXN0aWMtd29vZGVuLXRhYmxlLmpwZyk7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBoZWlnaHQ6IDYwMHB4O1xuICAgIHdpZHRoOiA3OTNweDtcbn1cblxuOjpuZy1kZWVwIC5ib3JkZXItc2hhZG93LWhvciB7XG4gICAgLXdlYmtpdC1ib3gtc2hhZG93OiBpbnNldCAxNXB4IDEwcHggMTVweCByZ2JhKDAsMCwwLC41NSk7XG4gICAgLW1vei1ib3gtc2hhZG93OiBpbnNldCAxNXB4IDEwcHggMTVweCByZ2JhKDAsMCwwLC41NSk7XG4gICAgYm94LXNoYWRvdzogaW5zZXQgMTVweCAxMHB4IDE1cHggcmdiYSgwLDAsMCwuNTUpO1xuICAgIHdpZHRoOiA3OTNweDtcbiAgICBoZWlnaHQ6IDU5NnB4O1xuICAgIHBhZGRpbmc6IDI1cHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTtcbn1cblxuXG46Om5nLWRlZXAgLmFydGljbGUge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xufVxuOjpuZy1kZWVwIC5hcnRpY2xlIC5ibG9nLWltZyB7XG4gICAgbWFyZ2luLWJvdHRvbTogNTBweDtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICB3aWR0aDogMTAwJTtcbiAgICB6LWluZGV4OiAxO1xufVxuOjpuZy1kZWVwIC5hcnRpY2xlIC5ibG9nLWltZyBpbWcge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBtYXgtd2lkdGg6IDEwMCU7XG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDEpO1xuICAgIC1tb3otdHJhbnNmb3JtOiBzY2FsZSgxKTtcbiAgICAtbXMtdHJhbnNmb3JtOiBzY2FsZSgxKTtcbiAgICAtby10cmFuc2Zvcm06IHNjYWxlKDEpO1xuICAgIHRyYW5zZm9ybTogc2NhbGUoMSk7XG4gICAgLXdlYmtpdC10cmFuc2l0aW9uOiAwLjdzO1xuICAgIC1vLXRyYW5zaXRpb246IDAuN3M7XG4gICAgdHJhbnNpdGlvbjogMC43cztcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZSAuYmxvZy1pbWcgLm92ZXJsYXkge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IDA7XG4gICAgbGVmdDogMDtcbiAgICByaWdodDogMDtcbiAgICBib3R0b206IDA7XG4gICAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjYpO1xuICAgIG9wYWNpdHk6IDA7XG4gICAgLXdlYmtpdC10cmFuc2l0aW9uOiAwLjNzO1xuICAgIC1vLXRyYW5zaXRpb246IDAuM3M7XG4gICAgdHJhbnNpdGlvbjogMC4zcztcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZSAuYmxvZy1pbWcgLmxpbmsge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IDA7XG4gICAgbGVmdDogOTAlO1xuICAgIGRpc3BsYXk6IHRhYmxlO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIG9wYWNpdHk6IDA7XG4gICAgLXdlYmtpdC10cmFuc2l0aW9uOiAwLjdzO1xuICAgIC1vLXRyYW5zaXRpb246IDAuN3M7XG4gICAgdHJhbnNpdGlvbjogMC43cztcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZSAuYmxvZy1pbWcgLmxpbmsgLnJlYWQge1xuICAgIGRpc3BsYXk6IHRhYmxlLWNlbGw7XG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbiAgICBmb250LWZhbWlseTogXCJLYXJsYVwiLCBBcmlhbCwgc2Fucy1zZXJpZjtcbiAgICBjb2xvcjogI2ZmZjtcbiAgICBmb250LXNpemU6IDEycHg7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICBsZXR0ZXItc3BhY2luZzogNXB4O1xuICAgIC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGUoLTkwZGVnKTtcbiAgICAtbW96LXRyYW5zZm9ybTogcm90YXRlKC05MGRlZyk7XG4gICAgLW1zLXRyYW5zZm9ybTogcm90YXRlKC05MGRlZyk7XG4gICAgLW8tdHJhbnNmb3JtOiByb3RhdGUoLTkwZGVnKTtcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgtOTBkZWcpO1xuICAgIC13ZWJraXQtdHJhbnNmb3JtLW9yaWdpbjogMDtcbiAgICAtbXMtdHJhbnNmb3JtLW9yaWdpbjogMDtcbiAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZSAuYmxvZy1pbWcgLmxpbmsgLnJlYWQ6YWZ0ZXIge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IDEwcHg7XG4gICAgbGVmdDogLTUwcHg7XG4gICAgY29udGVudDogJyc7XG4gICAgYmFja2dyb3VuZDogI2ZmZjtcbiAgICB3aWR0aDogNDBweDtcbiAgICBoZWlnaHQ6IDFweDtcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZSAuYmxvZy1pbWc6aG92ZXIgLm92ZXJsYXkge1xuICAgIG9wYWNpdHk6IDE7XG59XG46Om5nLWRlZXAgLmFydGljbGUgLmJsb2ctaW1nOmhvdmVyIC5saW5rIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRvcDogMTIwcHg7XG59XG46Om5nLWRlZXAgLmFydGljbGUgLmJsb2ctaW1nOmhvdmVyIGltZyB7XG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XG4gICAgLW1vei10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XG4gICAgLW1zLXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcbiAgICAtby10cmFuc2Zvcm06IHNjYWxlKDEuMSk7XG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xufVxuOjpuZy1kZWVwIC5hcnRpY2xlIC5kZXNjIHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgei1pbmRleDogMTtcbiAgICBtYXJnaW4tdG9wOiAtNWVtO1xuICAgIHdpZHRoOiA5MCU7XG4gICAgYmFja2dyb3VuZDogI2ZmZjtcbiAgICBwYWRkaW5nOiAxZW07XG4gICAgcGFkZGluZy10b3A6IDJlbTtcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZSAuZGVzYyAubWV0YSB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogLTYwcHg7XG4gICAgbGVmdDogMjBweDtcbiAgICBiYWNrZ3JvdW5kOiAjRkZFOUUzO1xuICAgIGNvbG9yOiAjMDAwO1xuICAgIHBhZGRpbmc6IDIwcHggMTBweDtcbiAgICBmb250LXNpemU6IDEycHg7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICBsZXR0ZXItc3BhY2luZzogNHB4O1xuICAgIC13ZWJraXQtdHJhbnNpdGlvbjogMXM7XG4gICAgLW8tdHJhbnNpdGlvbjogMXM7XG4gICAgdHJhbnNpdGlvbjogMXM7XG4gICAgLXdlYmtpdC1ib3gtc2hhZG93OiAwcHggMnB4IDQ5cHggLTRweCByZ2JhKDAsIDAsIDAsIDAuMjEpO1xuICAgIC1tb3otYm94LXNoYWRvdzogMHB4IDJweCA0OXB4IC00cHggcmdiYSgwLCAwLCAwLCAwLjIxKTtcbiAgICAtbXMtYm94LXNoYWRvdzogMHB4IDJweCA0OXB4IC00cHggcmdiYSgwLCAwLCAwLCAwLjIxKTtcbiAgICAtby1ib3gtc2hhZG93OiAwcHggMnB4IDQ5cHggLTRweCByZ2JhKDAsIDAsIDAsIDAuMjEpO1xuICAgIGJveC1zaGFkb3c6IDBweCAycHggNDlweCAtNHB4IHJnYmEoMCwgMCwgMCwgMC4yMSk7XG59XG46Om5nLWRlZXAgLmFydGljbGUgLmRlc2MgaDIge1xuICAgIGZvbnQtc2l6ZTogMjRweDtcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZSAuZGVzYyBoMiBhIHtcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgY29sb3I6ICMwMDA7XG59XG46Om5nLWRlZXAgLmFydGljbGU6aG92ZXIgLm1ldGEge1xuICAgIGJhY2tncm91bmQ6ICNmZmY7XG59XG5cbjo6bmctZGVlcCAuZHgtdGlsZS1jb250ZW50IHtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgcGFkZGluZzogMDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG46Om5nLWRlZXAgLmR4LXRpbGUtY29udGVudCAuaW1hZ2Uge1xuICAgIGhlaWdodDogMTAwJTtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICBwYWRkaW5nOiAxMHB4O1xuICAgIGRpc3BsYXk6IGJsb2NrO1xufVxuOjpuZy1kZWVwIC5keC10aWxlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjOTk5O1xufVxuOjpuZy1kZWVwIC5keC10aWxlLmR4LXN0YXRlLWhvdmVyIHtcbiAgICBib3JkZXItY29sb3I6ICNFRUU7XG59XG5cbjo6bmctZGVlcCAuZHgtdGlsZS1jb250ZW50IC5uYW1lIHtcbiAgICBmb250LXNpemU6IDEycHg7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBvcGFjaXR5OiAwLjY7XG4gICAgcGFkZGluZzogMnB4O1xuICAgIGxlZnQ6IDlweDtcbiAgICB0b3A6IDlweDtcbn1cblxuOjpuZy1kZWVwIC5keC10aWxlLWNvbnRlbnQgLnByaWNlIHtcbiAgICBmb250LXNpemU6IDEycHg7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBvcGFjaXR5OiAwLjY7XG4gICAgcGFkZGluZzogMnB4O1xuICAgIGxlZnQ6IDlweDtcbiAgICBib3R0b206IDlweDtcbn1cblxuOjpuZy1kZWVwICNwb3B1cCB7XG4gICAgcGFkZGluZzogMTBweDtcbn1cbjo6bmctZGVlcCAjcG9wdXAgdWwge1xuICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG46Om5nLWRlZXAgI3BvcHVwIHVsIGxpIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgd2lkdGg6IDE2MHB4O1xuICAgIG1hcmdpbjogMTBweDtcbn1cbjo6bmctZGVlcCAjcG9wdXAgdWwgbGkgaW1ne1xuICAgIHdpZHRoOiAxMDBweDtcbn1cbjo6bmctZGVlcCAuYnV0dG9uLWluZm8ge1xuICAgIG1hcmdpbjogMTBweDtcbn1cbjo6bmctZGVlcCAucG9wdXAgcCB7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbiAgICBtYXJnaW4tdG9wOiAwO1xufVxuXG46Om5nLWRlZXAgLmxpc3QtY29udGFpbmVyIHtcbiAgICBtaW4taGVpZ2h0OiA0NDBweDtcbiAgICBoZWlnaHQ6IGF1dG87XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMDtcbiAgICBib3R0b206IDA7XG59XG5cbjo6bmctZGVlcCAuaXRlbSB7XG4gICAgaGVpZ2h0OiA2NXB4O1xufVxuOjpuZy1kZWVwIC5pdGVtID4gaW1nIHtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgd2lkdGg6IDk1cHg7XG4gICAgZmxvYXQ6IGxlZnQ7XG59XG46Om5nLWRlZXAgLml0ZW0gPiBkaXYge1xuICAgIHBhZGRpbmctbGVmdDogMTBweDtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogdG9wO1xuICAgIGxpbmUtaGVpZ2h0OiA2NXB4O1xuICAgIGZvbnQtc2l6ZTogMTVweDtcbiAgICBmbG9hdDogbGVmdDtcbn1cbjo6bmctZGVlcCAuaXRlbSA+IGRpdi5wcmljZSB7XG4gICAgZmxvYXQ6IHJpZ2h0O1xuICAgIGZvbnQtc2l6ZTogMThweDtcbn0iXX0= */"];
+var styles = [".dx-popup-wrapper, .dx-overlay-modal[_ngcontent-%COMP%] {\n    background-color: unset;\n}\n\n\n  .popup-vert .dx-popup-content {\n    padding: 0px;\n    margin-top: -3px;\n}\n\n\n  .popup-hor .dx-popup-content {\n    padding: 0px;\n    margin-top: -4px;\n}\n\n\n  .dx-popup-wrapper > .dx-overlay-content {\n    background-color: rgba(255, 255, 255, 0.45);\n}\n\n\n  .dx-gallery-item {\n    width: 507px;\n    max-width: 100%;\n}\n\n\n  .dx-gallery-item img {\n    height: 300px;\n    width: 507px;\n    max-width: 100%;\n}\n\n\n  .dx-gallery-item .item-price {\n    font-size: 20px;\n    font-weight: bold;\n}\n\n\n  .dx-gallery-item .item-price {\n    font-size: 20px;\n    font-weight: bold;\n}\n\n\n  .border-shadow-vert {\n    box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);\n    width: 508px;\n}\n\n\n  .border-img-vert-a {\n    background-image: url(/assets/img/borders/la-001.svg);\n    background-repeat: no-repeat;\n    padding: 61px 0px 0px 110px;\n    height:968px;\n}\n\n\n  .border-img-vert-b {\n    background-image: url(/assets/img/borders/la-002.svg);\n    background-repeat: no-repeat;\n    padding: 61px 0px 0px 110px;\n    height: 968px;\n }\n\n\n  .main-img-vert-a {\n    background-image: url(/assets/img/slideshow/drink_46039172.png);\n    background-repeat: no-repeat;\n    background-clip: content-box;\n    width: 618px;\n    height:791px;\n}\n\n\n  .main-img-vert-b {\n    background-image: url(/assets/img/slideshow/drink_46039172.png);\n    background-repeat: no-repeat;\n    background-clip: content-box;\n    width: 618px;\n    height:791px;\n}\n\n\n  .border-img-hor-a {\n    background-image: url(/assets/img/borders/sm-001.svg);\n    background-repeat: no-repeat;\n    padding: 62px 0px 0px 60px;\n    width:915px;\n    height:791px;\n}\n\n\n  .main-img-hor-a {\n    background-image: url(/assets/img/menu/31645232-italian-spaghetti-on-rustic-wooden-table.jpg);\n    background-repeat: no-repeat;\n    height: 600px;\n    width: 793px;\n}\n\n\n  .border-shadow-hor {\n    box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);\n    width: 793px;\n    height: 596px;\n    padding: 25px;\n    background-color: whitesmoke;\n}\n\n\n  .article {\n    display: block;\n}\n\n\n  .article .blog-img {\n    margin-bottom: 50px;\n    display: block;\n    position: relative;\n    overflow: hidden;\n    width: 100%;\n    z-index: 1;\n}\n\n\n  .article .blog-img img {\n    position: relative;\n    max-width: 100%;\n    -webkit-transform: scale(1);\n    transform: scale(1);\n    -webkit-transition: 0.7s;\n    transition: 0.7s;\n}\n\n\n  .article .blog-img .overlay {\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background: rgba(0, 0, 0, 0.6);\n    opacity: 0;\n    -webkit-transition: 0.3s;\n    transition: 0.3s;\n}\n\n\n  .article .blog-img .link {\n    position: absolute;\n    top: 0;\n    left: 90%;\n    display: table;\n    width: 100%;\n    opacity: 0;\n    -webkit-transition: 0.7s;\n    transition: 0.7s;\n}\n\n\n  .article .blog-img .link .read {\n    display: table-cell;\n    vertical-align: middle;\n    font-family: \"Karla\", Arial, sans-serif;\n    color: #fff;\n    font-size: 12px;\n    text-transform: uppercase;\n    letter-spacing: 5px;\n    -webkit-transform: rotate(-90deg);\n    transform: rotate(-90deg);\n    -webkit-transform-origin: 0;\n    transform-origin: 0;\n    position: relative;\n}\n\n\n  .article .blog-img .link .read:after {\n    position: absolute;\n    top: 10px;\n    left: -50px;\n    content: '';\n    background: #fff;\n    width: 40px;\n    height: 1px;\n}\n\n\n  .article .blog-img:hover .overlay {\n    opacity: 1;\n}\n\n\n  .article .blog-img:hover .link {\n    opacity: 1;\n    top: 120px;\n}\n\n\n  .article .blog-img:hover img {\n    -webkit-transform: scale(1.1);\n    transform: scale(1.1);\n}\n\n\n  .article .desc {\n    position: relative;\n    z-index: 1;\n    margin-top: -5em;\n    width: 90%;\n    background: #fff;\n    padding: 1em;\n    padding-top: 2em;\n}\n\n\n  .article .desc .meta {\n    position: absolute;\n    top: -60px;\n    left: 20px;\n    background: #FFE9E3;\n    color: #000;\n    padding: 20px 10px;\n    font-size: 12px;\n    text-transform: uppercase;\n    letter-spacing: 4px;\n    -webkit-transition: 1s;\n    transition: 1s;\n    -ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);\n    -o-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);\n    box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);\n}\n\n\n  .article .desc h2 {\n    font-size: 24px;\n}\n\n\n  .article .desc h2 a {\n    text-decoration: none;\n    color: #000;\n}\n\n\n  .article:hover .meta {\n    background: #fff;\n}\n\n\n  .dx-tile-content {\n    height: 100%;\n    padding: 0;\n    position: relative;\n}\n\n\n  .dx-tile-content .image {\n    height: 100%;\n    width: 100%;\n    background-position: center;\n    background-size: cover;\n    padding: 10px;\n    display: block;\n}\n\n\n  .dx-tile {\n    border: 1px solid #999;\n}\n\n\n  .dx-tile.dx-state-hover {\n    border-color: #EEE;\n}\n\n\n  .dx-tile-content .name {\n    font-size: 12px;\n    position: absolute;\n    background-color: black;\n    color: white;\n    opacity: 0.6;\n    padding: 2px;\n    left: 9px;\n    top: 9px;\n}\n\n\n  .dx-tile-content .price {\n    font-size: 12px;\n    position: absolute;\n    background-color: black;\n    color: white;\n    opacity: 0.6;\n    padding: 2px;\n    left: 9px;\n    bottom: 9px;\n}\n\n\n  #popup {\n    padding: 10px;\n}\n\n\n  #popup ul {\n    list-style-type: none;\n    text-align: center;\n}\n\n\n  #popup ul li {\n    display: inline-block;\n    width: 160px;\n    margin: 10px;\n}\n\n\n  #popup ul li img{\n    width: 100px;\n}\n\n\n  .button-info {\n    margin: 10px;\n}\n\n\n  .popup p {\n    margin-bottom: 10px;\n    margin-top: 0;\n}\n\n\n  .list-container {\n    min-height: 440px;\n    height: auto;\n    position: absolute;\n    top: 0;\n    bottom: 0;\n}\n\n\n  .item {\n    height: 65px;\n}\n\n\n  .item > img {\n    height: 100%;\n    width: 95px;\n    float: left;\n}\n\n\n  .item > div {\n    padding-left: 10px;\n    vertical-align: top;\n    line-height: 65px;\n    font-size: 15px;\n    float: left;\n}\n\n\n  .item > div.price {\n    float: right;\n    font-size: 18px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGx1Z2lucy9nYWxsZXJ5L2dhbGxlcnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHVCQUF1QjtBQUMzQjs7O0FBR0E7SUFDSSxZQUFZO0lBQ1osZ0JBQWdCO0FBQ3BCOzs7QUFFQTtJQUNJLFlBQVk7SUFDWixnQkFBZ0I7QUFDcEI7OztBQUdBO0lBQ0ksMkNBQTJDO0FBQy9DOzs7QUFFQTtJQUNJLFlBQVk7SUFDWixlQUFlO0FBQ25COzs7QUFDQTtJQUNJLGFBQWE7SUFDYixZQUFZO0lBQ1osZUFBZTtBQUNuQjs7O0FBQ0E7SUFDSSxlQUFlO0lBQ2YsaUJBQWlCO0FBQ3JCOzs7QUFFQTtJQUNJLGVBQWU7SUFDZixpQkFBaUI7QUFDckI7OztBQUdBO0lBR0ksZ0RBQWdEO0lBQ2hELFlBQVk7QUFDaEI7OztBQUVBO0lBQ0kscURBQXFEO0lBQ3JELDRCQUE0QjtJQUM1QiwyQkFBMkI7SUFDM0IsWUFBWTtBQUNoQjs7O0FBRUE7SUFDSSxxREFBcUQ7SUFDckQsNEJBQTRCO0lBQzVCLDJCQUEyQjtJQUMzQixhQUFhO0NBQ2hCOzs7QUFFRDtJQUNJLCtEQUErRDtJQUMvRCw0QkFBNEI7SUFDNUIsNEJBQTRCO0lBQzVCLFlBQVk7SUFDWixZQUFZO0FBQ2hCOzs7QUFFQTtJQUNJLCtEQUErRDtJQUMvRCw0QkFBNEI7SUFDNUIsNEJBQTRCO0lBQzVCLFlBQVk7SUFDWixZQUFZO0FBQ2hCOzs7QUFFQTtJQUNJLHFEQUFxRDtJQUNyRCw0QkFBNEI7SUFDNUIsMEJBQTBCO0lBQzFCLFdBQVc7SUFDWCxZQUFZO0FBQ2hCOzs7QUFHQTtJQUNJLDZGQUE2RjtJQUM3Riw0QkFBNEI7SUFDNUIsYUFBYTtJQUNiLFlBQVk7QUFDaEI7OztBQUVBO0lBR0ksZ0RBQWdEO0lBQ2hELFlBQVk7SUFDWixhQUFhO0lBQ2IsYUFBYTtJQUNiLDRCQUE0QjtBQUNoQzs7O0FBR0E7SUFDSSxjQUFjO0FBQ2xCOzs7QUFDQTtJQUNJLG1CQUFtQjtJQUNuQixjQUFjO0lBQ2Qsa0JBQWtCO0lBQ2xCLGdCQUFnQjtJQUNoQixXQUFXO0lBQ1gsVUFBVTtBQUNkOzs7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixlQUFlO0lBQ2YsMkJBQTJCO0lBSTNCLG1CQUFtQjtJQUNuQix3QkFBd0I7SUFFeEIsZ0JBQWdCO0FBQ3BCOzs7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixNQUFNO0lBQ04sT0FBTztJQUNQLFFBQVE7SUFDUixTQUFTO0lBQ1QsOEJBQThCO0lBQzlCLFVBQVU7SUFDVix3QkFBd0I7SUFFeEIsZ0JBQWdCO0FBQ3BCOzs7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixNQUFNO0lBQ04sU0FBUztJQUNULGNBQWM7SUFDZCxXQUFXO0lBQ1gsVUFBVTtJQUNWLHdCQUF3QjtJQUV4QixnQkFBZ0I7QUFDcEI7OztBQUNBO0lBQ0ksbUJBQW1CO0lBQ25CLHNCQUFzQjtJQUN0Qix1Q0FBdUM7SUFDdkMsV0FBVztJQUNYLGVBQWU7SUFDZix5QkFBeUI7SUFDekIsbUJBQW1CO0lBQ25CLGlDQUFpQztJQUlqQyx5QkFBeUI7SUFDekIsMkJBQTJCO0lBRTNCLG1CQUFtQjtJQUNuQixrQkFBa0I7QUFDdEI7OztBQUNBO0lBQ0ksa0JBQWtCO0lBQ2xCLFNBQVM7SUFDVCxXQUFXO0lBQ1gsV0FBVztJQUNYLGdCQUFnQjtJQUNoQixXQUFXO0lBQ1gsV0FBVztBQUNmOzs7QUFDQTtJQUNJLFVBQVU7QUFDZDs7O0FBQ0E7SUFDSSxVQUFVO0lBQ1YsVUFBVTtBQUNkOzs7QUFDQTtJQUNJLDZCQUE2QjtJQUk3QixxQkFBcUI7QUFDekI7OztBQUNBO0lBQ0ksa0JBQWtCO0lBQ2xCLFVBQVU7SUFDVixnQkFBZ0I7SUFDaEIsVUFBVTtJQUNWLGdCQUFnQjtJQUNoQixZQUFZO0lBQ1osZ0JBQWdCO0FBQ3BCOzs7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixVQUFVO0lBQ1YsVUFBVTtJQUNWLG1CQUFtQjtJQUNuQixXQUFXO0lBQ1gsa0JBQWtCO0lBQ2xCLGVBQWU7SUFDZix5QkFBeUI7SUFDekIsbUJBQW1CO0lBQ25CLHNCQUFzQjtJQUV0QixjQUFjO0lBR2QscURBQXFEO0lBQ3JELG9EQUFvRDtJQUNwRCxpREFBaUQ7QUFDckQ7OztBQUNBO0lBQ0ksZUFBZTtBQUNuQjs7O0FBQ0E7SUFDSSxxQkFBcUI7SUFDckIsV0FBVztBQUNmOzs7QUFDQTtJQUNJLGdCQUFnQjtBQUNwQjs7O0FBRUE7SUFDSSxZQUFZO0lBQ1osVUFBVTtJQUNWLGtCQUFrQjtBQUN0Qjs7O0FBQ0E7SUFDSSxZQUFZO0lBQ1osV0FBVztJQUNYLDJCQUEyQjtJQUMzQixzQkFBc0I7SUFDdEIsYUFBYTtJQUNiLGNBQWM7QUFDbEI7OztBQUNBO0lBQ0ksc0JBQXNCO0FBQzFCOzs7QUFDQTtJQUNJLGtCQUFrQjtBQUN0Qjs7O0FBRUE7SUFDSSxlQUFlO0lBQ2Ysa0JBQWtCO0lBQ2xCLHVCQUF1QjtJQUN2QixZQUFZO0lBQ1osWUFBWTtJQUNaLFlBQVk7SUFDWixTQUFTO0lBQ1QsUUFBUTtBQUNaOzs7QUFFQTtJQUNJLGVBQWU7SUFDZixrQkFBa0I7SUFDbEIsdUJBQXVCO0lBQ3ZCLFlBQVk7SUFDWixZQUFZO0lBQ1osWUFBWTtJQUNaLFNBQVM7SUFDVCxXQUFXO0FBQ2Y7OztBQUVBO0lBQ0ksYUFBYTtBQUNqQjs7O0FBQ0E7SUFDSSxxQkFBcUI7SUFDckIsa0JBQWtCO0FBQ3RCOzs7QUFDQTtJQUNJLHFCQUFxQjtJQUNyQixZQUFZO0lBQ1osWUFBWTtBQUNoQjs7O0FBQ0E7SUFDSSxZQUFZO0FBQ2hCOzs7QUFDQTtJQUNJLFlBQVk7QUFDaEI7OztBQUNBO0lBQ0ksbUJBQW1CO0lBQ25CLGFBQWE7QUFDakI7OztBQUVBO0lBQ0ksaUJBQWlCO0lBQ2pCLFlBQVk7SUFDWixrQkFBa0I7SUFDbEIsTUFBTTtJQUNOLFNBQVM7QUFDYjs7O0FBRUE7SUFDSSxZQUFZO0FBQ2hCOzs7QUFDQTtJQUNJLFlBQVk7SUFDWixXQUFXO0lBQ1gsV0FBVztBQUNmOzs7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixtQkFBbUI7SUFDbkIsaUJBQWlCO0lBQ2pCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7OztBQUNBO0lBQ0ksWUFBWTtJQUNaLGVBQWU7QUFDbkIiLCJmaWxlIjoic3JjL2FwcC9wbHVnaW5zL2dhbGxlcnkvZ2FsbGVyeS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOjpuZy1kZWVwIC5keC1wb3B1cC13cmFwcGVyLCAuZHgtb3ZlcmxheS1tb2RhbCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdW5zZXQ7XG59XG5cblxuOjpuZy1kZWVwIC5wb3B1cC12ZXJ0IC5keC1wb3B1cC1jb250ZW50IHtcbiAgICBwYWRkaW5nOiAwcHg7XG4gICAgbWFyZ2luLXRvcDogLTNweDtcbn1cblxuOjpuZy1kZWVwIC5wb3B1cC1ob3IgLmR4LXBvcHVwLWNvbnRlbnQge1xuICAgIHBhZGRpbmc6IDBweDtcbiAgICBtYXJnaW4tdG9wOiAtNHB4O1xufVxuXG5cbjo6bmctZGVlcCAuZHgtcG9wdXAtd3JhcHBlciA+IC5keC1vdmVybGF5LWNvbnRlbnQge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC40NSk7XG59XG5cbjo6bmctZGVlcCAuZHgtZ2FsbGVyeS1pdGVtIHtcbiAgICB3aWR0aDogNTA3cHg7XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xufVxuOjpuZy1kZWVwIC5keC1nYWxsZXJ5LWl0ZW0gaW1nIHtcbiAgICBoZWlnaHQ6IDMwMHB4O1xuICAgIHdpZHRoOiA1MDdweDtcbiAgICBtYXgtd2lkdGg6IDEwMCU7XG59XG46Om5nLWRlZXAgLmR4LWdhbGxlcnktaXRlbSAuaXRlbS1wcmljZSB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG46Om5nLWRlZXAgLmR4LWdhbGxlcnktaXRlbSAuaXRlbS1wcmljZSB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5cbjo6bmctZGVlcCAuYm9yZGVyLXNoYWRvdy12ZXJ0IHtcbiAgICAtd2Via2l0LWJveC1zaGFkb3c6IGluc2V0IDE1cHggMTBweCAxNXB4IHJnYmEoMCwwLDAsLjU1KTtcbiAgICAtbW96LWJveC1zaGFkb3c6IGluc2V0IDE1cHggMTBweCAxNXB4IHJnYmEoMCwwLDAsLjU1KTtcbiAgICBib3gtc2hhZG93OiBpbnNldCAxNXB4IDEwcHggMTVweCByZ2JhKDAsMCwwLC41NSk7XG4gICAgd2lkdGg6IDUwOHB4O1xufVxuXG46Om5nLWRlZXAgLmJvcmRlci1pbWctdmVydC1hIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvYm9yZGVycy9sYS0wMDEuc3ZnKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIHBhZGRpbmc6IDYxcHggMHB4IDBweCAxMTBweDtcbiAgICBoZWlnaHQ6OTY4cHg7XG59XG5cbjo6bmctZGVlcCAuYm9yZGVyLWltZy12ZXJ0LWIge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9ib3JkZXJzL2xhLTAwMi5zdmcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgcGFkZGluZzogNjFweCAwcHggMHB4IDExMHB4O1xuICAgIGhlaWdodDogOTY4cHg7XG4gfVxuXG46Om5nLWRlZXAgLm1haW4taW1nLXZlcnQtYSB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC9hc3NldHMvaW1nL3NsaWRlc2hvdy9kcmlua180NjAzOTE3Mi5wbmcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgYmFja2dyb3VuZC1jbGlwOiBjb250ZW50LWJveDtcbiAgICB3aWR0aDogNjE4cHg7XG4gICAgaGVpZ2h0Ojc5MXB4O1xufVxuXG46Om5nLWRlZXAgLm1haW4taW1nLXZlcnQtYiB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC9hc3NldHMvaW1nL3NsaWRlc2hvdy9kcmlua180NjAzOTE3Mi5wbmcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgYmFja2dyb3VuZC1jbGlwOiBjb250ZW50LWJveDtcbiAgICB3aWR0aDogNjE4cHg7XG4gICAgaGVpZ2h0Ojc5MXB4O1xufVxuXG46Om5nLWRlZXAgLmJvcmRlci1pbWctaG9yLWEge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9ib3JkZXJzL3NtLTAwMS5zdmcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgcGFkZGluZzogNjJweCAwcHggMHB4IDYwcHg7XG4gICAgd2lkdGg6OTE1cHg7XG4gICAgaGVpZ2h0Ojc5MXB4O1xufVxuXG5cbjo6bmctZGVlcCAubWFpbi1pbWctaG9yLWEge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9tZW51LzMxNjQ1MjMyLWl0YWxpYW4tc3BhZ2hldHRpLW9uLXJ1c3RpYy13b29kZW4tdGFibGUuanBnKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIGhlaWdodDogNjAwcHg7XG4gICAgd2lkdGg6IDc5M3B4O1xufVxuXG46Om5nLWRlZXAgLmJvcmRlci1zaGFkb3ctaG9yIHtcbiAgICAtd2Via2l0LWJveC1zaGFkb3c6IGluc2V0IDE1cHggMTBweCAxNXB4IHJnYmEoMCwwLDAsLjU1KTtcbiAgICAtbW96LWJveC1zaGFkb3c6IGluc2V0IDE1cHggMTBweCAxNXB4IHJnYmEoMCwwLDAsLjU1KTtcbiAgICBib3gtc2hhZG93OiBpbnNldCAxNXB4IDEwcHggMTVweCByZ2JhKDAsMCwwLC41NSk7XG4gICAgd2lkdGg6IDc5M3B4O1xuICAgIGhlaWdodDogNTk2cHg7XG4gICAgcGFkZGluZzogMjVweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZXNtb2tlO1xufVxuXG5cbjo6bmctZGVlcCAuYXJ0aWNsZSB7XG4gICAgZGlzcGxheTogYmxvY2s7XG59XG46Om5nLWRlZXAgLmFydGljbGUgLmJsb2ctaW1nIHtcbiAgICBtYXJnaW4tYm90dG9tOiA1MHB4O1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHotaW5kZXg6IDE7XG59XG46Om5nLWRlZXAgLmFydGljbGUgLmJsb2ctaW1nIGltZyB7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMSk7XG4gICAgLW1vei10cmFuc2Zvcm06IHNjYWxlKDEpO1xuICAgIC1tcy10cmFuc2Zvcm06IHNjYWxlKDEpO1xuICAgIC1vLXRyYW5zZm9ybTogc2NhbGUoMSk7XG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxKTtcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IDAuN3M7XG4gICAgLW8tdHJhbnNpdGlvbjogMC43cztcbiAgICB0cmFuc2l0aW9uOiAwLjdzO1xufVxuOjpuZy1kZWVwIC5hcnRpY2xlIC5ibG9nLWltZyAub3ZlcmxheSB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMDtcbiAgICBsZWZ0OiAwO1xuICAgIHJpZ2h0OiAwO1xuICAgIGJvdHRvbTogMDtcbiAgICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNik7XG4gICAgb3BhY2l0eTogMDtcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IDAuM3M7XG4gICAgLW8tdHJhbnNpdGlvbjogMC4zcztcbiAgICB0cmFuc2l0aW9uOiAwLjNzO1xufVxuOjpuZy1kZWVwIC5hcnRpY2xlIC5ibG9nLWltZyAubGluayB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMDtcbiAgICBsZWZ0OiA5MCU7XG4gICAgZGlzcGxheTogdGFibGU7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgb3BhY2l0eTogMDtcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IDAuN3M7XG4gICAgLW8tdHJhbnNpdGlvbjogMC43cztcbiAgICB0cmFuc2l0aW9uOiAwLjdzO1xufVxuOjpuZy1kZWVwIC5hcnRpY2xlIC5ibG9nLWltZyAubGluayAucmVhZCB7XG4gICAgZGlzcGxheTogdGFibGUtY2VsbDtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICAgIGZvbnQtZmFtaWx5OiBcIkthcmxhXCIsIEFyaWFsLCBzYW5zLXNlcmlmO1xuICAgIGNvbG9yOiAjZmZmO1xuICAgIGZvbnQtc2l6ZTogMTJweDtcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICAgIGxldHRlci1zcGFjaW5nOiA1cHg7XG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHJvdGF0ZSgtOTBkZWcpO1xuICAgIC1tb3otdHJhbnNmb3JtOiByb3RhdGUoLTkwZGVnKTtcbiAgICAtbXMtdHJhbnNmb3JtOiByb3RhdGUoLTkwZGVnKTtcbiAgICAtby10cmFuc2Zvcm06IHJvdGF0ZSgtOTBkZWcpO1xuICAgIHRyYW5zZm9ybTogcm90YXRlKC05MGRlZyk7XG4gICAgLXdlYmtpdC10cmFuc2Zvcm0tb3JpZ2luOiAwO1xuICAgIC1tcy10cmFuc2Zvcm0tb3JpZ2luOiAwO1xuICAgIHRyYW5zZm9ybS1vcmlnaW46IDA7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuOjpuZy1kZWVwIC5hcnRpY2xlIC5ibG9nLWltZyAubGluayAucmVhZDphZnRlciB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMTBweDtcbiAgICBsZWZ0OiAtNTBweDtcbiAgICBjb250ZW50OiAnJztcbiAgICBiYWNrZ3JvdW5kOiAjZmZmO1xuICAgIHdpZHRoOiA0MHB4O1xuICAgIGhlaWdodDogMXB4O1xufVxuOjpuZy1kZWVwIC5hcnRpY2xlIC5ibG9nLWltZzpob3ZlciAub3ZlcmxheSB7XG4gICAgb3BhY2l0eTogMTtcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZSAuYmxvZy1pbWc6aG92ZXIgLmxpbmsge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdG9wOiAxMjBweDtcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZSAuYmxvZy1pbWc6aG92ZXIgaW1nIHtcbiAgICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcbiAgICAtbW96LXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcbiAgICAtbXMtdHJhbnNmb3JtOiBzY2FsZSgxLjEpO1xuICAgIC1vLXRyYW5zZm9ybTogc2NhbGUoMS4xKTtcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDEuMSk7XG59XG46Om5nLWRlZXAgLmFydGljbGUgLmRlc2Mge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICB6LWluZGV4OiAxO1xuICAgIG1hcmdpbi10b3A6IC01ZW07XG4gICAgd2lkdGg6IDkwJTtcbiAgICBiYWNrZ3JvdW5kOiAjZmZmO1xuICAgIHBhZGRpbmc6IDFlbTtcbiAgICBwYWRkaW5nLXRvcDogMmVtO1xufVxuOjpuZy1kZWVwIC5hcnRpY2xlIC5kZXNjIC5tZXRhIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiAtNjBweDtcbiAgICBsZWZ0OiAyMHB4O1xuICAgIGJhY2tncm91bmQ6ICNGRkU5RTM7XG4gICAgY29sb3I6ICMwMDA7XG4gICAgcGFkZGluZzogMjBweCAxMHB4O1xuICAgIGZvbnQtc2l6ZTogMTJweDtcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICAgIGxldHRlci1zcGFjaW5nOiA0cHg7XG4gICAgLXdlYmtpdC10cmFuc2l0aW9uOiAxcztcbiAgICAtby10cmFuc2l0aW9uOiAxcztcbiAgICB0cmFuc2l0aW9uOiAxcztcbiAgICAtd2Via2l0LWJveC1zaGFkb3c6IDBweCAycHggNDlweCAtNHB4IHJnYmEoMCwgMCwgMCwgMC4yMSk7XG4gICAgLW1vei1ib3gtc2hhZG93OiAwcHggMnB4IDQ5cHggLTRweCByZ2JhKDAsIDAsIDAsIDAuMjEpO1xuICAgIC1tcy1ib3gtc2hhZG93OiAwcHggMnB4IDQ5cHggLTRweCByZ2JhKDAsIDAsIDAsIDAuMjEpO1xuICAgIC1vLWJveC1zaGFkb3c6IDBweCAycHggNDlweCAtNHB4IHJnYmEoMCwgMCwgMCwgMC4yMSk7XG4gICAgYm94LXNoYWRvdzogMHB4IDJweCA0OXB4IC00cHggcmdiYSgwLCAwLCAwLCAwLjIxKTtcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZSAuZGVzYyBoMiB7XG4gICAgZm9udC1zaXplOiAyNHB4O1xufVxuOjpuZy1kZWVwIC5hcnRpY2xlIC5kZXNjIGgyIGEge1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICBjb2xvcjogIzAwMDtcbn1cbjo6bmctZGVlcCAuYXJ0aWNsZTpob3ZlciAubWV0YSB7XG4gICAgYmFja2dyb3VuZDogI2ZmZjtcbn1cblxuOjpuZy1kZWVwIC5keC10aWxlLWNvbnRlbnQge1xuICAgIGhlaWdodDogMTAwJTtcbiAgICBwYWRkaW5nOiAwO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cbjo6bmctZGVlcCAuZHgtdGlsZS1jb250ZW50IC5pbWFnZSB7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgZGlzcGxheTogYmxvY2s7XG59XG46Om5nLWRlZXAgLmR4LXRpbGUge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICM5OTk7XG59XG46Om5nLWRlZXAgLmR4LXRpbGUuZHgtc3RhdGUtaG92ZXIge1xuICAgIGJvcmRlci1jb2xvcjogI0VFRTtcbn1cblxuOjpuZy1kZWVwIC5keC10aWxlLWNvbnRlbnQgLm5hbWUge1xuICAgIGZvbnQtc2l6ZTogMTJweDtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIG9wYWNpdHk6IDAuNjtcbiAgICBwYWRkaW5nOiAycHg7XG4gICAgbGVmdDogOXB4O1xuICAgIHRvcDogOXB4O1xufVxuXG46Om5nLWRlZXAgLmR4LXRpbGUtY29udGVudCAucHJpY2Uge1xuICAgIGZvbnQtc2l6ZTogMTJweDtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIG9wYWNpdHk6IDAuNjtcbiAgICBwYWRkaW5nOiAycHg7XG4gICAgbGVmdDogOXB4O1xuICAgIGJvdHRvbTogOXB4O1xufVxuXG46Om5nLWRlZXAgI3BvcHVwIHtcbiAgICBwYWRkaW5nOiAxMHB4O1xufVxuOjpuZy1kZWVwICNwb3B1cCB1bCB7XG4gICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbjo6bmctZGVlcCAjcG9wdXAgdWwgbGkge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICB3aWR0aDogMTYwcHg7XG4gICAgbWFyZ2luOiAxMHB4O1xufVxuOjpuZy1kZWVwICNwb3B1cCB1bCBsaSBpbWd7XG4gICAgd2lkdGg6IDEwMHB4O1xufVxuOjpuZy1kZWVwIC5idXR0b24taW5mbyB7XG4gICAgbWFyZ2luOiAxMHB4O1xufVxuOjpuZy1kZWVwIC5wb3B1cCBwIHtcbiAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xuICAgIG1hcmdpbi10b3A6IDA7XG59XG5cbjo6bmctZGVlcCAubGlzdC1jb250YWluZXIge1xuICAgIG1pbi1oZWlnaHQ6IDQ0MHB4O1xuICAgIGhlaWdodDogYXV0bztcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiAwO1xuICAgIGJvdHRvbTogMDtcbn1cblxuOjpuZy1kZWVwIC5pdGVtIHtcbiAgICBoZWlnaHQ6IDY1cHg7XG59XG46Om5nLWRlZXAgLml0ZW0gPiBpbWcge1xuICAgIGhlaWdodDogMTAwJTtcbiAgICB3aWR0aDogOTVweDtcbiAgICBmbG9hdDogbGVmdDtcbn1cbjo6bmctZGVlcCAuaXRlbSA+IGRpdiB7XG4gICAgcGFkZGluZy1sZWZ0OiAxMHB4O1xuICAgIHZlcnRpY2FsLWFsaWduOiB0b3A7XG4gICAgbGluZS1oZWlnaHQ6IDY1cHg7XG4gICAgZm9udC1zaXplOiAxNXB4O1xuICAgIGZsb2F0OiBsZWZ0O1xufVxuOjpuZy1kZWVwIC5pdGVtID4gZGl2LnByaWNlIHtcbiAgICBmbG9hdDogcmlnaHQ7XG4gICAgZm9udC1zaXplOiAxOHB4O1xufSJdfQ== */"];
 exports.styles = styles;
 
 
@@ -34958,168 +32546,6 @@ exports.InvoiceService = InvoiceService;
 
 /***/ }),
 
-/***/ "./src/app/plugins/language/language.component.css.shim.ngstyle.js":
-/*!*************************************************************************!*\
-  !*** ./src/app/plugins/language/language.component.css.shim.ngstyle.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-Object.defineProperty(exports, "__esModule", { value: true });
-var styles = [".dx-dropdownlist-popup-wrapper .dx-list:not(.dx-list-select-decorator-enabled) .dx-list-item-content {\n    padding-left: 7px;\n    padding-right: 7px;\n}\n  .custom-item {\n    position: relative;\n    min-height: 30px;\n    max-height: 30px;\n}\n  .dx-dropdowneditor-input-wrapper .custom-item > img {\n    padding-left: 8px;\n}\n  .custom-item .product-name  {\n    display: inline-block;\n    padding-left: 50px;\n    text-indent: 0;\n    line-height: 30px;\n    font-size: 15px;\n    width: 100%;\n}\n  .custom-item > img {\n    left: 1px;\n    position: absolute;\n    top: 50%;\n    min-height: 30px;\n    max-height: 30px;\n    margin-top: -15px;\n}\n  .dx-theme-material #custom-templates .dx-texteditor-buttons-container {\n    display: none;\n}\n  .current-value {\n    padding: 10px 0;\n}\n  .current-value > span {\n    font-weight: bold;\n}\n  .dx-theme-material .dx-selectbox-container .product-name {\n    padding-left: 58px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGx1Z2lucy9sYW5ndWFnZS9sYW5ndWFnZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0lBQ2pCLGtCQUFrQjtBQUN0QjtBQUNBO0lBQ0ksa0JBQWtCO0lBQ2xCLGdCQUFnQjtJQUNoQixnQkFBZ0I7QUFDcEI7QUFHQTtJQUNJLGlCQUFpQjtBQUNyQjtBQUVBO0lBQ0kscUJBQXFCO0lBQ3JCLGtCQUFrQjtJQUNsQixjQUFjO0lBQ2QsaUJBQWlCO0lBQ2pCLGVBQWU7SUFDZixXQUFXO0FBQ2Y7QUFDQTtJQUNJLFNBQVM7SUFDVCxrQkFBa0I7SUFDbEIsUUFBUTtJQUNSLGdCQUFnQjtJQUNoQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0FBQ3JCO0FBQ0E7SUFDSSxhQUFhO0FBQ2pCO0FBQ0E7SUFDSSxlQUFlO0FBQ25CO0FBQ0E7SUFDSSxpQkFBaUI7QUFDckI7QUFFQTtJQUNJLGtCQUFrQjtBQUN0QiIsImZpbGUiOiJzcmMvYXBwL3BsdWdpbnMvbGFuZ3VhZ2UvbGFuZ3VhZ2UuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjo6bmctZGVlcCAuZHgtZHJvcGRvd25saXN0LXBvcHVwLXdyYXBwZXIgLmR4LWxpc3Q6bm90KC5keC1saXN0LXNlbGVjdC1kZWNvcmF0b3ItZW5hYmxlZCkgLmR4LWxpc3QtaXRlbS1jb250ZW50IHtcbiAgICBwYWRkaW5nLWxlZnQ6IDdweDtcbiAgICBwYWRkaW5nLXJpZ2h0OiA3cHg7XG59XG46Om5nLWRlZXAgLmN1c3RvbS1pdGVtIHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgbWluLWhlaWdodDogMzBweDtcbiAgICBtYXgtaGVpZ2h0OiAzMHB4O1xufVxuXG5cbjo6bmctZGVlcCAuZHgtZHJvcGRvd25lZGl0b3ItaW5wdXQtd3JhcHBlciAuY3VzdG9tLWl0ZW0gPiBpbWcge1xuICAgIHBhZGRpbmctbGVmdDogOHB4O1xufVxuXG46Om5nLWRlZXAgLmN1c3RvbS1pdGVtIC5wcm9kdWN0LW5hbWUgIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgcGFkZGluZy1sZWZ0OiA1MHB4O1xuICAgIHRleHQtaW5kZW50OiAwO1xuICAgIGxpbmUtaGVpZ2h0OiAzMHB4O1xuICAgIGZvbnQtc2l6ZTogMTVweDtcbiAgICB3aWR0aDogMTAwJTtcbn1cbjo6bmctZGVlcCAuY3VzdG9tLWl0ZW0gPiBpbWcge1xuICAgIGxlZnQ6IDFweDtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiA1MCU7XG4gICAgbWluLWhlaWdodDogMzBweDtcbiAgICBtYXgtaGVpZ2h0OiAzMHB4O1xuICAgIG1hcmdpbi10b3A6IC0xNXB4O1xufVxuOjpuZy1kZWVwIC5keC10aGVtZS1tYXRlcmlhbCAjY3VzdG9tLXRlbXBsYXRlcyAuZHgtdGV4dGVkaXRvci1idXR0b25zLWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogbm9uZTtcbn1cbjo6bmctZGVlcCAuY3VycmVudC12YWx1ZSB7XG4gICAgcGFkZGluZzogMTBweCAwO1xufVxuOjpuZy1kZWVwIC5jdXJyZW50LXZhbHVlID4gc3BhbiB7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbjo6bmctZGVlcCAuZHgtdGhlbWUtbWF0ZXJpYWwgLmR4LXNlbGVjdGJveC1jb250YWluZXIgLnByb2R1Y3QtbmFtZSB7XG4gICAgcGFkZGluZy1sZWZ0OiA1OHB4O1xufVxuIl19 */"];
-exports.styles = styles;
-
-
-/***/ }),
-
-/***/ "./src/app/plugins/language/language.component.ngfactory.js":
-/*!******************************************************************!*\
-  !*** ./src/app/plugins/language/language.component.ngfactory.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @fileoverview This file was generated by the Angular template compiler. Do not edit.
- *
- * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
- * tslint:disable
- */ 
-Object.defineProperty(exports, "__esModule", { value: true });
-const i0 = __webpack_require__(/*! ./language.component.css.shim.ngstyle */ "./src/app/plugins/language/language.component.css.shim.ngstyle.js");
-const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-const i2 = __webpack_require__(/*! ../../../../node_modules/devextreme-angular/ui/text-box.ngfactory */ "./node_modules/devextreme-angular/ui/text-box.ngfactory.js");
-const i3 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
-const i4 = __webpack_require__(/*! devextreme-angular/ui/text-box */ "devextreme-angular/ui/text-box");
-const i5 = __webpack_require__(/*! devextreme-angular/core/template-host */ "devextreme-angular/core/template-host");
-const i6 = __webpack_require__(/*! devextreme-angular/core/watcher-helper */ "devextreme-angular/core/watcher-helper");
-const i7 = __webpack_require__(/*! devextreme-angular/core/iterable-differ-helper */ "devextreme-angular/core/iterable-differ-helper");
-const i8 = __webpack_require__(/*! devextreme-angular/core/nested-option */ "devextreme-angular/core/nested-option");
-const i9 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-const i10 = __webpack_require__(/*! ../../../../node_modules/devextreme-angular/ui/select-box.ngfactory */ "./node_modules/devextreme-angular/ui/select-box.ngfactory.js");
-const i11 = __webpack_require__(/*! devextreme-angular/ui/select-box */ "devextreme-angular/ui/select-box");
-const i12 = __webpack_require__(/*! devextreme-angular/core/template */ "devextreme-angular/core/template");
-const i13 = __webpack_require__(/*! @ngx-translate/core */ "@ngx-translate/core");
-const i14 = __webpack_require__(/*! ./language.service */ "./src/app/plugins/language/language.service.ts");
-const i15 = __webpack_require__(/*! ./language.component */ "./src/app/plugins/language/language.component.ts");
-var styles_LanguageComponent = [i0.styles];
-var RenderType_LanguageComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_LanguageComponent, data: {} });
-exports.RenderType_LanguageComponent = RenderType_LanguageComponent;
-function View_LanguageComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 11, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 10, "div", [["class", "custom-item"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 0, "img", [], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 8, "dx-text-box", [["class", "product-name"]], null, [[null, "valueChange"], [null, "onBlur"]], function (_v, en, $event) { var ad = true; if (("valueChange" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 9).change($event) !== false);
-        ad = (pd_0 && ad);
-    } if (("onBlur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 9).touched($event) !== false);
-        ad = (pd_1 && ad);
-    } return ad; }, i2.View_DxTextBoxComponent_0, i2.RenderType_DxTextBoxComponent)), i1.ɵprd(5120, null, i3.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DxTextBoxComponent]), i1.ɵprd(512, null, i5.DxTemplateHost, i5.DxTemplateHost, []), i1.ɵprd(512, null, i6.WatcherHelper, i6.WatcherHelper, []), i1.ɵprd(512, null, i7.IterableDifferHelper, i7.IterableDifferHelper, [i1.IterableDiffers]), i1.ɵprd(512, null, i8.NestedOptionHost, i8.NestedOptionHost, []), i1.ɵdid(9, 7323648, null, 2, i4.DxTextBoxComponent, [i1.ElementRef, i1.NgZone, i5.DxTemplateHost, i6.WatcherHelper, i7.IterableDifferHelper, i8.NestedOptionHost, i9.TransferState, i1.PLATFORM_ID], { readOnly: [0, "readOnly"], value: [1, "value"] }, { valueChange: "valueChange", onBlur: "onBlur" }), i1.ɵqud(335544320, 4, { validator: 0 }), i1.ɵqud(603979776, 5, { buttonsChildren: 1 })], function (_ck, _v) { var currVal_1 = true; var currVal_2 = (_v.context.$implicit && _v.context.$implicit.Name); _ck(_v, 9, 0, currVal_1, currVal_2); }, function (_ck, _v) { var currVal_0 = i1.ɵinlineInterpolate(1, "/assets/img/language/", (_v.context.$implicit && _v.context.$implicit.IconSrc), ""); _ck(_v, 2, 0, currVal_0); }); }
-function View_LanguageComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "div", [["class", "custom-item"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 3, "div", [["class", "custom-item"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 0, "img", [], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 1, "div", [["class", "product-name"]], null, null, null, null, null)), (_l()(), i1.ɵted(4, null, [" ", " "]))], null, function (_ck, _v) { var currVal_0 = i1.ɵinlineInterpolate(1, "/assets/img/language/", _v.context.$implicit.IconSrc, ""); _ck(_v, 2, 0, currVal_0); var currVal_1 = _v.context.$implicit.Name; _ck(_v, 4, 0, currVal_1); }); }
-function View_LanguageComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 13, "dx-select-box", [["displayExpr", "Name"], ["fieldTemplate", "field"], ["showClearButton", "true"], ["valueExpr", "ID"]], null, [[null, "onChange"], [null, "valueChange"], [null, "onBlur"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("valueChange" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 6).change($event) !== false);
-        ad = (pd_0 && ad);
-    } if (("onBlur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 6).touched($event) !== false);
-        ad = (pd_1 && ad);
-    } if (("onChange" === en)) {
-        var pd_2 = (_co.consoler("dfdsafa") !== false);
-        ad = (pd_2 && ad);
-    } return ad; }, i10.View_DxSelectBoxComponent_0, i10.RenderType_DxSelectBoxComponent)), i1.ɵprd(5120, null, i3.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i11.DxSelectBoxComponent]), i1.ɵprd(512, null, i5.DxTemplateHost, i5.DxTemplateHost, []), i1.ɵprd(512, null, i6.WatcherHelper, i6.WatcherHelper, []), i1.ɵprd(512, null, i7.IterableDifferHelper, i7.IterableDifferHelper, [i1.IterableDiffers]), i1.ɵprd(512, null, i8.NestedOptionHost, i8.NestedOptionHost, []), i1.ɵdid(6, 7323648, [["langSelect", 4]], 3, i11.DxSelectBoxComponent, [i1.ElementRef, i1.NgZone, i5.DxTemplateHost, i6.WatcherHelper, i7.IterableDifferHelper, i8.NestedOptionHost, i9.TransferState, i1.PLATFORM_ID], { dataSource: [0, "dataSource"], displayExpr: [1, "displayExpr"], fieldTemplate: [2, "fieldTemplate"], showClearButton: [3, "showClearButton"], value: [4, "value"], valueExpr: [5, "valueExpr"] }, { onChange: "onChange", valueChange: "valueChange", onBlur: "onBlur" }), i1.ɵqud(335544320, 1, { validator: 0 }), i1.ɵqud(603979776, 2, { buttonsChildren: 1 }), i1.ɵqud(603979776, 3, { itemsChildren: 1 }), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_LanguageComponent_1)), i1.ɵdid(11, 16384, null, 0, i12.DxTemplateDirective, [i1.TemplateRef, i1.ViewContainerRef, i5.DxTemplateHost, i1.Renderer2, i1.NgZone], { dxTemplateOf: [0, "dxTemplateOf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_LanguageComponent_2)), i1.ɵdid(13, 16384, null, 0, i12.DxTemplateDirective, [i1.TemplateRef, i1.ViewContainerRef, i5.DxTemplateHost, i1.Renderer2, i1.NgZone], { dxTemplateOf: [0, "dxTemplateOf"] }, null), (_l()(), i1.ɵeld(14, 0, null, null, 2, "h2", [], null, null, null, null, null)), (_l()(), i1.ɵted(15, null, ["", ""])), i1.ɵpid(131072, i13.TranslatePipe, [i13.TranslateService, i1.ChangeDetectorRef])], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.languages; var currVal_1 = "Name"; var currVal_2 = "field"; var currVal_3 = "true"; var currVal_4 = _co.language; var currVal_5 = "ID"; _ck(_v, 6, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5); var currVal_6 = "field"; _ck(_v, 11, 0, currVal_6); var currVal_7 = "item"; _ck(_v, 13, 0, currVal_7); }, function (_ck, _v) { var currVal_8 = i1.ɵunv(_v, 15, 0, i1.ɵnov(_v, 16).transform("HOME.TITLE")); _ck(_v, 15, 0, currVal_8); }); }
-exports.View_LanguageComponent_0 = View_LanguageComponent_0;
-function View_LanguageComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "app-language", [], null, null, null, View_LanguageComponent_0, RenderType_LanguageComponent)), i1.ɵprd(512, null, i14.Service, i14.Service, []), i1.ɵdid(2, 49152, null, 0, i15.LanguageComponent, [i14.Service, i13.TranslateService], null, null)], null, null); }
-exports.View_LanguageComponent_Host_0 = View_LanguageComponent_Host_0;
-var LanguageComponentNgFactory = i1.ɵccf("app-language", i15.LanguageComponent, View_LanguageComponent_Host_0, {}, {}, []);
-exports.LanguageComponentNgFactory = LanguageComponentNgFactory;
-
-
-/***/ }),
-
-/***/ "./src/app/plugins/language/language.component.ts":
-/*!********************************************************!*\
-  !*** ./src/app/plugins/language/language.component.ts ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const language_service_1 = __webpack_require__(/*! ./language.service */ "./src/app/plugins/language/language.service.ts");
-class LanguageComponent {
-    constructor(service, translate) {
-        this.translate = translate;
-        this.defaultLang = 'en_US';
-        translate.addLangs(['en_US', 'es_PA']);
-        this.languages = service.getLanguages().filter((value) => {
-            //            if (translate.getLangs().includes(value.ID)) {
-            //                return value;
-            //            }
-        });
-        //       translate.setDefaultLang(this.defaultLang);
-        //const browserLang = translate.getBrowserLang();
-        ///       const browserCultureLang = translate. getBrowserCultureLang();
-        //      translate.use('en_US');
-        //translate.use(browserLang.match(/en|es/) ? browserCultureLang : 'en_US');
-        const languagesArr = this.languages.filter((value) => {
-            if (value.ID === translate.currentLang) {
-                return value;
-            }
-        });
-        this.language = languagesArr[0];
-    }
-    consoler(text) {
-        console.log(text);
-    }
-}
-exports.LanguageComponent = LanguageComponent;
-
-
-/***/ }),
-
-/***/ "./src/app/plugins/language/language.service.ts":
-/*!******************************************************!*\
-  !*** ./src/app/plugins/language/language.service.ts ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-class Languages {
-}
-exports.Languages = Languages;
-const languages = [{
-        ID: 'es-PA',
-        Name: 'Panameño Español ',
-        IconSrc: 'es-PA.svg'
-    }, {
-        ID: 'en_US',
-        Name: 'US English',
-        IconSrc: 'en-US.svg'
-    }, {
-        ID: 'fr',
-        Name: 'French',
-        IconSrc: 'fr.svg'
-    }];
-class Service {
-    getLanguages() {
-        return languages;
-    }
-}
-exports.Service = Service;
-
-
-/***/ }),
-
 /***/ "./src/app/plugins/map/map.component.css.shim.ngstyle.js":
 /*!***************************************************************!*\
   !*** ./src/app/plugins/map/map.component.css.shim.ngstyle.js ***!
@@ -35479,7 +32905,7 @@ exports.SlidecontentService = SlidecontentService;
  * tslint:disable
  */ 
 Object.defineProperty(exports, "__esModule", { value: true });
-var styles = [".popup-vert .dx-popup-content {\n    padding: 0px;\n    margin-top: -3px;\n}\n\n  .popup-hor .dx-popup-content {\n    padding: 0px;\n    margin-top: -4px;\n}\n\n  .dx-popup-wrapper > .dx-overlay-content {\n    background-color: rgba(255, 255, 255, 0.45);\n}\n\n  .dx-gallery-item {\n    width: 507px;\n    max-width: 100%;\n}\n\n  .dx-gallery-item img {\n    height: 300px;\n    width: 507px;\n    max-width: 100%;\n}\n\n  .dx-gallery-item .item-price {\n    font-size: 20px;\n    font-weight: bold;\n}\n\n  .dx-gallery-item .item-price {\n    font-size: 20px;\n    font-weight: bold;\n}\n\n  .border-shadow-vert {\n    box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);\n    width: 508px;\n}\n\n  .border-img-vert-a {\n    background-image: url(/assets/img/borders/la-001.svg);\n    background-repeat: no-repeat;\n    padding: 61px 0px 0px 110px;\n    height:968px;\n}\n\n  .border-img-vert-b {\n    background-image: url(/assets/img/borders/la-002.svg);\n    background-repeat: no-repeat;\n    padding: 61px 0px 0px 110px;\n    height: 968px;\n }\n\n  .main-img-vert-a {\n    background-image: url(/assets/img/slideshow/drink_46039172.png);\n    background-repeat: no-repeat;\n    background-clip: content-box;\n    width: 618px;\n    height:791px;\n}\n\n  .main-img-vert-b {\n    background-image: url(/assets/img/slideshow/drink_46039172.png);\n    background-repeat: no-repeat;\n    background-clip: content-box;\n    width: 618px;\n    height:791px;\n}\n\n  .border-img-hor-a {\n    background-image: url(/assets/img/borders/sm-001.svg);\n    background-repeat: no-repeat;\n    padding: 62px 0px 0px 60px;\n    width:915px;\n    height:791px;\n}\n\n  .main-img-hor-a {\n    background-image: url(/assets/img/menu/31645232-italian-spaghetti-on-rustic-wooden-table.jpg);\n    background-repeat: no-repeat;\n    height: 600px;\n    width: 793px;\n    padding: 20px;\n}\n\n  .border-shadow-hor {\n    box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);\n    width: 793px;\n    height: 600px;\n    padding: 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGx1Z2lucy9zbGlkZXNob3cvc2xpZGVzaG93LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGdCQUFnQjtBQUNwQjs7QUFHQTtJQUNJLDJDQUEyQztBQUMvQzs7QUFHQTtJQUNJLFlBQVk7SUFDWixlQUFlO0FBQ25COztBQUNBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7SUFDWixlQUFlO0FBQ25COztBQUNBO0lBQ0ksZUFBZTtJQUNmLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLGVBQWU7SUFDZixpQkFBaUI7QUFDckI7O0FBR0E7SUFHSSxnREFBZ0Q7SUFDaEQsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLHFEQUFxRDtJQUNyRCw0QkFBNEI7SUFDNUIsMkJBQTJCO0lBQzNCLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSxxREFBcUQ7SUFDckQsNEJBQTRCO0lBQzVCLDJCQUEyQjtJQUMzQixhQUFhO0NBQ2hCOztBQUVEO0lBQ0ksK0RBQStEO0lBQy9ELDRCQUE0QjtJQUM1Qiw0QkFBNEI7SUFDNUIsWUFBWTtJQUNaLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSwrREFBK0Q7SUFDL0QsNEJBQTRCO0lBQzVCLDRCQUE0QjtJQUM1QixZQUFZO0lBQ1osWUFBWTtBQUNoQjs7QUFFQTtJQUNJLHFEQUFxRDtJQUNyRCw0QkFBNEI7SUFDNUIsMEJBQTBCO0lBQzFCLFdBQVc7SUFDWCxZQUFZO0FBQ2hCOztBQUdBO0lBQ0ksNkZBQTZGO0lBQzdGLDRCQUE0QjtJQUM1QixhQUFhO0lBQ2IsWUFBWTtJQUNaLGFBQWE7QUFDakI7O0FBRUE7SUFHSSxnREFBZ0Q7SUFDaEQsWUFBWTtJQUNaLGFBQWE7SUFDYixhQUFhO0FBQ2pCOztBQUVBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztFQTRDRSIsImZpbGUiOiJzcmMvYXBwL3BsdWdpbnMvc2xpZGVzaG93L3NsaWRlc2hvdy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOjpuZy1kZWVwIC5wb3B1cC12ZXJ0IC5keC1wb3B1cC1jb250ZW50IHtcbiAgICBwYWRkaW5nOiAwcHg7XG4gICAgbWFyZ2luLXRvcDogLTNweDtcbn1cblxuOjpuZy1kZWVwIC5wb3B1cC1ob3IgLmR4LXBvcHVwLWNvbnRlbnQge1xuICAgIHBhZGRpbmc6IDBweDtcbiAgICBtYXJnaW4tdG9wOiAtNHB4O1xufVxuXG5cbjo6bmctZGVlcCAuZHgtcG9wdXAtd3JhcHBlciA+IC5keC1vdmVybGF5LWNvbnRlbnQge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC40NSk7XG59XG5cblxuOjpuZy1kZWVwIC5keC1nYWxsZXJ5LWl0ZW0ge1xuICAgIHdpZHRoOiA1MDdweDtcbiAgICBtYXgtd2lkdGg6IDEwMCU7XG59XG46Om5nLWRlZXAgLmR4LWdhbGxlcnktaXRlbSBpbWcge1xuICAgIGhlaWdodDogMzAwcHg7XG4gICAgd2lkdGg6IDUwN3B4O1xuICAgIG1heC13aWR0aDogMTAwJTtcbn1cbjo6bmctZGVlcCAuZHgtZ2FsbGVyeS1pdGVtIC5pdGVtLXByaWNlIHtcbiAgICBmb250LXNpemU6IDIwcHg7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbjo6bmctZGVlcCAuZHgtZ2FsbGVyeS1pdGVtIC5pdGVtLXByaWNlIHtcbiAgICBmb250LXNpemU6IDIwcHg7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cblxuOjpuZy1kZWVwIC5ib3JkZXItc2hhZG93LXZlcnQge1xuICAgIC13ZWJraXQtYm94LXNoYWRvdzogaW5zZXQgMTVweCAxMHB4IDE1cHggcmdiYSgwLDAsMCwuNTUpO1xuICAgIC1tb3otYm94LXNoYWRvdzogaW5zZXQgMTVweCAxMHB4IDE1cHggcmdiYSgwLDAsMCwuNTUpO1xuICAgIGJveC1zaGFkb3c6IGluc2V0IDE1cHggMTBweCAxNXB4IHJnYmEoMCwwLDAsLjU1KTtcbiAgICB3aWR0aDogNTA4cHg7XG59XG5cbjo6bmctZGVlcCAuYm9yZGVyLWltZy12ZXJ0LWEge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9ib3JkZXJzL2xhLTAwMS5zdmcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgcGFkZGluZzogNjFweCAwcHggMHB4IDExMHB4O1xuICAgIGhlaWdodDo5NjhweDtcbn1cblxuOjpuZy1kZWVwIC5ib3JkZXItaW1nLXZlcnQtYiB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC9hc3NldHMvaW1nL2JvcmRlcnMvbGEtMDAyLnN2Zyk7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBwYWRkaW5nOiA2MXB4IDBweCAwcHggMTEwcHg7XG4gICAgaGVpZ2h0OiA5NjhweDtcbiB9XG5cbjo6bmctZGVlcCAubWFpbi1pbWctdmVydC1hIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvc2xpZGVzaG93L2RyaW5rXzQ2MDM5MTcyLnBuZyk7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBiYWNrZ3JvdW5kLWNsaXA6IGNvbnRlbnQtYm94O1xuICAgIHdpZHRoOiA2MThweDtcbiAgICBoZWlnaHQ6NzkxcHg7XG59XG5cbjo6bmctZGVlcCAubWFpbi1pbWctdmVydC1iIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvc2xpZGVzaG93L2RyaW5rXzQ2MDM5MTcyLnBuZyk7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBiYWNrZ3JvdW5kLWNsaXA6IGNvbnRlbnQtYm94O1xuICAgIHdpZHRoOiA2MThweDtcbiAgICBoZWlnaHQ6NzkxcHg7XG59XG5cbjo6bmctZGVlcCAuYm9yZGVyLWltZy1ob3ItYSB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC9hc3NldHMvaW1nL2JvcmRlcnMvc20tMDAxLnN2Zyk7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBwYWRkaW5nOiA2MnB4IDBweCAwcHggNjBweDtcbiAgICB3aWR0aDo5MTVweDtcbiAgICBoZWlnaHQ6NzkxcHg7XG59XG5cblxuOjpuZy1kZWVwIC5tYWluLWltZy1ob3ItYSB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC9hc3NldHMvaW1nL21lbnUvMzE2NDUyMzItaXRhbGlhbi1zcGFnaGV0dGktb24tcnVzdGljLXdvb2Rlbi10YWJsZS5qcGcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgaGVpZ2h0OiA2MDBweDtcbiAgICB3aWR0aDogNzkzcHg7XG4gICAgcGFkZGluZzogMjBweDtcbn1cblxuOjpuZy1kZWVwIC5ib3JkZXItc2hhZG93LWhvciB7XG4gICAgLXdlYmtpdC1ib3gtc2hhZG93OiBpbnNldCAxNXB4IDEwcHggMTVweCByZ2JhKDAsMCwwLC41NSk7XG4gICAgLW1vei1ib3gtc2hhZG93OiBpbnNldCAxNXB4IDEwcHggMTVweCByZ2JhKDAsMCwwLC41NSk7XG4gICAgYm94LXNoYWRvdzogaW5zZXQgMTVweCAxMHB4IDE1cHggcmdiYSgwLDAsMCwuNTUpO1xuICAgIHdpZHRoOiA3OTNweDtcbiAgICBoZWlnaHQ6IDYwMHB4O1xuICAgIHBhZGRpbmc6IDIwcHg7XG59XG5cbi8qXG46Om5nLWRlZXAgLmltYWdlLWxhbmRzYWNwZTphZnRlciB7XG4gICAgY29udGVudDpcIlwiO1xuICAgIHBvc2l0aW9uOmFic29sdXRlO1xuICAgIHRvcDowOyBib3R0b206MDsgbGVmdDowOyByaWdodDowO1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICB3aWR0aDogYXV0bztcbiAgICBib3JkZXItd2lkdGg6IDYzcHggODRweCA5M3B4IDk4cHg7XG4gICAgLW1vei1ib3JkZXItaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9ib3JkZXJzL3NtLTAwMS5zdmcpIDYzIDg0IDkzIDk4IHN0cmV0Y2ggIWltcG9ydGFudDtcbiAgICAtd2Via2l0LWJvcmRlci1pbWFnZTogdXJsKC9hc3NldHMvaW1nL2JvcmRlcnMvc20tMDAxLnN2ZykgNjMgODQgOTMgOTggc3RyZXRjaCAhaW1wb3J0YW50O1xuICAgIC1vLWJvcmRlci1pbWFnZTogdXJsKC9hc3NldHMvaW1nL2JvcmRlcnMvc20tMDAxLnN2ZykgNjMgODQgOTMgOTggc3RyZXRjaCAhaW1wb3J0YW50O1xuICAgIGJvcmRlci1pbWFnZTogdXJsKC9hc3NldHMvaW1nL2JvcmRlcnMvc20tMDAxLnN2ZykgNjMgODQgOTMgOTggZmlsbCBzdHJldGNoICFpbXBvcnRhbnQ7XG59XG4gICAgLmltYWdlLWxhbmRzYWNwZSB7XG4gICAgICAgIHBvc2l0aW9uOnJlbGF0aXZlO1xuICAgICAgICBkaXNwbGF5OmJsb2NrO1xuICAgIH1cblxuXG46Om5nLWRlZXAgLmltYWdlLXBvcnRyYWl0OmFmdGVyIHtcbiAgICBjb250ZW50OlwiXCI7XG4gICAgcG9zaXRpb246YWJzb2x1dGU7XG4gICAgdG9wOjA7IGJvdHRvbTowOyBsZWZ0OjA7IHJpZ2h0OjA7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHdpZHRoOiBhdXRvO1xuICAgIGJvcmRlci13aWR0aDogNjNweCA4NHB4IDkzcHggOThweDtcbiAgICAtbW96LWJvcmRlci1pbWFnZTogdXJsKC9hc3NldHMvaW1nL2JvcmRlcnMvc20tMDAxLnN2ZykgNjMgODQgOTMgOTggc3RyZXRjaCAhaW1wb3J0YW50O1xuICAgIC13ZWJraXQtYm9yZGVyLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvYm9yZGVycy9sYS0wMDEuc3ZnKSA2MyA4NCA5MyA5OCBzdHJldGNoICFpbXBvcnRhbnQ7XG4gICAgLW8tYm9yZGVyLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvYm9yZGVycy9sYS0wMDEuc3ZnKSA2MyA4NCA5MyA5OCBzdHJldGNoICFpbXBvcnRhbnQ7XG4gICAgYm9yZGVyLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvYm9yZGVycy9sYS0wMDEuc3ZnKSA2MyA4NCA5MyA5OCBmaWxsIHN0cmV0Y2ggIWltcG9ydGFudDtcbn1cbiAuaW1hZ2UtcG9ydHJhaXQge1xuICAgICBwb3NpdGlvbjpyZWxhdGl2ZTtcbiAgICAgZGlzcGxheTpibG9jaztcbiB9XG5cblxuOjpuZy1kZWVwIC5keC1nYWxsZXJ5LWl0ZW0gaW1nIHtcbiAgICB3aWR0aDoyNzdweDtcbiAgICBtYXgtaGVpZ2h0OiAzMDBweDtcbiAgICB3aWR0aDogYXV0bztcbn1cbi5ub3doZXJle1xuICAgIHotaW5kZXg6IC0xO1xufSovIl19 */"];
+var styles = [".dx-popup-wrapper, .dx-overlay-modal[_ngcontent-%COMP%] {\n    background-color: unset;\n}\n\n\n  .popup-vert .dx-popup-content {\n    padding: 0px;\n    margin-top: -3px;\n}\n\n\n  .popup-hor .dx-popup-content {\n    padding: 0px;\n    margin-top: -4px;\n}\n\n\n  .dx-popup-wrapper > .dx-overlay-content {\n    background-color: rgba(255, 255, 255, 0.45);\n}\n\n\n  .dx-gallery-item {\n    width: 507px;\n    max-width: 100%;\n}\n\n\n  .dx-gallery-item img {\n    height: 300px;\n    width: 507px;\n    max-width: 100%;\n}\n\n\n  .dx-gallery-item .item-price {\n    font-size: 20px;\n    font-weight: bold;\n}\n\n\n  .dx-gallery-item .item-price {\n    font-size: 20px;\n    font-weight: bold;\n}\n\n\n  .border-shadow-vert {\n    box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);\n    width: 508px;\n}\n\n\n  .border-img-vert-a {\n    background-image: url(/assets/img/borders/la-001.svg);\n    background-repeat: no-repeat;\n    padding: 61px 0px 0px 110px;\n    height:968px;\n}\n\n\n  .border-img-vert-b {\n    background-image: url(/assets/img/borders/la-002.svg);\n    background-repeat: no-repeat;\n    padding: 61px 0px 0px 110px;\n    height: 968px;\n }\n\n\n  .main-img-vert-a {\n    background-image: url(/assets/img/slideshow/drink_46039172.png);\n    background-repeat: no-repeat;\n    background-clip: content-box;\n    width: 618px;\n    height:791px;\n}\n\n\n  .main-img-vert-b {\n    background-image: url(/assets/img/slideshow/drink_46039172.png);\n    background-repeat: no-repeat;\n    background-clip: content-box;\n    width: 618px;\n    height:791px;\n}\n\n\n  .border-img-hor-a {\n    background-image: url(/assets/img/borders/sm-001.svg);\n    background-repeat: no-repeat;\n    padding: 62px 0px 0px 60px;\n    width:915px;\n    height:791px;\n}\n\n\n  .main-img-hor-a {\n    background-image: url(/assets/img/menu/31645232-italian-spaghetti-on-rustic-wooden-table.jpg);\n    background-repeat: no-repeat;\n    height: 600px;\n    width: 793px;\n}\n\n\n  .border-shadow-hor {\n    box-shadow: inset 15px 10px 15px rgba(0,0,0,.55);\n    width: 793px;\n    height: 596px;\n    padding: 25px;\n    background-color: whitesmoke;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGx1Z2lucy9zbGlkZXNob3cvc2xpZGVzaG93LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSx1QkFBdUI7QUFDM0I7OztBQUdBO0lBQ0ksWUFBWTtJQUNaLGdCQUFnQjtBQUNwQjs7O0FBRUE7SUFDSSxZQUFZO0lBQ1osZ0JBQWdCO0FBQ3BCOzs7QUFHQTtJQUNJLDJDQUEyQztBQUMvQzs7O0FBRUE7SUFDSSxZQUFZO0lBQ1osZUFBZTtBQUNuQjs7O0FBQ0E7SUFDSSxhQUFhO0lBQ2IsWUFBWTtJQUNaLGVBQWU7QUFDbkI7OztBQUNBO0lBQ0ksZUFBZTtJQUNmLGlCQUFpQjtBQUNyQjs7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsaUJBQWlCO0FBQ3JCOzs7QUFHQTtJQUdJLGdEQUFnRDtJQUNoRCxZQUFZO0FBQ2hCOzs7QUFFQTtJQUNJLHFEQUFxRDtJQUNyRCw0QkFBNEI7SUFDNUIsMkJBQTJCO0lBQzNCLFlBQVk7QUFDaEI7OztBQUVBO0lBQ0kscURBQXFEO0lBQ3JELDRCQUE0QjtJQUM1QiwyQkFBMkI7SUFDM0IsYUFBYTtDQUNoQjs7O0FBRUQ7SUFDSSwrREFBK0Q7SUFDL0QsNEJBQTRCO0lBQzVCLDRCQUE0QjtJQUM1QixZQUFZO0lBQ1osWUFBWTtBQUNoQjs7O0FBRUE7SUFDSSwrREFBK0Q7SUFDL0QsNEJBQTRCO0lBQzVCLDRCQUE0QjtJQUM1QixZQUFZO0lBQ1osWUFBWTtBQUNoQjs7O0FBRUE7SUFDSSxxREFBcUQ7SUFDckQsNEJBQTRCO0lBQzVCLDBCQUEwQjtJQUMxQixXQUFXO0lBQ1gsWUFBWTtBQUNoQjs7O0FBR0E7SUFDSSw2RkFBNkY7SUFDN0YsNEJBQTRCO0lBQzVCLGFBQWE7SUFDYixZQUFZO0FBQ2hCOzs7QUFFQTtJQUdJLGdEQUFnRDtJQUNoRCxZQUFZO0lBQ1osYUFBYTtJQUNiLGFBQWE7SUFDYiw0QkFBNEI7QUFDaEM7OztBQUVBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztFQTRDRSIsImZpbGUiOiJzcmMvYXBwL3BsdWdpbnMvc2xpZGVzaG93L3NsaWRlc2hvdy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOjpuZy1kZWVwIC5keC1wb3B1cC13cmFwcGVyLCAuZHgtb3ZlcmxheS1tb2RhbCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdW5zZXQ7XG59XG5cblxuOjpuZy1kZWVwIC5wb3B1cC12ZXJ0IC5keC1wb3B1cC1jb250ZW50IHtcbiAgICBwYWRkaW5nOiAwcHg7XG4gICAgbWFyZ2luLXRvcDogLTNweDtcbn1cblxuOjpuZy1kZWVwIC5wb3B1cC1ob3IgLmR4LXBvcHVwLWNvbnRlbnQge1xuICAgIHBhZGRpbmc6IDBweDtcbiAgICBtYXJnaW4tdG9wOiAtNHB4O1xufVxuXG5cbjo6bmctZGVlcCAuZHgtcG9wdXAtd3JhcHBlciA+IC5keC1vdmVybGF5LWNvbnRlbnQge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC40NSk7XG59XG5cbjo6bmctZGVlcCAuZHgtZ2FsbGVyeS1pdGVtIHtcbiAgICB3aWR0aDogNTA3cHg7XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xufVxuOjpuZy1kZWVwIC5keC1nYWxsZXJ5LWl0ZW0gaW1nIHtcbiAgICBoZWlnaHQ6IDMwMHB4O1xuICAgIHdpZHRoOiA1MDdweDtcbiAgICBtYXgtd2lkdGg6IDEwMCU7XG59XG46Om5nLWRlZXAgLmR4LWdhbGxlcnktaXRlbSAuaXRlbS1wcmljZSB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG46Om5nLWRlZXAgLmR4LWdhbGxlcnktaXRlbSAuaXRlbS1wcmljZSB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5cbjo6bmctZGVlcCAuYm9yZGVyLXNoYWRvdy12ZXJ0IHtcbiAgICAtd2Via2l0LWJveC1zaGFkb3c6IGluc2V0IDE1cHggMTBweCAxNXB4IHJnYmEoMCwwLDAsLjU1KTtcbiAgICAtbW96LWJveC1zaGFkb3c6IGluc2V0IDE1cHggMTBweCAxNXB4IHJnYmEoMCwwLDAsLjU1KTtcbiAgICBib3gtc2hhZG93OiBpbnNldCAxNXB4IDEwcHggMTVweCByZ2JhKDAsMCwwLC41NSk7XG4gICAgd2lkdGg6IDUwOHB4O1xufVxuXG46Om5nLWRlZXAgLmJvcmRlci1pbWctdmVydC1hIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvYm9yZGVycy9sYS0wMDEuc3ZnKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIHBhZGRpbmc6IDYxcHggMHB4IDBweCAxMTBweDtcbiAgICBoZWlnaHQ6OTY4cHg7XG59XG5cbjo6bmctZGVlcCAuYm9yZGVyLWltZy12ZXJ0LWIge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9ib3JkZXJzL2xhLTAwMi5zdmcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgcGFkZGluZzogNjFweCAwcHggMHB4IDExMHB4O1xuICAgIGhlaWdodDogOTY4cHg7XG4gfVxuXG46Om5nLWRlZXAgLm1haW4taW1nLXZlcnQtYSB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC9hc3NldHMvaW1nL3NsaWRlc2hvdy9kcmlua180NjAzOTE3Mi5wbmcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgYmFja2dyb3VuZC1jbGlwOiBjb250ZW50LWJveDtcbiAgICB3aWR0aDogNjE4cHg7XG4gICAgaGVpZ2h0Ojc5MXB4O1xufVxuXG46Om5nLWRlZXAgLm1haW4taW1nLXZlcnQtYiB7XG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC9hc3NldHMvaW1nL3NsaWRlc2hvdy9kcmlua180NjAzOTE3Mi5wbmcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgYmFja2dyb3VuZC1jbGlwOiBjb250ZW50LWJveDtcbiAgICB3aWR0aDogNjE4cHg7XG4gICAgaGVpZ2h0Ojc5MXB4O1xufVxuXG46Om5nLWRlZXAgLmJvcmRlci1pbWctaG9yLWEge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9ib3JkZXJzL3NtLTAwMS5zdmcpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgcGFkZGluZzogNjJweCAwcHggMHB4IDYwcHg7XG4gICAgd2lkdGg6OTE1cHg7XG4gICAgaGVpZ2h0Ojc5MXB4O1xufVxuXG5cbjo6bmctZGVlcCAubWFpbi1pbWctaG9yLWEge1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9tZW51LzMxNjQ1MjMyLWl0YWxpYW4tc3BhZ2hldHRpLW9uLXJ1c3RpYy13b29kZW4tdGFibGUuanBnKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIGhlaWdodDogNjAwcHg7XG4gICAgd2lkdGg6IDc5M3B4O1xufVxuXG46Om5nLWRlZXAgLmJvcmRlci1zaGFkb3ctaG9yIHtcbiAgICAtd2Via2l0LWJveC1zaGFkb3c6IGluc2V0IDE1cHggMTBweCAxNXB4IHJnYmEoMCwwLDAsLjU1KTtcbiAgICAtbW96LWJveC1zaGFkb3c6IGluc2V0IDE1cHggMTBweCAxNXB4IHJnYmEoMCwwLDAsLjU1KTtcbiAgICBib3gtc2hhZG93OiBpbnNldCAxNXB4IDEwcHggMTVweCByZ2JhKDAsMCwwLC41NSk7XG4gICAgd2lkdGg6IDc5M3B4O1xuICAgIGhlaWdodDogNTk2cHg7XG4gICAgcGFkZGluZzogMjVweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZXNtb2tlO1xufVxuXG4vKlxuOjpuZy1kZWVwIC5pbWFnZS1sYW5kc2FjcGU6YWZ0ZXIge1xuICAgIGNvbnRlbnQ6XCJcIjtcbiAgICBwb3NpdGlvbjphYnNvbHV0ZTtcbiAgICB0b3A6MDsgYm90dG9tOjA7IGxlZnQ6MDsgcmlnaHQ6MDtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgd2lkdGg6IGF1dG87XG4gICAgYm9yZGVyLXdpZHRoOiA2M3B4IDg0cHggOTNweCA5OHB4O1xuICAgIC1tb3otYm9yZGVyLWltYWdlOiB1cmwoL2Fzc2V0cy9pbWcvYm9yZGVycy9zbS0wMDEuc3ZnKSA2MyA4NCA5MyA5OCBzdHJldGNoICFpbXBvcnRhbnQ7XG4gICAgLXdlYmtpdC1ib3JkZXItaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9ib3JkZXJzL3NtLTAwMS5zdmcpIDYzIDg0IDkzIDk4IHN0cmV0Y2ggIWltcG9ydGFudDtcbiAgICAtby1ib3JkZXItaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9ib3JkZXJzL3NtLTAwMS5zdmcpIDYzIDg0IDkzIDk4IHN0cmV0Y2ggIWltcG9ydGFudDtcbiAgICBib3JkZXItaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9ib3JkZXJzL3NtLTAwMS5zdmcpIDYzIDg0IDkzIDk4IGZpbGwgc3RyZXRjaCAhaW1wb3J0YW50O1xufVxuICAgIC5pbWFnZS1sYW5kc2FjcGUge1xuICAgICAgICBwb3NpdGlvbjpyZWxhdGl2ZTtcbiAgICAgICAgZGlzcGxheTpibG9jaztcbiAgICB9XG5cblxuOjpuZy1kZWVwIC5pbWFnZS1wb3J0cmFpdDphZnRlciB7XG4gICAgY29udGVudDpcIlwiO1xuICAgIHBvc2l0aW9uOmFic29sdXRlO1xuICAgIHRvcDowOyBib3R0b206MDsgbGVmdDowOyByaWdodDowO1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICB3aWR0aDogYXV0bztcbiAgICBib3JkZXItd2lkdGg6IDYzcHggODRweCA5M3B4IDk4cHg7XG4gICAgLW1vei1ib3JkZXItaW1hZ2U6IHVybCgvYXNzZXRzL2ltZy9ib3JkZXJzL3NtLTAwMS5zdmcpIDYzIDg0IDkzIDk4IHN0cmV0Y2ggIWltcG9ydGFudDtcbiAgICAtd2Via2l0LWJvcmRlci1pbWFnZTogdXJsKC9hc3NldHMvaW1nL2JvcmRlcnMvbGEtMDAxLnN2ZykgNjMgODQgOTMgOTggc3RyZXRjaCAhaW1wb3J0YW50O1xuICAgIC1vLWJvcmRlci1pbWFnZTogdXJsKC9hc3NldHMvaW1nL2JvcmRlcnMvbGEtMDAxLnN2ZykgNjMgODQgOTMgOTggc3RyZXRjaCAhaW1wb3J0YW50O1xuICAgIGJvcmRlci1pbWFnZTogdXJsKC9hc3NldHMvaW1nL2JvcmRlcnMvbGEtMDAxLnN2ZykgNjMgODQgOTMgOTggZmlsbCBzdHJldGNoICFpbXBvcnRhbnQ7XG59XG4gLmltYWdlLXBvcnRyYWl0IHtcbiAgICAgcG9zaXRpb246cmVsYXRpdmU7XG4gICAgIGRpc3BsYXk6YmxvY2s7XG4gfVxuXG5cbjo6bmctZGVlcCAuZHgtZ2FsbGVyeS1pdGVtIGltZyB7XG4gICAgd2lkdGg6Mjc3cHg7XG4gICAgbWF4LWhlaWdodDogMzAwcHg7XG4gICAgd2lkdGg6IGF1dG87XG59XG4ubm93aGVyZXtcbiAgICB6LWluZGV4OiAtMTtcbn0qLyJdfQ== */"];
 exports.styles = styles;
 
 
@@ -35698,7 +33124,7 @@ exports.slideshowService = slideshowService;
  * tslint:disable
  */ 
 Object.defineProperty(exports, "__esModule", { value: true });
-var styles = [".nav-icon {\n  height: 72px;\n}\n\n  .nav-text {\n  padding: 20px 10px 0px 10px;\n  font-size: 30px;\n  max-width: 100%;\n}\n\n  #toolbar {\n  height: 72px;\n  z-index: 1500;\n  background-color: unset !important;\n  width: 100%;\n  min-height: 36px;\n  max-height: 72px;\n  -webkit-transition: top 0.3s;\n  transition: top 0.3s;\n}\n\n.sticky[_ngcontent-%COMP%] {\n  position: fixed;\n  top:0px;\n  width: 100%;\n}\n\n.sticky[_ngcontent-%COMP%]    + .content[_ngcontent-%COMP%] {\n  padding-top: 500px;\n}\n\n  .dx-toolbar-item-content{\n  text-align: center;\n}\n\n  .dx-toolbar .dx-toolbar-before {\n  background-image: linear-gradient(to top, rgba(255,0,0,0) 0px, #F3EBDE 20px); \n  width: calc(50% - 34px);\n}\n\n   .dx-toolbar .dx-toolbar-after .dx-toolbar-menu-container{\n  -webkit-box-pack: end;\n          justify-content: flex-end;\n  display: -webkit-box;\n  display: flex;\n}\n\n  .dx-toolbar .dx-toolbar-after {\n  background-image: linear-gradient(to top, rgba(255,0,0,0) 0px, #F3EBDE 20px); \n  width: calc(50% - 34px);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGx1Z2lucy90b3BuYXYvdG9wbmF2LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxZQUFZO0FBQ2Q7O0FBRUE7RUFDRSwyQkFBMkI7RUFDM0IsZUFBZTtFQUNmLGVBQWU7QUFDakI7O0FBR0E7RUFDRSxZQUFZO0VBQ1osYUFBYTtFQUNiLGtDQUFrQztFQUNsQyxXQUFXO0VBQ1gsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQiw0QkFBb0I7RUFBcEIsb0JBQW9CO0FBQ3RCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLE9BQU87RUFDUCxXQUFXO0FBQ2I7O0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSw0RUFBNEU7RUFDNUUsdUJBQXVCO0FBQ3pCOztBQUVBO0VBQ0UscUJBQXlCO1VBQXpCLHlCQUF5QjtFQUN6QixvQkFBYTtFQUFiLGFBQWE7QUFDZjs7QUFFQTtFQUNFLDRFQUE0RTtFQUM1RSx1QkFBdUI7QUFDekI7O0FBQ0E7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0NBeUZDIiwiZmlsZSI6InNyYy9hcHAvcGx1Z2lucy90b3BuYXYvdG9wbmF2LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6Om5nLWRlZXAgLm5hdi1pY29uIHtcbiAgaGVpZ2h0OiA3MnB4O1xufVxuXG46Om5nLWRlZXAgLm5hdi10ZXh0IHtcbiAgcGFkZGluZzogMjBweCAxMHB4IDBweCAxMHB4O1xuICBmb250LXNpemU6IDMwcHg7XG4gIG1heC13aWR0aDogMTAwJTtcbn1cblxuXG46Om5nLWRlZXAgI3Rvb2xiYXIge1xuICBoZWlnaHQ6IDcycHg7XG4gIHotaW5kZXg6IDE1MDA7XG4gIGJhY2tncm91bmQtY29sb3I6IHVuc2V0ICFpbXBvcnRhbnQ7XG4gIHdpZHRoOiAxMDAlO1xuICBtaW4taGVpZ2h0OiAzNnB4O1xuICBtYXgtaGVpZ2h0OiA3MnB4O1xuICB0cmFuc2l0aW9uOiB0b3AgMC4zcztcbn1cblxuLnN0aWNreSB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgdG9wOjBweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5zdGlja3kgKyAuY29udGVudCB7XG4gIHBhZGRpbmctdG9wOiA1MDBweDtcbn1cblxuOjpuZy1kZWVwIC5keC10b29sYmFyLWl0ZW0tY29udGVudHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG46Om5nLWRlZXAgLmR4LXRvb2xiYXIgLmR4LXRvb2xiYXItYmVmb3JlIHtcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHRvIHRvcCwgcmdiYSgyNTUsMCwwLDApIDBweCwgI0YzRUJERSAyMHB4KTsgXG4gIHdpZHRoOiBjYWxjKDUwJSAtIDM0cHgpO1xufVxuXG46Om5nLWRlZXAgIC5keC10b29sYmFyIC5keC10b29sYmFyLWFmdGVyIC5keC10b29sYmFyLW1lbnUtY29udGFpbmVye1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kO1xuICBkaXNwbGF5OiBmbGV4O1xufVxuXG46Om5nLWRlZXAgLmR4LXRvb2xiYXIgLmR4LXRvb2xiYXItYWZ0ZXIge1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQodG8gdG9wLCByZ2JhKDI1NSwwLDAsMCkgMHB4LCAjRjNFQkRFIDIwcHgpOyBcbiAgd2lkdGg6IGNhbGMoNTAlIC0gMzRweCk7XG59XG4vKlxuOjpuZy1kZWVwIC50b29sYmFyLWxhYmVsLFxuOjpuZy1kZWVwIC50b29sYmFyLWxhYmVsID4gYiB7XG4gICAgZm9udC1zaXplOiAxNnB4O1xufVxuOjpuZy1kZWVwICNwcm9kdWN0cyB7XG4gICAgbWFyZ2luLXRvcDogMTBweDtcbn1cblxuXG46Om5nLWRlZXAgI25hdmJhciB7XG4gIHRvcDowcHg7XG4gIG1pbi1oZWlnaHQ6IDc1cHg7XG4gIG1heC1oZWlnaHQ6IDE1MHB4OyBcbiAgei1pbmRleDoxOyBcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB3aWR0aDogMTAwJTtcbiAgdHJhbnNpdGlvbjogdG9wIDAuM3M7XG59XG46Om5nLWRlZXAgI25hdmJhciBhIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmc6IDE1cHg7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgZm9udC1zaXplOiAxN3B4O1xufVxuXG46Om5nLWRlZXAgI25hdmJhciBhOmhvdmVyIHtcbiAgY29sb3I6IGJsYWNrO1xufVxuXG46Om5nLWRlZXAgLmltYWdlLWNvbnRhaW5lciB7XG4gIHdpZHRoOiA2NXB4O1xuICBmbG9hdDogbGVmdDtcbiAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xufVxuOjpuZy1kZWVwIC5pbWFnZS1jb250YWluZXIgaW1nIHtcbiAgd2lkdGg6IDEwMCU7XG59XG46Om5nLWRlZXAgLmR4LXRhYnMuZHgtbmF2YmFyIHtcbnRleHQtYWxpZ246IGNlbnRlcjtcbnBvc2l0aW9uOiBhYnNvbHV0ZTtcbmJvdHRvbTogMDtcbn1cblxuOjpuZy1kZWVwIC5uYXYtaWNvbiB7XG4gIG1heC13aWR0aDogMTAwJTtcbn1cblxuXG5cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjQwcHgpIHtcdFx0XHRcbiAgICA6Om5nLWRlZXAgLm5hdi1pY29uIHtcbiAgICAgICAgbWluLWhlaWdodDogNTBweDtcbiAgICAgICAgbWF4LWhlaWdodDogMTAwcHg7XG4gICAgfVxufVxuXG46Om5nLWRlZXAgLmR4LXRhYi5keC1uYXYtaXRlbSB7XG4gIGJhY2tncm91bmQtY29sb3I6I0YzRUJERTtcbiAgb3BhY2l0eTogMC44O1xuICBmaWx0ZXI6IGFscGhhKG9wYWNpdHk9ODApO1xufVxuXG46Om5nLWRlZXAgLmR4LXRhYiB7XG4gICAgcGFkZGluZzogMHB4O1xufVxuXG46Om5nLWRlZXAgI2dyYWRpZW50LXRvcG5hdiB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCh0byB0b3AsIHJnYmEoMjU1LDAsMCwwKSwgcmdiYSgyNTUsMCwwLDEpKTsgXG59XG5cbjo6bmctZGVlcCAuZHgtbGlzdCB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMDtcbiAgICBib3R0b206IDA7XG59XG5cbjo6bmctZGVlcCAuaW1hZ2UtY29udGFpbmVyIGltZyB7XG4gICAgd2lkdGg6IDEwMCU7XG59XG5cbjo6bmctZGVlcCAuZHgtdGFicy5keC1uYXZiYXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB1bnNldDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGJvdHRvbTogMDtcbn1cbiovIl19 */"];
+var styles = ["#toolbar {\n  z-index: 1500;\n  background-color: unset !important;\n  width: 100%;\n  min-height: 36px;\n  max-height: 72px;\n  -webkit-transition: top 0.3s;\n  transition: top 0.3s;\n}\n\n@media screen and (min-width: 640px) {\n    .nav-icon .dx-toolbar-item-content img {\n    height: 72px;\n    width: 72px;\n  }\n\n    .nav-icon {\n    max-width: 72px !important;\n  }\n\n    .nav-icon .dx-toolbar-item-content .dx-button {\n    height: 72px;\n  }\n\n    .nav-text .dx-toolbar-item-content .dx-button-mode-text {\n    font-size: 24px !important;\n  }\n  \n    .nav-text .dx-toolbar-item-content .dx-button-mode-text .dx-button-content {\n      padding: 10px;\n  }\n\n    .dx-toolbar .dx-toolbar-before {\n    width: calc(50% - 34px);\n  }\n  \n    .dx-toolbar .dx-toolbar-after {\n    width: calc(50% - 34px);\n  }\n}\n\n@media screen and (max-width: 639px) {\n    .nav-icon .dx-toolbar-item-content img {\n    height: 36px;\n    width: 36px;\n  }\n\n    .nav-icon {\n    max-width: 36px !important;\n  }\n\n    .nav-icon .dx-toolbar-item-content .dx-button {\n    height: 36px;\n  }\n\n    .nav-text .dx-toolbar-item-content .dx-button-mode-text {\n    font-size: 24px !important;\n  }\n\n    .nav-text .dx-toolbar-item-content .dx-button-mode-text .dx-button-content {\n    padding: 10px;\n  }\n\n    .dx-toolbar .dx-toolbar-before {\n    width: calc(50% - 18px);\n  }\n\n    .dx-toolbar .dx-toolbar-after {\n    width: calc(50% - 18px);\n  }\n}\n\n@media screen and (max-width: 480px) {\n    .nav-text .dx-toolbar-item-content .dx-button-mode-text {\n    font-size: 12px !important;\n  }\n}\n\n@media screen and (max-width: 360px) {\n    .nav-text .dx-toolbar-item-content .dx-button-mode-text {\n    font-size: 9px !important;\n  }\n}\n\n@media screen and (orientation:portrait) {  }\n\n@media screen and (orientation:landscape) { }\n\n.sticky[_ngcontent-%COMP%] {\n  position: fixed;\n  top:0px;\n  width: 100%;\n}\n\n.sticky[_ngcontent-%COMP%]    + .content[_ngcontent-%COMP%] {\n  padding-top: 500px;\n}\n\n  .dx-toolbar-item-content{\n  text-align: center;\n}\n\n  .dx-toolbar .dx-toolbar-before {\n  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255,0,0,0)), color-stop(50%, #F3EBDE),to(rgba(255,0,0,0)));\n  background-image: linear-gradient(to top, rgba(255,0,0,0) 0%, #F3EBDE 50%,rgba(255,0,0,0) 100%);\n  \n}\n\n   .dx-toolbar .dx-toolbar-after .dx-toolbar-menu-container{\n  -webkit-box-pack: end;\n          justify-content: flex-end;\n  display: -webkit-box;\n  display: flex;\n}\n\n  .dx-toolbar .dx-toolbar-after {\n  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255,0,0,0)), color-stop(50%, #F3EBDE),to(rgba(255,0,0,0)));\n  background-image: linear-gradient(to top, rgba(255,0,0,0) 0%, #F3EBDE 50%,rgba(255,0,0,0) 100%);\n  \n}\n\n  .nav-icon .dx-toolbar-item-content .dx-button-mode-text .dx-button-content {\n  padding: 0px !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGx1Z2lucy90b3BuYXYvdG9wbmF2LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2Isa0NBQWtDO0VBQ2xDLFdBQVc7RUFDWCxnQkFBZ0I7RUFDaEIsZ0JBQWdCO0VBQ2hCLDRCQUFvQjtFQUFwQixvQkFBb0I7QUFDdEI7O0FBRUE7RUFDRTtJQUNFLFlBQVk7SUFDWixXQUFXO0VBQ2I7O0VBRUE7SUFDRSwwQkFBMEI7RUFDNUI7O0VBRUE7SUFDRSxZQUFZO0VBQ2Q7O0VBRUE7SUFDRSwwQkFBMEI7RUFDNUI7O0VBRUE7TUFDSSxhQUFhO0VBQ2pCOztFQUVBO0lBQ0UsdUJBQXVCO0VBQ3pCOztFQUVBO0lBQ0UsdUJBQXVCO0VBQ3pCO0FBQ0Y7O0FBSUE7RUFDRTtJQUNFLFlBQVk7SUFDWixXQUFXO0VBQ2I7O0VBRUE7SUFDRSwwQkFBMEI7RUFDNUI7O0VBRUE7SUFDRSxZQUFZO0VBQ2Q7O0VBRUE7SUFDRSwwQkFBMEI7RUFDNUI7O0VBRUE7SUFDRSxhQUFhO0VBQ2Y7O0VBRUE7SUFDRSx1QkFBdUI7RUFDekI7O0VBRUE7SUFDRSx1QkFBdUI7RUFDekI7QUFDRjs7QUFDQTtFQUNFO0lBQ0UsMEJBQTBCO0VBQzVCO0FBQ0Y7O0FBRUE7RUFDRTtJQUNFLHlCQUF5QjtFQUMzQjtBQUNGOztBQUVBLDRDQUE0Qzs7QUFDNUMsNENBQTRDOztBQU01QztFQUNFLGVBQWU7RUFDZixPQUFPO0VBQ1AsV0FBVztBQUNiOztBQUVBO0VBQ0Usa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0Usa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0Usc0lBQStGO0VBQS9GLCtGQUErRjtFQUMvRix5RkFBeUY7QUFDM0Y7O0FBRUE7RUFDRSxxQkFBeUI7VUFBekIseUJBQXlCO0VBQ3pCLG9CQUFhO0VBQWIsYUFBYTtBQUNmOztBQUVBO0VBQ0Usc0lBQStGO0VBQS9GLCtGQUErRjtFQUMvRix5RkFBeUY7QUFDM0Y7O0FBRUE7RUFDRSx1QkFBdUI7QUFDekI7O0FBRUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0NBK09DIiwiZmlsZSI6InNyYy9hcHAvcGx1Z2lucy90b3BuYXYvdG9wbmF2LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6Om5nLWRlZXAgI3Rvb2xiYXIge1xuICB6LWluZGV4OiAxNTAwO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB1bnNldCAhaW1wb3J0YW50O1xuICB3aWR0aDogMTAwJTtcbiAgbWluLWhlaWdodDogMzZweDtcbiAgbWF4LWhlaWdodDogNzJweDtcbiAgdHJhbnNpdGlvbjogdG9wIDAuM3M7XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDY0MHB4KSB7XG4gIDo6bmctZGVlcCAubmF2LWljb24gLmR4LXRvb2xiYXItaXRlbS1jb250ZW50IGltZyB7XG4gICAgaGVpZ2h0OiA3MnB4O1xuICAgIHdpZHRoOiA3MnB4O1xuICB9XG5cbiAgOjpuZy1kZWVwIC5uYXYtaWNvbiB7XG4gICAgbWF4LXdpZHRoOiA3MnB4ICFpbXBvcnRhbnQ7XG4gIH1cblxuICA6Om5nLWRlZXAgLm5hdi1pY29uIC5keC10b29sYmFyLWl0ZW0tY29udGVudCAuZHgtYnV0dG9uIHtcbiAgICBoZWlnaHQ6IDcycHg7XG4gIH1cblxuICA6Om5nLWRlZXAgLm5hdi10ZXh0IC5keC10b29sYmFyLWl0ZW0tY29udGVudCAuZHgtYnV0dG9uLW1vZGUtdGV4dCB7XG4gICAgZm9udC1zaXplOiAyNHB4ICFpbXBvcnRhbnQ7XG4gIH1cbiAgXG4gIDo6bmctZGVlcCAubmF2LXRleHQgLmR4LXRvb2xiYXItaXRlbS1jb250ZW50IC5keC1idXR0b24tbW9kZS10ZXh0IC5keC1idXR0b24tY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAxMHB4O1xuICB9XG5cbiAgOjpuZy1kZWVwIC5keC10b29sYmFyIC5keC10b29sYmFyLWJlZm9yZSB7XG4gICAgd2lkdGg6IGNhbGMoNTAlIC0gMzRweCk7XG4gIH1cbiAgXG4gIDo6bmctZGVlcCAuZHgtdG9vbGJhciAuZHgtdG9vbGJhci1hZnRlciB7XG4gICAgd2lkdGg6IGNhbGMoNTAlIC0gMzRweCk7XG4gIH1cbn1cblxuXG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYzOXB4KSB7XG4gIDo6bmctZGVlcCAubmF2LWljb24gLmR4LXRvb2xiYXItaXRlbS1jb250ZW50IGltZyB7XG4gICAgaGVpZ2h0OiAzNnB4O1xuICAgIHdpZHRoOiAzNnB4O1xuICB9XG5cbiAgOjpuZy1kZWVwIC5uYXYtaWNvbiB7XG4gICAgbWF4LXdpZHRoOiAzNnB4ICFpbXBvcnRhbnQ7XG4gIH1cblxuICA6Om5nLWRlZXAgLm5hdi1pY29uIC5keC10b29sYmFyLWl0ZW0tY29udGVudCAuZHgtYnV0dG9uIHtcbiAgICBoZWlnaHQ6IDM2cHg7XG4gIH1cblxuICA6Om5nLWRlZXAgLm5hdi10ZXh0IC5keC10b29sYmFyLWl0ZW0tY29udGVudCAuZHgtYnV0dG9uLW1vZGUtdGV4dCB7XG4gICAgZm9udC1zaXplOiAyNHB4ICFpbXBvcnRhbnQ7XG4gIH1cblxuICA6Om5nLWRlZXAgLm5hdi10ZXh0IC5keC10b29sYmFyLWl0ZW0tY29udGVudCAuZHgtYnV0dG9uLW1vZGUtdGV4dCAuZHgtYnV0dG9uLWNvbnRlbnQge1xuICAgIHBhZGRpbmc6IDEwcHg7XG4gIH1cblxuICA6Om5nLWRlZXAgLmR4LXRvb2xiYXIgLmR4LXRvb2xiYXItYmVmb3JlIHtcbiAgICB3aWR0aDogY2FsYyg1MCUgLSAxOHB4KTtcbiAgfVxuXG4gIDo6bmctZGVlcCAuZHgtdG9vbGJhciAuZHgtdG9vbGJhci1hZnRlciB7XG4gICAgd2lkdGg6IGNhbGMoNTAlIC0gMThweCk7XG4gIH1cbn1cbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDQ4MHB4KSB7XG4gIDo6bmctZGVlcCAubmF2LXRleHQgLmR4LXRvb2xiYXItaXRlbS1jb250ZW50IC5keC1idXR0b24tbW9kZS10ZXh0IHtcbiAgICBmb250LXNpemU6IDEycHggIWltcG9ydGFudDtcbiAgfVxufVxuXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAzNjBweCkge1xuICA6Om5nLWRlZXAgLm5hdi10ZXh0IC5keC10b29sYmFyLWl0ZW0tY29udGVudCAuZHgtYnV0dG9uLW1vZGUtdGV4dCB7XG4gICAgZm9udC1zaXplOiA5cHggIWltcG9ydGFudDtcbiAgfVxufVxuXG5AbWVkaWEgc2NyZWVuIGFuZCAob3JpZW50YXRpb246cG9ydHJhaXQpIHsgIH1cbkBtZWRpYSBzY3JlZW4gYW5kIChvcmllbnRhdGlvbjpsYW5kc2NhcGUpIHsgfVxuXG5cblxuXG5cbi5zdGlja3kge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIHRvcDowcHg7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4uc3RpY2t5ICsgLmNvbnRlbnQge1xuICBwYWRkaW5nLXRvcDogNTAwcHg7XG59XG5cbjo6bmctZGVlcCAuZHgtdG9vbGJhci1pdGVtLWNvbnRlbnR7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuOjpuZy1kZWVwIC5keC10b29sYmFyIC5keC10b29sYmFyLWJlZm9yZSB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCh0byB0b3AsIHJnYmEoMjU1LDAsMCwwKSAwJSwgI0YzRUJERSA1MCUscmdiYSgyNTUsMCwwLDApIDEwMCUpO1xuICAvKiBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQodG8gdG9wLCAgMTBweCwgcmdiYSgyNTUsMCwwLDApIDBweCwgI0YzRUJERSAyMHB4KTsgKi9cbn1cblxuOjpuZy1kZWVwICAuZHgtdG9vbGJhciAuZHgtdG9vbGJhci1hZnRlciAuZHgtdG9vbGJhci1tZW51LWNvbnRhaW5lcntcbiAganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDtcbiAgZGlzcGxheTogZmxleDtcbn1cblxuOjpuZy1kZWVwIC5keC10b29sYmFyIC5keC10b29sYmFyLWFmdGVyIHtcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHRvIHRvcCwgcmdiYSgyNTUsMCwwLDApIDAlLCAjRjNFQkRFIDUwJSxyZ2JhKDI1NSwwLDAsMCkgMTAwJSk7XG4gIC8qIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCh0byB0b3AsICAxMHB4LCByZ2JhKDI1NSwwLDAsMCkgMHB4LCAjRjNFQkRFIDIwcHgpOyAqL1xufVxuXG46Om5nLWRlZXAgLm5hdi1pY29uIC5keC10b29sYmFyLWl0ZW0tY29udGVudCAuZHgtYnV0dG9uLW1vZGUtdGV4dCAuZHgtYnV0dG9uLWNvbnRlbnQge1xuICBwYWRkaW5nOiAwcHggIWltcG9ydGFudDtcbn1cblxuLypcbjo6bmctZGVlcCAudG9vbGJhci1sYWJlbCxcbjo6bmctZGVlcCAudG9vbGJhci1sYWJlbCA+IGIge1xuICAgIGZvbnQtc2l6ZTogMTZweDtcbn1cbjo6bmctZGVlcCAjcHJvZHVjdHMge1xuICAgIG1hcmdpbi10b3A6IDEwcHg7XG59XG5cblxuOjpuZy1kZWVwICNuYXZiYXIge1xuICB0b3A6MHB4O1xuICBtaW4taGVpZ2h0OiA3NXB4O1xuICBtYXgtaGVpZ2h0OiAxNTBweDsgXG4gIHotaW5kZXg6MTsgXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgd2lkdGg6IDEwMCU7XG4gIHRyYW5zaXRpb246IHRvcCAwLjNzO1xufVxuOjpuZy1kZWVwICNuYXZiYXIgYSB7XG4gIGZsb2F0OiBsZWZ0O1xuICBkaXNwbGF5OiBibG9jaztcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBwYWRkaW5nOiAxNXB4O1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gIGZvbnQtc2l6ZTogMTdweDtcbn1cblxuOjpuZy1kZWVwICNuYXZiYXIgYTpob3ZlciB7XG4gIGNvbG9yOiBibGFjaztcbn1cblxuOjpuZy1kZWVwIC5pbWFnZS1jb250YWluZXIge1xuICB3aWR0aDogNjVweDtcbiAgZmxvYXQ6IGxlZnQ7XG4gIG1hcmdpbi1yaWdodDogMjBweDtcbn1cbjo6bmctZGVlcCAuaW1hZ2UtY29udGFpbmVyIGltZyB7XG4gIHdpZHRoOiAxMDAlO1xufVxuOjpuZy1kZWVwIC5keC10YWJzLmR4LW5hdmJhciB7XG50ZXh0LWFsaWduOiBjZW50ZXI7XG5wb3NpdGlvbjogYWJzb2x1dGU7XG5ib3R0b206IDA7XG59XG5cbjo6bmctZGVlcCAubmF2LWljb24ge1xuICBtYXgtd2lkdGg6IDEwMCU7XG59XG5cblxuXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDY0MHB4KSB7XHRcdFx0XG4gICAgOjpuZy1kZWVwIC5uYXYtaWNvbiB7XG4gICAgICAgIG1pbi1oZWlnaHQ6IDUwcHg7XG4gICAgICAgIG1heC1oZWlnaHQ6IDEwMHB4O1xuICAgIH1cbn1cblxuOjpuZy1kZWVwIC5keC10YWIuZHgtbmF2LWl0ZW0ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiNGM0VCREU7XG4gIG9wYWNpdHk6IDAuODtcbiAgZmlsdGVyOiBhbHBoYShvcGFjaXR5PTgwKTtcbn1cblxuOjpuZy1kZWVwIC5keC10YWIge1xuICAgIHBhZGRpbmc6IDBweDtcbn1cblxuOjpuZy1kZWVwICNncmFkaWVudC10b3BuYXYge1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQodG8gdG9wLCByZ2JhKDI1NSwwLDAsMCksIHJnYmEoMjU1LDAsMCwxKSk7IFxufVxuXG46Om5nLWRlZXAgLmR4LWxpc3Qge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IDA7XG4gICAgYm90dG9tOiAwO1xufVxuXG46Om5nLWRlZXAgLmltYWdlLWNvbnRhaW5lciBpbWcge1xuICAgIHdpZHRoOiAxMDAlO1xufVxuXG46Om5nLWRlZXAgLmR4LXRhYnMuZHgtbmF2YmFyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogdW5zZXQ7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBib3R0b206IDA7XG59XG5cblxuOjpuZy1kZWVwIC5uYXYtdGV4dCB7XG4gIHBhZGRpbmc6IDIwcHggMTBweCAwcHggMTBweDtcbiAgZm9udC1zaXplOiAzMHB4O1xuICBtYXgtd2lkdGg6IDEwMCU7XG59XG5cbjo6bmctZGVlcCAjdG9vbGJhciB7XG4gIGhlaWdodDogNzJweDtcbiAgei1pbmRleDogMTUwMDtcbiAgYmFja2dyb3VuZC1jb2xvcjogdW5zZXQgIWltcG9ydGFudDtcbiAgd2lkdGg6IDEwMCU7XG4gIG1pbi1oZWlnaHQ6IDM2cHg7XG4gIG1heC1oZWlnaHQ6IDcycHg7XG4gIHRyYW5zaXRpb246IHRvcCAwLjNzO1xufVxuXG46Om5nLWRlZXAgLmR4LXRvb2xiYXItaXRlbSB7XG4gIGRpc3BsYXk6IHRhYmxlLWNlbGw7XG4gIHBhZGRpbmc6IDBweDtcbiAgdmVydGljYWwtYWxpZ246IHRvcDtcbn1cblxuOjpuZy1kZWVwIC5uYXYtaWNvbntcbiAgaGVpZ2h0OiA3MnB4O1xufVxuXG46Om5nLWRlZXAgLmR4LXRvb2xiYXIgLmR4LXRvb2xiYXItaXRlbTpsYXN0LWNoaWxkIHtcbiAgcGFkZGluZzogMDtcbiAgdmVydGljYWwtYWxpZ246IHRvcDtcbn1cblxuLnN0aWNreSB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgdG9wOjBweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5zdGlja3kgKyAuY29udGVudCB7XG4gIHBhZGRpbmctdG9wOiA1MDBweDtcbn1cblxuOjpuZy1kZWVwIC5keC10b29sYmFyLWl0ZW0tY29udGVudHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG46Om5nLWRlZXAgLmR4LXRvb2xiYXIgLmR4LXRvb2xiYXItYmVmb3JlIHtcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHRvIHRvcCwgcmdiYSgyNTUsMCwwLDApIDBweCwgI0YzRUJERSAyMHB4KTsgXG4gIHdpZHRoOiBjYWxjKDUwJSAtIDM0cHgpO1xufVxuXG46Om5nLWRlZXAgIC5keC10b29sYmFyIC5keC10b29sYmFyLWFmdGVyIC5keC10b29sYmFyLW1lbnUtY29udGFpbmVye1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kO1xuICBkaXNwbGF5OiBmbGV4O1xufVxuXG46Om5nLWRlZXAgLmR4LXRvb2xiYXIgLmR4LXRvb2xiYXItYWZ0ZXIge1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQodG8gdG9wLCByZ2JhKDI1NSwwLDAsMCkgMHB4LCAjRjNFQkRFIDIwcHgpOyBcbiAgd2lkdGg6IGNhbGMoNTAlIC0gMzRweCk7XG59XG4vKlxuOjpuZy1kZWVwIC50b29sYmFyLWxhYmVsLFxuOjpuZy1kZWVwIC50b29sYmFyLWxhYmVsID4gYiB7XG4gICAgZm9udC1zaXplOiAxNnB4O1xufVxuOjpuZy1kZWVwICNwcm9kdWN0cyB7XG4gICAgbWFyZ2luLXRvcDogMTBweDtcbn1cblxuXG46Om5nLWRlZXAgI25hdmJhciB7XG4gIHRvcDowcHg7XG4gIG1pbi1oZWlnaHQ6IDc1cHg7XG4gIG1heC1oZWlnaHQ6IDE1MHB4OyBcbiAgei1pbmRleDoxOyBcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB3aWR0aDogMTAwJTtcbiAgdHJhbnNpdGlvbjogdG9wIDAuM3M7XG59XG46Om5nLWRlZXAgI25hdmJhciBhIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmc6IDE1cHg7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgZm9udC1zaXplOiAxN3B4O1xufVxuXG46Om5nLWRlZXAgI25hdmJhciBhOmhvdmVyIHtcbiAgY29sb3I6IGJsYWNrO1xufVxuXG46Om5nLWRlZXAgLmltYWdlLWNvbnRhaW5lciB7XG4gIHdpZHRoOiA2NXB4O1xuICBmbG9hdDogbGVmdDtcbiAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xufVxuOjpuZy1kZWVwIC5pbWFnZS1jb250YWluZXIgaW1nIHtcbiAgd2lkdGg6IDEwMCU7XG59XG46Om5nLWRlZXAgLmR4LXRhYnMuZHgtbmF2YmFyIHtcbnRleHQtYWxpZ246IGNlbnRlcjtcbnBvc2l0aW9uOiBhYnNvbHV0ZTtcbmJvdHRvbTogMDtcbn1cblxuOjpuZy1kZWVwIC5uYXYtaWNvbiB7XG4gIG1heC13aWR0aDogMTAwJTtcbn1cblxuXG5cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjQwcHgpIHtcdFx0XHRcbiAgICA6Om5nLWRlZXAgLm5hdi1pY29uIHtcbiAgICAgICAgbWluLWhlaWdodDogNTBweDtcbiAgICAgICAgbWF4LWhlaWdodDogMTAwcHg7XG4gICAgfVxufVxuXG46Om5nLWRlZXAgLmR4LXRhYi5keC1uYXYtaXRlbSB7XG4gIGJhY2tncm91bmQtY29sb3I6I0YzRUJERTtcbiAgb3BhY2l0eTogMC44O1xuICBmaWx0ZXI6IGFscGhhKG9wYWNpdHk9ODApO1xufVxuXG46Om5nLWRlZXAgLmR4LXRhYiB7XG4gICAgcGFkZGluZzogMHB4O1xufVxuXG46Om5nLWRlZXAgI2dyYWRpZW50LXRvcG5hdiB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCh0byB0b3AsIHJnYmEoMjU1LDAsMCwwKSwgcmdiYSgyNTUsMCwwLDEpKTsgXG59XG5cbjo6bmctZGVlcCAuZHgtbGlzdCB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMDtcbiAgICBib3R0b206IDA7XG59XG5cbjo6bmctZGVlcCAuaW1hZ2UtY29udGFpbmVyIGltZyB7XG4gICAgd2lkdGg6IDEwMCU7XG59XG5cbjo6bmctZGVlcCAuZHgtdGFicy5keC1uYXZiYXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB1bnNldDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGJvdHRvbTogMDtcbn1cbiovIl19 */"];
 exports.styles = styles;
 
 
@@ -35737,7 +33163,7 @@ var RenderType_TopnavComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_Top
 exports.RenderType_TopnavComponent = RenderType_TopnavComponent;
 function View_TopnavComponent_0(_l) { return i1.ɵvid(0, [i1.ɵqud(671088640, 1, { navbar: 0 }), (_l()(), i1.ɵeld(1, 0, null, null, 6, "dx-toolbar", [["id", "toolbar"]], null, null, null, i2.View_DxToolbarComponent_0, i2.RenderType_DxToolbarComponent)), i1.ɵprd(512, null, i3.DxTemplateHost, i3.DxTemplateHost, []), i1.ɵprd(512, null, i4.WatcherHelper, i4.WatcherHelper, []), i1.ɵprd(512, null, i5.IterableDifferHelper, i5.IterableDifferHelper, [i1.IterableDiffers]), i1.ɵprd(512, null, i6.NestedOptionHost, i6.NestedOptionHost, []), i1.ɵdid(6, 7323648, null, 1, i7.DxToolbarComponent, [i1.ElementRef, i1.NgZone, i3.DxTemplateHost, i4.WatcherHelper, i5.IterableDifferHelper, i6.NestedOptionHost, i8.TransferState, i1.PLATFORM_ID], { items: [0, "items"] }, null), i1.ɵqud(603979776, 2, { itemsChildren: 1 })], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.items; _ck(_v, 6, 0, currVal_0); }, null); }
 exports.View_TopnavComponent_0 = View_TopnavComponent_0;
-function View_TopnavComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 3, "app-topnav", [], null, null, null, View_TopnavComponent_0, RenderType_TopnavComponent)), i1.ɵprd(512, null, i9.Service, i9.Service, []), i1.ɵprd(512, null, i9.TopNavService, i9.TopNavService, []), i1.ɵdid(3, 4243456, null, 0, i10.TopnavComponent, [i9.Service, i9.TopNavService, i11.Router], null, null)], null, null); }
+function View_TopnavComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "app-topnav", [], null, null, null, View_TopnavComponent_0, RenderType_TopnavComponent)), i1.ɵprd(512, null, i9.TopNavService, i9.TopNavService, []), i1.ɵdid(2, 4243456, null, 0, i10.TopnavComponent, [i9.TopNavService, i11.Router], null, null)], null, null); }
 exports.View_TopnavComponent_Host_0 = View_TopnavComponent_Host_0;
 var TopnavComponentNgFactory = i1.ɵccf("app-topnav", i10.TopnavComponent, View_TopnavComponent_Host_0, {}, {}, []);
 exports.TopnavComponentNgFactory = TopnavComponentNgFactory;
@@ -35757,47 +33183,139 @@ exports.TopnavComponentNgFactory = TopnavComponentNgFactory;
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
 const topnav_service_1 = __webpack_require__(/*! ./topnav.service */ "./src/app/plugins/topnav/topnav.service.ts");
-const data_source_1 = __webpack_require__(/*! devextreme/data/data_source */ "devextreme/data/data_source");
 class TopnavComponent {
-    constructor(service, topNavService, router) {
+    constructor(topNavService, router) {
         this.router = router;
         this.navBarData = topNavService.getNavItems();
-        const products = service.getProducts();
-        this.productTypes = service.getProductTypes();
-        this.productsStore = new data_source_1.default(products);
-        this.items = [
-            {
+        this.portalTypes = topNavService.getPortalsTypes();
+        this.items = [{
+                widget: 'dxButton',
+                locateInMenu: 'never',
                 location: 'before',
-                locateInMenu: 'never',
-                template: () => {
-                    return '<span class="nav-text">THE<i style="text-transform: lowercase;">hotel</i></span>';
+                cssClass: 'nav-text',
+                options: {
+                    onClick: () => {
+                        this.router.navigate(['/the-restaurant']);
+                    },
+                    template: () => {
+                        return 'THE<i style="text-transform: lowercase;">Restaurant</i>';
+                    }
                 }
-            }, {
+            },
+            {
+                widget: 'dxButton',
+                locateInMenu: 'never',
                 location: 'before',
-                locateInMenu: 'never',
-                template: () => {
-                    return '<span class="nav-text">THE<i style="text-transform: lowercase;">resturant</i></span>';
+                cssClass: 'nav-text',
+                options: {
+                    onClick: () => {
+                        this.router.navigate(['/the-hotel']);
+                    },
+                    template: () => {
+                        return 'THE<i style="text-transform: lowercase;">hotel</i>';
+                    }
                 }
             },
             {
-                location: 'after',
-                locateInMenu: 'never',
-                template: () => {
-                    return '<span class="nav-text">THE<i style="text-transform: lowercase;">lounge</i></span>';
-                }
-            },
-            {
-                location: 'after',
-                locateInMenu: 'never',
-                template: () => {
-                    return '<span class="nav-text">THE<i style="text-transform: lowercase;">cellar</i></span>';
-                }
-            },
-            {
+                widget: 'dxButton',
                 location: 'center',
                 locateInMenu: 'never',
-                template: () => {
-                    return '<img class="nav-icon" src="/assets/img/nav-icon/logo.svg">';
+                cssClass: 'nav-icon',
+                options: {
+                    onClick: () => {
+                        this.router.navigate(['/the-lounge']);
+                    },
+                    template: () => {
+                        return '<img src="/assets/img/nav-icon/logo.svg">';
+                    }
+                }
+            },
+            {
+                widget: 'dxButton',
+                location: 'after',
+                locateInMenu: 'never',
+                cssClass: 'nav-text',
+                options: {
+                    onClick: () => {
+                        this.router.navigate(['/the-lounge']);
+                    },
+                    template: () => {
+                        return 'THE<i style="text-transform: lowercase;">lounge</i>';
+                    }
+                }
+            },
+            {
+                widget: 'dxButton',
+                location: 'after',
+                locateInMenu: 'never',
+                cssClass: 'nav-text',
+                options: {
+                    onClick: () => {
+                        this.router.navigate(['/the-cellar']);
+                    },
+                    template: () => {
+                        return 'THE<i style="text-transform: lowercase;">cellar</i>';
+                    },
+                }
+            },
+            {
+                widget: 'dxButton',
+                location: 'before',
+                locateInMenu: 'always',
+                options: {
+                    text: 'Contact',
+                    icon: 'assets/img/nav-icon/contact.svg',
+                    onClick: () => {
+                        this.router.navigate(['/contact']);
+                    }
+                }
+            },
+            {
+                widget: 'dxButton',
+                location: 'before',
+                locateInMenu: 'always',
+                options: {
+                    text: 'Jobs',
+                    icon: 'assets/img/nav-icon/jobs.svg',
+                    onClick: () => {
+                        this.router.navigate(['/jobs']);
+                    }
+                }
+            },
+            {
+                widget: 'dxButton',
+                location: 'before',
+                locateInMenu: 'always',
+                options: {
+                    icon: 'assets/img/nav-icon/travel.svg',
+                    text: 'Explore',
+                    onClick: () => {
+                        this.router.navigate(['/explore']);
+                    }
+                }
+            },
+            {
+                widget: 'dxButton',
+                location: 'before',
+                locateInMenu: 'always',
+                options: {
+                    icon: 'assets/img/nav-icon/guest.svg',
+                    text: 'Guest Portal',
+                    onClick: () => {
+                        this.router.navigate(['https://guest.hotelherrera.com']);
+                    }
+                }
+            },
+            {
+                widget: 'dxButton',
+                location: 'before',
+                locateInMenu: 'always',
+                options: {
+                    icon: 'assets/img/nav-icon/guest.svg',
+                    text: 'Staff Portal',
+                    onClick: () => {
+                        this.router.navigate(['https://staff.hotelherrera.com']);
+                    }
                 }
             },
             {
@@ -35806,22 +33324,30 @@ class TopnavComponent {
                 locateInMenu: 'always',
                 options: {
                     width: 140,
-                    items: this.productTypes,
-                    valueExpr: 'id',
-                    displayExpr: 'text',
-                    value: this.productTypes[0].id,
+                    items: [{
+                            ID: 'es-PA',
+                            Name: 'Panameño Español ',
+                            IconSrc: 'assets/img/laguanges/es-PA.svg'
+                        }, {
+                            ID: 'en_US',
+                            Name: 'US English',
+                            IconSrc: 'assets/img/laguanges/en-US.svg'
+                        }, {
+                            ID: 'fr',
+                            Name: 'French',
+                            IconSrc: 'assets/img/laguanges/fr.svg'
+                        }],
+                    valueExpr: 'ID',
+                    displayExpr: 'Name' /*(item) => {
+                        // "item" can be null
+                        return item && '<img src="' + item.IconSrc + '">' + item.Name;
+                    }*/,
+                    value: this.portalTypes[0].id,
                     onValueChanged: (args) => {
-                        if (args.value > 1) {
-                            this.productsStore.filter('type', '=', args.value);
-                        }
-                        else {
-                            this.productsStore.filter(null);
-                        }
-                        this.productsStore.load();
+                        console.log(args);
                     }
                 }
-            }
-        ];
+            }];
     }
     ngAfterViewInit() {
         // Get the header
@@ -35862,71 +33388,16 @@ exports.TopnavComponent = TopnavComponent;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-class ProductType {
+class PortalType {
 }
-exports.ProductType = ProductType;
-class Product {
-}
-exports.Product = Product;
-const productTypes = [{
+exports.PortalType = PortalType;
+const portalTypes = [{
         id: 1,
-        text: 'All'
+        text: 'Guest'
     }, {
         id: 2,
-        text: 'Video Players'
-    }, {
-        id: 3,
-        text: 'Televisions'
-    }, {
-        id: 4,
-        text: 'Monitors'
-    }, {
-        id: 5,
-        text: 'Projectors'
+        text: 'Staff'
     }];
-const products = [{
-        text: 'HD Video Player',
-        type: 2
-    }, {
-        text: 'SuperHD Video Player',
-        type: 2
-    }, {
-        text: 'SuperLCD 42',
-        type: 3
-    }, {
-        text: 'SuperLED 42',
-        type: 3
-    }, {
-        text: 'SuperLED 50',
-        type: 3
-    }, {
-        text: 'SuperLCD 55',
-        type: 3
-    }, {
-        text: 'DesktopLCD 19',
-        type: 4
-    }, {
-        text: 'DesktopLCD 21',
-        type: 4
-    }, {
-        text: 'DesktopLED 21',
-        type: 4
-    }, {
-        text: 'Projector Plus',
-        type: 5
-    }, {
-        text: 'Projector PlusHD',
-        type: 5
-    }];
-class Service {
-    getProductTypes() {
-        return productTypes;
-    }
-    getProducts() {
-        return products;
-    }
-}
-exports.Service = Service;
 class NavItems {
 }
 exports.NavItems = NavItems;
@@ -35948,6 +33419,9 @@ const navItems = [
     { cssclass: 'nav-icon', action: '/jobs', imageSrc: '/assets/img/nav-icon/job.svg' },
 ];
 class TopNavService {
+    getPortalsTypes() {
+        return portalTypes;
+    }
     getNavItems() {
         return navItems;
     }
@@ -36195,17 +33669,6 @@ module.exports = require("@angular/core");
 
 /***/ }),
 
-/***/ "@angular/forms":
-/*!*********************************!*\
-  !*** external "@angular/forms" ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("@angular/forms");
-
-/***/ }),
-
 /***/ "@angular/platform-browser":
 /*!********************************************!*\
   !*** external "@angular/platform-browser" ***!
@@ -36247,6 +33710,17 @@ module.exports = require("@angular/platform-server");
 /***/ (function(module, exports) {
 
 module.exports = require("@angular/router");
+
+/***/ }),
+
+/***/ "@angular/service-worker":
+/*!******************************************!*\
+  !*** external "@angular/service-worker" ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@angular/service-worker");
 
 /***/ }),
 
@@ -38912,17 +36386,6 @@ module.exports = require("devextreme/ui/scroll_view");
 
 /***/ }),
 
-/***/ "devextreme/ui/select_box":
-/*!*******************************************!*\
-  !*** external "devextreme/ui/select_box" ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("devextreme/ui/select_box");
-
-/***/ }),
-
 /***/ "devextreme/ui/speed_dial_action":
 /*!**************************************************!*\
   !*** external "devextreme/ui/speed_dial_action" ***!
@@ -38931,17 +36394,6 @@ module.exports = require("devextreme/ui/select_box");
 /***/ (function(module, exports) {
 
 module.exports = require("devextreme/ui/speed_dial_action");
-
-/***/ }),
-
-/***/ "devextreme/ui/text_box":
-/*!*****************************************!*\
-  !*** external "devextreme/ui/text_box" ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("devextreme/ui/text_box");
 
 /***/ }),
 
@@ -38964,17 +36416,6 @@ module.exports = require("devextreme/ui/tile_view");
 /***/ (function(module, exports) {
 
 module.exports = require("devextreme/ui/toolbar");
-
-/***/ }),
-
-/***/ "devextreme/ui/validator":
-/*!******************************************!*\
-  !*** external "devextreme/ui/validator" ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("devextreme/ui/validator");
 
 /***/ }),
 

@@ -12,7 +12,8 @@ import {
   RestaurantPageComponent,
   LoungePageComponent,
   HotelPageComponent,
-  CellarPageComponent
+  CellarPageComponent,
+  PhotoPageComponent
 } from './pages/';
 
 // General
@@ -58,6 +59,10 @@ const routes: Routes = [
   {
     path: 'the-cellar',
     component: CellarPageComponent,
+  },
+  {
+    path: 'photo',
+    component: PhotoPageComponent,
   }
 //  { path: '**', component: PageNotFoundComponent }
 ];
