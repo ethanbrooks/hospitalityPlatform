@@ -410,7 +410,8 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
 */
     .use(uppy.AwsS3Multipart, {
       limit: 4,
-      companionUrl: 'https://beta.hotelherrera.com/upload-dest/dev',
+//      companionUrl: 'https://beta.hotelherrera.com/upload-dest/dev',
+      companionUrl: 'https://frofgzfaic.execute-api.us-east-1.amazonaws.com/dev',
     })
     .run();
 /*

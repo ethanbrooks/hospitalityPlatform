@@ -1,0 +1,7 @@
+({
+  "blog_title": "Poesía Aérea: La Tribu Performance en Plaza Herrera",
+  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nLa Plaza Herrera estuvo llena tanto sábado como domingo: todos para ver el espectáculo &#171;Cayendo Volando&#187; de La Tribu Performance, un grupo de circo experimental que mezcla las acrobacias y malabarismos propios del circo con danza aérea. En este caso, colgados desde las fachadas de edificios!\nLas piezas que presentaron estuvieron fantásticas, para ello, La Tribu trabajó en conjunto con Organización Efímera (España), Circo Andante (Perú) y Carolina Cabañas (Costa Rica). Juntos aplicaron y ganaron los premios del Fondo Iberescena para las artes 2014.\nEl espectáculo se compuso de pequeñas historias, que tuvieron al público moviéndose por toda la plaza en los distintos escenarios que habían montado. El final del show estuvo fuera de serie con acrobacias de fuego y danza. La música de todo el show estuvo bien escogida, al tono de la complejidad de cada pieza.\nComo ex bailarina sé que este tipo de espectáculo cuesta un montón llevarlo a cabo, e involucra siempre muchísima gente y sudor. Felicito al grupo La Tribu, en especial a Leo y a todos quienes estuvieron apoyando para regalarnos a todos su arte.\n           \n",
+  "blog_link": "http://arcoproperties.com/poesia-aerea-la-tribu-performance-en-plaza-herrera/",
+  "blog_date": "2014-04-28T09:59:48-05:00",
+  "blog_image": "/image-src/fit-in/640x480/poesia-aerea-la-tribu-performance-en-plaza-herrera-2014-04-0.jpg"
+})

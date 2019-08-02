@@ -1,0 +1,7 @@
+({
+  "blog_title": "Nacimientos en el Casco Viejo",
+  "blog_text": "Panamá Casco Viejo, Casco Antiguo\nCuando era niña, era tradición hacer un nacimiento en casa. Era un proceso genial, en donde cortábamos los cartones de leche de Estrella Azul (que venían marcados para el caso con estrellas y casas) y hacíamos nuestra pequeña aldea. Una vez armada, le poníamos los personajes clásicos, a los que sumábamos nuestros juguetes.  Nuestros nacimientos siempre incluyeron Transformers y dinosaurios. Me causaba mucha gracia que, como todos los animales eran de juegos distintos, todos tenían proporciones que no hacían sentido. Y todos, todos, eran más grandes que la gente. Godzilla? pues sí, algo así.\nPero lo mejor era irse de gira por el vecindario para ver los nacimientos más grandes. Habían personas que llenaban un garage entero, con reproducciones exactas y maravillosas, incluyendo molinos de agua que funcionaban. Impresionante.\nAnoche, paseando con unos amigos, me encontré con uno de estos nacimientos fabulosos. Está en exhibición en la iglesia San Felipe Neri en Plaza Bolívar. Deben entrar por el lateral de la iglesia y pedir paso al nacimiento. Está en exhibición todo el día hasta las 8 y pico de la noche. Recomendado!\n    \n",
+  "blog_link": "http://arcoproperties.com/nacimientos-en-el-casco-viejo/",
+  "blog_date": "2015-12-22T09:08:08-05:00",
+  "blog_image": "/image-src/fit-in/640x480/nacimientos-en-el-casco-viejo-2015-12-0.jpg"
+})

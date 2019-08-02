@@ -1,0 +1,6 @@
+({
+  "blog_title": "Excelente Velada en Casco Viejo, Panama",
+  "blog_text": "Anoche tuvimos una excelente velada en el Casco Viejo.\nLa noche inició a las 8 p.m. en el Teatro Nacional, en donde se presentaba el pianista argentino Alexander Panizza.  La presentación dio inicio con la Orquesta Sinfónica de Panamá, y luego con el pianista invitado&#8230; impecable! Su encore fue La Campanella, la cual tocó de manera impresionante.\nA la salida nos fuimos a cenar a Las Clementinas, porque se nos antojó el delicioso guacho de mariscos (que no es exactamente un guacho, lo hacen con risoto y una salsa de tomate con mariscos). Me hubiese comido dos órdenes!  En medio de risas, vino y guacho, el administrador del restaurante (Carlos) salió de pronto y se sentó en el piano al lado del barcito&#8230; y comenzó a tocar! Piezas románticas, sobretodo Schummann.\nExcelente cierre para una noche tan especial.\n\n",
+  "blog_link": "http://arcoproperties.com/excelente-velada-en-casco-viejo-panama/",
+  "blog_date": "2011-07-28T17:03:06-05:00"
+})

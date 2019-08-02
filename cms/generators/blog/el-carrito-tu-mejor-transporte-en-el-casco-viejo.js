@@ -1,0 +1,7 @@
+({
+  "blog_title": "El Carrito: tu mejor transporte en el Casco Viejo!",
+  "blog_text": "Casco Viejo Restaurante\nLas Clementinas tiene sin duda alguna la manera más divertida de transporte en el Casco Viejo: le llamamos &#171;El Carrito&#187;.  Un carro de golf sumamente cómodo y de 6 asientos, &#171;el carrito&#187;  lleva y trae huéspedes y clientes desde y hacia Las Clementinas (hotel o restaurante) a cualquier parte del Casco Viejo. Realmente fantástico!\nTienes invitados visitándote? completa la experiencia de tu brunch, almuerzo o cena en Clementinas con un tour en &#171;el carrito&#187;. Super cómodo para esas salidas de viernes en la noche con tus amigos en que decidiste ponerte esos zapatos de tacón de aguja que tanto te gustan! Carlos, el chofer del carrito, habla inglés y español.\nPuedes llamarlo/ mandarle un mensaje a cualquier hora al teléfono: 6141-0542  /  PIN 22E61743\nReserva ya en Las Clementinas al: Ph. (507)  228-7617\n\n",
+  "blog_link": "http://arcoproperties.com/el-carrito-tu-mejor-transporte-en-el-casco-viejo/",
+  "blog_date": "2011-09-27T17:45:19-05:00",
+  "blog_image": "/image-src/fit-in/640x480/el-carrito-tu-mejor-transporte-en-el-casco-viejo-2011-09-0.jpg"
+})

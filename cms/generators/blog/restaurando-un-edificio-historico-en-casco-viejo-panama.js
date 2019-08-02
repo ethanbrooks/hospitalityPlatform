@@ -1,0 +1,7 @@
+({
+  "blog_title": "Restaurando un edificio histórico en Casco Viejo, Panamá",
+  "blog_text": "Panama, Casco Viejo &#8211; Casco Antiguo\n&nbsp;\nRestaurar un edificio en el Casco Viejo es una fórmula de 3 &#171;P&#187;:  paciencia, profesionalismo y pasión.  Por ello, cuando finalmente ves la obra en construcción.. wao!\nLa gente que visita el Casco Antiguo nota enseguida la cantidad de edificiaciones en construcción, pero sin saber el trabajo titánico que se realiza tras bastidores. Por ejemplo, sólo aprobar los planos completos puede tomar un año, y la construcción en sí de un edificio de tres plantas puede tomar un año y medio, que pueden tornarse dos años fácilmente.\nSin embargo, para aquellos que gustan de ser parte de la creación de algo, esta es una de las actividades más satisfactorias del Casco Viejo. Una de las cosas más interesantes es la investigación histórica: encontrar fotos o historias relacionadas con la casa.  Esta foto, por ejemplo, la encontramos en una edición de la revista Epocas. Es de un edificio actualmente en construcción. No puedo esperar a ver los resultados!\nEdificio Casco Viejo Panama\n&nbsp;\nFuente: Revista Epocas\n",
+  "blog_link": "http://arcoproperties.com/restaurando-un-edificio-historico-en-casco-viejo-panama/",
+  "blog_date": "2011-10-18T09:30:08-05:00",
+  "blog_image": "/image-src/fit-in/640x480/restaurando-un-edificio-historico-en-casco-viejo-panama-2011-10-0.jpg"
+})

@@ -1,0 +1,7 @@
+({
+  "blog_title": "Calentando Motores para el Panama Jazz Festival 2012",
+  "blog_text": "&nbsp;\nCasco Viejo, Panama\nAlmorzar con el ganador de Grammy panameño Danilo Pérez es una experiencia en sí misma. El siempre está lleno de energía e información, pero sobretodo, uno termina amando a Panamá un poco más luego de conversar con él.  Yo no sabía, por ejemplo, que Panamá era uno de los países con más músicos que han realizado (y siguen realizando) contribuciones significativas al jazz.  En cada Panama Jazz Festival, Danilo subraya su punto al dedicarle el festival a un mùsico distinto, celebrar su vida y su contribución a este género musical.\nEste año, la 9na edicion del Panama Jazz Festival estará dedicada a Carlos Garnett, un saxofonista autodidacta, que comenzó tocando calypso en 1957. Se muda a Nueva York en los años 60 y termina tocando con grandes nombres como Miles Davis y Charles Mingus.\nEsta novena edición del Panama Jazz Festival será emocionante! Grandes nombres como Tito Puente Jr y Omara Portuondo estarán participando. Chucho Valdés, Charlie  Sepulveda, Luis Bonilla,  John Scofield, Marlow Rosado, Teri Roigers, todos ellos compartirán escenarios del 16 al 21 de enero 2012.\nAún no tenemos todos los detalles de la agenda, pero manténanse en sintonía!\n\n",
+  "blog_link": "http://arcoproperties.com/calentando-motores-para-el-panama-jazz-festival-2012/",
+  "blog_date": "2011-07-29T08:38:25-05:00",
+  "blog_image": "/image-src/fit-in/640x480/calentando-motores-para-el-panama-jazz-festival-2012-2011-07-0.jpg"
+})

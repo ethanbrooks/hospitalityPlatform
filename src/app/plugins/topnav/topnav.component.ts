@@ -88,7 +88,7 @@ export class TopnavComponent implements AfterViewInit {
             cssClass: 'nav-icon',
             options: {
                 onClick: () => {
-                    this.router.navigate(['/the-lounge']);
+                    this.router.navigate(['/blog']);
                 },
                 template: () => {
                     return '<img src="/assets/img/nav-icon/logo.svg">';

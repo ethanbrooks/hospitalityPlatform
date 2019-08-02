@@ -1,0 +1,6 @@
+({
+  "blog_title": "Operación de Perros y Gatos en Casco Viejo un Exito!",
+  "blog_text": "Casco Viejo, Panama, Casco Antiguo\nLa Dra. Patricia Chan es una de esas fuerzas imparables. Cuando la conoces por primera vez, te da la impresión de que es recta como una flecha con un compromiso total y absoluto con su causa. Y qué causa tan noble! operar a todos los animales callejeros y de propietarios con bajos recursos, para lograr una ciudad más sana y unas mascotas más felices.\nEste domingo, su ong llamada Spay Panama en conjunto con Angeles de los Animales y AVACA (Asociación de Vecinos y Amigos del Casco Antiguo) realizó una jornada de operaciones en el Casco Viejo.  Se operaron alrededor de 60 animales, la mayoría perros y gatos. El evento fue fabuloso, porque le dio la oportunidad de accesar este procedimiento a familias de bajos recursos y a animales de la calle.\nEl evento se llevó a cabo en el Centro Comunitario de Santa Familia, en un espacio facilitado por Top Level Gym.  Felicidades a todos los involucrados en la organización y ejecución del proyecto!\nSi desean realizar donaciones a Spay Panama, no duden en contactarles  AQUÍ.\n\n",
+  "blog_link": "http://arcoproperties.com/operacion-de-perros-y-gatos-en-casco-viejo-un-exito/",
+  "blog_date": "2011-12-21T12:41:42-05:00"
+})

@@ -1,0 +1,6 @@
+({
+  "blog_title": "Nuevo Restaurante en Casco Viejo: L`Osteria en Casa del Horno",
+  "blog_text": "Casco Viejo, Casco Antiguo, Panama\nAnoche, los casqueños se reunieron en L `Osteria, el nuevo restaurante de Casa del Horno. Sus hermosas paredes de calicanto daban el ambiente perfecto para la deliciosa cocina italiana de la chef Bárbara.\nL`Osteria, del Latin &#171;hospes&#187; significa &#171;huèsped&#187;. Es decir, un espacio público en donde se sirven bebidas, tradicionalmente vino. Derivado de la antigua Roma &#171;caupona&#187; en la Edad Media, la Osteria era el sitio en donde el viajero podía encontrar alojamiento y comida.\nAsí que ya saben! Inicialmente, L`Osteria en el Casco Viejo dará la bienvenida a sus huèspedes sólo para la cena, mientras dure la construcción de la Avenida B. Luego abrirán para almuerzo.\nFelicidades!\n\n",
+  "blog_link": "http://arcoproperties.com/nuevo-restaurante-en-casco-viejo-losteria-en-casa-del-horno/",
+  "blog_date": "2012-02-24T11:05:10-05:00"
+})

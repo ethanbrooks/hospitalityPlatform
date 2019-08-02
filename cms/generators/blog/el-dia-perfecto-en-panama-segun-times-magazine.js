@@ -1,0 +1,6 @@
+({
+  "blog_title": "El Día Perfecto en Panamá según Times Magazine",
+  "blog_text": "Un amigo recién me trajo la edición de abril de  Time Magazine la cual tiene un artículo llamado El Día Perfecto en Panamá&#8230; destacando el Casco Viejo! con una foto enorme de nuestra Plaza Herrera para ilustrar el artículo.  Por supuesto, estamos totalmente de acuerdo!\nLevantarse temprano en la mañana y caminar al Cerro Ancón desde el Casco es una experiencia que te lleva a través de la histórica Avenida Central a la antigua Zona del Canal, y luego subir el cerro con todo su bosque tropical y sus tucanes es un recorrido que te recompensa al final con unas de las mejores vistas de la ciudad.  En definitiva la mejor manera de comenzar el día: saludable y con una dosis compacta del patrimonio cultural y natural de Panamá. Todo en menos de dos horas!\nY luego, por supuesto, la experiencia que te ofrecen los distintos sitios en Casco, que van desde restaurantes, bares hasta teatros.\n\n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/el-dia-perfecto-en-panama-segun-times-magazine/",
+  "blog_date": "2012-05-02T15:38:39-05:00"
+})

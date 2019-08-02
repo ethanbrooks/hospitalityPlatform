@@ -1,0 +1,7 @@
+({
+  "blog_title": "CENTRAL HOTEL PANAMA, A HISTORIC LANDMARK",
+  "blog_text": "\nAs a curious fact, in 1873, the brother´s company Shuber began the construction and finished works in 1874, baptizing the building as the Grand Hotel Central, now known as Central Hotel Panama.\nIn 1878, the hotel was destroyed by a fire that started by a detonation in the pharmacy located in one of the local commercials inside the hotel. The hotel was rebuilt and opened again in 1884. The new hotel boasts all of 19th century Europeanizing modernity.\nThe most striking element of the hotel was the interior courtyard &#171;The Palm Garden&#187;, it was a tourist attraction and the meeting point of that time.\nIn 1894 the hotel was purchased by Henry Ehrman who restored it to become one of the most elegant buildings of the city in the late 20th century.\nOn November 3, 1903, the Revolutionary Council chose the Central Hotel as their office and provisional headquarters, to establish military control and various defense strategies.\nCurrently the building was restored and continues its history as a Hotel. It has 135 luxurious rooms, equipped with a soft lighting, television, bathtub, jacuzzi, everything to make the guest experience great.\n",
+  "blog_link": "http://arcoproperties.com/central-hotel-panama-a-historic-lanmark/",
+  "blog_date": "2017-01-04T10:45:56-05:00",
+  "blog_image": "/image-src/fit-in/640x480/central-hotel-panama-a-historic-lanmark-2017-01-0.jpg"
+})

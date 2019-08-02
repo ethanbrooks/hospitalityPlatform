@@ -1,0 +1,7 @@
+({
+  "blog_title": "Inversiones públicas en Casco Viejo",
+  "blog_text": "Panamá , Casco Viejo, Casco Antiguo\nPoco a poco, se han ido inaugurando varias obras importantes para el mejoramiento de la vida diaria del casqueño.  Hace unas semanas, se inauguró la renovada Plaza 5 de Mayo. Al mismo tiempo avanzan las obras de la Plaza Santa Ana junto a la infraestructura y mejoramiento de la peatonal de Avenida Central.  También en Santa Ana, pero hacia la Avenida A ya iniciaron las obras de re construcción de Plaza Amador, que incluye instalaciones deportivas.También, hace una semana, se anunció el inicio del sistema de seguridad a través cámaras y monitoreo de la ciudad de Panamá, lo cual incluye San Felipe y Santa Ana.\nEn el día de hoy, anunciaron la entrega del remozamiento del Mercado de Mariscos, a la entrada del Casco Antiguo y uno de los primeros proveedores de mariscos a nivel capitalino. También se dio inicio a la remodelación del mercado de abastos San Felipe Neri, en conjunto con la construcción de estacionamiento en el antiguo edificio Edén.\nAQUI se encuentra el link con la información reportada por el diario La Estrella sobre el Mercado de Marisos.  Y la nota de la Alcaldía aquí.   \n \n",
+  "blog_link": "http://arcoproperties.com/inversiones-publicas-en-casco-viejo/",
+  "blog_date": "2017-11-16T08:46:06-05:00",
+  "blog_image": "/image-src/fit-in/640x480/inversiones-publicas-en-casco-viejo-2017-11-0.jpg"
+})

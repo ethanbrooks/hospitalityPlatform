@@ -1,0 +1,6 @@
+({
+  "blog_title": "Biodigestor en San Felipe Neri, Casco Viejo",
+  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nEstamos impresionados. Finalmente, un biodigestor para nuestro mercado de San Felipe Neri! El programa Basura Cero de la Alcaldía ha instalado el prototipo, el cual esperan poder seguir diseminando en todos los mercados públicos de la ciudad.  Este es un paso enorme, que tomó en cuenta las sugerencias de nuestra comunidad. Los mercados públicos producen muchísima basura orgánica, la cual inevitablemente terminaba en nuestras calles.\nEste bio digestor tiene una capacidad de 2.5m3 y puede procesar hasta 45 libras diariamente.\nEstamos felices de que la Alcaldía haya tomado al Casco Viejo como el sitio perfecto para probar esta tecnología. Esto, junto al programa piloto de la Autoridad de Aseo en donde se ha aumentado la frecuencia de recolección de basura, está haciendo que el Casco camine poco a poco a su objetivo: Basura Cero.\nAQUI la noticia del Municipio\n",
+  "blog_link": "http://arcoproperties.com/biodigestor-en-san-felipe-neri-casco-viejo/",
+  "blog_date": "2015-10-02T09:11:12-05:00"
+})

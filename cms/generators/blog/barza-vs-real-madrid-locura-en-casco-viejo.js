@@ -1,0 +1,6 @@
+({
+  "blog_title": "Barza vs Real Madrid = locura en Casco Viejo",
+  "blog_text": "Casco Viejo, Panamá, Casco Antiguo\nRealmente no sabría decir por qué. Por qué nos interesa tanto ya sea el Barza o el Real Madrid. Digo, al fin y al cabo estamos en Panamá! Quizás porque fuimos colonia española? no creo. Pero la realidad es que amamos la liga española, y cuando juegan, las calles del Casco Viejo se prenden. Dependiendo de la calle eres uno u otro!\nJusto ayer estábamos en la oficina de Arco Properties todos tranquilos y de repente escuchamos estos gritos dignos de una manada de monos aulladores salir del Sitio del Casco (el sports bar que está a pocos pasos).  Salimos a ver, y vimos el montón de gente apiñada tratando de ver el partido. Aparentmente el ambiente estaba caldeado porque iban empate. Qué sorpresa cuando nos enteramos que terminaron empate!\nNo sabemos si el Barza o el Real saben que tienen un grupo de fanáticos totales en esta esquina del mundo.  Si les conocen, mándenles este blog!\n\n",
+  "blog_link": "http://arcoproperties.com/barza-vs-real-madrid-locura-en-casco-viejo/",
+  "blog_date": "2012-01-27T11:16:08-05:00"
+})

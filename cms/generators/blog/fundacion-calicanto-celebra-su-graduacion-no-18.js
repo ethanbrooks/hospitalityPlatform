@@ -1,0 +1,6 @@
+({
+  "blog_title": "Fundación Calicanto celebra su graduación No. 18",
+  "blog_text": "Casco Viejo, Panama\nAyer, en el Museo del Canal ubicado en el Casco Antiguo, la Fundación Calicanto celebró la graduación número 18 de su programa CAPTA. Este programa prepara a mujeres del barrio para trabajar de amas de llaves en hoteles, pero de hecho, les da mucho más: el ciclo completo incluye un módulo importantísimo de autoestima que les ayuda a que rompan por sí mismas el ciclo de la pobreza.  Desde finanzas personales hasta inteligencia emocional, enciende una pequeña llama de esperanza que ahora ellas pueden hacer crecer a medida que avanzan y extender a sus familias.\nCada graduación cuenta con 20 participantes, con lo que el programa ha transformado la vida de al menos 360 familias. Gracias a todos los donantes y personas en Calicanto que hacen esto posible! Si desean conocer más de la fundación, donar o voluntariarse, les invito a que visiten su página web AQUI. \n\n\n",
+  "blog_link": "http://arcoproperties.com/fundacion-calicanto-celebra-su-graduacion-no-18/",
+  "blog_date": "2012-04-25T08:27:11-05:00"
+})

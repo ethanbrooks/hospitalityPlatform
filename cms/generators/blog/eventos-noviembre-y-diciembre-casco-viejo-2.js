@@ -1,0 +1,7 @@
+({
+  "blog_title": "Eventos Noviembre y Diciembre, Casco Viejo",
+  "blog_text": "Panama, Casco Viejo, Casco Antiguo\nPreparándose para las fechas navideñas, ya las plazas tienen su iluminación lista para inaugurar el 01ero de Diciembre. Pero antes, el Casco ha estado lleno de eventos. Aquí algunos:\nExpo Chingui en Casa Soldado:  nuestro querido artista Manuel Sacramento, alias Chingui, estará exponiendo en Casa Soldado hasta el 3 de Febrero. Ver info AQUI. \nMovember: hoy Sábado, evento para levantar fondos para Movember en El Social. Movember es una organización comprometida con cambiar la salud en los hombres. Ver info sobre Movember AQUI.\n10mo aniversario de Café Per Due: felicidades Manuela! Diez años en nuestra comunidad! A celebrar todos juntos mañana domingo!\nKorea Lovers: 24 de noviembre. Día sobre todas las cosas koreanas en Casco Viejo\nDía en la Bahía: 9 de Diciembre: día de Playa en la playita de Santo Domingo, ubicada en Calle 3era, Casco Viejo\nMás eventos:\n    \n\n",
+  "blog_link": "http://arcoproperties.com/eventos-noviembre-y-diciembre-casco-viejo-2/",
+  "blog_date": "2018-11-17T10:05:26-05:00",
+  "blog_image": "/image-src/fit-in/640x480/eventos-noviembre-y-diciembre-casco-viejo-2-2018-11-0.jpg"
+})

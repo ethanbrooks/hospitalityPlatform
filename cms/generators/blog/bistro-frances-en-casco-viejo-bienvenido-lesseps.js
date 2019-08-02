@@ -1,0 +1,7 @@
+({
+  "blog_title": "Bistro Francés en Casco Viejo, bienvenido Lessep’s!",
+  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nEn Dónde: Casa Ruigar, esquina de Calle 4ta y Avenida A, enfrente de Arco Properties.\nHermosamente remodelado, en el estilo de los Bistros franceses parisinos, Lessep´s inauguró esta semana. Los propietarios son Cedric y Barbara, quienes se mudaron recientemente a Panamá y son residentes a tiempo completo en Casco Viejo. Nos encanta poder decir que los propietarios &#171;viven, trabajan e invierten en Casco Viejo&#187;.\nEl menu tiene los favoritos de todos los tiempos: huevos benedictinos y el croquet monsieur, pero también tiene tremendas opciones para almuerzos y cenas. Claro, el problema es&#8230; que está justo enfrente de nuestra oficina! creo que vamos a subir nuestra mensualidad en  Casco Yoga y Alley Cat Gym para mantenernos balanceados! =)\nAquí está su página Facebook: Bistro Cafe Lessep´s \nAnd their phone for reservations: 385-2547\n   \n",
+  "blog_link": "http://arcoproperties.com/bistro-frances-en-casco-viejo-bienvenido-lesseps/",
+  "blog_date": "2017-08-16T11:59:26-05:00",
+  "blog_image": "/image-src/fit-in/640x480/bistro-frances-en-casco-viejo-bienvenido-lesseps-2017-08-0.jpg"
+})

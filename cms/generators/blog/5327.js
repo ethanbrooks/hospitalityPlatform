@@ -1,0 +1,6 @@
+({
+  "blog_title": "Eco Arte, Comida Sana y Degustaciones en Alianza Francesa, Casco Viejo",
+  "blog_text": "Casco Viejo, Panama, Casco Antiguo\n&nbsp;\nLa Alianza Francesa está presentando gratis en la Embajada de Francia ubicada en Plaza Francia (Las Bóvedas) una exhibición de arte llamada: &#171;Diálogo coco- bambú: Biodiversidad, Humanidad y Arte&#187; por la artista Velérie Leblet.\nLa exhibición, que tomó un año armar, es parte de un evento más amplio, en donde se darán conferencias y talleres sobre la naturaleza e iniciativas verdes.\nAquí va el listado de las conferencias\nNov. 21st: Escuela de la Naturaleza.  6:30 p.m. to 8:30 p.m.\nNov. 22nd: Taller de Bambú para adultos . 6:30 p.m. to 8:30 p.m.\n(de paso, noten que esta misma noche habrá un concierto en el Teatro Nacional por la orquesta de cámara alemana Signum Quartet, a las 8 p.m)\nNov. 23rd: Conferencia &#171;Bicicool&#187; , un movimiento que busca incentivar el uso de la bicicleta en la ciudad.   6:30 p.m to 7: 30 p.m.\nNov. 24th: Cocina Sana, Taller y degustación! Costo: $15.\nSi están interesados en participar, llament al 223-7376.  El show de arte debe estar abierto de Lunes a Jueves,  9 a.m. a 8 p.m.  En sábados hasta las 5:30 p.m.\nAquí la nota de La Prensa\n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/5327/",
+  "blog_date": "2011-11-21T08:39:52-05:00"
+})

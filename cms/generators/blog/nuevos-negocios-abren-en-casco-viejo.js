@@ -1,0 +1,6 @@
+({
+  "blog_title": "Nuevos Negocios Abren en Casco Viejo, Panamá",
+  "blog_text": "Panama Casco Viejo\nHace algunos días reportamos sobre la apertura de Bajareque Café, el delicioso cafecito en Calle 1era con café de alta calidad proveniente de las tierras altas de Chiriquí, cuyo dueño es el apasionado Wilford.\nHoy, le damos la bienvenida a dos nuevos negocios: Happy Landing (Agencia de Viajes) y Grapes Restaurant &amp; Bar.\nEstán ubicados uno frente al otro, en Calle 8va, la agencia en el edificio Marqués de Portago.  Julia Elena Barham y Ruth Otero son las ejecutivas de ventas de Happy Landing, y les pueden ayudar tanto con tours para explorar Panamá como con compra de boletería aérea en general.\nGrapes, justo en frente, se especializa en cocina internacional y carnes. Ellos están abiertos para la cena inicialmente, pero tienen planes para abrir pronto también durante los almuerzos.\nAquí están los contactos para ambos:\nHappy Landing Travel Agency: info@happylanding.com.pa  or  julia.barham@happylanding.com.pa.  Tel (507) 212-0613/ 1561\nGrapes: Tel (507) 212-1882  or   info@grapes.com.pa\n\n",
+  "blog_link": "http://arcoproperties.com/nuevos-negocios-abren-en-casco-viejo/",
+  "blog_date": "2012-07-04T08:17:23-05:00"
+})

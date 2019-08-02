@@ -1,0 +1,6 @@
+({
+  "blog_title": "Nuevo Negocio Abre en el Casco Viejo: Esquina Photo",
+  "blog_text": "Panamá Casco Viejo\nTodos los días aprendo algo nuevo. Aprendí que la palabra &#171;foto&#187; tiene orígenes griegos y que significa algo así como &#171;escribir con luz&#187;.  La semana pasada, Esquina Photo celebró este concepto en su inauguración en el Casco Viejo, en donde todos los que fuimos escribimos palabras en el aire utilizando tubos luminosos mientras la fotógrafa invitada tomaba fotos. Quedaron espectaculares!\nEl concepto de la galería es interesante: la idea es ofrecer arte fotográfico bueno e interesante a precios módicos.  Los fotógrafos son artistas amateurs panameños pero también de otros países.  La galería también tendrá obras de fotógrafos profesionales, pero la idea es que los visitantes puedan llevarse a casa un regalo de calidad a un precio accesible.\nLa galería está ubicada en la esquina de Calle 1era y Avenida A, y estará a cargo de Ingrid Moore.  Aquí va su email: imoore@esquinaphoto.com \nBienvenidos!\n\n",
+  "blog_link": "http://arcoproperties.com/nuevo-negocio-abre-en-el-casco-viejo-esquina-photo/",
+  "blog_date": "2012-08-13T08:46:35-05:00"
+})

@@ -1,0 +1,7 @@
+({
+  "blog_title": "CoWorking en Casco Viejo, Panamá",
+  "blog_text": "Casco Antiguo Panamá\nEres un profesional creativo y hasta el momento has estado trabajando desde casa o para alguien, pero tratando de dedicar más espacio a tu propio producto. Alquilar una oficina compartida no es tu estilo,  principalmente porque puede que tu trabajo no tenga nada que ver con el vecino y la sinergia con otros creativos se pierda.\nAntes de que te vuelvas neurótico en casa (o en el trabajo) considera el CascoStation! No es una &#171;oficina compartida&#187; ni una &#171;oficina virtual&#187;. Es un grupo de profesionales creativos independientes (artistas, diseñadores de web, gráficos, etc) que usan Casco Station temporalmente para compartir, colaborar en proyectos, reunirse con clientes y ampliar tu red de contactos.\nUbicado en Calle 5ta y Avenida A Casco Viejo, el alquiler depende de cuánto tiempo estés ahí: puede ser diario, un par de días a la semana o sólo los Sábados.\nNo te pierdas su sitio web con más información y buenas fotos de las facilidades:\nCOWORKING\nO escríbele a Harold : work@CascoStation.com\nTambién están en Facebook y en Twitter: Casco Station\n\n",
+  "blog_link": "http://arcoproperties.com/coworking-en-casco-viejo-panama/",
+  "blog_date": "2011-08-22T16:56:01-05:00",
+  "blog_image": "/image-src/fit-in/640x480/coworking-en-casco-viejo-panama-2011-08-0.jpg"
+})

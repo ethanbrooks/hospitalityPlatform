@@ -1,0 +1,6 @@
+({
+  "blog_title": "Arte Transforma Lotes Baldíos en Jardines Urbanos en Casco Viejo",
+  "blog_text": "Panamá Casco Viejo\nAsí que tienes un vecino que nunca cuida de su propiedad. Aunque es un lote baldío, siempre termina lleno de basura, hierba y quién sabe cuántas cosas más. Has tratado de enviarle mensajes al propietario, pero nada parece llamarle mucho la atención.  Llamar a las autoridades es siempre una opción, pero enfrentemos la realidad: luego de aplicada la multa, todo regresa a su condición original, porque la persona simplemente no vive en el barrio.\nEntonces, qué hacer para romper el ciclo?\nTransformarlo con arte! hacer algo positivo para la comunidad en vez de permitir que siga siendo un sitio lleno de basura y graffiti.  Hagámoslo un sitio hermoso!\nEn una intervención artística flash, Sembrarte, Aprojusan, Jardines Urbanos y AVACA transformaron este lotecito el domingo. Los niños guiados por el artista Rolo de Sedas pintaron llantas de carros y ayudaron a sembrar el jardin. Voluntarios borraron el grafiti y ayudaron a instalar las llantas. Mil ideas comienzan a aflorar: poner banquitas, etc.  Este fue sólo el inicio!  Ahora el sitio se ve mucho mejor!\n\n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/arte-transforma-lotes-baldios-en-jardines-urbanos-en-casco-viejo/",
+  "blog_date": "2012-08-06T09:17:20-05:00"
+})

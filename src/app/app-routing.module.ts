@@ -13,7 +13,8 @@ import {
   LoungePageComponent,
   HotelPageComponent,
   CellarPageComponent,
-  PhotoPageComponent
+  PhotoPageComponent,
+  FilterPageComponent
 } from './pages/';
 
 // General
@@ -63,8 +64,12 @@ const routes: Routes = [
   {
     path: 'photo',
     component: PhotoPageComponent,
+  },
+  {
+    path: 'filter',
+    component: FilterPageComponent,
   }
-//  { path: '**', component: PageNotFoundComponent }
+  //  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({

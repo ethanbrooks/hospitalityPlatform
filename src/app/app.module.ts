@@ -123,7 +123,8 @@ import {
   LoungePageComponent,
   HotelPageComponent,
   CellarPageComponent,
-  PhotoPageComponent
+  PhotoPageComponent,
+  FilterPageComponent
 } from './pages/';
 
 
@@ -221,6 +222,8 @@ import {
     LoungePageComponent,
     HotelPageComponent,
     CellarPageComponent,
+    PhotoPageComponent,
+    FilterPageComponent,
 
     VideoComponent,
     TopnavComponent,

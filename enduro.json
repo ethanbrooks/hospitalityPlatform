@@ -6,8 +6,8 @@
 		"region": "us-east-1"
 	},
 	"cultures": [
-		"en_US",
-		"es_PA"
+		"en",
+		"es"
 	],
 	"juicebox_enabled": false
 }

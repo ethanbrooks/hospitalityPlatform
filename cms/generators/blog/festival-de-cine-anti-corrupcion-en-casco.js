@@ -1,0 +1,7 @@
+({
+  "blog_title": "Festival de Cine Anti Corrupción en Casco",
+  "blog_text": "Panamá Casco Viejo, Casco Antiguo\nNada  como el arte y la cultura para abrir el diálogo y cambiar la sociedad. La iniciativa del capítulo de Panamá de Transparencia Internacional de hacer un Festival de Cine Anti Corrupción, en el marco de la conferencia internacional que se está haciendo en nuestro país está genial. Y nos encanta que hayan escogido el Casco para poder abrir esto al público general de forma gratuita y lleno de significado.\nComenzó el 29 de Noviembre y continuará hasta el 4 de Diciembre, mayormente en Plaza Catedral y el 3 en Plaza Francia. Todos desde las 6:30 p.m.  Cada noche, una película distinta, de varios países incluyendo Panamá. Cada una excelente. Vi la del Dietilene Glycol y fue increíble la historia de dolor, pero también del coraje de todas estas personas y el amor.\nMás sobre la conferencia: AQUÍ\nMás sobre las películas AQUÍ\nEstas son las películas que se muestran:\n \n",
+  "blog_link": "http://arcoproperties.com/festival-de-cine-anti-corrupcion-en-casco/",
+  "blog_date": "2016-12-03T12:50:26-05:00",
+  "blog_image": "/image-src/fit-in/640x480/festival-de-cine-anti-corrupcion-en-casco-2016-12-0.jpg"
+})

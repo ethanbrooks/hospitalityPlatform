@@ -1,0 +1,6 @@
+({
+  "blog_title": "La fruta más grande del mundo nacida de un árbol… en Casco Viejo",
+  "blog_text": "Casco Viejo, Panama, Casco Antiguo\nPregunta de Jeopardy: &#171;Qué es un Jackfruit&#187;?  He aquí la respuesta:\nEs la fruta más grande del mundo nacida de un árbol. La fruta puede llegar a pesar hasta 75 libras. Su tamaño estándar está entre 1 a 2 pies y entre 9 y 12 pulgadas de ancho. Su cáscara es verde amarillo, con pequeñas protuberancias y su carne es amarilla con sabor parecido al guineo. Estas frutas tienen un olor fuerte que emana de la cáscara y es extremadamente popular en Asia.\nPregunta No. 2: En dónde más puedes encontrar JackFruit? &#8230;. pues en Casco Viejo, Panamá! por supuesto! específicamente frente al condominio Benedetti Hermanos, en Avenida Central entre calle 10ma y 11ava.  Hay 2 hermosos árboles que ya están dando fruto.. y qué fruto! en la foto se ven mis manos para comparación.\nPregunta No. 3:  Y cómo diablos llegó ahí? Bueno&#8230;. sólo podemos decir que fue una &#171;travesura&#187;&#8230;.\n\n",
+  "blog_link": "http://arcoproperties.com/la-fruta-mas-grande-del-mundo-nacida-de-un-arbol-en-casco-viejo/",
+  "blog_date": "2012-01-13T17:08:51-05:00"
+})

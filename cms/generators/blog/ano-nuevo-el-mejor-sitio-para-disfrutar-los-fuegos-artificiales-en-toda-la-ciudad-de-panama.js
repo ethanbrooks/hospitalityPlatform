@@ -1,0 +1,6 @@
+({
+  "blog_title": "Año Nuevo: el mejor sitio para disfrutar los fuegos artificiales en toda la Ciudad de Panamá",
+  "blog_text": "Casco Viejo, Panama, Casco Antiguo\nEl año pasado, tuvimos el placer de estar en la terraza en techo de Las Clementinas para Año Nuevo. Fue estupendo, porque esa terraza tiene una vista panorámica de la ciudad de Panamá moderna e histórica. La ciudad misma se convierte en tu show privado de fuegos artificiales, desde Paitilla hasta el museo Ghery en Amador.\nEste año, Las Clementinas abrirá nuevamente su terraza a un grupo pequeño de invitados. La cena incluirá un menú delicioso con langosta y mimosas ilimitadas.  Si eres de los que (como yo) no te gustan las multitudes y prefieres un ambiente más íntimo y elegante, Las Clementinas es el sitio.\nDe paso, el brunch del día siguiente se ve super bueno, adjuntamos aquí el menú para que vayan saboreando&#8230;\nReserven con tiempo!\nTeléfonos: 228-7613/ 7617\n\n",
+  "blog_link": "http://arcoproperties.com/ano-nuevo-el-mejor-sitio-para-disfrutar-los-fuegos-artificiales-en-toda-la-ciudad-de-panama/",
+  "blog_date": "2011-12-23T10:44:49-05:00"
+})

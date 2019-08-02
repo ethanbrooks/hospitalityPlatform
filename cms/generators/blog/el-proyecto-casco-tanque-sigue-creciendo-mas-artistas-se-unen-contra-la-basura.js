@@ -1,0 +1,6 @@
+({
+  "blog_title": "El proyecto Casco Tanque sigue creciendo! más artistas se unen contra la basura",
+  "blog_text": "Casco Viejo, Casco Antiguo, Panama\n&nbsp;\nUn proyecto que inició pequeño está creciendo día a día. El domingo, la Asociación de Amigos y Vecinos del Casco Antiguo (AVACA) en conjunto con Sembrarte, llevaron a cabo la quinta edición de pintadera de tanques de basura para el Casco Viejo. La cuarta edición fue patrocinada por Hotel Herrera y la quinta por Estrella Azul. Cada edición son 15 tanques, con lo que se espera repartir 30 tanques la próxima semana.\nCada evento ha estado mejor que el anterior! los conceptos, el arte, los tanques están cada día más lindos. Los artistas son convocados por Rolando de Sedas de Sembrarte, y el &#171;hogar oficial&#187; de la pintadera es Villa Agustina en Plaza Herrera.\nEstos tanques no solamente cumplen la función de recoger la basura, sino que además crea conciencia y brinda carácter al barrio histórico.\nFelicidades a todos los involucrados! Si quieres leer más sobre este hermoso proyecto, o quisieras animarte a hacer uno en tu barrio, síguelo en su página facebook: Limpiemos Panama Ya \n\n",
+  "blog_link": "http://arcoproperties.com/el-proyecto-casco-tanque-sigue-creciendo-mas-artistas-se-unen-contra-la-basura/",
+  "blog_date": "2012-02-07T10:41:43-05:00"
+})

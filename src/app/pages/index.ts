@@ -8,3 +8,4 @@ export * from './lounge-page/lounge-page.component';
 export * from './hotel-page/hotel-page.component';
 export * from './cellar-page/cellar-page.component';
 export * from './photo-page/photo-page.component';
+export * from './filter-page/filter-page.component';

@@ -1,0 +1,6 @@
+({
+  "blog_title": "Vecino del Casco Viejo publica en New York Magazine",
+  "blog_text": "Casco Viejo, Casco Antiguo, Casconians!\nBill Bytsura es un casqueño ya de hace rato.  Te lo encuentras generalmente tras bambalinas en el Panama Jazz Festival o caminado por el Casco Viejo con su cámara profesional alrededor de su cuello.  El material que conocía de él estuvo siempre relacionado con el festival (organizado por la Fundación Danilo Pérez) pero esta semana, me mandó un artículo impactante: &#171;Fotos desde el Campo de Guerra&#187; el cual habla sobre la gente que inició la batalla contra el SIDA hace casi veinticinco años.\nLas fotos están increíbles y capturan todo el amor, la vulnerabilidad, la valentía de este grupo, inspiran tanto como el artículo.  No dejen de verlo aquí:\nhttp://nymag.com/news/features/act-up-2012-4/\nFelicidades a Bill por ser parte de un proyecto tan hermoso y por compartirlo con nosotros!\n",
+  "blog_link": "http://arcoproperties.com/vecino-del-casco-viejo-publica-en-new-york-magazine/",
+  "blog_date": "2012-03-27T09:48:51-05:00"
+})

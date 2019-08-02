@@ -1,0 +1,6 @@
+({
+  "blog_title": "Festival Internacional de Cine se Anuncia en Las Clementinas",
+  "blog_text": "Panama Casco Viejo\nAnoche, la terraza de Las Clementinas en Casco Viejo era el lugar para estar. Una noche hermosa, con brisa fresca y un excelente grupo de vecinos del Casco Viejo y dueños de negocios. Durante el cocktail, pudieron enterarse de lo último con el IFF Panama (International Film Festival Panama), el cual será celebrado en nuestro país en Abril del 2012.\nEl organizador del Festival, Henk Van Der Kolk (creador del Toronto Film Festival) anunció que se han asegurado fondos por $1M por parte del gobierno para la realización del evento, y abrió la oportunidad para la empresa privada e individuos que quieran unirse al programa de patrocinio.  El team organizador en Panamá incluye a la productora y cineasta Pituka Heilbron.  Si están interesados en conocer más y participar, no duden en contactarles a: henk@iffpanama.com\n\n",
+  "blog_link": "http://arcoproperties.com/festival-internacional-de-cine-se-anuncia-en-las-clementinas/",
+  "blog_date": "2011-10-27T10:24:20-05:00"
+})

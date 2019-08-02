@@ -1,0 +1,6 @@
+({
+  "blog_title": "Casco Viejo Celebra Acción de Gracias",
+  "blog_text": "Panama Casco Viejo, Casco Antiguo\nLa Asociación de Amigos y Vecinos del Casco Antiguo (AVACA) celebró anoche en  Casa del Horno el día de Acción de Gracias.  Poniendo atención, se escuchaban al menos cinco idiomas en la fiesta: español, inglés, italiano, francés y alemán. Y al menos dos &#171;dialectos&#187;: el espanglish y el itañol.   Una comunidad hermosamente ecléctica celebró y compartió comida entre amigos, con niños corriendo por todas partes.\n&#171;Te diste cuenta que los niños en esta fiesta hablan cuatro idiomas distintos?&#187; me comentó mi socia y fuerza vital tras la fiesta, Clara. La verdad es que sin importar el idioma, parecían entenderse muy bien!\nLa comida estuvo estupenda, pero lo mejor fue la oportunidad para conocer a los nuevos vecinos que recién se mudaron este año y compartir con viejos amigos. También es una buena oportunidad para actualizarse en las últimas noticias.\nFelicidades a los organizadores de la fiesta y gracias a Casa del Horno por &#171;prestar el rancho&#187;!!!\n\n&nbsp;\n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/casco-viejo-celebra-accion-de-gracias/",
+  "blog_date": "2011-11-25T15:10:30-05:00"
+})

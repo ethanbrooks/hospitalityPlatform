@@ -1,0 +1,7 @@
+({
+  "blog_title": "Noche de Museos Hoy!",
+  "blog_text": "Panamá Casco Viejo, Casco Antiguo\nTres museos se unen por primera vez esta noche para un evento llamado &#171;Noche de Museos&#187;: BioMuseo en Amador, Museo del Canal en Casco Viejoy el Museo de Arte Contemporáneo (MAC).\nEl circuito consiste en ver los 3 museos, y comenzará a las 6 p.m. hasta las 10 p.m.\nEl MAC tendrá una exhibición por el artista panameño Manuel Adán Vásquez y una muestra por el colectivo Estudio Nuboso. El BioMuseo abrirá sus puertas a su colección permanente que habla de Panamá como un puente de vida entre continentes. El Museo del Canal en Plaza Catedral, Casco Viejo, mostrará la bandera completamente restaurada que se utilizó en los eventos del 9 de enero 1964, además del documental &#171;Un Siglo de Lucha&#187; que se presentará a las 7 p.m.\nEl cocktail de cierre con música jazz estará a cargo del American Trade Hotel en Plaza Herrera, desde las 8:30 p.m. hasta las 11 p.m. para quienes presenten sus boletos a los museos.\n\n",
+  "blog_link": "http://arcoproperties.com/noche-de-museos-hoy/",
+  "blog_date": "2014-04-22T08:36:46-05:00",
+  "blog_image": "/image-src/fit-in/640x480/noche-de-museos-hoy-2014-04-0.jpg"
+})

@@ -1,0 +1,7 @@
+({
+  "blog_title": "Servicio de catering por Sophia Laurel en Casco Viejo",
+  "blog_text": "Panamá, Casco Viejo &#8211; Casco Antiguo\nSophia es una chef que vive en el Casco Viejo y que con un grupo de amistades formaron la ONG &#171;Pot to Plate&#187;, una organización que trabaja con niños del Casco Viejo para enseñarles a plantar y crecer sus propios vegetales.\nAhora, ha abierto su servicio de catering, con un tremendo concepto: no tienes tiempo para cocinar en la semana? ella te provee con todos tus almuerzos y cenas para que comas bien y utilices tu tiempo al máximo.\nEn esencia, ella está ofreciendo tres tipos de servicios:\nComida casera en porciones para toda la semana\nClases de cocina en casa utilizando lo que ya existe en ella.\nServicio de Cena: necesitas entretener? no hay problema. Ella cocina la cena, sirve y lava los platos.  Estilo restaurante!\nPara más información, puedes contactarle a: sophia.boesenberg@gmail.com\n\n",
+  "blog_link": "http://arcoproperties.com/servicio-de-catering-por-sophia-laurel-en-casco-viejo/",
+  "blog_date": "2012-09-12T16:19:14-05:00",
+  "blog_image": "/image-src/fit-in/640x480/servicio-de-catering-por-sophia-laurel-en-casco-viejo-2012-09-0.jpg"
+})

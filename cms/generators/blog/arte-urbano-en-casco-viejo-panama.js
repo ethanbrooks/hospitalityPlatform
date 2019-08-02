@@ -1,0 +1,6 @@
+({
+  "blog_title": "Arte Urbano en Casco Viejo, Panamá",
+  "blog_text": "Casco Viejo, Casco Antiguo\nAyer, un grupo de artistas convocados por Sembrarte, pintaron la cancha de basketball en Calle 4ta, al lado del centro comunitario Santa Familia.  Mientras transformaban las paredes en un divertido boom de temas y colores, los chicos del vecindario patinaban de un lado para otro utilizando un equipo donado por la Asociación de Vecinos y Amigos del Casco Antiguo (AVACA).  El desarrollador local Conservatorio S.A. facilitó equipo a los artistas para que pudieran desarrollar el mural.\nEl tanque pintado con la criatura azul es otro proyecto Sembrarte- AVACA, en donde artistas del grupo pintaron más de 80 tanques de basura, los cuales fueron distribuidos por Casco Viejo para ayudar con el sistema de recolección de basura, pero con un poco de &#171;estilo&#187;.\nOtro ejemplo de buen trabajo en equipo!\n\n",
+  "blog_link": "http://arcoproperties.com/arte-urbano-en-casco-viejo-panama/",
+  "blog_date": "2012-03-09T09:02:49-05:00"
+})

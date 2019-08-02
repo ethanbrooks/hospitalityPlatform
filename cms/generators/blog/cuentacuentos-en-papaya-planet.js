@@ -1,0 +1,7 @@
+({
+  "blog_title": "CuentaCuentos en Papaya Planet",
+  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nA quién no le gusta una buena historia? nuestra vida está rodeada de cuentos e historias (cómo le llamamos ahora? marketing? humm&#8230; =) .  La verdad es que no se puede negar la conexión profunda que corre por nosotros cuando estamos metidos en contarla, algo mágico que inmediatamente enlaza el que cuenta con su audiencia, y sí &#8211; con suerte- es una buena historia, esta puede sobrevivir por años, incluso sin depender en si alguien la puso por escrito después o no. Contar cuentos es una actividad poderosa.\nEsta semana, el Casco Play Group comenzó una actividad de Cuenta Cuentos en la primera librería café del Casco: Papaya Planet.  Inicialmente, la idea es hacerlo dos veces al mes, a las 4:30 p.m.  Los cuentos se leerán en español e inglés. Y quizás en más lenguas, si hay voluntarios! si desean unirse al grupo, déjenos saber y les conectamos.\nAquí están algunas fotos de la super adorable primera sesión. Pueden adivinar quién fue la primera voluntaria para leer?\n \n\n",
+  "blog_link": "http://arcoproperties.com/cuentacuentos-en-papaya-planet/",
+  "blog_date": "2017-09-22T09:26:04-05:00",
+  "blog_image": "/image-src/fit-in/640x480/cuentacuentos-en-papaya-planet-2017-09-0.jpg"
+})

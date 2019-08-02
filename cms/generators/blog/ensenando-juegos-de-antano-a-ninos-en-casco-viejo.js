@@ -1,0 +1,6 @@
+({
+  "blog_title": "Enseñando Juegos de Antaño a Niños en Casco Viejo",
+  "blog_text": "&nbsp;\nPanamá, Casco Viejo\nSe acuerdan cuando uno saltaba soga, jugaba la lata, hacía carrera brincando llantas y los concursos de equilibrio sobre troncos? Estas fueron algunas de las actividades que Eco Creando trabajó la semana pasada con los niños de Aprojusan, mezcladas con un pequeño taller de arte en donde aprendieron a transformar botellas plásticas en joyeros.\nEn un mundo en donde la computadora es ama y señora de los juegos para niños, quienes cada día hacen menos ejercicio físico, realmente creemos que este tipo de actividades son importantes para que el niño sea sano y se convierta en un adulto balanceado.\nMe encanta, porque este es el tipo de pequeñas cosas que pasan en el Casco Viejo todos los días y que realmente hacen la diferencia.  A Diana y sus amigos de Eco Creando y a Gio con su equipo de Aprojusan, felicidades!\n\n",
+  "blog_link": "http://arcoproperties.com/ensenando-juegos-de-antano-a-ninos-en-casco-viejo/",
+  "blog_date": "2012-08-17T08:19:23-05:00"
+})

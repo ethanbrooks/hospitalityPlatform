@@ -1,0 +1,7 @@
+({
+  "blog_title": "Shingi expone su arte en MACRO",
+  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nLa gente del barrio lo conoce como Shingi o El Flaco. Se gana la vida lavando carros y cuidando propiedades. Su dirección domiciliaria siempre está cambiando, pero generalmente le encuentras en la misma esquina, por El Colegio.\nNació Manuel Sacramento, y es un artista callejero. Ha estado pintando y dibujando el Casco por años, usando todo lo que encuentra, he escuchado que incluso ha usado golosinas derretidas cuando no ha tenido para comprar pintura. Esta semana, su obra está siendo mostrada en la exhibición que Casa Soldado ha armado con motivo del festival MACRO junto a otros artistas locales e internacionales.\nVarias cosas hacen de su arte especial para nosotros. Cómo mezcla la naturaleza con los edificios del Casco es una de ellas, pero en especial su visión optimista del mundo, con una paleta colorida, sin importar qué tan dura esté siendo su vida en un momento determinado.\nQueremos agradecer a Casa Soldado y a MACRO por incluir la obra de Shingi en su exposición.  Y felicitar a Shingi! estuvo sensacional!\n   \n\n",
+  "blog_link": "http://arcoproperties.com/shingi-expone-su-arte-en-macro/",
+  "blog_date": "2016-03-18T12:03:51-05:00",
+  "blog_image": "/image-src/fit-in/640x480/shingi-expone-su-arte-en-macro-2016-03-0.jpg"
+})

@@ -1,0 +1,6 @@
+({
+  "blog_title": "Premio de Arquitectura para Proyecto en Casco Viejo, Panamá",
+  "blog_text": "Panama Casco Viejo, Casco Antiguo\n&nbsp;\nEl miércoles asistimos a la cena organizada por el Colegio de Arquitectos de Panamá y la Sociedad Panameña de Ingenieros y Arquitectos (SPIA). Cada año, ambas organizaciones estudian edificios diseñados por arquitectos idóneos en Panamá y otorgan premios en distintas categorías.\nEste año, el Casco Viejo obtuvo su premio a través del proyecto Benedetti Hermanos, un edificio de estilo Art Deco el cual fue restaurado por Conservatorio S.A. Los arquitectos encargados del proyecto fueron  Hildegard Vásquez y Daniel Young de la firma Hache Uve.\nFelicidades al equipo de trabajo!\nSi le interesa conocer otro proyecto por los mismos desarrolladores, pregúntenos por CASA VIDAL!\nEnvíe su correo a:  Patrizia@arcoproperties.com\n\n",
+  "blog_link": "http://arcoproperties.com/premio-de-arquitectura-para-proyecto-en-casco-viejo-panama/",
+  "blog_date": "2011-11-11T09:07:54-05:00"
+})

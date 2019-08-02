@@ -1,0 +1,7 @@
+({
+  "blog_title": "Semana Santa ya está Aquí!",
+  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nLa Semana Santa ya está aquí,  es decir, desayunos familiares con niños corriendo por todas partes con chocolates en la mano&#8230; y este año, aprendiendo jazz!! en el Casco habrá actividades para todos, así que vengan, dejen su carro con el valet parking y disfruten.\nEsto es lo que tenemos andando:\nEn el departamento de &#171;brunch&#187;:\nMe encanta el brunch de  Las Clementinas . Uno se encuentra tan a gusto en el &#171;jardín secreto&#187; y los niños pueden estar a sus anchas.\n \nAmerican Trade Hotel Brunch: \nDurante el día de las madres, el ATH tuvo un equipo con actividades para niños incluyendo pintacaritas y más. Siempre me ha fascinado la transformación de los niños super tímidos al principio, para luego ver relucir su verdadera &#171;personalidad&#187; (especialmente si los pintan de el Hombre Araña).\n\nEn el departamento musical tenemos al Danilo`s Jazz Club\nTodos los domingos, el Danilo`s Jazz Club  tiene una función dedicada a los niños (a partir de las 4 p.m.). El programa es muy didáctico y divertido. Para todas las edades!!! E incluye estacionamiento especial para los más pequeños&#8230;\n\n",
+  "blog_link": "http://arcoproperties.com/semana-santa-ya-esta-aqui/",
+  "blog_date": "2014-04-11T08:50:20-05:00",
+  "blog_image": "/image-src/fit-in/640x480/semana-santa-ya-esta-aqui-2014-04-0.jpg"
+})

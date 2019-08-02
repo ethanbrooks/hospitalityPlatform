@@ -1,0 +1,6 @@
+({
+  "blog_title": "Fotos del Festival de Jazz de Panamá en Casco Viejo",
+  "blog_text": "Panama Casco Viejo, Casco Antiguo\nEl sábado, el Casco Viejo se inundó de música y de amantes de la música.  La lista de artistas incluyó nombres como Tito Puente Jr., hombro a hombro con estudiantes panameños de la Fundación Danilo Pérez.\nCuando el festival inició hace años (ya son ocho? increíble), presentaron a jóvenes talentos quienes recién iniciarían su educación en la recién estrenada escuela de jazz de la fundación en el edificio Conservatorio, Plaza Herrera.  Ese año presentaron a Milagros, que andaba por los cinco años y tocaba tambor. Este año, Milagros y otros de sus compañeros, ya entrados en la adolescencia y formando su propia banda, compartieron escenario con jóvenes de escuelas de música de gran prestigio internacional como el Berkley College of Music.\nUna de las cosas que más me gustan de este festival es su ambiente tranquilo, todo el mundo está pasándola bien,  y el Casco Viejo se convierte en el perfecto punto para conocer gente que literalmente viene de todos los rincones de Panamá y el Mundo.\nFelicidades! y disfruten las fotos,\n\n",
+  "blog_link": "http://arcoproperties.com/fotos-del-festival-de-jazz-de-panama-en-casco-viejo/",
+  "blog_date": "2012-01-23T08:58:34-05:00"
+})
