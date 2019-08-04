@@ -1,0 +1,12 @@
+({
+  "blog_title": "Panama News: Art Bienale Inaugurated Yesterday. Theme: Panama Canal Zone",
+  "blog_article": "Panama, Casco Viejo\nCasco Antiguo, San Felipe\nPanama Art\nPanama´s art Bienal is probably one of the most important events in the year for painting, plastic arts and media. This year, the theme is the ex &#8220;Canal Zone&#8221;. Its history and influence in our society. The making of the Panama Canal and its political and social interaction as a &#8220;nation within a nation&#8221; literally shaped Panama in obvious ways&#8230; but also in very subtle ways.\nArtists are from different countries, Belgium, Mexico, Ecuador USA, UK, Germany, Eslovaquia, New Zeland and &#8230; of course&#8230; Panama. Zonians and not. The exhibition at the Contemporary Art Museum is focused on &#8220;El dulce olor a quemado de la historia&#8221; (The sweet smell of burnt history) a concept from the Mexican curator Magali Arriola.\nThe themes range from the martyrs of our independence (a Chinese guy and his donkey&#8230; hey, I´m not making this up. They where the only 2 casualties of our independence from Colombia) to the battle with yellow fever which made the country even possible.\nOther activities such as Brook Alfaro´s exhibition will be held in different points of the city. And a week of documentaries will be held at the Guild Theatre, Panama´s only English Speaking Theatre.  Click Here for the calendar for the documentaries. They are very interesting and show amazing footage of inside and outside the Canal Zone back in the 70´s.\n",
+  "blog_link": "http://arcoproperties.com/en/panama-news-art-bienale-inaugurated-yesterday-theme-panama-canal-zone/",
+  "blog_date": "2008-09-10T11:34:18-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Panama, Casco Viejo\nCasco Antiguo, San Felipe\nPanama Art\nPanama´s art Bienal is probably one of the most important events in the year for painting, plastic arts and media. This year, the theme is the ex &#8220;Canal Zone&#8221;. Its history and influence in our society. The making of the Panama Canal and its political and social interaction as a &#8220;nation within a nation&#8221; literally shaped Panama in obvious ways&#8230; but also in very subtle ways.\nArtists are from different countries, ",
+  "blog_page_slug": "panama-news-art-bienale-inaugurated-yesterday-theme-panama-canal-zone"
+})

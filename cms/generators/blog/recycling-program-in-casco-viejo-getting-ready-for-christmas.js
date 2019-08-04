@@ -1,0 +1,12 @@
+({
+  "blog_title": "Recycling Program in Casco Viejo… getting ready for Christmas!",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\nAVACA, Casco Viejo`s neighborhood association has been for the last 3 years doing projects to attack the littering and garbage management in the neighborhood.  This year, their flag program is recycling, which has proven to quickly catch up, pulling out of the streets about 10,000 pounds of recyclable material in less than 3 months.\nLast weekend, a group of volunteers helped get the space ready for the massive Christmas celebrations. The space is all color coded now, tanks in place. A few things to finalize will be ready by next week&#8230; and then&#8230; bring us your garbage! (please make sure the material is clean&#8230; no milk inside the tetrapack!!!)  no need to see glass, plastic and specially cardboard boxes on the streets.\nThe recycling center is located at the Santa Familia building, at 4th street and A Avenue. If you are coming with a lot of material, you can use the entrance at 5th street by the parking lot.\nIf you are interested in participating, contact Jennifer at director@avaca.org.pa and she`ll put you in touch with the garbage team.\n   \n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/en/recycling-program-in-casco-viejo-getting-ready-for-christmas/",
+  "blog_date": "2013-12-13T08:08:27-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/recycling-program-in-casco-viejo-getting-ready-for-christmas-2013-12-3.jpg",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\nAVACA, Casco Viejo`s neighborhood association has been for the last 3 years doing projects to attack the littering and garbage management in the neighborhood.  This year, their flag program is recycling, which has proven to quickly catch up, pulling out of the streets about 10,000 pounds of recyclable material in less than 3 months.\nLast weekend, a group of volunteers helped get the space ready for the massive Christmas celebrations. The space is all color code",
+  "blog_page_slug": "recycling-program-in-casco-viejo-getting-ready-for-christmas"
+})

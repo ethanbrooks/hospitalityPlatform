@@ -1,0 +1,12 @@
+({
+  "blog_title": "Simply Amazing!",
+  "blog_article": "Panama, Casco Viejo\nCasco Antiguo, San Felipe\nI swear I had this great-very-serious article about the gas refinery projects that\nare coming to Panama, but someone just sent me this amazing picture and I just couldn´t\nhelp it. Check it out and you´ll see what I mean. Yes, again&#8230; it is my tomato fixation.\nSomeone suggested I needed to seek professional help. I´ve been searching in the web\nfor help groups, but seem not to find any, so I´ll guess I´ll have to create a group\nby myself. I´m struggling here to find the right name&#8230;\nBut take a look at this picture and tell me it is not one of the most incredible things\nyou´ve seen. I´m no scientist here, but from my work at Smithsonian I learned about\nsurvival techniques plants use to keep themselves into the gene pool and not die before\nthey reproduce (which is also good for animals). But this is like a Bruce Willis &#8220;Die\nHard&#8221; movie version! almost the Kama Sutra of tomatoes showing off an upside down\npose! Think about it: this guy managed to # 1 germinate and develop from a dark hole\nin a brick wall (this is pretty awesome on itself) #2 gather strength to grow normally\neven if up side down and in lack on any real soil and # 3 bear tomatoes and therefore\npropagate as a species. Some charitative soul interested probably on eating the tomato\nput a little string so it wouldn´t fall on its own weight. However, I get the sense\nthis guy is stronger than you might see at first glance. Can you imagine doing the\nsame as a human? fat chance!\n\n\n",
+  "blog_link": "http://arcoproperties.com/en/simply-amazing/",
+  "blog_date": "2008-07-31T07:24:29-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Panama, Casco Viejo\nCasco Antiguo, San Felipe\nI swear I had this great-very-serious article about the gas refinery projects that\nare coming to Panama, but someone just sent me this amazing picture and I just couldn´t\nhelp it. Check it out and you´ll see what I mean. Yes, again&#8230; it is my tomato fixation.\nSomeone suggested I needed to seek professional help. I´ve been searching in the web\nfor help groups, but seem not to find any, so I´ll guess I´ll have to create a group\nby myself. I´m stru",
+  "blog_page_slug": "simply-amazing"
+})

@@ -1,0 +1,12 @@
+({
+  "blog_title": "First office building in Casco Viejo: El Colegio",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo, Real Estate, Offices\nFor years, we`ve been faced with the same situation: young entrepreneurs desperately looking for office space in Casco Viejo, only to end up in an apartment or expensive ground floor commercial locale.  For all of them, great news!  Casco Viejo is turning another milestone: its first Office Building. Welcome El Colegio.\nThe property used to be the &#8220;María Inmaculada&#8221; school for women only (back then), therefore its name &#8220;El Colegio&#8221;.  The school later moved out of Casco and now the building is being restored into cool offices using the original floors and keeping charming features like the internal garden with the original mosaic of the &#8220;Inmaculada&#8221;.  Currently under construction, first offices will be delivered May  2014.\nThe full project will involve two buildings, the first one already available and almost ready to deliver 12 office units and a large commercial space. The property will have access to private parking managed by Casco Parking.   An unprecedented 448 mt2 groundfloor retail and café space will be available for those with an interesting concept that will bring value to Casco Viejo and cater the needs of the office compound.\nFor rent only! if you are interested, please contact us at :\nclara   or   patrizia  at  arcoproperties.com\nSpacious\nUnder construction\nOriginal Floors\nStreet Views\nComplete Phase1 and 2\n",
+  "blog_link": "http://arcoproperties.com/en/first-office-building-in-casco-viejo-el-colegio/",
+  "blog_date": "2014-02-20T09:29:15-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/first-office-building-in-casco-viejo-el-colegio-2014-02-4.jpg",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo, Real Estate, Offices\nFor years, we`ve been faced with the same situation: young entrepreneurs desperately looking for office space in Casco Viejo, only to end up in an apartment or expensive ground floor commercial locale.  For all of them, great news!  Casco Viejo is turning another milestone: its first Office Building. Welcome El Colegio.\nThe property used to be the &#8220;María Inmaculada&#8221; school for women only (back then), therefore its name &#8220;E",
+  "blog_page_slug": "first-office-building-in-casco-viejo-el-colegio"
+})

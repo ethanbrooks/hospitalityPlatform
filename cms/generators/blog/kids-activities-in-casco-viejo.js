@@ -1,0 +1,12 @@
+({
+  "blog_title": "Kids activities in Casco Viejo",
+  "blog_article": "Panama Casco Viejo\nThe other day I was talking to a friend and he told me how amazed he was at the number of activities his kids were, and all of them between a few blocks from each other. Knowing how parents struggle to get their children to the numerous classes they always inscribe them, I thought this was worth mentioning. So, here it is!\nMusic classes: general music appreciation classes at the Danilo Perez Foundation. Here they would learn the different instruments, and tune their ears to great music.  Location: Plaza Herrera\nPainting classes: the Olga Sinclair foundation has an amazing way to get your kids inspired. Look for the ultra purple building next to the Danilo Perez Foundation!\nMartial Arts (boys and girls!): kids will love their &#8220;ninja class&#8221; at the Top Level Gym in Calle 4ta. They have crossfit as well for parents and the mini crossfit for children.\nPhotography classes: run by photographer Tarina Rodriguez and organized through Esquina Photo (Ingrid Moore), I consider photography a fabulous gateway to all art appreciation because of its instant gratification! Tarina is great with kids as well!\nAnd depending on the time of the year, Los Del Patio art center has yoga for kids and a bunch of other stuff. And the best (for the parent) is that commuting time is basically zero: walking from one street to the next, sometimes door to door. Priceless!\n\n",
+  "blog_link": "http://arcoproperties.com/en/kids-activities-in-casco-viejo/",
+  "blog_date": "2013-05-14T08:05:10-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/kids-activities-in-casco-viejo-2013-05-0.jpg",
+  "blog_description": "Panama Casco Viejo\nThe other day I was talking to a friend and he told me how amazed he was at the number of activities his kids were, and all of them between a few blocks from each other. Knowing how parents struggle to get their children to the numerous classes they always inscribe them, I thought this was worth mentioning. So, here it is!\nMusic classes: general music appreciation classes at the Danilo Perez Foundation. Here they would learn the different instruments, and tune their ears to gr",
+  "blog_page_slug": "kids-activities-in-casco-viejo"
+})

@@ -1,0 +1,12 @@
+({
+  "blog_title": "Century Old Businesses of Panama",
+  "blog_article": "Casco Viejo, Panama, Casco Antiguo\n&nbsp;\nI came across a while ago with the Spanish edition of The Economist, which normally gathers news of LatinAmerica (mostly focused on Central America, actually).  They ran an entire edition on companies that were more than a 100 years old, and Panama had featured two of them: the licor factory Varela Hermanos (103 years old) and the department store Felix B. Maduro (135 years old).\nThe Felix B. Maduro store was actually born in Casco Viejo in 1877 (we were part of Colombia back then), and it was called &#8220;Maduro &amp; Company&#8221;. Founded by Samuel and Esther Maduro, I have a friend looking for the first building they first occupied in Calle 8va, but the building most people remember as the cradle of the company is actually one they moved into in 1920`s next to the Cathedral, at Central Avenue, which now has plans to be restored as a boutique hotel.\nAn excellent location,  it is one of the tallest buildings around the area, but for me the &#8220;wao&#8221; factor was the big garden at the back. I can only imagine how beautiful this store most have been.\nAccording to the article, today the company has more than a 1000 employees and has diversified. Now they have nine stores in Panama and have branched, specializing now in different areas such as toys, beauty and outlets.\nIf you want to find out more about Felix B. Maduro, click HERE \nFelix B. Maduro`s famous store in Casco Viejo. Moved out in the 70`s\nLocation at Central Avenue next to the Cathedral\n",
+  "blog_link": "http://arcoproperties.com/en/century-old-businesses-of-panama/",
+  "blog_date": "2012-01-24T08:45:13-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/century-old-businesses-of-panama-2012-01-1.jpg",
+  "blog_description": "Casco Viejo, Panama, Casco Antiguo\n&nbsp;\nI came across a while ago with the Spanish edition of The Economist, which normally gathers news of LatinAmerica (mostly focused on Central America, actually).  They ran an entire edition on companies that were more than a 100 years old, and Panama had featured two of them: the licor factory Varela Hermanos (103 years old) and the department store Felix B. Maduro (135 years old).\nThe Felix B. Maduro store was actually born in Casco Viejo in 1877 (we were",
+  "blog_page_slug": "century-old-businesses-of-panama"
+})

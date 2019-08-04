@@ -1,0 +1,12 @@
+({
+  "blog_title": "Jazz  Community Celebrates Opening of Jazz Club in Casco Viejo",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\nLast night, Panama`s jazz lovers gathered around the fire of music to celebrate the opening of the American Trade`s Jazz Bar. This has been a dream come true for everyone involved, a dream that started when Casco Viejo developer Conservatorio S.A. donated space to the Danilo Perez Foundation almost ten years ago to open and grow his jazz school in Panama.  The idea was to help raise the bar of music education in Panama, by not only creating a place for talent to develop, but to have a full cycle, where students from everywhere in Panama, including surrounding areas like Chorrillo and Santa Ana, could not only access first class education but also have a quality space to play as professionals.\nThe club has been designed for the true music fan, it is a “listening room” that will have the capacity to record concerts live. Upstairs, an events area more in the lounge style can accommodate social gatherings.\nWe would like to thank everyone who believed in this project and worked like crazy to get it to open. To Danilo Pérez and Patricia Zárate, and to the directors of Conservatorio S.A. for persevering in this vision of making Casco Viejo a great historic neighborhood, with content worth the beauty of this World Heritage Site.\nTo all the donors, fans and supporters of the Danilo Pérez Foundation and music in Panama: thank you as well!!  This was build with the effort of many with you in its heart. We hope you consider it an extension of your home.  Welcome and enjoy!\n        \n",
+  "blog_link": "http://arcoproperties.com/en/jazz-community-celebrates-opening-of-jazz-club-in-casco-viejo/",
+  "blog_date": "2014-01-13T12:57:56-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\nLast night, Panama`s jazz lovers gathered around the fire of music to celebrate the opening of the American Trade`s Jazz Bar. This has been a dream come true for everyone involved, a dream that started when Casco Viejo developer Conservatorio S.A. donated space to the Danilo Perez Foundation almost ten years ago to open and grow his jazz school in Panama.  The idea was to help raise the bar of music education in Panama, by not only creating a place for talent t",
+  "blog_page_slug": "jazz-community-celebrates-opening-of-jazz-club-in-casco-viejo"
+})

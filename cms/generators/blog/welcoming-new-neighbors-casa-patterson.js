@@ -1,0 +1,12 @@
+({
+  "blog_title": "Welcoming New Neighbors! Casa Patterson",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\nWelcoming new casqueños is always a pleasure, even more when they are pioneers like our buyers in Casa Patterson, a development by Grupo Conservatorio at La Quince in Santa Ana. This weekend we had a get together barbeque for everyone to meet and share.\nThe delicious bbq was courtesy of our development director and ad honorem BBQ Chef for life, Andy. The pasta by our neighbor, &#8220;Iron Chef&#8221; and collaborator, Gabriel who also directed the making of the different salads, executed by our marketing director, Margot.  Fernando, from the neighborhood association (AVACA) gave everyone the official welcoming to the neighborhood with a brief historic talk about Santa Ana and the programs they can join to contribute to the barrio. The tour to the project (close to completion!) was given by the construction team and the &#8220;Arco girls&#8221;.\nWe had a blast! stories and jokes, everyone was excited. For us, Casa Patterson is an important step towards our vision of what urban revitalization means: to achieve a revitalization where there is space for everyone, with a mix and interaction that reinforces the identity of the neighborhood and city, through its diversity.\nTo all the buyers and now new owners, congratulations! Not only because you made a wonderful long term investment that you´ll be able to pass on to your children, but because you´ve chosen to contribute to a larger and very important vision for the future of our country.\n&nbsp;\n \n \n",
+  "blog_link": "http://arcoproperties.com/en/welcoming-new-neighbors-casa-patterson/",
+  "blog_date": "2018-07-30T13:50:55-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/welcoming-new-neighbors-casa-patterson-2018-07-3.jpg",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\nWelcoming new casqueños is always a pleasure, even more when they are pioneers like our buyers in Casa Patterson, a development by Grupo Conservatorio at La Quince in Santa Ana. This weekend we had a get together barbeque for everyone to meet and share.\nThe delicious bbq was courtesy of our development director and ad honorem BBQ Chef for life, Andy. The pasta by our neighbor, &#8220;Iron Chef&#8221; and collaborator, Gabriel who also directed the making of the",
+  "blog_page_slug": "welcoming-new-neighbors-casa-patterson"
+})

@@ -22,7 +22,7 @@ export class BlogService {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
 // TODO: set the directrouy index in CF
-                const eduroJsUrl = '/data/en_US/blogs/index.html';
+                const eduroJsUrl = '/data/blogs/index.html';
                 return httpClient.get(eduroJsUrl, { params, responseType: 'text'})
                 .toPromise()
                 .then(
@@ -39,7 +39,7 @@ export class BlogService {
                 [].forEach((i) => {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
-                const eduroJsUrl = '/data/en_US/blog/cookies/index.html';
+                const eduroJsUrl = '/data/blog/cookies/index.html';
                 return httpClient.get(eduroJsUrl, { params, responseType: 'text'})
                 .toPromise()
                 .then(

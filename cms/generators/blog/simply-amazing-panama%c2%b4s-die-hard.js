@@ -1,0 +1,12 @@
+({
+  "blog_title": "Simply Amazing! Panama´s “Die Hard”",
+  "blog_article": " Panama, Casco Viejo\nCasco Antiguo, San Felipe\n\nI swear I had this great-very-serious article about the gas refinery projects that are coming to Panama, but someone just sent me this amazing picture and I just couldn´t help it. Check it out and you´ll see what I mean. Yes, again&#8230; it is my tomato fixation. Someone suggested I needed to seek professional help. I´ve been searching in the web for help groups, but seem not to find any, so I´ll guess I´ll have to create a group by myself. I´m struggling here to find the right name&#8230;\nBut take a look at this picture and tell me it is not one of the most incredible things you´ve seen. I´m no scientist here, but from my work at Smithsonian I learned about survival techniques plants use to keep themselves into the gene pool and not die before they reproduce (which is also good for animals). But this is like a Bruce Willis &#8220;Die Hard&#8221; movie version! almost the Kama Sutra of tomatoes showing off an upside down pose! Think about it: this guy managed to # 1 germinate and develop from a dark hole in a brick wall (this is pretty awesome on itself) #2 gather strength to grow normally even if up side down and in lack on any real soil and # 3 bear tomatoes and therefore propagate as a species. Some charitative soul interested probably on eating the tomato put a little string so it wouldn´t fall on its own weight. However, I get the sense this guy is stronger than you might see at first glance. Can you imagine doing the same as a human? fat chance!\nCasco Viejo tomato growing out the wall, literally\n",
+  "blog_link": "http://arcoproperties.com/en/simply-amazing-panama%c2%b4s-die-hard/",
+  "blog_date": "2008-07-31T07:43:07-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": " Panama, Casco Viejo\nCasco Antiguo, San Felipe\n\nI swear I had this great-very-serious article about the gas refinery projects that are coming to Panama, but someone just sent me this amazing picture and I just couldn´t help it. Check it out and you´ll see what I mean. Yes, again&#8230; it is my tomato fixation. Someone suggested I needed to seek professional help. I´ve been searching in the web for help groups, but seem not to find any, so I´ll guess I´ll have to create a group by myself. I´m st",
+  "blog_page_slug": "simply-amazing-panama%c2%b4s-die-hard"
+})

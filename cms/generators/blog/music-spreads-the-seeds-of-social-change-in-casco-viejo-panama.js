@@ -1,0 +1,12 @@
+({
+  "blog_title": "Music spreads the seeds of social change in Casco Viejo, Panama",
+  "blog_article": "Casco Antiguo, Panama, Casco Viejo\nWhen Conservatorio S. A. , a Casco Viejo developer and a Global Vision Award winner, donated free space to the Danilo Perez Foundation to create their music school in Panama,  they had a clear idea of what they wanted.  Conservatorio had been looking for a way to raise the bar of the  neighborhood with the local neighbors, a vision that they were glad to find out was shared by  Danilo Perez, whose main objective was (and is) to create  social change through music.  Kids under his tutelage were turning out to be fantastic, they only needed an opportunity and a space to make it happen.\nAlmost four years later, the tree has started to bear fruit.  Children from the poorest areas in Panama, are now playing internationally or have started to play professionally in Panama through their recently formed bands. Talent is being harvested.  And, the most important part, they are teaching others. Spreading the seed of change.\nHere is a beautiful article on how this school founded with a shared vision is helping underprivileged kids from all over Panama, but specially from Casco Viejo.  These are the success stories of team work and vision we need to see more out there:\nBackbeat: Berklee Global Jazz Institute Students Teach, Jam With  Underprivileged Youth @ Panama Jazz Fest\nConservatorio School Plaza Herrera, Casco Viejo\n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/en/music-spreads-the-seeds-of-social-change-in-casco-viejo-panama/",
+  "blog_date": "2012-01-26T08:42:15-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/music-spreads-the-seeds-of-social-change-in-casco-viejo-panama-2012-01-0.jpg",
+  "blog_description": "Casco Antiguo, Panama, Casco Viejo\nWhen Conservatorio S. A. , a Casco Viejo developer and a Global Vision Award winner, donated free space to the Danilo Perez Foundation to create their music school in Panama,  they had a clear idea of what they wanted.  Conservatorio had been looking for a way to raise the bar of the  neighborhood with the local neighbors, a vision that they were glad to find out was shared by  Danilo Perez, whose main objective was (and is) to create  social change through mus",
+  "blog_page_slug": "music-spreads-the-seeds-of-social-change-in-casco-viejo-panama"
+})

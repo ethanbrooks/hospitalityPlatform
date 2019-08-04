@@ -1,0 +1,12 @@
+({
+  "blog_title": "Sucessful cities have Feng Shui",
+  "blog_article": "When building a city, many elements are taking in consideration: healthy site, ventilation, strong foundations&#8230;whether in modern times or 500 years ago, common sense has ruled and succeeded. Elements that are common to the ancient Feng Shui knowledge.\nLast week we had the visit of a Feng Shui expert in Casco Viejo, Panama. She was amazed at how Casco Viejo felt like &#8220;good Feng Shui&#8221;. While this is not an official opinion, I believe there is some truth to it based on its historic foundation.\nFrom Wikipedia  (  http://en.wikipedia.org/wiki/Feng_shui ) I gathered that the term Feng Shui means “wind- water”.  One of the reasons Casco Viejo is where it is was because of it´s peninsula shape and rocky foundations. When the Spanish came to the point they had to move the city from Panama Viejo (because of the pirates attacks and the multiple diseases they got from having founded the city … in a swamp!) they looked for a place with crossed winds (to keep mosquitoes out) because it would ensure a healthier city and that was easier to defend.  The peninsula was the perfect fit. Therefore we are surrounded by water and crossed by winds.\nI´m sure there would be endless amounts of common details that can be found in those cities that have succeeded and Feng Shui principles.  I thought this post might make you think a bit about it and maybe get her to do a full study!\n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/en/sucessful-cities-have-feng-shui/",
+  "blog_date": "2009-11-16T08:00:56-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "When building a city, many elements are taking in consideration: healthy site, ventilation, strong foundations&#8230;whether in modern times or 500 years ago, common sense has ruled and succeeded. Elements that are common to the ancient Feng Shui knowledge.\nLast week we had the visit of a Feng Shui expert in Casco Viejo, Panama. She was amazed at how Casco Viejo felt like &#8220;good Feng Shui&#8221;. While this is not an official opinion, I believe there is some truth to it based on its histori",
+  "blog_page_slug": "sucessful-cities-have-feng-shui"
+})

@@ -1,0 +1,12 @@
+({
+  "blog_title": "Budget and Romantic: 10 Great things about Casco Antiguo",
+  "blog_article": "Casco Antiguo Santo Domingo Beach\n1. You can walk everywhere.  And if you are entrepreneurial, you can even set up your business here and forget about the car almost all week round.\n2. Plenty of choices on restaurants, more coming on bars (all at walking distance)\n3. When walking around, most likely you´ll end up saying Hi to at least five people in the street.\n4. You can volunteer in different areas, from urban agriculture to art workshops for local children.\n5. Free concerts and cultural activities in general everywhere, from Jazz Fest to balcony theatre at Plaza Herrera\n6. The beach and surrounding water views: it is a great place to walk around. Someday soon it will be clean enough to get in there, although most locals already do!\n7. People are nice to each other, especially the &#8220;bien cuidaos&#8221;\n8. Music in every corner. Sometimes too loud! but I know now that when it isn´t there I miss it (or immediately think there is something wrong in the picture)\n9. Avenida Central and Salsipuedes at a few steps away. To walk around Salsipuedes, find really weird stuff no one has anymore and bargain.\n10. The art of strolling around hand in hand with your loved one. Nothing like sharing a $0.50 raspao at Las Bovedas (lots of sugar!) while enjoying the beautiful sunset.\n",
+  "blog_link": "http://arcoproperties.com/en/budget-and-romantic-10-great-things-about-casco-antiguo/",
+  "blog_date": "2009-04-21T08:18:45-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Casco Antiguo Santo Domingo Beach\n1. You can walk everywhere.  And if you are entrepreneurial, you can even set up your business here and forget about the car almost all week round.\n2. Plenty of choices on restaurants, more coming on bars (all at walking distance)\n3. When walking around, most likely you´ll end up saying Hi to at least five people in the street.\n4. You can volunteer in different areas, from urban agriculture to art workshops for local children.\n5. Free concerts and cultural activ",
+  "blog_page_slug": "budget-and-romantic-10-great-things-about-casco-antiguo"
+})

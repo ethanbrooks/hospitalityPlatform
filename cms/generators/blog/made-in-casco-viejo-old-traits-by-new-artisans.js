@@ -1,0 +1,12 @@
+({
+  "blog_title": "“Made in Casco Viejo”: old trades by new artisans",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo.\nChecking out old adds from Panama “way back when”, I had a to smile on the sort of items you would find in the stores. Mainly fabrics, oils, leather, lace and other primary goods. Other adds would be for shoemakers, tailors ,pharmacies that knew how to mix herbs , seamstresses that were able to make a wedding dress from scratch and keep her work discreet so her clients could boast they had brought the dress “from Europe”.\nIt is true that our world has lost touch with those old trades. However, a new generation of artisans/artists have moved in and opened shop in Casco.  From fashion to food &amp; beverage, all of them creative minds, creative hands. Not sure if they`ve gotten recognized yet, but just in case, I`m making my own series called “Made in Casco”.\nBeing half Italian I have to start with pasta: “Casco Made Pasta”: fresh pasta made at restaurant Da Vinci. Owned by Juan and Zummy, the pasta is made by María, who has been working with the couple for twelve years and was trained by Juan. They extend the “home made” approach to everything in their kitchen, but they are the only ones making, packaging and selling their own pasta.\nWhere is Da Vinci? You`ll find them just coming up the hill entering San Felipe. Look to your right, they`ll be there almost next to Luna`s Castle.\nHow to contact them? Phones: 262-6285  262-8974\n\n",
+  "blog_link": "http://arcoproperties.com/en/made-in-casco-viejo-old-traits-by-new-artisans/",
+  "blog_date": "2014-05-13T16:06:00-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/made-in-casco-viejo-old-traits-by-new-artisans-2014-05-0.jpg",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo.\nChecking out old adds from Panama “way back when”, I had a to smile on the sort of items you would find in the stores. Mainly fabrics, oils, leather, lace and other primary goods. Other adds would be for shoemakers, tailors ,pharmacies that knew how to mix herbs , seamstresses that were able to make a wedding dress from scratch and keep her work discreet so her clients could boast they had brought the dress “from Europe”.\nIt is true that our world has lost tou",
+  "blog_page_slug": "made-in-casco-viejo-old-traits-by-new-artisans"
+})

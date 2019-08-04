@@ -1,0 +1,12 @@
+({
+  "blog_title": "Parking in Casco the Easy Way",
+  "blog_article": "Casco Viejo, Panama\nHave you ever heard: &#8220;can´t find parking in Casco&#8221;, &#8220;had to park on top of a sidewalk&#8221;, &#8220;parked on a corner and got my car scratched&#8221; (if not more).\nEvery day, visitors in Casco jump through hoops to get parking. And yet, there is a full parking building in the old town. What`s the catch? absolutely nothing: just no one is aware that it even exists. When pointed, most people go &#8220;ahhhh!&#8221; . So I`m hereby sharing the secret spot: Plaza Herrera.\nHow to get to the parking building: if you are coming from Cinta Costera and going up the ramp into San Felipe, just keep to your right and drive straight towards Plaza Herrera. Do not deviate. Keep straight. You`ll see a yellow building on the corner, fully restored. Behind it, you`ll see a very shy blue sign with a big &#8220;E&#8221; which in Spanish stands for ESTACIONAMIENTO (a.i. parking).\nRight now is for free, so no excuses. Fully guarded, brand new, parking building.  You don´t need to pay anyone here. Can´t promise it will be forever &#8220;for free&#8221; as taxes pay only up to so much. But even once you start paying, you`ll car be off the street, well situated and secure. Easy to reach, easy to leave from.\nNow you know!!!! so please, please, don´t park on the streets on top of sidewalks and corners. And if you are coming for events, don´t forget there is also Casco Parking. This is a private company that also has secure lots inside Casco.  More on Casco Parking HERE.\nHere is a map with a bonus on how to get to Arco Properties:\n\n",
+  "blog_link": "http://arcoproperties.com/en/parking-in-casco-the-easy-way/",
+  "blog_date": "2014-08-19T14:27:56-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/parking-in-casco-the-easy-way-2014-08-0.jpg",
+  "blog_description": "Casco Viejo, Panama\nHave you ever heard: &#8220;can´t find parking in Casco&#8221;, &#8220;had to park on top of a sidewalk&#8221;, &#8220;parked on a corner and got my car scratched&#8221; (if not more).\nEvery day, visitors in Casco jump through hoops to get parking. And yet, there is a full parking building in the old town. What`s the catch? absolutely nothing: just no one is aware that it even exists. When pointed, most people go &#8220;ahhhh!&#8221; . So I`m hereby sharing the secret spot: P",
+  "blog_page_slug": "parking-in-casco-the-easy-way"
+})

@@ -1,0 +1,12 @@
+({
+  "blog_title": "Grandmas Old Armoire",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\nI have a special attachment to Las Clementinas. Why? A piece of my history is there.\nI think my grandmother`s old armoire must be over 70 years if not more. In Panama, where wood furniture (and wood anything) takes a beating with the mix of humid climate plus the number of insects yet unknown to science that tend to consider wood the equivalent of three cheese pizza, you really amaze at furniture that manages to survive such a long time.  Plus, consider this armoire spent at least 50 years living at the beach with all its deliciously salty air.  It survived us as little kids hiding inside, playing hide and seek. The whole house crumbled years ago (it was made out of wood), but the armoire stood tall, like a monolith in a Stanley Kubrick movie.\nTo take it back to civilization was a fascinating process. The furniture was made to be assembled without nails, just placing the joints in an elegant,  perfect fit. To be taken apart (to &#8220;move&#8221;, in Spanish the word for furniture is &#8220;mueble&#8221;, something mobile) and travel with it, probably by horse. This time it made its trip back to the city in a Toyota Hi Lux.\nI thought it would be a nightmare to put it back together, that it would be fragile and break immediately. But it was really easy. Almost like magic, it came back to life, with a little bit of love and oil, good as new. No nonsense, resilient, elegant. Just like grandma.\nWhere is it right now? Stay at Las Clementinas and find out!\n   \n",
+  "blog_link": "http://arcoproperties.com/en/grandmas-old-armoire/",
+  "blog_date": "2014-11-17T15:17:06-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/grandmas-old-armoire-2014-11-3.jpg",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\nI have a special attachment to Las Clementinas. Why? A piece of my history is there.\nI think my grandmother`s old armoire must be over 70 years if not more. In Panama, where wood furniture (and wood anything) takes a beating with the mix of humid climate plus the number of insects yet unknown to science that tend to consider wood the equivalent of three cheese pizza, you really amaze at furniture that manages to survive such a long time.  Plus, consider this ar",
+  "blog_page_slug": "grandmas-old-armoire"
+})

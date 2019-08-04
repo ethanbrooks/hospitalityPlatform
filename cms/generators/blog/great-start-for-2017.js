@@ -1,0 +1,12 @@
+({
+  "blog_title": "Great Start for 2017!",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\nAll of a sudden&#8230; puf! we are in 2017!  as in many places around the World, Panama is full of traditions to ensure a great start for 2017. From saving the seeds in 12 grapes (counting them, and buying a lottery ticket with the number), to exploding a life size doll packed with &#8220;bombitas&#8221; (fireworks&#8230; for those who like extreme sports), my favorites are always around the colorful foods that are available only in December. Going to the beach also ranks pretty high.  There is an important exodus that happens that week to every single beach in Panama. But nothing like walking around Central Avenue right before new year´s holidays to check out the colorful bounty of fruits, roots, herbs, Jamaica flowers, resins, incenses, and good luck baths with strange names.  The best? a dense fruit cake from our Afroantillian side called &#8220;pan bom&#8221;.  Always wondered: I mean, it´s not like people can´t make it the rest of the year, right? why is it that I have to wait until December to get it?  Someone once told me why: it wouldn´t taste the same!!!! I guess I have to excercise my patience. 2017 resolution!\nHope you enjoyed your New Year wherever you were and that 2017 brings above all things health!\n   \nand from our own beach trip (San Blas):\n\n",
+  "blog_link": "http://arcoproperties.com/en/great-start-for-2017/",
+  "blog_date": "2017-01-12T08:35:20-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/great-start-for-2017-2017-01-4.jpg",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\nAll of a sudden&#8230; puf! we are in 2017!  as in many places around the World, Panama is full of traditions to ensure a great start for 2017. From saving the seeds in 12 grapes (counting them, and buying a lottery ticket with the number), to exploding a life size doll packed with &#8220;bombitas&#8221; (fireworks&#8230; for those who like extreme sports), my favorites are always around the colorful foods that are available only in December. Going to the beach",
+  "blog_page_slug": "great-start-for-2017"
+})

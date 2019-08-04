@@ -1,0 +1,12 @@
+({
+  "blog_title": "Halloween and Panama`s ghosts traditions",
+  "blog_article": "Casco Viejo, Panama\nTrick or Treat! three beautiful kids knocked our door for some candy. Luckily I had some, so I wouldn`t be &#8220;attacked&#8221; by the fierce pirate or eaten by the Chinese-Ghost- Princess and her ballerina companion.  Maybe they would have turned me into a toad or something. And after several months of not missing my gym I would NOT want that!!!\nAlthough Halloween is not a Panamanian tradition, we surely have plenty of ghost stories! Although it`s kind of unfair, Halloween`s origins seemed not to have had anything to do with it other than honoring ancestors and trying to scare away any bad spirits that would come with the change of seasons (Autumn to scary, cold, deadly, Winter).\nOur ghost stories are less &#8220;nature&#8221; oriented, one of the most famous ones being the &#8220;Tulivieja&#8221; which is supposed to be a woman that lost her baby at a river and ever since she roams the forests and homes in search for it. She is supposed to be &#8220;heard&#8221; crying at night (close to midnight, of course) and is said to take the infants at their sleep. One of the recommended measures to avoid the Tulivieja (or any witch) from taking you or whomever is to wear your clothes upside down.\nSo now you know! Here are the lovely ghosts that visited us yesterday. Happy Halloween to everyone!!!\n\n\n\n\n\n&nbsp;\nFor more on La Tulivieja:\n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/en/halloween-and-panamas-ghosts-traditions/",
+  "blog_date": "2011-11-01T08:57:09-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/halloween-and-panamas-ghosts-traditions-2011-11-2.jpg",
+  "blog_description": "Casco Viejo, Panama\nTrick or Treat! three beautiful kids knocked our door for some candy. Luckily I had some, so I wouldn`t be &#8220;attacked&#8221; by the fierce pirate or eaten by the Chinese-Ghost- Princess and her ballerina companion.  Maybe they would have turned me into a toad or something. And after several months of not missing my gym I would NOT want that!!!\nAlthough Halloween is not a Panamanian tradition, we surely have plenty of ghost stories! Although it`s kind of unfair, Halloween",
+  "blog_page_slug": "halloween-and-panamas-ghosts-traditions"
+})

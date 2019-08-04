@@ -1,0 +1,12 @@
+({
+  "blog_title": "Generation Peace Academy works with AVACA`s Casco Recicla Program",
+  "blog_article": "Panama Casco Viejo, Casco Antiguo\nDuring 2012, a group of Generation Peace Academy volunteers came to Casco Viejo to work with Casco`s neighborhood Association (AVACA) in an  important awareness program about garbage disposal and direct street intervention.  This year, they joined hands again to work on recycling, the natural next step.\nFor the first time ever, a survey of how much recycling material is being produced at restaurants is being made. Additionally, GPA volunteers are working with children from the community (Aprojusan) doing beach cleanings and building an herbs garden that will help local restaurants to have native species grown in house, and more involved in educational programs about nutrition for the community.\nWe are very proud of the work done by Generation Peace Academy, Aprojusan and all the members of AVACA involved in the activities. Step by step, Casco is moving towards its dream of being one of the greatest historic cities in the world, not only because of its architecture, but because of the love of its people.\nThanks again guys! you rock!\n        \n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/en/generation-peace-academy-works-with-avacas-casco-recicla-program/",
+  "blog_date": "2014-02-03T11:52:41-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/generation-peace-academy-works-with-avacas-casco-recicla-program-2014-02-8.jpg",
+  "blog_description": "Panama Casco Viejo, Casco Antiguo\nDuring 2012, a group of Generation Peace Academy volunteers came to Casco Viejo to work with Casco`s neighborhood Association (AVACA) in an  important awareness program about garbage disposal and direct street intervention.  This year, they joined hands again to work on recycling, the natural next step.\nFor the first time ever, a survey of how much recycling material is being produced at restaurants is being made. Additionally, GPA volunteers are working with ch",
+  "blog_page_slug": "generation-peace-academy-works-with-avacas-casco-recicla-program"
+})

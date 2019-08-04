@@ -1,0 +1,12 @@
+({
+  "blog_title": "Excellent Yoga Class at El Cuarto Rojo, Casco Viejo",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\nI was impressed, which is to say a lot because being a ballet teacher and ex professional dancer I don´t tend to get impressed when it comes to physical instruction.  My back was hurting after a 10 day trip (courtesy of airplane chairs) so I decided to take a yoga class that was at El Cuarto Rojo`s schedule on their door. Monday, 6 p.m., $15, sounds good to me! Let`s see what they`ve got&#8230;.\nAnd it was really cool. I`m sitting here at my desk and my happy back is dictating my fingers what to write! Strengthened and stretched, beautiful!\nTeacher &#8220;Ari&#8221; (Ariadna Sanmai Robles) is a petite, sweet and powerful lady. She`s got a nice sense of humor as well! The class is for every level, so no worries.  Also loved her blog, so if you are interested, check it out here.   \nAfter making us sweat, stretch, grab, twist &amp; hold, Ari gave our senses a gift by massaging our heads with a lemongrass oil that got my soul smiling.\nBut if you are into physical activity, you should definitely contact El Cuarto Rojo. They have several classes, including aerial dancing. Contacts in the images below!\n \n",
+  "blog_link": "http://arcoproperties.com/en/excellent-yoga-class-at-el-cuarto-rojo-casco-viejo/",
+  "blog_date": "2013-07-23T14:53:06-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/excellent-yoga-class-at-el-cuarto-rojo-casco-viejo-2013-07-1.jpg",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\nI was impressed, which is to say a lot because being a ballet teacher and ex professional dancer I don´t tend to get impressed when it comes to physical instruction.  My back was hurting after a 10 day trip (courtesy of airplane chairs) so I decided to take a yoga class that was at El Cuarto Rojo`s schedule on their door. Monday, 6 p.m., $15, sounds good to me! Let`s see what they`ve got&#8230;.\nAnd it was really cool. I`m sitting here at my desk and my happy b",
+  "blog_page_slug": "excellent-yoga-class-at-el-cuarto-rojo-casco-viejo"
+})

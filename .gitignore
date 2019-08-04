@@ -5,6 +5,10 @@
 
 # compiled output
 /_generated
+/cms/blog/*
+!/cms/blog/blog.js
+/cms/directory/*
+!/cms/directory/directory.js
 /www
 /dist
 /tmp

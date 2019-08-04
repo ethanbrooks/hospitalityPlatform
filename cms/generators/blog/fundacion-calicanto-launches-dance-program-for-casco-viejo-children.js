@@ -1,0 +1,12 @@
+({
+  "blog_title": "Fundacion Calicanto launches Dance Program for Casco Viejo Children",
+  "blog_article": "Casco Viejo Panama\nPanama Casco Antiguo\nReal Estate and lifestyle at Panama`s Historic City\n\n\n\nLast night we went to the launch of &#8220;Enlaces&#8221; at the National Theatre in Casco Viejo.  Enlances is  Calicanto`s newest dance program for children of Casco Viejo. Their goal is to use dance as a tool to learn how to be better, how to grow and deal with their lives.  The program teaches a bit of everything: team work, self esteem, values, even helps them with formal school homework, but always under the fun cover of dance. The night started with a moving video where the kids defined the program in their own words, but beyond whatever they could say there was the bright star of hope and passion shinning in their eyes.\nThe main piece of the night was presented by Costa Rica`s dance Conservatory, a group that gathers young dancers (ages 15 to 24).   &#8220;O Pulpos&#8221; explored modern life, criticizing today`s fast pace and repetitiveness without thought, the fear of new things (or all things) and those who pretend to be afraid making a big fuss about it &#8230; but just to call attention.  A lot of black humor! just in case you might have thought dancers were a serious crowd.\nCongratulations to Enlaces! if you are reading this and would like to contribute, please contact Fundacion Calicanto or Analida at Diablo Rosso (analida@diablorosso.com)\n",
+  "blog_link": "http://arcoproperties.com/en/fundacion-calicanto-launches-dance-program-for-casco-viejo-children/",
+  "blog_date": "2010-11-23T09:32:41-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Casco Viejo Panama\nPanama Casco Antiguo\nReal Estate and lifestyle at Panama`s Historic City\n\n\n\nLast night we went to the launch of &#8220;Enlaces&#8221; at the National Theatre in Casco Viejo.  Enlances is  Calicanto`s newest dance program for children of Casco Viejo. Their goal is to use dance as a tool to learn how to be better, how to grow and deal with their lives.  The program teaches a bit of everything: team work, self esteem, values, even helps them with formal school homework, but alway",
+  "blog_page_slug": "fundacion-calicanto-launches-dance-program-for-casco-viejo-children"
+})

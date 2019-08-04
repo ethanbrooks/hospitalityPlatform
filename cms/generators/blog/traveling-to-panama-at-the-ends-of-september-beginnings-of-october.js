@@ -1,0 +1,12 @@
+({
+  "blog_title": "Traveling to Panama at the ends of September, beginnings of October?",
+  "blog_article": "Panama, Casco Viejo &#8211; Casco Antiguo, San Felipe\nAll events are free&#8230; Enjoy! &#8230; Check out our Full Casco Viejo Event Calendar Here! \n\n\n\n2do. FESTIVAL INTERNACIONAL DE LA CANCIÓN DE AUTOR &#8211; PANAMÁ 2008\n \nP R O G R A M A C I Ó N \n Exposición &#8220;&#8230;Y la palabra se hizo música&#8221;\nCarátulas de álbumes de cantautores latinoamericanos y españoles &#8211; España\nCasa Góngora, San Felipe\nHasta el 3 de octubre\nHorario: De 10:00 a.m. a 10:00 p.m. (de lunes a sábados) y los domingos hasta las 5:00 p.m.\n \nCONCIERTOS \nCasa Góngora, San Felipe 7:00 p.m.\n 24 de septiembre\nCHAD VALDÉS &#8211; Panamá\nJUAN sin TIERRA &#8211; Panamá\n 1 de octubre\nALCIDES FUENTES &#8211; Chiriquí\nYIGO SUGASTI &#8211; Panamá\nJESÚS GARRIGA &#8211; España\n TEATRO NACIONAL, San Felipe 7:00 p.m.  Where is this? Virtual Tour HERE\n29 de septiembre\nKARLA LAMBOGLIA &#8211; Panamá\nRÓMULO CASTRO &#8211; Panamá\nHORACIO VALDÉS &#8211; Panamá\nJESÚS GARRIGA &#8211; España\n PLAZA DE LA INDEPENDENCIA, San Felipe 7:00 p.m.  Where is this? Virtual Tour HERE \n4 de octubre\nEVELYN CABALLERO &#8211; Veraguas\nCARLOS MÉNDEZ &#8211; Panamá\nJUAN sin TIERRA &#8211; Panamá\nALEJANDRO LAGROTTA &#8211; Panamá\nALFREDO HIDROVO &#8211; Panamá\nJESÚS GARRIGA &#8211; España\nHORACIO VALDÉS &#8211; Panamá\nALEJANDRO FILIO &#8211; México\n TODOS LOS EVENTOS del 2do. FESTIVAL INTERNACIONAL de la CANCIÓN de AUTOR PANAMÁ 2008 son de entrada libre y gratuita.\n \n",
+  "blog_link": "http://arcoproperties.com/en/traveling-to-panama-at-the-ends-of-september-beginnings-of-october/",
+  "blog_date": "2008-09-22T17:16:39-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Panama, Casco Viejo &#8211; Casco Antiguo, San Felipe\nAll events are free&#8230; Enjoy! &#8230; Check out our Full Casco Viejo Event Calendar Here! \n\n\n\n2do. FESTIVAL INTERNACIONAL DE LA CANCIÓN DE AUTOR &#8211; PANAMÁ 2008\n \nP R O G R A M A C I Ó N \n Exposición &#8220;&#8230;Y la palabra se hizo música&#8221;\nCarátulas de álbumes de cantautores latinoamericanos y españoles &#8211; España\nCasa Góngora, San Felipe\nHasta el 3 de octubre\nHorario: De 10:00 a.m. a 10:00 p.m. (de lunes a sábados) y los",
+  "blog_page_slug": "traveling-to-panama-at-the-ends-of-september-beginnings-of-october"
+})

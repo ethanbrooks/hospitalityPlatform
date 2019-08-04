@@ -1,0 +1,12 @@
+({
+  "blog_title": "Las Clementinas: Panama´s First B Corp Hotel",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\nSo, what is B Corps?it is an international certification that looks into a business processes and impact, whether social or environmental, committing them to a high standard of transparency and accountability. This certification currently exists in more than 50 countries, and in Panama there is a pioneer group of companies including our very own Grupo Conservatorio. Within the group, Hotel Las Clementinas is Panama´s first hotel to comply with the B Corp certification.\nThis is a changing world, and the conversation of how you impact is very dear to our hearts and minds. The concept of how you do business is evolving. It used to be enough to have a social responsibility department. But the concept has evolved into making sure that the whole company and its impact is being addressed, that it is in its DNA. It is a window that opens wide and invites all for profits to re visit their objectives and look deep into their impacts.\nThis is exciting for us, so we would like to congratulate Las Clementinas for submitting and achieving compliance, becoming Panama´s first B Corp hotel!\nTo know more about Las Clementinas: https://www.lasclementinas.com/ \nAnd about B Corp: http://bcorporation.eu/\n&nbsp;\n\n",
+  "blog_link": "http://arcoproperties.com/en/las-clementinas-panamas-first-b-corp-hotel/",
+  "blog_date": "2018-07-12T14:56:55-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/las-clementinas-panamas-first-b-corp-hotel-2018-07-0.jpg",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\nSo, what is B Corps?it is an international certification that looks into a business processes and impact, whether social or environmental, committing them to a high standard of transparency and accountability. This certification currently exists in more than 50 countries, and in Panama there is a pioneer group of companies including our very own Grupo Conservatorio. Within the group, Hotel Las Clementinas is Panama´s first hotel to comply with the B Corp certif",
+  "blog_page_slug": "las-clementinas-panamas-first-b-corp-hotel"
+})

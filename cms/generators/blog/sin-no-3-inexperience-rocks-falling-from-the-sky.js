@@ -1,0 +1,12 @@
+({
+  "blog_title": "Sin No.3: Inexperience & Rocks Falling From The Sky",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\nIn order to develop buildings in Casco Antiguo you have to have previous experience in some sort of field related to building.  This is an activity that should be labeled: &#8220;Not For The Faint Of Heart&#8221;. Either you know what your doing and therefore you have a realistic approach to your dream, or you are a very curious mind, a hands on personality packed with passion and willing to roll up your sleeves and dig in head first researching and sweating it with a smile.  I`ve seen both cases, and they both work out well.\nWhat doesn´t work is someone who treats the project &#8220;as a hobby&#8221;, with the &#8220;no, I`ll just hire someone down here to do it&#8221; mind frame. Normally this doesn´t go anywhere: an owner without a true grasp on reality is bound to fail, and delegating his responsibility to someone in the field that has no skin in the game is the wrong approach for this type of activity.\nIt reminds me a lot of that old insurance commercial where everyone was happy while nothing happened, and when suddenly a big rock came from the sky and smashed the car, everyone flew away and the poor owner of the car was left with the mess and no backup (blaming the rock, probably).  There are no warranties and stuff will always come up to the point you do think rocks are literally coming down from the sky, but experience and/or being 100% involved is the best way to prevent situations or at least to keep it to a minimum.\nSounds like common sense? you would be surprise of the number of &#8220;sinners&#8221; out there&#8230;\n\n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/en/sin-no-3-inexperience-rocks-falling-from-the-sky/",
+  "blog_date": "2013-10-16T09:08:20-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\nIn order to develop buildings in Casco Antiguo you have to have previous experience in some sort of field related to building.  This is an activity that should be labeled: &#8220;Not For The Faint Of Heart&#8221;. Either you know what your doing and therefore you have a realistic approach to your dream, or you are a very curious mind, a hands on personality packed with passion and willing to roll up your sleeves and dig in head first researching and sweating it",
+  "blog_page_slug": "sin-no-3-inexperience-rocks-falling-from-the-sky"
+})

@@ -1,0 +1,12 @@
+({
+  "blog_title": "How to fit 30 Parkings in Casco Viejo",
+  "blog_article": "Panamá, Casco Viejo, Casco Antiguo\n&nbsp;\n31 Actually. And in a historic building with more than 800 mt2 of office space on the top.  How?\nWe are thrilled to announce that developer Conservatorio (our mother company) has brought what is the first mechanized parking system to Panama.  This system, by the German company Klaus Multiparking is simply put, the future, not only for Casco Viejo but for Panama City.\nThe system is part of El Colegio, Casco´s first Grade A office building, opening in May 2018. Open office floorplans, high ceilings, balcony, roof terrace with stunning views&#8230; and parking.  With 40 years of experience in building this type of systems, we are very proud to be the first ones in Panama, and to make this statement from Casco Viejo. Cities grow, and spaces have to get more compact and efficient. New solutions have to be applied, and technology has proven to be a critical ally.  For years, Conservatorio has been leading the market through sustainable urban revitalization, seeking and applying solutions to complex urban challenges using creativity, and out of the box ideas to tackle problems.\nEl Colegio is the perfect corner for small to medium businesses in the creative , cultural or technological business.  Family offices and even small educational institutions.\nFor more information, take a look at our microsite : HERE\nOr email us! patrizia@arcoproperties.com\n&nbsp;\n\n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/en/how-to-fit-30-parkings-in-casco-viejo/",
+  "blog_date": "2018-04-23T08:52:44-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Panamá, Casco Viejo, Casco Antiguo\n&nbsp;\n31 Actually. And in a historic building with more than 800 mt2 of office space on the top.  How?\nWe are thrilled to announce that developer Conservatorio (our mother company) has brought what is the first mechanized parking system to Panama.  This system, by the German company Klaus Multiparking is simply put, the future, not only for Casco Viejo but for Panama City.\nThe system is part of El Colegio, Casco´s first Grade A office building, opening in May ",
+  "blog_page_slug": "how-to-fit-30-parkings-in-casco-viejo"
+})

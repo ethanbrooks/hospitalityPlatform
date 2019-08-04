@@ -1,0 +1,12 @@
+({
+  "blog_title": "Casco Viejo´s Urban Composting Contest Results",
+  "blog_article": " Panama, Casco Antiguo &#8230; or Casco Viejo\nSan Felipe\nAlmost a month ago we launched an Urban Composting Contest aimed to provide the comunity of Casco Antiguo with a system to not only recycle their organic trash but also to be able to grow food that would balance their diet and ultimately even sell to restaurants. \nThe results so far are very interesting: it is by far our most visited post, one of the most read, clicked, both in spanish and english&#8230; but only until a week ago did we get our first (and so far only!) application. I can only guess the fast pace of our lives bury all of our good intentions to do something about the environment, but not our thoughts: meaning we all think about it, but most likely we just don´t have the time to do it.\nWe even got calls from journalist and got two articles: one online from EFE and another one on a local magazine (Ellas).  But only one application: &#8220;The Rodrigo&#8221;.\nThe system received promises to be a fun project to engage comunity kids. It was submited by Beth Ihle, Tamara, Nathalee and Jen Hanna who are currently working in Costa Rica, at a eco-friendly wellness retreat. We are currently working on the technical details of how to fit them in our balconies, Spencer had some great ideas that could improve the system. Also, painted by kids, it will become a great masterpiece of Casco Viejo´s urban art.\nTo Beth, Tamara, Nathalee and Jen&#8230; thank you!!!! thanks for taking the time for all of us and thanks for your enthusiastic pictures.\n",
+  "blog_link": "http://arcoproperties.com/en/casco-viejo%c2%b4s-urban-composting-contest-results/",
+  "blog_date": "2008-05-27T08:35:19-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": " Panama, Casco Antiguo &#8230; or Casco Viejo\nSan Felipe\nAlmost a month ago we launched an Urban Composting Contest aimed to provide the comunity of Casco Antiguo with a system to not only recycle their organic trash but also to be able to grow food that would balance their diet and ultimately even sell to restaurants. \nThe results so far are very interesting: it is by far our most visited post, one of the most read, clicked, both in spanish and english&#8230; but only until a week ago did we ge",
+  "blog_page_slug": "casco-viejo%c2%b4s-urban-composting-contest-results"
+})

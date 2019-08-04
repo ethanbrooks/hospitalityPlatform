@@ -1,0 +1,12 @@
+({
+  "blog_title": "Creative Writing Workshop in Casco Viejo",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\nFunny, but once we are out of school / university, our lives tend to have on its natural flow mainly two types of communication: social media (and mainly emoticons!) and work related stuff.  I was warned by my old literature teacher that this was going to happen! but was she wrong?\nMaybe. I mean, each one of us contains rivers of feelings, words, thoughts, and crazy ideas running inside us, we just don´t know what to do with it. Some people even create damns. But Lili Mendoza has no damns, I´ll tell you that. If you want to see a river in action, and risk having your own gates break open, you have to go to her creative writing workshop.\nIf you read Spanish, the following blog will give you an idea. It is signed by veterinarian Enrique Samudio: http://www.quevi.org/?p=91\nMainly in Spanish, but Lili is one of the few that can do creative writing in English as well. here is a bit about her: Stockton Times article. Be prepared for Spanglish, her favorite language.\nHow does it work? the group meets in a spot in Casco, which changes from day to day. The last class was held inside the Religious Art Museum by Arco Chato. Both for visitors and locals, it is a way to look at the city in a different way, to experience it from a different angle. Perfect recipe to start writing!\nHow to get in touch with Lili? usually her facebook is pretty good. Or if you would like to go to her QueVi website: http://www.quevi.org/    and her email info@quevi.org\n&nbsp;\n&nbsp;\n",
+  "blog_link": "http://arcoproperties.com/en/creative-writing-workshop-in-casco-viejo/",
+  "blog_date": "2016-05-25T12:41:57-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\nFunny, but once we are out of school / university, our lives tend to have on its natural flow mainly two types of communication: social media (and mainly emoticons!) and work related stuff.  I was warned by my old literature teacher that this was going to happen! but was she wrong?\nMaybe. I mean, each one of us contains rivers of feelings, words, thoughts, and crazy ideas running inside us, we just don´t know what to do with it. Some people even create damns. B",
+  "blog_page_slug": "creative-writing-workshop-in-casco-viejo"
+})

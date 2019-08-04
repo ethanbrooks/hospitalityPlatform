@@ -1,0 +1,12 @@
+({
+  "blog_title": "My Casco Viejo Eco Christmas Tree",
+  "blog_article": "Casco Antiguo Panama\nCasco Viejo Panama\nLifestyle and Real Estate at Panama`s Historic City\n&nbsp;\nChristmas is coming&#8230; and the World becomes obsessed. And yes, I am one of them. But at least I do it responsibly!\nThe thing is that I always obsess about the Christmas tree. I want a tree, but don`t want it to pollute, etc.  Last year, I did a Christmas tree with newspaper and stuff found at the beach. This year, after a beach cleaning where Casco Viejo`s community participated, I got inspired to do it with plastic bottles. Also, I wanted to have my dog be part of my decoration, so I used the food bag as a door ornament.\n\n\n\n\n2010 Plastic Bottle Christmas Tree\n\n\nThis year, I got most of the material at Casco Viejo`s beach nearby the old Union Club and under Las Bovedas (outside the colonial stone wall) .   I started hanging them, and here is the result so far! Haven`t used them all, I think I still have 45 bottles or so. I think those I`ll use as daily gifts for my dog, as she loves to flatten them. At the end, I`ll send the entire package (flat bottles and tree) to the recycling company that has started to collect material in Casco Viejo.\nI call this an &#8220;ongoing&#8221; design&#8230; for sure it will be very different at the ends of the year! (yes, I tend to keep my tree until January&#8230; I know&#8230; separation anxiety).\nDog food bag turned into Christmas decoration\nLast year`s wrapping. Still deciding on 2010\nLast year`s wrapping. Still deciding on 2010\n2009 paper Christmas Tree. But this wasn`t the final version. \n\n",
+  "blog_link": "http://arcoproperties.com/en/my-casco-viejo-eco-christmas-tree/",
+  "blog_date": "2010-11-16T08:07:37-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Casco Antiguo Panama\nCasco Viejo Panama\nLifestyle and Real Estate at Panama`s Historic City\n&nbsp;\nChristmas is coming&#8230; and the World becomes obsessed. And yes, I am one of them. But at least I do it responsibly!\nThe thing is that I always obsess about the Christmas tree. I want a tree, but don`t want it to pollute, etc.  Last year, I did a Christmas tree with newspaper and stuff found at the beach. This year, after a beach cleaning where Casco Viejo`s community participated, I got inspire",
+  "blog_page_slug": "my-casco-viejo-eco-christmas-tree"
+})

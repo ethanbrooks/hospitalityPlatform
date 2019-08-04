@@ -1,0 +1,12 @@
+({
+  "blog_title": "Gang Style or Not: choices in Casco Viejo",
+  "blog_article": "As a full time resident of Casco Viejo, and the type that never wants to leave the town (it is just so comfortable to be able to walk everywhere!) I know hair is an issue.\nYour choices to cut your hair until a month ago where basically either calling someone that will come to your home or go full “gangsta” style, in which case you could have some incredible hair art carved on your military-shaved head. I´ve seen everything from a puma jumping a fence (would that apply for the “author’s right” ? ) to a lovely spider web on the head of a four year old kid who had a cute Spiderman T Shirt.  Creative as it is, somehow the problem is that it only works for boys…   We girls need special skills, you know.\nSo with great enthusiasm we are welcoming Chateau de Klipper, Casco Antiguo&#8217;s newest salon.  The owner, Susan Klipper, says that she will be offering fashion forward hair styling, coloring and highlights (her specialty), Brazilian Keratin, manicures, pedicures, waxing plus a range of massages. We already tried it and received compliments!  Chateau de Klipper is located on the planta baja in the recently restored P.H. Isabella on Calle 9 between Avenida B and Avenida Central, or what might be easiest: behind the Iglesia La Merced.\nUntil the official opening in November, Susan is taking clients by appointment.  See Casco Viejo What to Do Directory\n",
+  "blog_link": "http://arcoproperties.com/en/gang-style-or-not-choices-in-casco-viejo/",
+  "blog_date": "2009-11-15T12:13:26-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "As a full time resident of Casco Viejo, and the type that never wants to leave the town (it is just so comfortable to be able to walk everywhere!) I know hair is an issue.\nYour choices to cut your hair until a month ago where basically either calling someone that will come to your home or go full “gangsta” style, in which case you could have some incredible hair art carved on your military-shaved head. I´ve seen everything from a puma jumping a fence (would that apply for the “author’s right” ? ",
+  "blog_page_slug": "gang-style-or-not-choices-in-casco-viejo"
+})

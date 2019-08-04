@@ -1,0 +1,12 @@
+({
+  "blog_title": "Panama will continue to grow according to United Nation´s Report",
+  "blog_article": "Panama´s Growth according to United Nations\nUnited Nation´s economic agency for Latin America and the Caribbean called CEPAL (Comision Economica para America Latina y el Caribe / Economic Comission for Latin America and the Caribbean) published in its website their growth projections for the region for 2009.  According to their economic study, Panama will grow over 3% this year, leading the region´s development and surviving the crisis better than its peers (at least for 2009).\nIn Casco Antiguo, things are moving along on all fronts. Several new businesses have opened, this time mostly locals: two new stores and a beauty salon, all of them in San Felipe. Doña Daisy, formerly on Calle 1era is now at the Santa Familia complex in Avenida A and Calle 5ta, a few steps away from the Canal House Hotel.  At Las Bovedas in Plaza Francia, a small handcraft store opened for tourist: it offers coffee, drinks and hand painted crafts, mostly fans (under this hot summer you come to appreciate!). The beauty salon is called Virginia, and is at the very entrance of San Felipe: you´ll see it to your left as you go up the bridge.  Friendly owners and nice creative nails. Washed and blower my long hair for $8.\nSeeing these guys go forward with their businesses makes me think about that 3%.  A cold number for many, but very significant when you dig in and you get to see the faces of who make it possible. This is what gives you hope, for although times are and can be tough, there is nothing as surrounding yourself with positive energy.\n",
+  "blog_link": "http://arcoproperties.com/en/panama-will-continue-to-grow-according-to-united-nation%c2%b4s-report/",
+  "blog_date": "2009-04-13T07:52:16-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Panama´s Growth according to United Nations\nUnited Nation´s economic agency for Latin America and the Caribbean called CEPAL (Comision Economica para America Latina y el Caribe / Economic Comission for Latin America and the Caribbean) published in its website their growth projections for the region for 2009.  According to their economic study, Panama will grow over 3% this year, leading the region´s development and surviving the crisis better than its peers (at least for 2009).\nIn Casco Antiguo,",
+  "blog_page_slug": "panama-will-continue-to-grow-according-to-united-nation%c2%b4s-report"
+})

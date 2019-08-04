@@ -1,0 +1,12 @@
+({
+  "blog_title": "Casco Viejo`s community at Beach Cleanup",
+  "blog_article": "\nCasco Viejo, Panama\nPanama, Casco Antiguo\nReal Estate at Panama`s Historic City\n \nSunday, 8 a.m., San Felipe.  The 300 year old UNESCO World Heritage city of Casco Viejo is still half asleep but a group of neighbors, members of  Casco Viejo`s Neighborhood Association (AVACA)   gathered early near the National Theatre with a wonderful goal: to celebrate the Ocean`s Month with a beach cleaning, an activity organized simultaneously in other parts of Panama City by environmental ngo`s such as Fundacion Natura and Alianza Contaminacion Cero.\nThe  Casco Viejo target:  Santo Domingo`s beach, better known as Calle 3era.\nForeigners and locals  joined hands to pick up what ended up being a lot of garbage. At least over 600 plastic bottles, two bags of broken foam, ten bags of miscellaneous plastic items, two bags of shoes (brands?&#8230;well, that would be the next thing to point out in a beach cleaning!), one full bag of bottle caps, one bag of clothing and at least another ten bags of general garbage.  Between the most curious objects they counted one fire extinguisher, a bed frame and a plastic toy in the shape of a foot.\nSweaty from head to toe, the end result was amazing:  a clean beach to enjoy. Immediately, a softball game was in place, and children and adults ran everywhere.\n\n",
+  "blog_link": "http://arcoproperties.com/en/casco-viejos-community-at-beach-cleanup/",
+  "blog_date": "2010-09-27T10:17:00-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "\nCasco Viejo, Panama\nPanama, Casco Antiguo\nReal Estate at Panama`s Historic City\n \nSunday, 8 a.m., San Felipe.  The 300 year old UNESCO World Heritage city of Casco Viejo is still half asleep but a group of neighbors, members of  Casco Viejo`s Neighborhood Association (AVACA)   gathered early near the National Theatre with a wonderful goal: to celebrate the Ocean`s Month with a beach cleaning, an activity organized simultaneously in other parts of Panama City by environmental ngo`s such as Funda",
+  "blog_page_slug": "casco-viejos-community-at-beach-cleanup"
+})

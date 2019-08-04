@@ -1,0 +1,12 @@
+({
+  "blog_title": "What If… Calicanto`s Annual Fundraising Gala",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\n1914 was a special year for Panama. It was the inauguration of the Panama Canal. You would think that such an amazing wonder would have attracted the best of the best around the world to come and see it. But no. No one showed up. The main reason was:Archduke Franz Ferdinand was killed and by July 2014 World War I had exploded. The Panama Canal was inaugurated in August.\nA hundred years later, Panama looks back to commemorate one of the Seven Wonders of the World. On this topic, Fundacion Calicanto has decided to give a twist: what if the Archduke had survived the bullet? what if the world had never entered the war? who would have shown up for the inauguration party?\nSo, answers will &#8220;show up&#8221; during their creative fundraising Gala on September 3rd.  The whole theme will be around the historic Hotel Tivoli (someone donated an original menu!) and the night promises to be a lot of fun.\nBut the best part? all proceeds go to their programs, which include women empowerment, children`s education and social reintegration for Casco Viejo`s young men. While the night might be creative and full of fantasy, do know it is all about building a very real, long term, world of peace.\nIf you would like to assist, please let us know! patrizia@arcoproperties.com\nTo learn about their programs:https://www.youtube.com/user/FundacionCalicanto\nHere is their invitation to the party:\n\nCheck out Calicanto`s last gala:\n\n",
+  "blog_link": "http://arcoproperties.com/en/what-if-calicantos-annual-fundraising-gala/",
+  "blog_date": "2014-08-11T16:43:36-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/what-if-calicantos-annual-fundraising-gala-2014-08-0.jpg",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\n1914 was a special year for Panama. It was the inauguration of the Panama Canal. You would think that such an amazing wonder would have attracted the best of the best around the world to come and see it. But no. No one showed up. The main reason was:Archduke Franz Ferdinand was killed and by July 2014 World War I had exploded. The Panama Canal was inaugurated in August.\nA hundred years later, Panama looks back to commemorate one of the Seven Wonders of the Worl",
+  "blog_page_slug": "what-if-calicantos-annual-fundraising-gala"
+})

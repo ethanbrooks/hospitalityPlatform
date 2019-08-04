@@ -1,0 +1,12 @@
+({
+  "blog_title": "COPA Airlines Expands Fleet With New 32 Boeing Planes",
+  "blog_article": "&nbsp;\nCasco Viejo Panama\nPanama Casco Antiguo\nReal Estate For Sale For Rent at Panama`s Historic District\nWhen you think that just a couple of years ago airlines around the World were going through one of the biggest economic crisis of modern history this headline becomes simply amazing. But truth is that COPA , Panama`s flag airline, never stopped moving forward.  Even through the darkest days, COPA never stopped offering meals to their clients and good service.\nYesterday, and according to a note from La Prensa, the airline signed what is quoted to be the largest transaction in the history between Panama and the United States: $2,600 million dollars for the purchase of 32 brand new Boeing airplanes.\nOne of Panama`s strongest assets is its geographic position. From colonial times, it positioned itself as a hub for 1. Spanish trade with the Americas, 2. Gold trade with California, 3. General trade with the Panama Canal.  This advantage had given companies like COPA a great platform to develop as what is known today as the Hub of the Americas. Among COPA`s plans there is for the first time an interest to reach internal destinations within Panama, through shared codes with Aeroperlas and Air Panama. But hopefully this new purchase means more and better planes to continue to connect the world through our small country.\n",
+  "blog_link": "http://arcoproperties.com/en/copa-airlines-expands-fleet-with-new-32-boeing-planes/",
+  "blog_date": "2010-12-01T08:58:01-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "&nbsp;\nCasco Viejo Panama\nPanama Casco Antiguo\nReal Estate For Sale For Rent at Panama`s Historic District\nWhen you think that just a couple of years ago airlines around the World were going through one of the biggest economic crisis of modern history this headline becomes simply amazing. But truth is that COPA , Panama`s flag airline, never stopped moving forward.  Even through the darkest days, COPA never stopped offering meals to their clients and good service.\nYesterday, and according to a n",
+  "blog_page_slug": "copa-airlines-expands-fleet-with-new-32-boeing-planes"
+})

@@ -1,0 +1,12 @@
+({
+  "blog_title": "Ghosts, Murder, Treason",
+  "blog_article": "Way before the Sopranos, there was Giselle.\nPanama´s National Ballet will be presenting one of the jewels of romantic ballet: Giselle at the National Theatre at Casco Antiguo, Panama, from October 5, 7th, 9th at 7 p.m.\nBasic plot: sweet girl in town falls in love with not so inocent Prince. He was supposed to get married with a princess. When she finds out, she dies of a heart attack (well&#8230; dies of love!). Leaves the prince feeling guilty and the guy who actually loved her (a boy from the town) heartbroken.\nSecond act: Giselle, as a ghost ends up under Myrtha´s reign. Her gang is made of all the women who have died of love and their mission is to take revenge by killing every man who enters their forest by making them dance until death.  When the poor guy who actually loved Giselle steps in, Myrtha´s army get hold of him and kill him. But when the prince comes in, Giselle arises. Myrtha orders her to dance with him and murder him, so she dances&#8230; but keeps a pace where he is still alive at dawn. Giselle has saved him and forgiven him.\nThe last scene, at dawn, he is found over the tomb of Giselle, repented.\nIt was said that when this ballet was first performed by Margot Fontayne and Rudolf Nureyev, the public was in such spell that they kept quite for a full minute after the curtain went down. And then, they couldn´t stop a 20 minute explosion of applause.\n",
+  "blog_link": "http://arcoproperties.com/en/ghosts-murder-treason/",
+  "blog_date": "2009-10-05T09:13:08-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Way before the Sopranos, there was Giselle.\nPanama´s National Ballet will be presenting one of the jewels of romantic ballet: Giselle at the National Theatre at Casco Antiguo, Panama, from October 5, 7th, 9th at 7 p.m.\nBasic plot: sweet girl in town falls in love with not so inocent Prince. He was supposed to get married with a princess. When she finds out, she dies of a heart attack (well&#8230; dies of love!). Leaves the prince feeling guilty and the guy who actually loved her (a boy from the ",
+  "blog_page_slug": "ghosts-murder-treason"
+})

@@ -1,0 +1,12 @@
+({
+  "blog_title": "CAPTA Graduates Steal the Show",
+  "blog_article": "Panama Casco Viejo, Casco Antiguo\nYesterday was the graduation No. 24 of the CAPTA program of Fundación Calicanto. They now have officially graduated over 500 women, with over 73% rate of success on not only getting a job but keeping it a year after.\nThis graduation was very special, because it was one of the very few where I`ve heard some of them state being an entrepreneur as part of their dream (usually they are very focused on getting a job). This on itself is awesome.  For these women who normally come from very difficult/violent backgrounds and in really poor areas, to have that spark it is really something to admire. Between the many gifts they received during their graduation, there was a scholarship for one of the students so she can now finish Elementary School and High School. Yes, you read correctly.\nI know that everyone knows how education is a wonderful thing, how empowerment is something good, and etc. etc. etc. But believe me, until you`ve been there, seen it, been part of this program…. You just don´t know how powerful this is.  CAPTA is not just “change” for these women. It is a change for everyone that come across it, and even if for a simple moment, can see the results in real life as opposed to an excel sheet.\nCongratulations to every girl in this class, to the teachers, donors and organizers who make this happen against all odds every year. You guys rock!\n\n\n\n\n\n\n\n\n",
+  "blog_link": "http://arcoproperties.com/en/capta-graduates-steal-the-show/",
+  "blog_date": "2013-04-18T08:19:08-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/capta-graduates-steal-the-show-2013-04-5.jpg",
+  "blog_description": "Panama Casco Viejo, Casco Antiguo\nYesterday was the graduation No. 24 of the CAPTA program of Fundación Calicanto. They now have officially graduated over 500 women, with over 73% rate of success on not only getting a job but keeping it a year after.\nThis graduation was very special, because it was one of the very few where I`ve heard some of them state being an entrepreneur as part of their dream (usually they are very focused on getting a job). This on itself is awesome.  For these women who n",
+  "blog_page_slug": "capta-graduates-steal-the-show"
+})

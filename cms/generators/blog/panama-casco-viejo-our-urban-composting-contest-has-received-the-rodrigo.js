@@ -1,0 +1,12 @@
+({
+  "blog_title": "Panama, Casco Viejo:  Our Urban Composting contest has received The Rodrigo",
+  "blog_article": "Panama, Casco Antiguo\nSan Felipe\n\nAlmost a month ago we launched an Urban Composting Contest aimed to provide the comunity\nof Casco Antiguo with a system to not only recycle their organic trash but also to\nbe able to grow food that would balance their diet and ultimately even sell to restaurants.&nbsp;\nThe results so far are very interesting: it is by far our most visited post, one of\nthe most read, clicked, both in spanish and english&#8230; but only until a week ago did\nwe get our first (and so far only!) application. I can only guess the fast pace of\nour lives bury all of our good intentions to do something about the environment, but\nnot our thoughts: meaning we all think about it, but most likely we just don´t have\nthe time to do it.\nWe even got calls from journalist and got two articles: one online from EFE and another\none on a local magazine (Ellas).&nbsp; But only one application: &#8220;The Rodrigo&#8221;.\nThe system received promises to be a fun project to engage comunity kids. It was submited\nby Beth Ihle, Tamara, Nathalee and Jen Hanna who are currently working in Costa Rica,\nat a eco-friendly wellness retreat. We are currently working on the technical details\nof how to fit them in our balconies, Spencer had some great ideas that could improve\nthe system. Also, painted by kids, it will become a great masterpiece of Casco Viejo´s\nurban art.\nTo Beth, Tamara, Nathalee and Jen&#8230; thank you!!!! thanks for taking the time for\nall of us and thanks for your enthusiastic pictures.\n\n&nbsp;&nbsp;&nbsp;\n\n\n",
+  "blog_link": "http://arcoproperties.com/en/panama-casco-viejo-our-urban-composting-contest-has-received-the-rodrigo/",
+  "blog_date": "2008-05-27T08:27:42-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Panama, Casco Antiguo\nSan Felipe\n\nAlmost a month ago we launched an Urban Composting Contest aimed to provide the comunity\nof Casco Antiguo with a system to not only recycle their organic trash but also to\nbe able to grow food that would balance their diet and ultimately even sell to restaurants.&nbsp;\nThe results so far are very interesting: it is by far our most visited post, one of\nthe most read, clicked, both in spanish and english&#8230; but only until a week ago did\nwe get our first (and s",
+  "blog_page_slug": "panama-casco-viejo-our-urban-composting-contest-has-received-the-rodrigo"
+})

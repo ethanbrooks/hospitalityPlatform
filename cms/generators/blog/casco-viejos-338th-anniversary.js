@@ -1,0 +1,12 @@
+({
+  "blog_title": "Casco Viejo`s 338th Anniversary!",
+  "blog_article": "Panama, Casco Viejo, Casco Antiguo\nReal Estate at Panama`s Historic City\n&nbsp;\nYesterday, the Oficina del Casco Antiguo started a series of activities to celebrate the 338th Anniversary of Casco Viejo.  For those already tuned into our beloved historic city,  its history will be familiar:  back in 1671 the first settlers of what is now called &#8220;Old Panama&#8221; decided to move out of their site (located in a swamp, basically) to a more healthy area (rocky point! ) that had crossed wind ventilation and less mosquitoes.  There is an endless discussion on whether the last attack of pirate Morgan was really the trigger for the city to move out, I think they were already having such a bad time with tropical diseases nobody knew about that by the time Morgan came the city was already weak and ready to go.\nThis is the first time I recall that the actual move from one city to the next one is being celebrated. Most of the activities will be held at Casa de la Cultura with seminars and talks about preservation.  The Canal Museum will hold a conference on the 18th (today) at 10 a.m. about the tourism influence of the Casco Antiguo and at 11:45 a.m. Dra. Katty Osorio will talk about the &#8220;Moving of the City and Continuity at Panama Vieja&#8221;.\nTomorrow, January 19th, the Canal Museum will have two conferences: 10 a.m. about urban planning and &#8220;museum &amp; Casco Viejo&#8221;.    As an interactive activity, they are are asking participants to bring newspaper cuttings which will be gathered in a &#8220;time chest&#8221; and closed to be open in 10 years.  Hope they keep it in the Canal Museum!\n[slideshow] \n",
+  "blog_link": "http://arcoproperties.com/en/casco-viejos-338th-anniversary/",
+  "blog_date": "2011-01-18T09:30:12-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Panama, Casco Viejo, Casco Antiguo\nReal Estate at Panama`s Historic City\n&nbsp;\nYesterday, the Oficina del Casco Antiguo started a series of activities to celebrate the 338th Anniversary of Casco Viejo.  For those already tuned into our beloved historic city,  its history will be familiar:  back in 1671 the first settlers of what is now called &#8220;Old Panama&#8221; decided to move out of their site (located in a swamp, basically) to a more healthy area (rocky point! ) that had crossed wind ve",
+  "blog_page_slug": "casco-viejos-338th-anniversary"
+})

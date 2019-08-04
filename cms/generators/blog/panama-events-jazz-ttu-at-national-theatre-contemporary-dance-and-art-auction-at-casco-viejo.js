@@ -1,0 +1,12 @@
+({
+  "blog_title": "Panama Events: Jazz Ttu at National Theatre, Contemporary Dance and Art Auction at Casco Viejo",
+  "blog_article": " Panama, Casco Antiguo,\nCasco Viejo, San Felipe\n\nFrom La Prensa:\nNext August 8th we´ll have the pleasure to enjoy a beautiful concert by Ull Mock and Frank Heinz. It is an initiative of the German Embassy along with culutraplus.net  Profits will go to a non profit organization doing work in Darien. The duet will perform along with saxophonist Rangel Rodriguez, Juan Cedeño at the bass and Concepción Sousa at battery.\nTickets will be between $ 15 and $25 and will be sold at &#8220;Hombre de La Mancha&#8221; bookstore, Argosy bookstore and of course, the German Embassy and their German Cultural Center.\nOn another note, the Teatro Anita Villalaz at Las Bovedas in Plaza Francia will have a Contemporary Dance Encounter on July 17th, 7 p.m.  You can get more info with Anays Labrador at 302-0549.\nFinally, the Museum of Contemporary Art will hold its annual Auction at Casa Cor, at the back of San Francisco de Asis Church in Plaza Bolívar. This will be July 16th. More than 65 pieces from Panamanian and Latin American artists. Schedule: 4 p.m. to 10 p.m. from Monday to Saturday. Sundays from 4 p.m. to 8 p.m. Phone Information: 262-3380\n",
+  "blog_link": "http://arcoproperties.com/en/panama-events-jazz-ttu-at-national-theatre-contemporary-dance-and-art-auction-at-casco-viejo/",
+  "blog_date": "2008-07-11T09:12:28-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": " Panama, Casco Antiguo,\nCasco Viejo, San Felipe\n\nFrom La Prensa:\nNext August 8th we´ll have the pleasure to enjoy a beautiful concert by Ull Mock and Frank Heinz. It is an initiative of the German Embassy along with culutraplus.net  Profits will go to a non profit organization doing work in Darien. The duet will perform along with saxophonist Rangel Rodriguez, Juan Cedeño at the bass and Concepción Sousa at battery.\nTickets will be between $ 15 and $25 and will be sold at &#8220;Hombre de La Man",
+  "blog_page_slug": "panama-events-jazz-ttu-at-national-theatre-contemporary-dance-and-art-auction-at-casco-viejo"
+})
