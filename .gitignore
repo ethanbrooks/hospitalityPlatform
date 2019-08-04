@@ -5,12 +5,12 @@
 
 # compiled output
 /_generated
-/cms/generators/blog/*
-!/cms/generators/blog/blog.js
-/cms/generators/directory/*
-!/cms/generators/directory/directory.js
-/www
 /dist
+/enduro/cms/generators/blog/*
+!/enduro/cms/generators/blog/blog.js
+/enduro/cms/generators/directory/*
+!/enduro/cms/generators/directory/directory.js
+/www
 /tmp
 /out-tsc
 # Only exists if Bazel was run
