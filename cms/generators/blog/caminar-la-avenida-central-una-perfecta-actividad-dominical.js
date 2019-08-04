@@ -1,7 +1,0 @@
-({
-  "blog_title": "Caminar la Avenida Central: una perfecta actividad dominical",
-  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nEl domingo pasado, el Municipio inició un programa en el cual una parte de la Avenida Central se convierte en una Vía Peatonal. De 6 a.m. a 6 p.m. comenzando desde la Plaza Santa Ana hasta el estacionamiento del Teatro Nacional esta calle estará libre de carros.\nDe hecho, se permitirá la entrada de autos al Casco, no habrá ningún cambio en el modo de entrada o salida, aparte del hecho que no se tendrá acceso a la Avenida Central. Habrán estacionamientos en el Teatro Nacional y detrás de la Plaza Herrera, al igual que también habrá transporte público entrando al Casco desde la Cinta Costera para aquellos que quieran dejar so carro afuera y ahorrarse el estrés.\nEste evento se repetirá todos los domingos, lo que es un momento perfecto para venir con la familia a disfrutar del Casco Viejo… caminando!\n\n\nFranz sacó al mono y al sapo…  para ver que hacía la gente. Miles de slefies! Y perros aterrados… que no sabían qué pensar del sapo. Jajajaja! Chispa ni les prestó atención.\n\n\n&nbsp;\n",
-  "blog_link": "http://arcoproperties.com/caminar-la-avenida-central-una-perfecta-actividad-dominical/",
-  "blog_date": "2016-03-11T17:01:17-05:00",
-  "blog_image": "/image-src/fit-in/640x480/caminar-la-avenida-central-una-perfecta-actividad-dominical-2016-03-0.jpg"
-})

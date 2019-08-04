@@ -1,6 +1,0 @@
-({
-  "blog_title": "Semana de películas italianas y de niños en el Casco Viejo",
-  "blog_text": "Panama, Casco Viejo, Casco Antiguo\nHoy es el último día del Festival Internacional de Cine Panama (IFF Panama).  Por una semana entera, el Casco Viejo fue el anfitrión de todas las galas de alfombra roja, pero también de una interesante iniciativa: el Casco Cineplex.\nUtilizando espacios vacíos, los vecinos organizaron proyecciones de películas Italianas (por Di Vino) y películas para niños (por Arco Properties, Conservatorio y AVACA).  La &#171;esquina de los niños&#187; estuvo llena todas las noches, y las películas fueron desde Circo del Sol hasta Tin Tin y Monster Inc.  La gente que pasaba al lado no podía resistirse al encanto y terminaban sentados viendo las cómicas junto a sus hijos y a veces incluso con sus mascotas.\nFelicidades a todos los que estuvieron involucrados en esta divertida iniciativa!\n\n",
-  "blog_link": "http://arcoproperties.com/semana-de-peliculas-italianas-y-de-ninos-en-el-casco-viejo/",
-  "blog_date": "2012-05-01T08:26:19-05:00"
-})

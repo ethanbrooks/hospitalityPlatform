@@ -1,7 +1,0 @@
-({
-  "blog_title": "Mahalo! Alimento para el cuerpo y el alma",
-  "blog_text": "Casco Antiguo, Panamá, Casco Viejo\nHoy aprendí una nueva palabra: Mahalo. En Hawaiano significa &#187; gracias, gratitud, admiración, respeto, estimación. Ahora en Casco tenemos nuestro propio &#171;Mahalo&#187;, ubicado en la Avenida A, al lado de Under Cover Boots, luego de Madrigal en Calle 5ta.\nAnoche inauguraron y el ambiente estuvo super especial.  Mahalo   ofrecerá comida saludable, clases de pilates y yoga .  Tendrán también comida para llevar en jarritas de vidrio, tipo sushi para que tú prepares, taquitos, salsas y más. Algo que me encantó es que la idea de las jarritas es que las tengas para que luego le hagas re fill, así no generamos desperdicio. Me encanta!\nTambién tendrán jugos naturales, y algunas de las salsas son del chef José Carles, de Donde José.  La comida está perfecta para un desayuno, almuerzo y cena saludable, este es un sitio al que puedes regresar cuantas veces quieras. En la noche tendrán cervecita y vino. El barrio tiene un nuevo &#171;hang out&#187;!\nBienvenido Mahalo!\n     \n",
-  "blog_link": "http://arcoproperties.com/mahalo-alimento-para-el-cuerpo-y-el-alma/",
-  "blog_date": "2016-07-02T08:26:35-05:00",
-  "blog_image": "/image-src/fit-in/640x480/mahalo-alimento-para-el-cuerpo-y-el-alma-2016-07-0.jpg"
-})

@@ -1,6 +1,0 @@
-({
-  "blog_title": "Arbol de Navidad con Botellas de Vidrio",
-  "blog_text": "Casco Viejo, Panama, Casco Antiguo\nCasco Viejo, Panama, Casco Antiguo\nHace dos años, comencé a cambiar mi árbol navideño tradicional por unos hechos con materiales reciclados. El primer año se me ocurrió hacerlo con papel periódico y cosas que encontré en la playa. El segundo año, usé botellas plásticas verdes, también encontradas en la playa. Creo que en esa ocasión usé algo así como 80 botellas.  Aquí están las fotos de los prototipos A y B:\nHERE. \nEste año, pensé que sería divertido tener uno hecho de botellas de vidrio, ya que el vidrio es un material hermoso y elegante. \nPor suerte, vivo en Casco Viejo, a pocos pasos de un wine bar que recicla sus botellas de vino (Di Vino) y del centro de reciclaje que las recibe. Así que todo lo que tuve que hacer fue sentarme con una bolsa y apartar las botellas que me gustaban. Para este proyecto, use botellas de Perrier y de Evian Pure, porque me gustaron sus formas, además de tener el tamaño perfecto para un arbolito de mesa. No quise hacer uno más grande porque me dio miedo a que mi perrita lo tumbara jugando. \nAsí que aquí está el arbolito &#171;en progreso&#187;&#8230; se ve bien! \n\n",
-  "blog_link": "http://arcoproperties.com/arbol-de-navidad-con-botellas-de-vidrio/",
-  "blog_date": "2011-11-29T09:06:05-05:00"
-})

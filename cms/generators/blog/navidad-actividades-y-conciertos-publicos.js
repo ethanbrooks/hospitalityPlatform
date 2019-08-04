@@ -1,6 +1,0 @@
-({
-  "blog_title": "Navidad: actividades y conciertos públicos",
-  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nMás actividades! me llegó esta lista\nDiciembre 12: Carols by Candlelight, en Cinta Costera. Hora: 6:30 p.m.\nDiciembre 12: Concierto en el Arco Chato por la Orquesta Juvenil. Tel: 260-0645\nEnero 6: Panamá, Plaza Catedral • 3:00 p.m. Concierto de navidad con coros, bandas y entretenimiento para niños de todas las edades. Más info: 228-3409\nY visita los nacimientos:\n• Iglesia La Merced, de lunes a domingo, de 8:00 a.m. a 7:00 p.m.\n• Iglesia San Felipe Neri, de lunes a domingo, de 8:00 a.m. a 7:00 p.m.\n• Iglesia San José, de lunes a domingo de 8:00 a.m. a 7:00 p.m., solo a partir del 8 de diciembre.\n• Iglesia Santa Ana, de lunes a domingo de 6:00 a.m. a 7:00 p.m., solo a partir del 12 de diciembre.\n• Museo de Arte Religioso Colonial (antiguo Convento de Santo Domingo), de miércoles a domingo, de 9:00 a.m. a 5:00 p.m.\n",
-  "blog_link": "http://arcoproperties.com/navidad-actividades-y-conciertos-publicos/",
-  "blog_date": "2015-12-07T14:31:53-05:00"
-})

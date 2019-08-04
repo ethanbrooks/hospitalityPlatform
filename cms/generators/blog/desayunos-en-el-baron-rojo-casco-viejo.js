@@ -1,6 +1,0 @@
-({
-  "blog_title": "Desayunos en el Barón Rojo, Casco Viejo",
-  "blog_text": "Panama Casco Antiguo\nEl Barón Rojo es un café nuevo que acaba de abrir en Calle 4ta y Avenida A al lado de Arco Properties. Su especialidad: tremendos desayunos, los cuales sirven a partir de las 7 a.m. y se extienden hasta las 3 p.m.\nPor lo pronto hemos probado la granola con frutas y yogurt, las cuales sirven en un generoso bowl y el jugo de piña el cual vino servido en uno de esos vasos largos de 1 pinta que uno (bueno, no sé si todos, pero la mayoría de los panameños) relacionamos con los vasos en que se sirven las pintas de cerveza durante los carnavales! Me encantó! denme una pinta de jugo fresco de piña cualquier día de la semana!\nMi siguiente movida será probar el desayuno vegetariano: dos huevos escalofados sobre tostada de granos, croquetas caseras, champiñones al ajo, tomate, espinaca y aguacate.\n\n",
-  "blog_link": "http://arcoproperties.com/desayunos-en-el-baron-rojo-casco-viejo/",
-  "blog_date": "2011-09-20T09:48:15-05:00"
-})

@@ -1,6 +1,0 @@
-({
-  "blog_title": "Perrita Ayuda a Negocios del Casco Viejo",
-  "blog_text": "Panama Casco Viejo\nSi vives en el Casco, lo más probable es que conozcas a &#171;Lola&#187;, una de las perritas más adorables del barrio.  Le encanta caminar por ahí acompañada de Betty y Craig, oliéndolo todo, diciéndoles &#171;hola&#187; a todo el mundo. Así que cuando Lola se enteró que los negocios de la Calle 1era en el Casco Viejo estaban sufriendo debido a un proyecto gubernamental de reparación de calles el cual les ha bloqueado el acceso, se le ocurrió una excelente idea: &#171;Lola`s Flash Cash&#187;, un &#171;happy hour&#187; en donde los vecinos vendrían con un mínimo de $10 y listos para consumir más.\nAsí que anoche arrancó el primer &#171;Lola Flash Cash&#187; en Buzios.  Mientras Lola saludaba a todo el mundo, las mesas se llenaron de ceviche, cervezas y sangrías.  Felicidades a Lola y a sus papás!\n\n",
-  "blog_link": "http://arcoproperties.com/perrita-ayuda-a-negocios-del-casco-viejo/",
-  "blog_date": "2012-05-11T10:52:02-05:00"
-})

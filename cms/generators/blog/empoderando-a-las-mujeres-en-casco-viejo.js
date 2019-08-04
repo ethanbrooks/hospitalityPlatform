@@ -1,7 +1,0 @@
-({
-  "blog_title": "Empoderando a las Mujeres en Casco Viejo",
-  "blog_text": "Casco Viejo, Panama, Casco Antiguo\nLa semana pasada, la Fundación Calicanto graduó un nuevo grupo de 20 mujeres del Casco Viejo y áreas colindantes. El programa del cual se graduaron se llama CAPTA (Capacitación para el Trabajo) el cual les brinda las herramientas de autoestima y de trabajo necesarias para que no solamente puedan conseguir trabajo&#8230; sino también mantenerlo.\nEl programa ya ha graduado a más de 250 mujeres del área, con un increíble porcentaje de éxito. No solamente logran obtener trabajo, el cual mantienen, sino que también logran mejorar su situación personal familiar.  La teoría detrás del programa es que al empoderar a la mujer, cambias la sociedad. Los resultados concretos del programa muestran que esto no es sólo una teoría, sino una hermosa realidad!\nQuieres aprender más sobre Calicanto y CAPTA ? Click HERE\nHoteles en Casco Viejo que contratan personal de CAPTA:  Canal House Panama and Las Clementinas\n\n",
-  "blog_link": "http://arcoproperties.com/empoderando-a-las-mujeres-en-casco-viejo/",
-  "blog_date": "2012-03-19T08:28:44-05:00",
-  "blog_image": "/image-src/fit-in/640x480/empoderando-a-las-mujeres-en-casco-viejo-2012-03-0.jpg"
-})

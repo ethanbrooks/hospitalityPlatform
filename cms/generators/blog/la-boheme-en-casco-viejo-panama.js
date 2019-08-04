@@ -1,7 +1,0 @@
-({
-  "blog_title": "La Boheme en Casco Viejo, Panamá",
-  "blog_text": "Panama Casco Antiguo\nAnoche tuvimos &#171;una probadita&#187; de escenas de La Boheme, la hermosa ópera de Giacomo Puccini, en el lanzamiento de un evento de bienes raíces (Isla Viveros en el Archipiélago de las Perlas).  Estuvo sensacional! Además anunciaron que estarían presentando la opera en Octubre&#8230; en el Casco Viejo!\nTeatro Nacional, del 11 al 14 de Octubre.\nSegún lo que he estado leyendo, la ópera originalmente trataba de retratar la vida bohemia de los habitantes del Barrio Latino en Parìs cerca de 1830/40.  Se centra en la relación amorosa entre una costurera (Mimi) y un poeta (Rodolfo).  Sin embargo, aunque se enamoran casi enseguida, Rodolfo considera dejar a Mimi por ser muy coqueta. Sin embargo, Mimi está mortalmente enferma (no sería una ópera si no tuviera un giro dramático en algún lado) y Rodolfo se siente culpable ya que su relación lo más probable es que haya contribuido a agravar la situación. Se reúnen brevemente y al final (por supuesto, es una ópera! ) Mimi muere.\nUn arcoiris de emociones, desde arias dulces y divertidas hasta el drama total&#8230; sólo en el Casco Viejo!\n&nbsp;\n\n",
-  "blog_link": "http://arcoproperties.com/la-boheme-en-casco-viejo-panama/",
-  "blog_date": "2011-10-06T09:26:21-05:00",
-  "blog_image": "/image-src/fit-in/640x480/la-boheme-en-casco-viejo-panama-2011-10-0.jpg"
-})

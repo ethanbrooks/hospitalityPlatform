@@ -1,6 +1,0 @@
-({
-  "blog_title": "Cerámica colonial hecha a mano, Casco Viejo",
-  "blog_text": "Panama Casco Viejo\nUna de las características del clásico apartamento renovado colonial en el Casco Viejo de Panamá es el uso de pisos de pasta hechos a mano.  Sus coloridos diseños son utilizados ya sea para cubrir toda la superficie o más tradicionalmente, utilizarlo a manera de &#171;alfombras&#187;: una distinta en cada habitación.  Al verlas ya instaladas en la forma que armonizan con su entorno, pueden no darse cuenta que estas piezas no son producidas masivamente, sino que son hechas a mano&#8230;. sí! una a una&#8230;. y con mucho cariño!\nAquí les pasamos un interesante video que muestra cómo se crea cada pieza!\n\nTe interesa ver cómo se ve un apartamento ya terminado? Estas fotos son de La Merced, un edificio colonial restaurado en el Casco Viejo con dos unidades en venta! \n\n\n\n\n",
-  "blog_link": "http://arcoproperties.com/ceramica-colonial-hecha-a-mano-casco-viejo/",
-  "blog_date": "2011-09-21T07:58:58-05:00"
-})

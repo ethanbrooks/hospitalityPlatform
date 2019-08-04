@@ -1,7 +1,0 @@
-({
-  "blog_title": "Una noche llena de música y actividades",
-  "blog_text": "Panamá Casco Viejo, Casco Antiguo\nAnoche, el Casco estuvo lleno de activiades! conciertos gratis en la Plaza Catedral y la Plaza V Centenario por razones completamente diversas: la celebración de los 100 años de la Cruz Roja de Panamá y la celebración de la semana Great! Britain. Ahora que la ciudad de Panamá es &#171;ciudad hermana&#187; de Liverpool el evento incluyó películas y música de los Beatles. Tremendos cocteles!\nLa Cruz Roja también tuvo su propia celebridad: la familia de Lady Mallet, fundadora de la Cruz Roja en Panamá. Para los que conocen el Casco saben que hay una casa restaurada llamada Casa Mallet, en honor a su dueño original.\nFinalmente, nos encantó ir al Cine Animal en Temporal y encontrarnos con una muestra retrospectiva de Donna Conlon y Jonathan Harker. Por primera vez, sus trabajos en video todos juntos desde el 2006 al 2014.  Nuestro favorito es el &#171;Efecto Dominó&#187;, filmado en Casco Viejo. Pero sus temas van desde el ambiente hasta lo cultural y económico. Vayan a verlo!\n            \n",
-  "blog_link": "http://arcoproperties.com/una-noche-llena-de-musica-y-actividades/",
-  "blog_date": "2017-03-17T08:11:14-05:00",
-  "blog_image": "/image-src/fit-in/640x480/una-noche-llena-de-musica-y-actividades-2017-03-0.jpg"
-})

@@ -1,6 +1,0 @@
-({
-  "blog_title": "Cambios con la Ampliación del Canal de Panamá",
-  "blog_text": "¡Mañana inaugura la Ampliación del Canal de Panamá y comienza un nuevo capítulo en esta historia! ¡Mejores augurios para el mundo entero y especialmente para nuestro querido Panamá!\nCon la nueva ampliación se espera que hayan muchos cambios para bien, que influirán al progreso nacional y mundial, al igual que ocurrió con la inauguración original en 1914. Uno de los servicios que se volvió más eficiente con la construcción del Canal el siglo pasado fue el de la correspondencia. Como datos curiosos aquí tenemos las estadísticas de correspondencia despachada en la capital de la República en 1915, un año después de la inauguración (ver página sacada del &#8216;Libro Azul de Panamá&#8217; donde aparece el edificio de Correos y Telégrafos, el cual hoy día es el Museo del Canal, ubicado aquí en el Casco Viejo).\n¿Qué nuevos cambios nos traerá la ampliación?\n\n",
-  "blog_link": "http://arcoproperties.com/cambios-con-la-expansion-del-canal-de-panama/",
-  "blog_date": "2016-06-25T15:18:35-05:00"
-})

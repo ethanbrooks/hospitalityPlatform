@@ -1,7 +1,0 @@
-({
-  "blog_title": "Casco Antiguo Spanish School Renueva Biblioteca de Escuela de México",
-  "blog_text": "Panamá, Casco Antiguo, Casco Viejo\nUna biblioteca de escuela puede que sea algo que muchos tomemos por sentado. Sin embargo, en las escuelas públicas panameñas, aún es un reto tenerlas, y mantenerlas luciendo bien y con material actualizado.\nPor esto es que nos emocionamos cuando supimos que  el Casco Antiguo´s Spanish School se había dado a la tarea de donar la renovación de la biblioteca de la Escuela de México. Junto a estudiantes del Spanish School, padres de familia y maestros, hicieron de la biblioteca un lugar más hermoso y funcional.  Todos los niños sonriendo, felices de ver el sitio con nueva cara y nuevos libros !\nAhora que ya está listo, si a alguno le gustaría donar libros, sólo tienen que traerlos al Casco Antiguo Spanish School en avenida A y Calle 5ta, y ellos se asegurarán de que lleguen a la escuela.\nFelicidades a todos los que hicieron esto posible, no conozco a todos los involucrados, pero un agradecimiento especial al alumno que dio su charta en &#171;spanglish&#187;! Y gracias a David por esta iniciativa y por invitarnos a la inauguración.\n&nbsp;\n  \n",
-  "blog_link": "http://arcoproperties.com/casco-antiguo-spanish-school-renueva-biblioteca-de-escuela-de-mexico/",
-  "blog_date": "2018-03-23T16:06:03-05:00",
-  "blog_image": "/image-src/fit-in/640x480/casco-antiguo-spanish-school-renueva-biblioteca-de-escuela-de-mexico-2018-03-0.jpg"
-})

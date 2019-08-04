@@ -1,0 +1,12 @@
+({
+  "blog_title": "Bikinis under Panama´s Presidential Palace",
+  "blog_article": "Under the &#8220;Only in Panama&#8221; category&#8230;.\nLow tide is a blessing in Casco Viejo. Suddenly, pockets of beaches pop up, and access to others open. Yesterday (or was it the day before?) I was walking my little (or not so little!) Chispa around and realized it was low &#8211; low tide. So we went down the beach at Calle 1era, in front of the parking spaces next to the National Theatre, and kept walking under the San Francisco de Asis Church towards the current Ministry of Foreign Affairs. Then I continued to walk, and another beach was there, the one behind the Presidential Palace. They all connect going down to Terraplen! boy, I´m looking forward for the cleaning of the bay to be complete (another 5 years!)&#8230; it was nice down there.\nOnly a presidential policeman who sort of tried to tell me that I couldn´t pass. But since I was in my &#8220;teacher&#8221; mood (I usually am when walking Chispa, you know like &#8220;no, don´t do this&#8230; yes, good girl&#8230;giving instructions) I told him that the beach by the Panamanian Constitution is public and that the President is free to put all the guards he wants, but can´t declare any beach private.  So, actually, I am free to go there with my bikini and tan under the Presidential Palace.  He smiled and let me be with my dog around&#8230;\n\n\n\n\n\n\n\n\n",
+  "blog_link": "http://arcoproperties.com/en/bikinis-under-panama%c2%b4s-presidential-palace/",
+  "blog_date": "2009-06-04T08:44:13-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "https://beta.hotelherrera.com/image-src/fit-in/640x480/bikinis-under-panama%c2%b4s-presidential-palace-2009-06-5.jpg",
+  "blog_description": "Under the &#8220;Only in Panama&#8221; category&#8230;.\nLow tide is a blessing in Casco Viejo. Suddenly, pockets of beaches pop up, and access to others open. Yesterday (or was it the day before?) I was walking my little (or not so little!) Chispa around and realized it was low &#8211; low tide. So we went down the beach at Calle 1era, in front of the parking spaces next to the National Theatre, and kept walking under the San Francisco de Asis Church towards the current Ministry of Foreign Affai",
+  "blog_page_slug": "bikinis-under-panama%c2%b4s-presidential-palace"
+})

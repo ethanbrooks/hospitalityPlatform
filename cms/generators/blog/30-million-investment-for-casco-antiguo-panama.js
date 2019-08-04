@@ -1,0 +1,12 @@
+({
+  "blog_title": "$30 Million Investment for Casco Antiguo, Panama",
+  "blog_article": "Casco Viejo Panama\nPanama Casco Antiguo\nReal Estate Investments at Panama`s Historic District\nFirst page news: Panamanian government will invest $30 million dollars in Casco Viejo starting 2011.\nAccording to an interview made to Dario Cadavid from Oficina del Casco Antiguo and published today at La Prensa, the infrastructure plan for Casco Antiguo (sewage, underground cables, water pipes, electricity, etc) has been quoted at $30 million. The plans include a visitor center at the old Casa del Arte for $1.7 million (with a $600,000 contribution from the Spanish Agency of International Cooperation / AECI) , and the restoration of all the lighting system ($4.3 millions).  The lighting project should start in 2011.\nThey are also hoping to start the restoration of the roofs of several churches, such as La Merced, which has recently restored one of the oldest &#8220;capillas&#8221; in Casco through private donations.\nAlthough the article wasn´t clear whether the full amount was already funded (or still in fundraising)  and planned to be invested in 2011 or if there was already an existing chronogram by stages showing what/ where/ when the works would get started, this publication is a positive step towards the right direction, specially after UNESCO`s visit last month where some of the issues related to infrastructure were discussed.\n",
+  "blog_link": "http://arcoproperties.com/en/30-million-investment-for-casco-antiguo-panama/",
+  "blog_date": "2010-12-02T11:04:28-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Casco Viejo Panama\nPanama Casco Antiguo\nReal Estate Investments at Panama`s Historic District\nFirst page news: Panamanian government will invest $30 million dollars in Casco Viejo starting 2011.\nAccording to an interview made to Dario Cadavid from Oficina del Casco Antiguo and published today at La Prensa, the infrastructure plan for Casco Antiguo (sewage, underground cables, water pipes, electricity, etc) has been quoted at $30 million. The plans include a visitor center at the old Casa del Art",
+  "blog_page_slug": "30-million-investment-for-casco-antiguo-panama"
+})

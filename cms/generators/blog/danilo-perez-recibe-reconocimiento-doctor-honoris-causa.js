@@ -1,6 +1,0 @@
-({
-  "blog_title": "Danilo Pérez recibe reconocimiento Doctor Honoris Causa",
-  "blog_text": "Panama, Casco Viejo, Casco Antiguo\nAnoche, al músico y ganador del premio grammy Danilo Perez, se le reconoció en la Universidad de Panamá con el Doctor Honoris Causa para celebrar su prolífica carrera y bellos logros. El diario La Prensa publicó una nota, donde Danilo dice: &#171;dejen de pensar en el arte como un simple ornamento para la vida pública&#187;. Danilo, quien ha dedicado su vida a mostrar como se provoca el cambio social a través de la música, también ha sido partidario de que la música sea el camino hacia la verdad interior, el trabajo en equipo y el cambio cultural. Como nos dijo en alguna ocación: la mayoría de los presos por corrupción son personas con alto grado de educación. No es un asunto de educación sino de cultura. Y allí es donde el arte puede ser de lo más effectivo.\nFelicitaciones Danilo por tu galardón, pero más que nada, gracias por traer tu maravillosa energía al Casco Viejo y por ayudarnos a aflorar lo mejor de nuestra cultura.\nNota del diario La Prensa: http://www.prensa.com/entretenimiento/Danilo-Doctor-Honoris-Universidad-Panama_0_4396810431.html\n",
-  "blog_link": "http://arcoproperties.com/danilo-perez-recibe-reconocimiento-doctor-honoris-causa/",
-  "blog_date": "2016-01-22T14:55:46-05:00"
-})

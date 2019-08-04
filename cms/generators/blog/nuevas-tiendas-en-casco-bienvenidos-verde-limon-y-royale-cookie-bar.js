@@ -1,7 +1,0 @@
-({
-  "blog_title": "Nuevas tiendas en Casco! Bienvenidos: Verde Limón y Royale Cookie Bar",
-  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nLa otra noche pasando por Strangers Club, nos dimos cuenta de una tienda super linda que abrió y causó sensación: Royale Cookie Bar. Niños y adultos con enormes sonrisas, pidiendo igualmente enormes galletas, las cuales puedes inyectar de Nutella! El hijo de nuestro amigo pidió una malteada, con un top de crema de ensueño.  Pero lo mejor sin duda es la sección de galletas inyectables! No te la pierdas!\nInstagram: https://www.instagram.com/explore/locations/2275116819440621/royale-cookie-bar/\n   \nOtro negocio nuevo es Verde Limón, una nueva tienda de ropa casual que abrió en Avenida B, cerca de Besos de Mi Negra. Piezas super bonitas, pero sobretodo, perfectas para nuestro clima tropical!\nLo mejor? Es que ambas tiendas son amigables con las mascotas!\nhttps://www.instagram.com/verdelimoncasco/\n\n",
-  "blog_link": "http://arcoproperties.com/nuevas-tiendas-en-casco-bienvenidos-verde-limon-y-royale-cookie-bar/",
-  "blog_date": "2019-03-29T15:26:34-05:00",
-  "blog_image": "/image-src/fit-in/640x480/nuevas-tiendas-en-casco-bienvenidos-verde-limon-y-royale-cookie-bar-2019-03-0.jpg"
-})

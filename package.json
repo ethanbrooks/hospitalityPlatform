@@ -50,6 +50,7 @@
 		"devextreme": "latest",
 		"devextreme-angular": "latest",
 		"devextreme-schematics": "^1.0.8",
+		"graceful-fs": "^4.2.0",
 		"msgpack5": "4.2.1",
 		"ramda": "^0.26.1",
 		"redux": "^4.0.4",

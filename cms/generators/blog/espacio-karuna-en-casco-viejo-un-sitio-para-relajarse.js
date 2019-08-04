@@ -1,7 +1,0 @@
-({
-  "blog_title": "Espacio Karuna en Casco Viejo: un sitio para relajarse",
-  "blog_text": "Soy una fanática del masaje. Adooooro los masajes. Así que, cuando escuché que alguien había abierto un pequeño estudio, llamé enseguida.\nEspacio Karuna es un espacio ubicado dentro del Centro Cultural Los Del Patio (en Calle 3era, Casco Antiguo) y Juan es el terapeuta.  Se especializa en masaje tradicional tailandés, el cual te involucra durante la manipulación del cuerpo, especialmente durante los estiramientos y algunas alzadas. También hace masaje oriental, el cual mezcla técnicas como el masaje sueco y el anti stress.\nTomé el masaje tailandés completo para probar. Tienes que ir con ropa holgada, tipo yoga y tener tiempo a tu disposición. Dura entre 1:30 a 2 horas (aunque también puede ser 1 hora), y comienza realmente lento con lo que me dormí durante toda la primera parte.  Pero luego, cuando comienzan a estirar y levantar, participas mucho más, y al final quedé complacida porque mi espalda realmente se sintió mucho mejor. Ahora bien, si sientes que tienes nudos profundos en los músculos, es mejor un masaje tipo oriental y sueco.\nAsí que, prúebalo! y escribe tu propia reseña. Aquí está la información:\nJuan Gómez:  phone 6241-6240  or email at juangomez388@hotmail.com\nSu blog AQUI\n\n",
-  "blog_link": "http://arcoproperties.com/espacio-karuna-en-casco-viejo-un-sitio-para-relajarse/",
-  "blog_date": "2012-02-09T09:02:14-05:00",
-  "blog_image": "/image-src/fit-in/640x480/espacio-karuna-en-casco-viejo-un-sitio-para-relajarse-2012-02-0.jpg"
-})

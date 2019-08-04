@@ -1,7 +1,0 @@
-({
-  "blog_title": "Exito! Paseo Urbano Casco Viejo",
-  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nAyer el Casco estaba lleno de gente joven corriendo de un lado para otro. El primer mercado urbano del Casco estaba por abrir. Fui temprano para ver toda la actividad, que terminó a las 10 p.m.  Siento que es un momento emocionante para Panamá. Había un número plural de pequeños emprendedores, cada uno produciendo sus propias marcas y productos. Había de todo: moda, chocolate, cerveza, helados, productos de belleza, productos de madera, organizadores de eventos y &#8211; claro!- bandas de música.\nEstas fueron algunas de las tiendas y marcas presentes:\nSuper Gourmet, Casco Viejo\nViene Fashion Truck  @vienefashiontruck\nLavanda www.shoplavanda.com\nObsessie www.theobsessie.com\nHappy Verde (Juices) @happyverde\nPure Panama  @Pure Panama Oils www.purepanamaoils.com\nHikari Joyas  @hikariarteenjoyas\nCanela Swim Wear PTY www.canelaswimwearpty.com\nDuros Gorumet &#8211; HardCheese´s @hardcheesepty\nBackedbypacha  paulina19954@hotmail.com\nKarinaswimwear  karinaswimwear@gmail.com\nJunk Bar Panama @junkbarpanama\n        \n&nbsp;\n&nbsp;\n",
-  "blog_link": "http://arcoproperties.com/exito-paseo-urbano-casco-viejo/",
-  "blog_date": "2015-12-21T09:29:02-05:00",
-  "blog_image": "/image-src/fit-in/640x480/exito-paseo-urbano-casco-viejo-2015-12-0.jpg"
-})

@@ -1,0 +1,12 @@
+({
+  "blog_title": "Bingo! a Panamanian Tradition in Casco Viejo",
+  "blog_article": "Casco Viejo, Panama, Casco Antiguo\nReal Estate and Lifestyle at Panama`s Historic City\nI remember it clearly as if yesterday: I was so small I thought the beans were big enough to be little rocks to play with. My little hand saw the colorful cardboards full of symbols (numbers) with beans on top, all spread out, and like a bug attracted to light I went straight in their direction.  I thought to myself: &#8221; why are they there? I think I`ll just take them and play&#8221;. Never mind that the room was full of adults chatting and laughing, it didn´t register. I took all the beans with a big smile on the face, ready to take them to the garden and play with them&#8230; until I hear this scream from one of the women&#8230; &#8220;she is taking the beans!!!!&#8221;.  The room steered in confusion and chaos, screaming everywhere, lots of &#8220;no no nono!!&#8221; and some &#8220;where were the beans? which numbers?&#8221;  Who the hell knows? you mean the beans were actually doing something there?\nYes, they were!\nFamily Bingo has been a Panamanian tradition for ages.  A classic Sunday afternoon excuse to gather the close and extended family to have some arroz con pollo and beers, while (maybe!) making some money.  It gets to the absurd of playing it for hours and hours, one dime at a time, but each one counts! as I  learned that afternoon!\nThis past weekend,  2nd Street at San Felipe, Casco Viejo, was taken over by Bingo. Old ladies, everyone, chatting and laughing. I suspect nobody dared to mess up with the frijolitos as they all looked quite happy. Some of the kids even tried to play their own version of it!\n[slideshow] \n",
+  "blog_link": "http://arcoproperties.com/en/bingo-a-panamanian-tradition-in-casco-viejo/",
+  "blog_date": "2011-02-24T10:11:24-05:00",
+  "published": false,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Casco Viejo, Panama, Casco Antiguo\nReal Estate and Lifestyle at Panama`s Historic City\nI remember it clearly as if yesterday: I was so small I thought the beans were big enough to be little rocks to play with. My little hand saw the colorful cardboards full of symbols (numbers) with beans on top, all spread out, and like a bug attracted to light I went straight in their direction.  I thought to myself: &#8221; why are they there? I think I`ll just take them and play&#8221;. Never mind that the r",
+  "blog_page_slug": "bingo-a-panamanian-tradition-in-casco-viejo"
+})

@@ -1,7 +1,0 @@
-({
-  "blog_title": "Under Cover Boots abre en Casco Viejo",
-  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nIrse de compras en Avenida A se está poniendo cada vez mejor!. Esta semana, UnderCover Boots inauguró su hermoso espacio. Están entre Madrigal y Lupa. El lugar estaba lleno de vecinos, niños, todo el mundo. Los productos estaban de comérselos! las botitas de lluvia para niños y adultos estupendas y necesarias para esta temporada panameña.  Cada bota contribuye ganancias a una ong relacionada. Por ejemplo, la de las Ranas Doradas le dona al Smithsonian para su investigación y esfuerzo de conservación.\nPor supuesto, ya yo tenía las mías de cañón: flores de papo. Pero caí redonda por las más altas de Guayacán y por la de la ranita dorada.\nCLICK AQUÍ PARA SU SITIO WEB\nMis favoritas\n \nChef de Nueva Zelanda!\nCaminado hacia Undercover Boots, pasando por Lupa\nEste poncho para lluvia impermeable por Lupa. Modelo: Art Deco´s Model Agency\nLlegando a UnderCover\n  \nLa propietaria María y su adorable hijita nos dieron la bienvenida! \nY nosotros a ellos, bienvenidas al barrio!\n",
-  "blog_link": "http://arcoproperties.com/under-cover-boots-abre-en-casco-viejo/",
-  "blog_date": "2016-05-12T08:41:33-05:00",
-  "blog_image": "/image-src/fit-in/640x480/under-cover-boots-abre-en-casco-viejo-2016-05-0.jpg"
-})

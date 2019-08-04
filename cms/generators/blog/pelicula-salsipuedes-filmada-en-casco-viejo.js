@@ -1,7 +1,0 @@
-({
-  "blog_title": "Película Salsipuedes filmada en Casco Viejo",
-  "blog_text": "Panamá, Casco Viejo, Casco Antiguo\nAnoche, el Teatro Balboa estuvo de abarrotado. Se estrenaba a película panameña Salsipuedes, casi enteramente filmada en Casco Viejo (sí, hubo una que otra escena en el aeropuerto&#8230; eso no cuenta!). La historia estuvo bien hilvanada, con muchas sutilezas en los detalles. El casting muy bien hecho. Me sorprendió la participación de niños del barrio, tremendo talento!  Algo que no realicé es lo importante de la diversidad de locaciones del Casco para un director. Utilizaron cada esquina para dar ambientes distintos: playa, plazas, edificios viejos y nuevos, zonas más rurales y de ciudad. La verdad es que el Casco es un sitio en donde puedes filmar, cortar y pegar según el ángulo que estés buscando.\nFelicidades al equipo!! bien hecho! aquí les dejo el trailer y algunas fotos:\n\nFestival is still going on strong, so don´t forget to visit their site to see what´s next.\n   \n",
-  "blog_link": "http://arcoproperties.com/pelicula-salsipuedes-filmada-en-casco-viejo/",
-  "blog_date": "2016-04-09T09:13:55-05:00",
-  "blog_image": "/image-src/fit-in/640x480/pelicula-salsipuedes-filmada-en-casco-viejo-2016-04-0.jpg"
-})

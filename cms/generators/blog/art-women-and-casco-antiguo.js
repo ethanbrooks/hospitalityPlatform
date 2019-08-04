@@ -1,0 +1,12 @@
+({
+  "blog_title": "Art, Women and Casco Antiguo",
+  "blog_article": "Apparently there was a &#8220;Women´s Day&#8221; last week. I wonder if there is a &#8220;Man´s Day&#8221; at some point other than Father´s Day, since there is ceirtainly a &#8220;Children´s Day&#8221; (at least in Panama) on top of other holidays. The good part of actually getting a day named with a theme (other than selling more of the corresponding merchandise) is that some people actually takes the time to think seriously about it and create true awareness about the issue.\nYesterday I passed by Casa Gongora in Casco Antiguo, right at the corner between Central Avenue and Fourth Street, because they had an art exhibition celebrating Women´s Day. I found out the event was about much more, including music concerts (Bolero and Jazz), poetry reading, painting exhibitions and TV shows. All of this organized by the Municipality. The exhibition is called Art and Women: Political and Social Participation.\nI took some pictures of the paintings of Marta Sanchez, Marta Noemi Noriega and others. There where several artists invited, the exhibition will be there until March 28th.\nHere is the calendar of events, if you happen to stroll by Casa Gongora:\nMarch 19th: Jazz Quartet\n\nBlack Heritage\n, 8 p.m.\nUntil March 28th: painting exhibition\nMarch 28: Bolero night with Yomira John 8 p.m.\nTV Show: March 13th (I guess it´s too late now!) with Rosa M. Britton\nMarch 27th: Poetry Readings and Event Closing 7 p.m.\nHope you enjoy the paintings! here are my favorites. If you like my postings on Casco and would love to learn more, don´t forget to download my Casco Antiguo Handbook at: http://www.arcoproperties.com\n\n\nMarta Noriega´s spiders\n\nPregnant Angel\n",
+  "blog_link": "http://arcoproperties.com/en/art-women-and-casco-antiguo/",
+  "blog_date": "2008-03-15T11:10:45-05:00",
+  "published": true,
+  "$date_type": "date",
+  "$image_type": "image",
+  "blog_image": "",
+  "blog_description": "Apparently there was a &#8220;Women´s Day&#8221; last week. I wonder if there is a &#8220;Man´s Day&#8221; at some point other than Father´s Day, since there is ceirtainly a &#8220;Children´s Day&#8221; (at least in Panama) on top of other holidays. The good part of actually getting a day named with a theme (other than selling more of the corresponding merchandise) is that some people actually takes the time to think seriously about it and create true awareness about the issue.\nYesterday I passe",
+  "blog_page_slug": "art-women-and-casco-antiguo"
+})

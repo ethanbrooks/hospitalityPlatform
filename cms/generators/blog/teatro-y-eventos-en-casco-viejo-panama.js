@@ -1,7 +1,0 @@
-({
-  "blog_title": "Teatro y eventos en Casco Viejo, Panamá",
-  "blog_text": "Panama Casco Viejo, Casco Antiguo\nHay siempre &#171;algo andando&#187; en el Casco Viejo! Es lo que me encanta de vivir aquí. Estos son algunos de los eventos para esta temporada:\nNoviembre 30: concierto de música clásica por la Orquesta Sinfónica Nacional en el Teatro Nacional.\nNovember 22: Signum Quartett en el Teatro Nacional, 8 p.m. . Boletos $5 t $10, disponibles en Weil Art en Casco Viejgo (Avenida A, al lado de Arco Properties).\nOtros eventos:\nNoviembre 18 al19: la obra teatral &#171;Mujeral&#187; en  Los Del Patio, &#171;Mujeral&#187;.  7:30 p.m. $8 por persona. Calle 3era. Màs info al  6680-8458  / teatrocarilimpia@gmail.com\n \nNoviembre 24: Fiesta de Día de Acción de Gracias de AVACA! la comunidad se reúne en Casa del Horno. Se necesita RSVP!\nDiciembre 3: Villancicos a la luz de las velas: la procesión inicia en Plaza Herrera alrededor de las 6 p.m. y termina en Las Bóvedas con un concierto (7 p.m.). ,\n\n&nbsp;\n",
-  "blog_link": "http://arcoproperties.com/teatro-y-eventos-en-casco-viejo-panama/",
-  "blog_date": "2011-11-16T10:18:01-05:00",
-  "blog_image": "/image-src/fit-in/640x480/teatro-y-eventos-en-casco-viejo-panama-2011-11-0.jpg"
-})

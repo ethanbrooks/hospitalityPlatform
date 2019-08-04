@@ -1,7 +1,0 @@
-({
-  "blog_title": "Cervecería artesanal en Casco Viejo: La Rana Dorada",
-  "blog_text": "La primera vez que probé cerveza artesanal fue en Cuba. Recuerdo mi asombro ante las máquinas cerveceras, los hermosos tanques y tubos que se entrelazaban por doquier. Y el producto me encantó! super divertido.  Así que adivinen què? ya tenemos una en Casco Viejo!  La Rana Dorada.\nUbicada frente al Parque Centenario en el Casco Viejo, a pocos pasos de la entrada a San Felipe, tiene una terracita al aire libre, así que puedes traer a tu mascota (algo que los dueños de mascotas apreciamos mucho!!!). El espacio está bien hecho, pero la pieza principal es la fábrica de cerveza. Fantàstica! de ahí producen todo tipo de combinaciones, incluso tenían una con un sabor a naranja. Sí, así mismo, no me crean, vayan y prueben.\nEsta es la info de contacto: 269-2989/ 269-2990.  Noten que estos teléfonos son de la sucursal en Vía Argentina, pero no se preocupen, pueden tomar sus pedidos.\n\n",
-  "blog_link": "http://arcoproperties.com/cerveceria-artesanal-en-casco-viejo-la-rana-dorada/",
-  "blog_date": "2012-04-10T07:54:01-05:00",
-  "blog_image": "/image-src/fit-in/640x480/cerveceria-artesanal-en-casco-viejo-la-rana-dorada-2012-04-0.jpg"
-})
