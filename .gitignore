@@ -2,9 +2,9 @@
 #Secured files
 /enduro_secret.json
 
-
+#report.*.json
 # compiled output
-/_generated
+/enduro/_generated
 /dist
 /enduro/cms/generators/blog/*
 !/enduro/cms/generators/blog/blog.js
