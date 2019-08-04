@@ -41,7 +41,7 @@ const path = require('path')
             blog_entries = blog_entries.filter(entry => entry.content.published)
             // sort dates by time and limit them
             blog_entries.sort((a, b) => {
-                return new Date(a.content.$date_value) < new Date(b.content.$date_value)
+                return new Date(a.content.$blog_date) < new Date(b.content.$blog_date)
             })
             // add more pages with blog entries (for pagination purposes)
             for (let i = max_posts, l = blog_entries.length; i < l; i += max_posts) {

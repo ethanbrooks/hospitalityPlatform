@@ -27,7 +27,7 @@
           "/robots.txt",
           "/*.css",
           "/*.js",
-          "/data/*_*/**/*.html"
+          "/data/**/*.html"
         ]
       }
     }, {
@@ -37,7 +37,7 @@
       "resources": {
         "files": [
           "/assets/**",
-          "/data/*_*/**"
+          "/data/**"
         ]
       }
     }
