@@ -1,9 +1,9 @@
 export * from './video/video.component';
 export * from './topnav/topnav.component';
-export * from './tease/tease.component';
+// export * from './tease/tease.component';
 export * from './slideshow/slideshow.component';
 export * from './slidecontent/slidecontent.component';
-export * from './sidenav/sidenav.component';
+// export * from './sidenav/sidenav.component';
 export * from './map/map.component';
 export * from './jobs/jobs.component';
 export * from './invoice/invoice.component';

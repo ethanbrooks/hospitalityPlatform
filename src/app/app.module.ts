@@ -28,56 +28,56 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 import { environment } from '../environments/environment';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
-import {
+
+import { DxMultiViewModule } from 'devextreme-angular/ui/multi-view';
+
 //  DxServerTransferStateModule,
-  DxMultiViewModule,
-  DxMapModule,
-  DxNumberBoxModule,
-  DxDataGridModule,
-  DxSliderModule,
-  DxDrawerModule,
-  DxRadioGroupModule,
-  DxListModule,
-  DxToolbarModule,
-  DxTreeViewModule,
-  DxSchedulerModule,
-  DxTemplateModule,
-  DxButtonModule,
-  DxHtmlEditorModule,
-  DxPivotGridModule,
-  DxChartModule,
-  DxPopupModule,
-  DxPopoverModule,
-  DxVectorMapModule,
-  DxSelectBoxModule,
-  DxTextBoxModule,
-  DxFileUploaderModule,
-  DxAccordionModule,
-  DxCheckBoxModule,
-  DxTagBoxModule,
-  DxSlideOutModule,
-  DxSwitchModule,
-  DxBulletModule,
-  DxTabPanelModule,
-  DxDropDownBoxModule,
-  DxActionSheetModule,
-  DxFormModule,
-  DxDateBoxModule,
-  DxValidatorModule,
-  DxValidationSummaryModule,
-  DxButtonGroupModule,
-  DxProgressBarModule,
-  DxResponsiveBoxModule,
-  DxGalleryModule,
-  DxTileViewModule,
-  DxTreeListModule,
-  DxFilterBuilderModule,
-  DxNavBarModule,
-  DxBoxModule,
-  DxScrollViewModule,
-  DxSpeedDialActionModule,
-  DxCalendarModule
-} from 'devextreme-angular';
+import {  DxMapModule } from 'devextreme-angular/ui/map';
+// import { DxSwitchModule } from 'devextreme-angular/ui/switch';
+import { DxGalleryModule } from 'devextreme-angular/ui/gallery';
+import { DxBoxModule } from 'devextreme-angular/ui/box';
+import { DxCalendarModule } from 'devextreme-angular/ui/calendar';
+import { DxFormModule } from 'devextreme-angular/ui/form';
+// import { DxSliderModule } from 'devextreme-angular/ui/slider';
+// import { DxDrawerModule } from 'devextreme-angular/ui/drawer';
+// import { DxListModule } from 'devextreme-angular/ui/list';
+// import { DxAccordionModule } from 'devextreme-angular/ui/accordion';
+import { DxSchedulerModule } from 'devextreme-angular/ui/scheduler';
+import { DxToolbarModule } from 'devextreme-angular/ui/toolbar';
+
+import { DxValidatorModule } from 'devextreme-angular/ui/validator';
+import { DxPopoverModule } from 'devextreme-angular/ui/popover';
+import { DxPopupModule } from 'devextreme-angular/ui/popup';
+import { DxButtonModule } from 'devextreme-angular/ui/button';
+// import { DxBulletModule } from 'devextreme-angular/ui/bullet';
+import { DxNumberBoxModule } from 'devextreme-angular/ui/number-box';
+import { DxDataGridModule } from 'devextreme-angular/ui/data-grid';
+import { DxRadioGroupModule } from 'devextreme-angular/ui/radio-group';
+// import { DxTreeViewModule } from 'devextreme-angular/ui/tree-view';
+import { DxHtmlEditorModule } from 'devextreme-angular/ui/html-editor';
+// import { DxPivotGridModule } from 'devextreme-angular/ui/pivot-grid';
+// import { DxChartModule } from 'devextreme-angular/ui/chart';
+// import { DxVectorMapModule } from 'devextreme-angular/ui/vector-map';
+import { DxSelectBoxModule } from 'devextreme-angular/ui/select-box';
+import { DxTextBoxModule } from 'devextreme-angular/ui/text-box';
+// import { DxFileUploaderModule } from 'devextreme-angular/ui/file-uploader';
+// import { DxTagBoxModule } from 'devextreme-angular/ui/tag-box';
+// import { DxSlideOutModule } from 'devextreme-angular/ui/slide-out';
+import { DxTabPanelModule } from 'devextreme-angular/ui/tab-panel';
+import { DxDropDownBoxModule } from 'devextreme-angular/ui/drop-down-box';
+// import { DxActionSheetModule } from 'devextreme-angular/ui/action-sheet';
+import { DxDateBoxModule } from 'devextreme-angular/ui/date-box';
+// import { DxValidationSummaryModule } from 'devextreme-angular/ui/validation-summary';
+// import { DxButtonGroupModule } from 'devextreme-angular/ui/button-group';
+// import { DxProgressBarModule } from 'devextreme-angular/ui/progress-bar';
+import { DxResponsiveBoxModule } from 'devextreme-angular/ui/responsive-box';
+import { DxTileViewModule } from 'devextreme-angular/ui/tile-view';
+// import { DxTreeListModule } from 'devextreme-angular/ui/tree-list';
+import { DxFilterBuilderModule } from 'devextreme-angular/ui/filter-builder';
+import { DxNavBarModule } from 'devextreme-angular/ui/nav-bar';
+import { DxScrollViewModule } from 'devextreme-angular/ui/scroll-view';
+import { DxSpeedDialActionModule } from 'devextreme-angular/ui/speed-dial-action';
+import { DxCheckBoxModule } from 'devextreme-angular/ui/check-box';
 
 
 import { UppyModule } from './features/uppy/uppy.module';
@@ -85,9 +85,9 @@ import { UppyModule } from './features/uppy/uppy.module';
 import { AppComponent } from './app.component';
 
 import {
-  TagsComponent,
+//  TagsComponent,
 //  UppyComponent,
-  FiltersComponent
+//  FiltersComponent
 } from './features/';
 
 import {
@@ -97,7 +97,7 @@ import {
   InvoiceComponent,
   GalleryComponent,
   JobsComponent,
-  TeaseComponent,
+//  TeaseComponent,
   ContactComponent,
   MapComponent,
   EventComponent,
@@ -105,7 +105,7 @@ import {
   SlidecontentComponent,
   SlideshowComponent,
   TopnavComponent,
-  SidenavComponent,
+//  SidenavComponent,
   LanguageComponent,
   FooterComponent,
   PhotoComponent,
@@ -156,51 +156,53 @@ import {
     DxCalendarModule,
     DxNumberBoxModule,
     DxCheckBoxModule,
-    DxButtonGroupModule,
-    DxFormModule,
-    DxDrawerModule,
-    DxRadioGroupModule,
-    DxListModule,
-    DxToolbarModule,
     DxHtmlEditorModule,
-    DxTreeViewModule,
     DxDataGridModule,
-    DxSliderModule,
-    DxTreeListModule,
-    DxSchedulerModule,
-    DxTemplateModule,
-    DxPivotGridModule,
-    DxChartModule,
     DxButtonModule,
     DxPopupModule,
     DxPopoverModule,
     DxMapModule,
-    DxVectorMapModule,
     DxSelectBoxModule,
     DxTextBoxModule,
-    DxFileUploaderModule,
-    DxAccordionModule,
+    DxRadioGroupModule,
+    DxFormModule,
     DxCheckBoxModule,
-    DxTagBoxModule,
-    DxSlideOutModule,
-    DxSwitchModule,
-    DxBulletModule,
     DxDropDownBoxModule,
-    DxTabPanelModule,
-    DxActionSheetModule,
     DxDateBoxModule,
     DxValidatorModule,
-    DxValidationSummaryModule,
-    DxProgressBarModule,
     DxResponsiveBoxModule,
     DxGalleryModule,
     DxTileViewModule,
-    DxTreeListModule,
     DxFilterBuilderModule,
     DxNavBarModule,
     DxBoxModule,
     DxScrollViewModule,
     DxSpeedDialActionModule,
+    DxToolbarModule,
+    DxTabPanelModule,
+    DxSchedulerModule,
+
+
+//    DxButtonGroupModule,
+//    DxDrawerModule,
+//    DxListModule,
+//    DxTreeViewModule,
+//    DxSliderModule,
+//    DxTreeListModule,
+//    DxTemplateModule,
+//    DxPivotGridModule,
+//    DxChartModule,
+//    DxVectorMapModule,
+//    DxFileUploaderModule,
+//    DxAccordionModule,
+//    DxTagBoxModule,
+//    DxSlideOutModule,
+//    DxSwitchModule,
+//    DxBulletModule,
+//    DxActionSheetModule,
+//    DxValidationSummaryModule,
+//    DxProgressBarModule,
+//    DxTreeListModule,
     HttpClientModule,
 
     UppyModule,
@@ -227,10 +229,10 @@ import {
 
     VideoComponent,
     TopnavComponent,
-    SidenavComponent,
+//    SidenavComponent,
     BookingComponent,
     JobsComponent,
-    TeaseComponent,
+//    TeaseComponent,
     ContactComponent,
     MapComponent,
     EventComponent,
@@ -246,8 +248,8 @@ import {
 //    UploadComponent,
     FilterComponent,
 
-    TagsComponent,
-    FiltersComponent,
+//    TagsComponent,
+//    FiltersComponent,
 
     TimePipe,
     SafeHtmlPipe,
