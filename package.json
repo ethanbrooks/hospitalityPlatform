@@ -11,10 +11,10 @@
 		"serve:prerender": "cd dist/browser && http-server",
 		"serve:ssr": "node dist/server",
 		"start": "ng serve",
-		"build": "ng build --stats-json --prod --delete-output-path --output-path=www --subresourceIntegrity=true",
+		"build": "ng build",
 		"deploy": "yarn run build && dev-bin/deploy.sh hotelherrera.com pp",
 		"test": "ng test",
-		"build:client-and-server-bundles": "ng build --prod && ng run hotelHerrera:server:production",
+		"build:client-and-server-bundles": "ng build --prod --stats-json --prod --delete-output-path --output-path=dist --subresourceIntegrity=true && ng run hotelHerrera:server:production",
 		"e2e": "ng e2e",
 		"build-themes": "devextreme build",
 		"postinstall": "npm run build-themes"

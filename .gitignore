@@ -12,7 +12,6 @@
 !/enduro/cms/generators/blog/blog.js
 /enduro/cms/generators/directory/*
 !/enduro/cms/generators/directory/directory.js
-/www
 /tmp
 /out-tsc
 # Only exists if Bazel was run

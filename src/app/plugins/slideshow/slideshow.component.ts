@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { Item, slideshowService  } from './slideshow.service';
+import { Item, SlideshowService  } from './slideshow.service';
 
 
 @Component({
     selector: 'app-slideshow',
     templateUrl: './slideshow.component.html',
     styleUrls: ['./slideshow.component.css'],
-    providers: [slideshowService]
+    providers: [SlideshowService]
 })
 
 export class SlideshowComponent {
@@ -18,7 +18,7 @@ export class SlideshowComponent {
     items: Item[];
     currentItem: Item = new Item();
     slideshowDelay = 2000;
-    constructor(service: slideshowService) {
+    constructor(service: SlideshowService) {
             this.items = service.getItems();
     }
     valueChanged(e) {
