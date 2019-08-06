@@ -1,55 +1,51 @@
 import 'zone.js/dist/zone-node';
-import 'reflect-metadata';
-import {enableProdMode} from '@angular/core';
-import {ngExpressEngine} from '@nguniversal/express-engine';
-import {provideModuleMap} from '@nguniversal/module-map-ngfactory-loader';
+import { enableProdMode } from '@angular/core';
+
+// Express Engine
+import { ngExpressEngine } from '@nguniversal/express-engine';
+// Import module map for lazy loading
+import { provideModuleMap } from '@nguniversal/module-map-ngfactory-loader';
 
 import * as express from 'express';
-import * as bodyParser from 'body-parser';
-import * as cors from 'cors';
-import * as compression from 'compression';
+import { join } from 'path';
 
-import {join} from 'path';
-
+// Faster server renders w/ Prod mode (dev mode never needed)
 enableProdMode();
 
-export const app = express();
+// Express server
+const app = express();
 
-app.use(compression());
-app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+const PORT = process.env.PORT || 4000;
+const DIST_FOLDER = join(process.cwd(), 'dist');
 
-    // const DIST_FOLDER = join(process.cwd(), 'dist');
+// * NOTE :: leave this as require() since this file is built Dynamically from webpack
+const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./server/main');
 
-const {AppServerModuleNgFactory, LAZY_MODULE_MAP} = require('./dist/server/main');
-
+// Our Universal express-engine (found @ https://github.com/angular/universal/tree/master/modules/express-engine)
 app.engine('html', ngExpressEngine({
-      bootstrap: AppServerModuleNgFactory,
-      providers: [
-        provideModuleMap(LAZY_MODULE_MAP)
-      ]
-    }));
+  bootstrap: AppServerModuleNgFactory,
+  providers: [
+    provideModuleMap(LAZY_MODULE_MAP)
+  ]
+}));
 
 app.set('view engine', 'html');
-app.set('views', './dist/browser');
+app.set('views', join(DIST_FOLDER, 'browser'));
 
-app.get('/redirect/**', (req, res) => {
-      const location = req.url.substring(10);
-      res.redirect(301, location);
-    });
+// Example Express Rest API endpoints
+// app.get('/api/**', (req, res) => { });
 
-app.get('*.*', express.static('./dist/browser', {
-      maxAge: '1y'
-    }));
+// Server static files from /browser
+app.get('*.*', express.static(join(DIST_FOLDER, 'browser'), {
+  maxAge: '1y'
+}));
 
-app.get('/*', (req, res) => {
-      res.render('index', {req, res}, (err, html) => {
-        if (html) {
-          res.send(html);
-        } else {
-          console.error(err);
-          res.send(err);
-        }
-      });
-    });
+// All regular routes use the Universal engine
+app.get('*', (req, res) => {
+  res.render('index', { req });
+});
+
+// Start up the Node server
+app.listen(PORT, () => {
+  console.log(`Node Express server listening on http://localhost:${PORT}`);
+});

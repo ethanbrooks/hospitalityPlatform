@@ -4,8 +4,10 @@
 
 #report.*.json
 # compiled output
-/enduro/_generated
 /dist
+/_generated
+/enduro/report.*.json
+/enduro/_generated
 /enduro/cms/generators/blog/*
 !/enduro/cms/generators/blog/blog.js
 /enduro/cms/generators/directory/*

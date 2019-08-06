@@ -62,7 +62,6 @@ const path = require('path')
                 // drop `index.html` files in `page-N` folders so they can be served as static
 
                 enduro.api.temper.render('blogs', context)
-                //enduro.api.temper.render('index_nohelpers', { user_name: 'martin' })
                 .then(data => {
                     let folder = path.join(enduro.project_path, enduro.config.build_folder, context.page_name, 'index.html')
                     flat_helpers.ensure_directory_existence(folder)

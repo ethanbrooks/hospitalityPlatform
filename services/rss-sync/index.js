@@ -1,4 +1,4 @@
-const { transform, prettyPrint } = require('camaro')
+const { transform } = require('camaro')
 const fs = require('fs')
 const parse = require('url-parse');
 const moment = require('moment');
@@ -70,9 +70,9 @@ const template = {
             element.blog_article = element.blog_article.replace(/<[^>]*>/g, '');
             element.blog_page_slug = fileName;
         }
-        
+        '../../enduro/cms/generators/blog/' 
 
-        fs.writeFile('../../cms/generators/blog/' + fileName + '.js', '(' + JSON.stringify(element, null, 2) + ')', (err) => {
+        fs.writeFile('../../enduro/cms/generators/blog/' + fileName + '.js', '(' + JSON.stringify(element, null, 2) + ')', (err) => {
             if (err) throw err;
                 console.log('The '+ fileName +' has been saved!');
             });

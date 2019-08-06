@@ -33,15 +33,15 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
+
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
-          "options": {
-            "outputPath": "dist/hotelHerrera",
+          "options": {         
+            "outputPath": "dist/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "tsConfig": "src/tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
-            "tsConfig": "tsconfig.app.json",
-            "aot": false,
             "assets": [
               {
                 "glob": "**/*",
@@ -49,8 +49,8 @@
                 "output": "assets"
               },
               {
-                "glob": "**/*.*",
-                "input": "_generated",
+                "glob": "**/*.html",
+                "input": "enduro/_generated",
                 "output": "data"
               },
               "src/manifest.json",
@@ -69,10 +69,13 @@
           },
           "configurations": {
             "production": {
-              "fileReplacements": [
+              "serviceWorker": true,
+              "ngswConfigPath": "ngsw-config.json",
+              "budgets": [
                 {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
+                  "type": "initial",
+                  "maximumWarning": "4mb",
+                  "maximumError": "16mb"
                 }
               ],
               "optimization": true,
@@ -82,15 +85,12 @@
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
-              "vendorChunk": true,
+              "vendorChunk": false,
               "buildOptimizer": true,
-              "serviceWorker": true,
-              "ngswConfigPath": "ngsw-config.json",
-              "budgets": [
+              "fileReplacements": [
                 {
-                  "type": "initial",
-                  "maximumWarning": "4mb",
-                  "maximumError": "16mb"
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
                 }
               ]
             }
@@ -168,7 +168,7 @@
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.serverless.ts"
+                  "with": "src/environments/environment.prod.ts"
                 }
               ]
             }

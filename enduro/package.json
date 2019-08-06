@@ -12,7 +12,7 @@
 	"dependencies": {
 		"bower": "^1.8.8",
 		"graceful-fs": "^4.2.0",
-		"enduro": "*",
+		"enduro2": "*",
 		"showdown": "^1.9.0"
 	}
 }
