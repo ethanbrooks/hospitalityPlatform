@@ -49,12 +49,7 @@
               },
               {
                 "glob": "**/*.html",
-                "input": "enduro/_generated/page-*",
-                "output": "data"
-              },
-              {
-                "glob": "**/*.html",
-                "input": "enduro/_generated/en/*",
+                "input": "enduro/_generated",
                 "output": "data"
               },
               "src/manifest.json",
