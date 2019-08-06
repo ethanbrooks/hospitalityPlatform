@@ -24,14 +24,15 @@ export class TopnavComponent implements AfterViewInit {
 
     ngAfterViewInit() {
             // Get the header
-    this.header = document.getElementById('header');
+//    this.header = document.getElementById('header');
 
     // Get the offset position of the navbar
-    this.sticky = this.header.offsetTop;
+ //   this.sticky = this.header.offsetTop;
 
     }
 
     onScroll(event) {
+/*
         console.log(event);
         if (window.pageYOffset > this.sticky) {
             console.log('add sticky');
@@ -41,6 +42,7 @@ export class TopnavComponent implements AfterViewInit {
             this.header.classList.remove('sticky');
         }
         return window.innerWidth;
+*/
     }
 
     constructor(

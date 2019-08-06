@@ -28,7 +28,7 @@ export class FilterComponent {
         this.dataSource = new DataSource({
             store: service.getOrders()
         });
-        this.popupPosition = { of: window, at: 'top', my: 'top', offset: { y: 10 } };
+   //     this.popupPosition = { of: window, at: 'top', my: 'top', offset: { y: 10 } };
         this.filterValue = [
             ['Employee', '=', 'Clark Morgan'],
             'and',

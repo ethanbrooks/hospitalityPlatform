@@ -29,7 +29,7 @@ import {Core,
 import { UppyService } from '../../features/uppy/uppy.service';
 // import { PoogleDrive } from '../../../features/uppy/plugins/num-files/src';
 
-
+/*
 import '@uppy/core/dist/style.css';
 import '@uppy/dashboard/dist/style.css';
 
@@ -40,6 +40,7 @@ import '@uppy/file-input/dist/style.css';
 import '@uppy/status-bar/dist/style.css';
 import '@uppy/progress-bar/dist/style.css';
 import '@uppy/informer/dist/style.css';
+*/
 
 export enum UppyPlugins {
   //  Url,

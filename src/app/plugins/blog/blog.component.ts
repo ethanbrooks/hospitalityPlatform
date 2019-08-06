@@ -23,7 +23,7 @@ export class BlogComponent implements AfterViewInit {
 
     onResize(event) {
         console.log(event);
-        return window.innerWidth;
+//        return window.innerWidth;
     }
 
     ngAfterViewInit() {
