@@ -3,6 +3,7 @@
 /enduro_secret.json
 
 # compiled output
+/report*
 /dist
 /_generated
 /enduro/report.*.json
