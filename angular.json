@@ -33,7 +33,6 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
-
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {         
@@ -50,7 +49,12 @@
               },
               {
                 "glob": "**/*.html",
-                "input": "enduro/_generated",
+                "input": "enduro/_generated/page-*",
+                "output": "data"
+              },
+              {
+                "glob": "**/*.html",
+                "input": "enduro/_generated/en/*",
                 "output": "data"
               },
               "src/manifest.json",
