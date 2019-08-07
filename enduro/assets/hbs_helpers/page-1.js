@@ -7,7 +7,7 @@ const fs = require('graceful-fs')
 const path = require('path')
 
 
-    enduro.templating_engine.registerHelper('blogs', function (options) {
+    enduro.templating_engine.registerHelper('page-1', function (options) {
     // will store all the blog entries
     var blog_entries
 
@@ -61,9 +61,9 @@ const path = require('path')
                 context._meta.pagename = context.page_name
                 // drop `index.html` files in `page-N` folders so they can be served as static
 
-                enduro.api.temper.render('blogs', context)
+                enduro.api.temper.render('page-1', context)
                 .then(data => {
-                    let folder = path.join(enduro.project_path, enduro.config.build_folder, context.page_name, 'index.html')
+                    let folder = path.join(enduro.project_path, enduro.config.build_folder, 'en', context.page_name, 'index.html')
                     flat_helpers.ensure_directory_existence(folder)
                     .then(() => {
                         fs.writeFile(folder, data, function (err) {

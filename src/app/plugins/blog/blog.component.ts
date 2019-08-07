@@ -15,52 +15,52 @@ export class BlogComponent implements AfterViewInit {
     @HostListener('window:resize', ['$event'])
     enduroJsData: any;
     updateContentTimer: any;
-    content: any = '';
+    content: string;
+    LoadOptions: any = {};
+    pageCount;
+
     constructor(
         private host: ElementRef,
         private serviceBlog: BlogService
-    ) {}
+    ) {
+        this.pageCount = 1;
+    }
 
     onResize(event) {
         console.log(event);
-//        return window.innerWidth;
+        return window.innerWidth;
     }
 
     ngAfterViewInit() {
         const closetParent = this.host.nativeElement.parentNode.parentNode;
-        console.log(closetParent.offsetHeight);
-
-        this.getEnduroJsDataLoad();
+        this.updateBottomContent(1);
         this.scrollView.instance.option('onReachBottom', this.updateBottomContent);
-
     }
 
-    getEnduroJsDataLoad(): void {
-        this.serviceBlog.enduroJsonStore.load().then(
-        (enduroJsDataLoad: string) => {
-            this.content = enduroJsDataLoad;
-        });
-    }
-
-    updateTopContent(e) {
-        this.serviceBlog.enduroJsonStore.load().then((enduroJsData: string) => {
-    ////        this.serviceBlog.enduroJsonStore.byKey({ id: 1}).then(
-            if (this.updateContentTimer) {clearTimeout(this.updateContentTimer); }
+    updateContent = (args, eventName) => {
+//        this.pageCount = Math.round(Math.random() * 10);
+        this.serviceBlog.enduroJsonStore.load({skip: this.pageCount++})
+        .then((updateContentText: string) => {
+            if (this.updateContentTimer) {
+                clearTimeout(this.updateContentTimer);
+            }
             this.updateContentTimer = setTimeout(() => {
-                this.content =  enduroJsData + this.content;
-                e.component.release();
-            }, 1);
+                this.content = (eventName === 'PullDown' ? updateContentText + this.content : this.content +  updateContentText);
+                args.component.release();
+            }, 500);
         });
     }
 
+    updateTopContent = (e) => {
+        this.updateContent(e, 'PullDown');
+    }
+    updateBottomContent = (e) => {
+        this.updateContent(e, 'ReachBottom');
+    }
+
+    /*
     updateBottomContent(e) {
-        this.serviceBlog.enduroJsonStore.load().then((enduroJsData: string) => {
-////        this.serviceBlog.enduroJsonStore.byKey({ id: 1}).then(
-            if (this.updateContentTimer) {clearTimeout(this.updateContentTimer); }
-            this.updateContentTimer = setTimeout(() => {
-                this.content =  this.content + enduroJsData;
-                e.component.release();
-            }, 1);
-        });
+
     }
+    */
 }

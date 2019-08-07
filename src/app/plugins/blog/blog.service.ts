@@ -8,6 +8,7 @@ export class BlogService {
     enduroJsonStore: CustomStore;
     updateContentTimer: any;
     content: string;
+
     constructor(
         private httpClient: HttpClient
     ) {
@@ -16,18 +17,19 @@ export class BlogService {
             errorHandler:  (error) => {
                 console.log(error.message);
             },
-            load:  () => {
+            load:  (LoadOptions: any) => {
+                console.log(LoadOptions);
                 const params: HttpParams = new HttpParams();
                 [].forEach((i) => {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
 // TODO: set the directrouy index in CF
-                const eduroJsUrl = '/data/blogs/index.html';
+                const eduroJsUrl = '/data/en/page-' + LoadOptions.skip;
                 return httpClient.get(eduroJsUrl, { params, responseType: 'text'})
                 .toPromise()
                 .then(
                     (enduroJsDataLoad: string) => {
-                        return enduroJsDataLoad ;
+                        return enduroJsDataLoad;
                     },
                     (error) => {
                         console.log(error);
