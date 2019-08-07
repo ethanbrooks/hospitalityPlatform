@@ -1,19 +1,21 @@
 import { Injectable } from '@angular/core';
-import * as Uppy from 'uppy';
+import * as Core from '@uppy/core';
+
+
 import { set, lensProp, compose, reduce, __ } from 'ramda';
 
 
 @Injectable()
 export class UppyService/* extends Uppy*/ {
-  readonly uppy = Uppy;
+  readonly Core = Core;
 
   configure(pluginConfig, uuid): any {
     const plugins = pluginConfig.map(([plugin, conf]) => {
       const config =
-        plugin !== 'Dashboard' && conf.target ? set(lensProp('target'), Uppy[conf.target], conf) :
+        plugin !== 'Dashboard' && conf.target ? set(lensProp('target'), Core[conf.target], conf) :
           set(lensProp('target'), '.DashboardContainer-' + uuid, conf);
 
-      return [Uppy[plugin], config];
+      return [Core[plugin], config];
     });
 
     const addPlugin = (uppy: any, [name, conf]: [string, any]) => uppy.use(name, conf);
@@ -21,7 +23,7 @@ export class UppyService/* extends Uppy*/ {
     const uppyInstance = compose(
       (u: any) => u.run(),
       reduce(addPlugin, __, plugins),
-      Uppy.Core
+      Core
     )({ autoProceed: false });
 
     return uppyInstance;

@@ -59,6 +59,7 @@ import { DxHtmlEditorModule } from 'devextreme-angular/ui/html-editor';
 // import { DxChartModule } from 'devextreme-angular/ui/chart';
 // import { DxVectorMapModule } from 'devextreme-angular/ui/vector-map';
 import { DxSelectBoxModule } from 'devextreme-angular/ui/select-box';
+
 import { DxTextBoxModule } from 'devextreme-angular/ui/text-box';
 // import { DxFileUploaderModule } from 'devextreme-angular/ui/file-uploader';
 // import { DxTagBoxModule } from 'devextreme-angular/ui/tag-box';
@@ -71,14 +72,14 @@ import { DxDateBoxModule } from 'devextreme-angular/ui/date-box';
 // import { DxButtonGroupModule } from 'devextreme-angular/ui/button-group';
 // import { DxProgressBarModule } from 'devextreme-angular/ui/progress-bar';
 import { DxResponsiveBoxModule } from 'devextreme-angular/ui/responsive-box';
-import { DxTileViewModule } from 'devextreme-angular/ui/tile-view';
+// TODO: for prerender
+// import { DxTileViewModule } from 'devextreme-angular/ui/tile-view';
 // import { DxTreeListModule } from 'devextreme-angular/ui/tree-list';
 import { DxFilterBuilderModule } from 'devextreme-angular/ui/filter-builder';
 import { DxNavBarModule } from 'devextreme-angular/ui/nav-bar';
 import { DxScrollViewModule } from 'devextreme-angular/ui/scroll-view';
 import { DxSpeedDialActionModule } from 'devextreme-angular/ui/speed-dial-action';
 import { DxCheckBoxModule } from 'devextreme-angular/ui/check-box';
-
 
 import { UppyModule } from './features/uppy/uppy.module';
 
@@ -172,7 +173,7 @@ import {
     DxValidatorModule,
     DxResponsiveBoxModule,
     DxGalleryModule,
-    DxTileViewModule,
+//    DxTileViewModule,
     DxFilterBuilderModule,
     DxNavBarModule,
     DxBoxModule,
@@ -204,7 +205,6 @@ import {
 //    DxProgressBarModule,
 //    DxTreeListModule,
     HttpClientModule,
-
     UppyModule,
      ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
 //    ServiceWorkerModule.register('@uppy/golden-retriever/lib/ServiceWorker', { enabled: environment.production })

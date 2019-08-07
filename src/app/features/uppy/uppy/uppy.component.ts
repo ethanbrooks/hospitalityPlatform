@@ -1,19 +1,24 @@
 import { Component, OnInit, AfterViewInit, ViewEncapsulation, Input, ChangeDetectionStrategy } from '@angular/core';
 import { Subject } from 'rxjs';
-import * as Uppy from 'uppy';
+import * as Core from '@uppy/core';
+
+
+
+
+
+
+
 import { UppyService } from '../uppy.service';
 import { v4 } from 'uuid';
 
-console.dir(Uppy);
+// console.dir(Core);
 
 export enum UppyPlugins {
-  Tus,
-  GoogleDrive,
-  Dropbox,
-  Instagram,
   AwsS3Multipart,
   Webcam
 }
+
+
 
 export type UppyPluginConfigurations = [
   string,

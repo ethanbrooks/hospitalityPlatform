@@ -11,10 +11,12 @@
     <div *dxTemplate="let data of 'field'">
         <div class="custom-item">
             <img src="/assets/img/language/{{data && data.IconSrc}}"/>
+<!--//
             <dx-text-box class="product-name" 
                 [value]="data && data.Name" 
                 [readOnly]="true"
-            ></dx-text-box>
+            ></dx-text-box> 
+//-->
         </div>
     </div>
     <div *dxTemplate="let data of 'item'" class="custom-item">

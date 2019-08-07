@@ -9,6 +9,5 @@ export const ROUTES = [
   '/the-lounge',
   '/the-hotel',
   '/the-cellar',
-  '/photo',
   '/filter'
 ];

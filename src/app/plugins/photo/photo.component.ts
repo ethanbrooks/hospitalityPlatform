@@ -7,25 +7,16 @@ import { DxDrawerComponent } from 'devextreme-angular';
 import notify from 'devextreme/ui/notify';
 // import { TimePipe } from '../../pipes/TimePipe.pipe';
 
-/*
-import {Core,
-  Url,
-  DragDrop,
-  Webcam,
-  AwsS3Multipart,
-  StatusBar,
-  ProgressBar,
-  Informer,
-  Form,
-  ThumbnailGenerator,
-  GoogleDrive,
-//  Dropbox,
-  Instagram,
-  GoldenRetriever,
-// , XHRUpload
-// , Tus
-} from 'uppy';
-*/
+import * as Dashboard from '@uppy/dashboard';
+import * as StatusBar from '@uppy/status-bar';
+
+import * as Webcam from '@uppy/webcam';
+import * as AwsS3Multipart from '@uppy/aws-s3-multipart';
+import * as ProgressBar from '@uppy/progress-bar';
+import * as Informer from '@uppy/informer';
+import * as Form from '@uppy/form';
+import * as ThumbnailGenerator from '@uppy/thumbnail-generator';
+
 import { UppyService } from '../../features/uppy/uppy.service';
 // import { PoogleDrive } from '../../../features/uppy/plugins/num-files/src';
 
@@ -55,8 +46,8 @@ export enum UppyPlugins {
   ThumbnailGenerator,
 //  Tus,
 //  XHRUpload,
-  GoldenRetriever,
-  GoogleDrive,
+//  GoldenRetriever,
+//  GoogleDrive,
 //  Dropbox,
 //  Instagram,
 }
@@ -120,11 +111,11 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    const uppy = this.uppyService.uppy;
+    const Core = this.uppyService.Core;
 
-    const Dashboard = uppy.Dashboard;
+//    const Dashboard = Dashboard;
 
-    const instance3 = uppy.Core({
+    const instance3 = Core({
       id: 'uppy',
       autoProceed: false,
       allowMultipleUploads: true,
@@ -161,8 +152,9 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
         },
         meta: {},
     })
-    .use(uppy.GoldenRetriever, {serviceWorker: false})
-    .use(uppy.Dashboard, {
+
+    //    .use(GoldenRetriever, {serviceWorker: false})
+    .use(Dashboard, {
       id: 'Dashboard',
 //      plugins: ['WebCam'],
       target: '.instance3',
@@ -261,11 +253,11 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
           complete: 'Complete'
         }
       }
-    })
-    .use(uppy.GoogleDrive, {
+    })/*
+    .use(GoogleDrive, {
       id: 'GoogleDrive',
       title: 'GoogleDrive',
-      target: uppy.Dashboard,
+      target: Dashboard,
       companionUrl: 'https://eq5xamyc6h.execute-api.us-east-1.amazonaws.com/dev',
       serverHeaders: {},
       locale: {
@@ -273,10 +265,10 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
           // TODO
         }
       }
-    })
-    .use(uppy.StatusBar, {
+    })*/
+    .use(StatusBar, {
       id: 'StatusBar',
-      target: uppy.Dashboard,
+      target: Dashboard,
       showProgressDetails: true,
       hideAfterFinish: false,
       hideUploadButton: false,
@@ -285,15 +277,15 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
       hideCancelButton: false,
       locale: {}
     })
-    .use(uppy.ProgressBar, {
+    .use(ProgressBar, {
       id: 'ProgressBar',
       target: 'body',
       fixed: true,
       hideAfterFinish: true
     })
-    .use(uppy.Informer, {
+    .use(Informer, {
       id: 'Informer',
-      target: uppy.Dashboard,
+      target: Dashboard,
       replaceTargetContent: false,
       typeColors: {
         info:    { text: '#fff', bg: '#000000' },
@@ -302,7 +294,7 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
         success: { text: '#fff', bg: '#7ac824' }
       }
     })
-    .use(uppy.Form, {
+    .use(Form, {
       target: '#form',
       getMetaFromForm: true,
       addResultToForm: false,
@@ -310,14 +302,14 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
       triggerUploadOnSubmit: false,
       submitOnSuccess: false
     })
-    .use(uppy.ThumbnailGenerator, {
+    .use(ThumbnailGenerator, {
       id: 'ThumbnailGenerator',
       thumbnailWidth: 200,
       thumbnailHeight: 200
     })/*
-    .use(uppy.FileInput, {
+    .use(FileInput, {
       id: 'FileInput',
-      target: uppy.Dashboard,
+      target: Dashboard,
       pretty: true,
       locale: {
         strings: {
@@ -325,8 +317,8 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
         }
       }
     })
-    .use(uppy.DragDrop, {
-      target: uppy.Dashboard,
+    .use(DragDrop, {
+      target: Dashboard,
       width: '100%',
 //    height: '100%',
       note: null,
@@ -341,10 +333,10 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
       }
     })
     */
-    .use(uppy.Webcam, {
+    .use(Webcam, {
       id: 'webcam',
       title: 'Camera / Video',
-      target: uppy.Dashboard,
+      target: Dashboard,
 //    onBeforeSnapshot: () => Promise.resolve(),
       countdown: false,
       modes: [
@@ -376,10 +368,10 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
       }
     })
 /*
-    .use(uppy.Url, {
+    .use(Url, {
       id: 'Url',
       title: 'Link',
-      target: uppy.Dashboard,
+      target: Dashboard,
       companionUrl: 'https://eq5xamyc6h.execute-api.us-east-1.amazonaws.com/dev',
 //      companionUrl: 'https://wwww.safepics.com/',
       locale: {
@@ -395,10 +387,10 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
         }
       }
     })
-    .use(uppy.Dropbox, {
+    .use(Dropbox, {
       id: 'Dropbox',
       title: 'Dropbox',
-      target: uppy.Dashboard,
+      target: Dashboard,
       companionUrl: 'https://www.safepics.com/',
       companionAllowedHosts: ['demo.safepics.com' , 'www.safepics.com', 'safepics.com'],
       serverHeaders: {},
@@ -409,7 +401,7 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
       }
     })
 */
-    .use(uppy.AwsS3Multipart, {
+    .use(AwsS3Multipart, {
       limit: 4,
 //      companionUrl: 'https://beta.hotelherrera.com/upload-dest/dev',
       companionUrl: 'https://frofgzfaic.execute-api.us-east-1.amazonaws.com/dev',
@@ -433,16 +425,16 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
         https://localhost:3020/service/companion/metrics
 */
 /*
-        .use(uppy.XHRUpload, {
+        .use(XHRUpload, {
           endpoint: '/upload.php',
           fieldName: 'my_file'
         }),
-        .use(uppy.Tus, {
+        .use(Tus, {
           resume: true,
           autoRetry: true,
           retryDelays: [0, 1000, 3000, 5000]
         })
-        .use(uppy.Instagram, {
+        .use(Instagram, {
           id: 'Instagram',
           title: 'Instagram',
 //          target: '.instance3',

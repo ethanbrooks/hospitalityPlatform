@@ -35,9 +35,8 @@ export class AuthenticationService {
                 // login successful if there's a jwt token in the response
                 if (user && user.token) {
                     // store user details and jwt token in local storage to keep user logged in between page refreshes
-// TODO: Disabled for local render
-//                    localStorage.setItem('currentUser', JSON.stringify(user));
-                    this.currentUserSubject.next(user);
+                   localStorage.setItem('currentUser', JSON.stringify(user));
+                   this.currentUserSubject.next(user);
                 }
                 return user;
             }));
@@ -45,8 +44,8 @@ export class AuthenticationService {
 
     logout() {
         // remove user from local storage to log user out
-// TODO: Disabled for local render
-//        localStorage.removeItem('currentUser');
+
+        localStorage.removeItem('currentUser');
         this.currentUserSubject.next(null);
     }
 
