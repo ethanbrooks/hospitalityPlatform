@@ -73,7 +73,11 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { enableTracing: false })],
+  imports: [RouterModule.forRoot(routes, {
+    enableTracing: false ,
+    useHash: false,
+    anchorScrolling: 'enabled',
+  })],
   providers: [],
   exports: [RouterModule]
 })

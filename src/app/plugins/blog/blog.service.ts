@@ -24,7 +24,7 @@ export class BlogService {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
 // TODO: set the directrouy index in CF
-                const eduroJsUrl = '/data/en/page-' + LoadOptions.skip;
+                const eduroJsUrl = '/data/en/page-' + LoadOptions.skip + '/index.html';
                 return httpClient.get(eduroJsUrl, { params, responseType: 'text'})
                 .toPromise()
                 .then(

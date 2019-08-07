@@ -1,6 +1,4 @@
 export const ROUTES = [
-  '/',
-  '/blog',
   '/contact',
   '/explore',
   '/guest',

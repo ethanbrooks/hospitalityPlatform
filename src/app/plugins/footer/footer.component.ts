@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
     selector: 'app-footer',
     templateUrl: './footer.component.html',
@@ -10,8 +11,7 @@ import { Component } from '@angular/core';
 export class FooterComponent {
     listData: any[];
     currentData: any;
-    action(e) {
-//        window.scrollTo(0, 0);
-//        console.log(e);
+    action(e): void {
+        console.log('Global');
     }
 }

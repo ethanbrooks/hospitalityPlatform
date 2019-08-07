@@ -12,10 +12,11 @@ import { BlogService } from './blog.service';
 })
 export class BlogComponent implements AfterViewInit {
     @ViewChild(DxScrollViewComponent, {static: false}) scrollView: DxScrollViewComponent;
+    @ViewChild('top', {static: false}) top: ElementRef;
     @HostListener('window:resize', ['$event'])
     enduroJsData: any;
     updateContentTimer: any;
-    content: string;
+    content = '<div #top>Top</div>';
     LoadOptions: any = {};
     pageCount;
 
@@ -28,7 +29,8 @@ export class BlogComponent implements AfterViewInit {
 
     onResize(event) {
         console.log(event);
-        return window.innerWidth;
+        return 100;
+        //    return window.innerWidth;
     }
 
     ngAfterViewInit() {
@@ -52,15 +54,21 @@ export class BlogComponent implements AfterViewInit {
     }
 
     updateTopContent = (e) => {
-        this.updateContent(e, 'PullDown');
+        console.log('updateTopContent');
+   //     this.updateContent(e, 'PullDown');
     }
     updateBottomContent = (e) => {
         this.updateContent(e, 'ReachBottom');
     }
 
-    /*
-    updateBottomContent(e) {
-
+    action(e): void {
+        const position = 0;
+//        this.scrollView.instance.scrollTop();
+        this.scrollView.instance.scrollTo(0);
+//        if (position >= 0) {
+//            this.scrollView.instance.scrollTo(this.scrollView.instance.scrollHeight());
+//        }
+//        this.top.nativeElement.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
     }
-    */
 }
+

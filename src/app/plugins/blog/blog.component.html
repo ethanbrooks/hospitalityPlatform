@@ -1,7 +1,7 @@
 <dx-scroll-view 
     #scrollView
     id='scrollView'
-    [height]="onResize"
+    [height]="800"
     direction="vertical"
     [scrollByContent]="false"
     [scrollByThumb]="true"
@@ -12,7 +12,11 @@
     (onReachTop)="updateTopContent($event)">
         <div class="container" [innerHtml]="content | safeHtml"></div>
 </dx-scroll-view>
-
+<dx-speed-dial-action class="footer"
+    icon="arrowup"
+    hint="Scroll to top"
+    (onClick)="action($event)">
+</dx-speed-dial-action>
 <!--//
     <div class="container" [innerHtml]="enduroJsData$ | async | safeHtml"></div>
 //-->
