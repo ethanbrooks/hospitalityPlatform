@@ -24,6 +24,26 @@ export class BlogService {
 //                    params = params.set(i, JSON.stringify(query[i]));
                 });
 // TODO: set the directrouy index in CF
+/*
+		<article>
+			<div class="work-entry-flex">
+				<div class="col-one-half no-gutters">
+					<div class="article-image" style="background-image: url('https://beta.hotelherrera.com/image-src/fit-in/640x480/filters:grayscale()/{{{content.blog_image}}}');">
+					</div>
+				</div>
+				<div class="col-one-half  no-gutters">
+					<div class="article-text">
+						<h2><a href="{{{content.blog_link}}}" target="_blank">{{{content.blog_title}}}</a></h2>
+						<p>{{{content.blog_article}}}</p>
+						<p><a href="{{{content.blog_link}}}" target="_blank" class="btn-view">Read More</a></p>
+					</div>
+				</div>
+			</div>
+        </article>
+*/
+
+
+
                 const eduroJsUrl = '/data/en/page-' + LoadOptions.skip + '/index.html';
                 return httpClient.get(eduroJsUrl, { params, responseType: 'text'})
                 .toPromise()

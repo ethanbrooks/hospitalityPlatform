@@ -12,11 +12,10 @@ import { BlogService } from './blog.service';
 })
 export class BlogComponent implements AfterViewInit {
     @ViewChild(DxScrollViewComponent, {static: false}) scrollView: DxScrollViewComponent;
-    @ViewChild('top', {static: false}) top: ElementRef;
     @HostListener('window:resize', ['$event'])
     enduroJsData: any;
     updateContentTimer: any;
-    content = '<div #top>Top</div>';
+    content = '';
     LoadOptions: any = {};
     pageCount;
 
@@ -39,7 +38,7 @@ export class BlogComponent implements AfterViewInit {
         this.scrollView.instance.option('onReachBottom', this.updateBottomContent);
     }
 
-    updateContent = (args, eventName) => {
+    updateContent = (e, eventName) => {
 //        this.pageCount = Math.round(Math.random() * 10);
         this.serviceBlog.enduroJsonStore.load({skip: this.pageCount++})
         .then((updateContentText: string) => {
@@ -48,7 +47,9 @@ export class BlogComponent implements AfterViewInit {
             }
             this.updateContentTimer = setTimeout(() => {
                 this.content = (eventName === 'PullDown' ? updateContentText + this.content : this.content +  updateContentText);
-                args.component.release();
+                if (e !== 1) {
+                    e.component.release();
+                }
             }, 500);
         });
     }
@@ -57,6 +58,7 @@ export class BlogComponent implements AfterViewInit {
         console.log('updateTopContent');
    //     this.updateContent(e, 'PullDown');
     }
+
     updateBottomContent = (e) => {
         this.updateContent(e, 'ReachBottom');
     }

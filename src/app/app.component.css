@@ -1,6 +1,6 @@
 ::ng-deep #top-content{
     position: relative;
-    max-height: calc(100% - 72px);
+/*    max-height: calc(100% - 72px); */
 }
 ::ng-deep #header{
     position: relative;

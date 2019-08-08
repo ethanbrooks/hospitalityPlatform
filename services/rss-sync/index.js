@@ -44,7 +44,7 @@ const template = {
                     date = groups.year + '-' + groups.month;
 
                     images.push( 
-                     'https://beta.hotelherrera.com' + '/image-src/fit-in/640x480/' + fileName + '-' + groups.year + '-' + groups.month + '-' + count + '.jpg'
+                        fileName + '-' + groups.year + '-' + groups.month + '-' + count + '.jpg'
     //                    'curl http://arcoproperties.com/wp-content/uploads/' + groups.year + '/' + groups.month + '/' + groups.imgFile + '.jpg -o es/out/img/' + fileName + '-' + groups.year + '-' + groups.month + '-' + count + '.jpg;'
                     );
                     element.blog_image = images[count]
@@ -59,14 +59,14 @@ const template = {
         }
         if(lang === 'es') {
             element.$blog_title_es = element.blog_title
-            element.$blog_description_es = element.blog_article.replace(/<[^>]*>/g, '').substring(0, 500);
+            element.$blog_description_es = element.blog_article.replace(/<[^>]*>/g, '').substring(0, 1500);
             element.$blog_article_es = element.blog_article.replace(/<[^>]*>/g, '');
             element.$blog_page_slug_es = fileName;
             delete element.blog_title;
             delete element.blog_description;
             delete element.blog_article;
         } else if (lang === 'en') {
-            element.blog_description = element.blog_article.replace(/<[^>]*>/g, '').substring(0, 500);
+            element.blog_description = element.blog_article.replace(/<[^>]*>/g, '').substring(0, 1500);
             element.blog_article = element.blog_article.replace(/<[^>]*>/g, '');
             element.blog_page_slug = fileName;
         }

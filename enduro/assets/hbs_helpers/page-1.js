@@ -16,7 +16,6 @@ const path = require('path')
     // get_cms_list will return a structured list of all pages in a project
     return enduro.api.pagelist_generator.get_cms_list()
         .then((pagelist) => {
-
             // will store the promises from reading all the blog entries
             var get_content_promises = []
 

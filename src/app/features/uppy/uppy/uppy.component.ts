@@ -2,16 +2,8 @@ import { Component, OnInit, AfterViewInit, ViewEncapsulation, Input, ChangeDetec
 import { Subject } from 'rxjs';
 import * as Core from '@uppy/core';
 
-
-
-
-
-
-
 import { UppyService } from '../uppy.service';
 import { v4 } from 'uuid';
-
-// console.dir(Core);
 
 export enum UppyPlugins {
   AwsS3Multipart,

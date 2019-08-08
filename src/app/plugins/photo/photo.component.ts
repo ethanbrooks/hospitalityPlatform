@@ -121,7 +121,7 @@ export class PhotoComponent implements OnDestroy, AfterViewInit {
       allowMultipleUploads: true,
       debug: false,
       restrictions: {
-        maxFileSize: 500000000,
+        maxFileSize: 5000000000,
         maxNumberOfFiles: 50,
         minNumberOfFiles: 1,
         allowedFileTypes: [

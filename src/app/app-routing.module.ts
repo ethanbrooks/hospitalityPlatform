@@ -3,6 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 // import { AuthGuard } from './_guards';
 
+
+import {
+  VideoComponent,
+  MapComponent
+} from './plugins/';
+
 import {
   BlogPageComponent,
   ContactPageComponent,
@@ -21,17 +27,26 @@ import {
 // import { PageNotFoundComponent, LoginComponent, SignupComponent } from './general/';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'blog', pathMatch: 'full' },
   { path: 'blog:page',
-    component: BlogPageComponent
+    component: BlogPageComponent,
   },
   {
-    path: 'blog',
+    path: '',
+    component: VideoComponent,
+    outlet: 'top-content'
+  },
+  {
+    path: '',
     component: BlogPageComponent,
   },
   {
     path: 'contact',
     component: ContactPageComponent,
+  },
+  {
+    path: 'contact',
+    component: MapComponent,
+    outlet: 'top-content'
   },
   {
     path: 'explore',
@@ -74,11 +89,12 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
-    enableTracing: false ,
-    useHash: false,
+    enableTracing: true,
+    useHash: true,
     anchorScrolling: 'enabled',
   })],
   providers: [],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
