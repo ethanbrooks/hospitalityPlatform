@@ -7,6 +7,14 @@
   transition: top 0.3s;
 }
 
+::ng-deep .dx-dropdownmenu-list {
+  background: white;
+}
+
+::ng-deep .dx-toolbar-menu-container {
+  padding: 0 !important;
+}
+
 @media screen and (min-width: 640px) {
   ::ng-deep .nav-icon .dx-toolbar-item-content img {
     height: 72px;
@@ -108,10 +116,12 @@
   /* background-image: linear-gradient(to top,  10px, rgba(255,0,0,0) 0px, #F3EBDE 20px); */
 }
 
+/*
 ::ng-deep  .dx-toolbar .dx-toolbar-after .dx-toolbar-menu-container{
   justify-content: flex-end;
   display: flex;
 }
+*/
 
 ::ng-deep .dx-toolbar .dx-toolbar-after {
   background-image: linear-gradient(to top, rgba(255,0,0,0) 0%, #F3EBDE 50%,rgba(255,0,0,0) 100%);

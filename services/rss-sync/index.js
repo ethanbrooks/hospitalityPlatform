@@ -67,7 +67,7 @@ const template = {
             delete element.blog_description;
             delete element.blog_article;
         } else if (lang === 'en') {
-            element.blog_description = element.blog_article.replace(/<[^>]*>/g, '').substring(0, 1500);
+            element.blog_description = element.blog_article.replace(/<[^>]*>/g, '').substring(0, 500);
             element.blog_article = element.blog_article.replace(/<[^>]*>/g, '');
             element.blog_page_slug = fileName;
         }
