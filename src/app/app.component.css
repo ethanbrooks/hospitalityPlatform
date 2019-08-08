@@ -9,8 +9,12 @@
 /*    max-height: calc(100% - 72px); */
 }
 ::ng-deep #header{
-    position: relative;
+    position: fixed;
+    z-index: 1000;
+    width: 100% !important;
 }
+
+
 ::ng-deep #content {
     position: relative;
     text-align: center;

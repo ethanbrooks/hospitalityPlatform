@@ -1,7 +1,10 @@
+::ng-deep dx-tile-view {
+    height: 100% !important;
+}
+
 ::ng-deep .dx-popup-wrapper, .dx-overlay-modal {
     background-color: unset;
 }
-
 
 ::ng-deep .popup-vert .dx-popup-content {
     padding: 0px;

@@ -38,8 +38,9 @@ import { DxGalleryModule } from 'devextreme-angular/ui/gallery';
 import { DxBoxModule } from 'devextreme-angular/ui/box';
 import { DxCalendarModule } from 'devextreme-angular/ui/calendar';
 import { DxFormModule } from 'devextreme-angular/ui/form';
+import { DxDrawerModule } from 'devextreme-angular/ui/drawer';
+
 // import { DxSliderModule } from 'devextreme-angular/ui/slider';
-// import { DxDrawerModule } from 'devextreme-angular/ui/drawer';
 // import { DxListModule } from 'devextreme-angular/ui/list';
 // import { DxAccordionModule } from 'devextreme-angular/ui/accordion';
 import { DxSchedulerModule } from 'devextreme-angular/ui/scheduler';
@@ -73,7 +74,7 @@ import { DxDateBoxModule } from 'devextreme-angular/ui/date-box';
 // import { DxProgressBarModule } from 'devextreme-angular/ui/progress-bar';
 import { DxResponsiveBoxModule } from 'devextreme-angular/ui/responsive-box';
 // TODO: for prerender
-// import { DxTileViewModule } from 'devextreme-angular/ui/tile-view';
+import { DxTileViewModule } from 'devextreme-angular/ui/tile-view';
 // import { DxTreeListModule } from 'devextreme-angular/ui/tree-list';
 import { DxFilterBuilderModule } from 'devextreme-angular/ui/filter-builder';
 import { DxNavBarModule } from 'devextreme-angular/ui/nav-bar';
@@ -173,7 +174,7 @@ import {
     DxValidatorModule,
     DxResponsiveBoxModule,
     DxGalleryModule,
-//    DxTileViewModule,
+    DxTileViewModule,
     DxFilterBuilderModule,
     DxNavBarModule,
     DxBoxModule,
@@ -182,10 +183,10 @@ import {
     DxToolbarModule,
     DxTabPanelModule,
     DxSchedulerModule,
-
+    DxDrawerModule,
 
 //    DxButtonGroupModule,
-//    DxDrawerModule,
+
 //    DxListModule,
 //    DxTreeViewModule,
 //    DxSliderModule,

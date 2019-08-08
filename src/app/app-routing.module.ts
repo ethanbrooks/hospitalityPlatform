@@ -31,9 +31,13 @@ const routes: Routes = [
     component: BlogPageComponent,
   },
   {
-    path: '',
+    path: 'blog',
     component: VideoComponent,
     outlet: 'top-content'
+  },
+  {
+    path: 'blog',
+    component: BlogPageComponent,
   },
   {
     path: '',

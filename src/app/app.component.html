@@ -1,11 +1,11 @@
 <dx-responsive-box
+    #mainScreen
     singleColumnScreen="sm"
     [(screenByWidth)]="screenTest">
-    <dxi-row [ratio]="50"></dxi-row>
+    <dxi-row [ratio]="500"></dxi-row>
     <dxi-row [ratio]="1"></dxi-row>
-    <dxi-row [ratio]="50" screen="xs"></dxi-row>
-    <dxi-row [ratio]="50"></dxi-row>
-    <dxi-row [ratio]="1"></dxi-row>
+    <dxi-row [ratio]="5000" screen="xs"></dxi-row>
+    <dxi-row [ratio]="50000"></dxi-row>
 
     <dxi-col [ratio]="1"></dxi-col>
     <dxi-item>
@@ -44,13 +44,13 @@
     </dxi-item>
     <dxi-item>
         <dxi-location
-            [row]="3"
+            [row]="2"
             [col]="0"
             [colspan]="1"
             screen="lg"
         ></dxi-location>
         <dxi-location
-            [row]="3"
+            [row]="2"
             [col]="0"
             [colspan]="1"
             screen="sm"
