@@ -9,9 +9,9 @@ const path = require('path')
 
     enduro.templating_engine.registerHelper('page-1', function (options) {
     // will store all the blog entries
-    var blog_entries
+    var blog_entries;
 
-    const max_posts = Number(10)
+    const max_posts = Number(10);
 //    const max_posts = Number(options.data.root.max_number_of_entries_on_the_page)
     // get_cms_list will return a structured list of all pages in a project
     return enduro.api.pagelist_generator.get_cms_list()
@@ -19,29 +19,30 @@ const path = require('path')
             // will store the promises from reading all the blog entries
             var get_content_promises = []
 
-            blog_entries = _.chain(pagelist.structured.blog)
-                .filter((o) => { return typeof o === 'object' && !o.hidden}).value() // filter pages only
 
+            blog_entries = _.chain(pagelist.structured.blog)
+            .filter((o) => { return typeof o === 'object' && !o.hidden}).value() // filter pages only
             // goes through all the blog entries and loads their content
             for (page_id in blog_entries) {
                 var page = blog_entries[page_id]
-
                 function get_content (page) {
                     get_content_promises.push(enduro.api.flat.load(page.fullpath).then((content) => { page.content = content }))
                 }
-
                 get_content(page)
             }
-
             return Promise.all(get_content_promises)
         })
         .then(() => {
+
             // show only published entries
-            blog_entries = blog_entries.filter(entry => entry.content.published)
+            blog_entries = blog_entries.filter(entry => entry.content.published === true)
+
             // sort dates by time and limit them
+
             blog_entries.sort((a, b) => {
                 return new Date(a.content.$blog_date) < new Date(b.content.$blog_date)
             })
+
             // add more pages with blog entries (for pagination purposes)
             for (let i = max_posts, l = blog_entries.length; i < l; i += max_posts) {
                 let context = {

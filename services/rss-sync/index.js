@@ -49,13 +49,14 @@ const template = {
                     );
                     element.blog_image = images[count]
                     console.log( images[count]);
+                    element.published = true;
                 }       
                 catch(err) {
                     console.log(err);
                 }
                 count++;
             });
-            element.published = true;
+       
         }
         if(lang === 'es') {
             element.$blog_title_es = element.blog_title

@@ -42,10 +42,19 @@ export class VideoComponent implements AfterViewInit {
       });
 */
       player.src([
+/*
         {
           type: 'application/x-mpegURL',
-//          src: 'https://beta.hotelherrera.com/dash/SampleVideo1280x7201mb.mpd'
-          src: 'https://beta.hotelherrera.com/hls/SampleVideo1280x7201mb.m3u8'
+          src: 'https://beta.hotelherrera.com/hls/LogoFull.m3u8'
+        },
+*/
+        {
+          type: 'application/x-mpegURL',
+          src: 'https://beta.hotelherrera.com/hls/WhatsApp.m3u8'
+        },
+        {
+          type: 'application/x-mpegURL',
+          src: 'https://beta.hotelherrera.com/hls/HERRERA1.m3u8'
         }
       ]);
       const promise = player.play();
