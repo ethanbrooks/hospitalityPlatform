@@ -3,18 +3,20 @@
 		<article>
 			<div class="work-entry-flex">
 				<div class="col-one-half no-gutters">
-					<div class="article-image" style="background-image: url('https://beta.hotelherrera.com/image/{{{image '{  
+					<div class="article-image container slideshow">
+					<!--//
+					 style="background-image: url('https://beta.hotelherrera.com/image/{{{image '{  
 						"resize": {
 							"height": 300
 							},
 							"grayscale": true
-						}' 'hotel-herrera' content.blog_image }}}');">
+						}' 'hotel-herrera' content.blog_images }}}');"> //-->
 					</div>
 				</div>
 				<div class="col-one-half  no-gutters">
 					<div class="article-text">
 						<h2><a href="{{{content.blog_link}}}" target="_blank">{{{content.blog_title}}}</a></h2>
-						<p>{{{content.blog_description}}}</p>
+						<span class="text-description">{{content.blog_article}}</span>
 						<p><a href="{{{content.blog_link}}}" target="_blank" class="btn-view">Read More</a></p>
 					</div>
 				</div>

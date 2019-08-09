@@ -1,6 +1,5 @@
 {
 	"project_name": "hotelHerrera",
-	"max_number_of_entries_on_the_page":10,
 	"project_slug": "hh",
 	"s3": {
 		"bucket": "hotel-herrera",

@@ -7,7 +7,7 @@ import { BlogService } from './blog.service';
     providers: [ BlogService ],
     templateUrl: './blog.component.html',
     styleUrls: [
-        './blog.component.css'
+        './blog.component.scss'
     ]
 })
 export class BlogComponent implements AfterViewInit {
