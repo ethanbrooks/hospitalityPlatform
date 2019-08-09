@@ -1,17 +1,24 @@
 {{#page-1}}
+  <style>
+    {{#each this.entries}}
+      #{{content.blog_page_slug}}::before, #{{content.blog_page_slug}}::after {
+        animation: slideshow {{{random 5 10}}}s 0s ease-in-out infinite !important;
+      }
+
+      #{{content.blog_page_slug}}::after {
+        background-image: url('https://beta.hotelherrera.com/image/{{{image '{"resize": {"height": 300}, "grayscale": true}' 'hotel-herrera' content.blog_images 0 }}}'), url('https://beta.hotelherrera.com/image/{{{image '{ "resize": {"height": 300 }, "grayscale": true}' 'hotel-herrera' content.blog_images 1 }}}');
+      }
+
+      #{{content.blog_page_slug}}::before {
+        background-image: url('https://beta.hotelherrera.com/image/{{{image '{"resize": {"height": 300}, "grayscale": true}' 'hotel-herrera' content.blog_images 2 }}}'), url('https://beta.hotelherrera.com/image/{{{image '{ "resize": {"height": 300 }, "grayscale": true}' 'hotel-herrera' content.blog_images 3 }}}');
+      }
+    {{/each}}
+  </style>
 	{{#each this.entries}}
 		<article>
 			<div class="work-entry-flex">
 				<div class="col-one-half no-gutters">
-					<div class="article-image container slideshow">
-					<!--//
-					 style="background-image: url('https://beta.hotelherrera.com/image/{{{image '{  
-						"resize": {
-							"height": 300
-							},
-							"grayscale": true
-						}' 'hotel-herrera' content.blog_images }}}');"> //-->
-					</div>
+					<div id="{{content.blog_page_slug}}" class="article-image container slideshow"></div>
 				</div>
 				<div class="col-one-half  no-gutters">
 					<div class="article-text">
