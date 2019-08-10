@@ -4,7 +4,7 @@
 	"main": "src/main",
 	"scripts": {
 		"start": "ng serve",
-		"build": "ng build --prod --aot --build-optimizer --delete-output-path --output-path=dist --subresourceIntegrity=true",
+		"build": "ng build --prod --aot --build-optimizer --delete-output-path --output-path=www --subresourceIntegrity=true",
 		"lint": "ng lint app",
 		"test": "ng test",
 		"e2e": "ng e2e",

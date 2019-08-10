@@ -5,6 +5,7 @@
 # compiled output
 /report*
 /dist
+/www
 /_generated
 /enduro/report.*.json
 /enduro/_generated

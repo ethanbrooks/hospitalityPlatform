@@ -14,7 +14,7 @@ else
     exit 1
 fi
 
-git rev-parse HEAD > dist/current-git-commit.txt || { echo 'ERROR: git hash failed' ; exit 1; }
+git rev-parse HEAD > dist/browser/current-git-commit.txt || { echo 'ERROR: git hash failed' ; exit 1; }
 #for old in www/*.gz; do mv $old ${old%%.gz*}; done
 #for old in www/assets/css/*.gz; do mv $old ${old%%.gz*}; done
 aws s3 rm s3://${S3BUCKETNAME} --recursive  --profile pp
