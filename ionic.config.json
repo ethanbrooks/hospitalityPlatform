@@ -1,0 +1,7 @@
+{
+  "name": "hotelHerrera",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

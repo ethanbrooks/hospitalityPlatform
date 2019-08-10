@@ -27,6 +27,12 @@
         },
         "@schematics/angular:service": {
           "skipTests": true
+        },
+        "@ionic/angular-toolkit:component": {
+          "styleext": "scss"
+        },
+        "@ionic/angular-toolkit:page": {
+          "styleext": "scss"
         }
       },
       "root": "",
@@ -170,6 +176,30 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ]
+            }
+          }
+        },
+        "ionic-cordova-build": {
+          "builder": "@ionic/angular-toolkit:cordova-build",
+          "options": {
+            "browserTarget": "app:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "app:build:production"
+            }
+          }
+        },
+        "ionic-cordova-serve": {
+          "builder": "@ionic/angular-toolkit:cordova-serve",
+          "options": {
+            "cordovaBuildTarget": "hotelHerrera:ionic-cordova-build",
+            "devServerTarget": "hotelHerrera:serve"
+          },
+          "configurations": {
+            "production": {
+              "cordovaBuildTarget": "hotelHerrera:ionic-cordova-build:production",
+              "devServerTarget": "hotelHerrera:serve:production"
             }
           }
         }

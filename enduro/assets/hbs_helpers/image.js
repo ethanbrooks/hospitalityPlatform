@@ -4,7 +4,8 @@ helper.prototype.register = function () {
     enduro.templating_engine.registerHelper('image', function (edits, bucket, image, count) {
     
         if((image.length - 1) < count){
-            count = Math.floor(Math.random() * (image.length - 1));
+//            count = Math.floor(Math.random() * (image.length - 1));
+            count = 1;
             console.log(image[count].blog_image);
             console.log(count);
         }

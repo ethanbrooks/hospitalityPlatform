@@ -1,7 +1,8 @@
-$img1: 'https://beta.hotelherrera.com/image/eyJidWNrZXQiOiJob3RlbC1oZXJyZXJhIiwia2V5IjoiMTkyMHMtZWxlZ2FuY2UtdG9kYXktYXQtY2FzY28tdmllam8tcGFuYW1hLTIwMTEtMDgtMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiaGVpZ2h0IjozMDB9LCJncmF5c2NhbGUiOnRydWV9fQ==';
-$img2: 'https://beta.hotelherrera.com/image/eyJidWNrZXQiOiJob3RlbC1oZXJyZXJhIiwia2V5IjoiYWNyby15b2dhLWF0LWNhc2NveW9nYS0yMDE4LTA1LTAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MzAwfSwiZ3JheXNjYWxlIjp0cnVlfX0=';
-$img3: 'https://beta.hotelherrera.com/image/https://beta.hotelherrera.com/image/eyJidWNrZXQiOiJob3RlbC1oZXJyZXJhIiwia2V5IjoiYmVhdXRpZnVsLWNhc2NvLWFudGlndW8tc2hvdHMtZnJvbS1zdC1mcmFuY2lzLW9mLWFzaXMtY2h1cmNoLTIwMDktMDUtMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiaGVpZ2h0IjozMDB9LCJncmF5c2NhbGUiOnRydWV9fQ==';
-$img4: 'https://beta.hotelherrera.com/image/eyJidWNrZXQiOiJob3RlbC1oZXJyZXJhIiwia2V5IjoiYXJ0LXJhZmZsZS1hdC1sb3MtZGVsLXBhdGlvLWNhc2NvLXZpZWpvLTIwMTEtMDctMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiaGVpZ2h0IjozMDB9LCJncmF5c2NhbGUiOnRydWV9fQ==';
+
+
+.slideshow {
+  overflow: hidden;
+}
 
 $visible: cover;
 $hidden: 0 0;
@@ -21,14 +22,6 @@ $hidden: 0 0;
     animation: slideshow 8s 0s ease-in-out infinite;
   }
   
-  &:after {
-    background-image: url($img1), url($img3);
-  }
-  
-  &:before {
-    background-image: url($img2), url($img4);
-    animation-delay: 2s;
-  }
 }
 
 @keyframes slideshow {
