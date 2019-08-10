@@ -1,6 +1,6 @@
 {
     "name": "Hotel Herrera",
-    "short_name": "hotelHerrera",
+    "short_name": "app",
     "theme_color": "#D91E18",
     "background_color": "#fafafa",
     "display": "standalone",
