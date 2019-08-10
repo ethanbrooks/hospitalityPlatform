@@ -7,6 +7,11 @@
 /dist
 /www
 /_generated
+/platforms/osx/www
+/platforms/windows/www
+/platforms/electron
+/platforms/android
+/platforms/ios
 /enduro/report.*.json
 /enduro/_generated
 /enduro/cms/generators/blog/*
