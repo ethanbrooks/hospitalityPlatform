@@ -24,9 +24,9 @@
     <feature name="Keyboard">
         <param name="android-package" onload="true" value="io.ionic.keyboard.IonicKeyboard" />
     </feature>
-    <name>MyApp</name>
-    <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework.com" href="http://ionicframework.com/">Ionic Framework Team</author>
+    <name>hotelHerrera</name>
+    <description>Hospitality managment platform</description>
+    <author email="ethan@hotelherrera.com" href="http://hotelherrera.com/">Hotel Herrera</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />

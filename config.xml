@@ -3,7 +3,7 @@
     <name>hotelHerrera</name>
     <description>Hospitality managment platform</description>
     <author email="ethan@hotelherrera.com" href="http://hotelherrera.com/">Hotel Herrera</author>
-    <content src="index.html" />
+    <content src="www/index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
