@@ -45,16 +45,16 @@ export class VideoComponent implements AfterViewInit {
 /*
         {
           type: 'application/x-mpegURL',
-          src: 'https://beta.hotelherrera.com/hls/LogoFull.m3u8'
+          src: '//beta.hotelherrera.com/hls/LogoFull.m3u8'
         },
 */
         {
           type: 'application/x-mpegURL',
-          src: 'https://beta.hotelherrera.com/hls/WhatsApp.m3u8'
+          src: '//beta.hotelherrera.com/hls/WhatsApp.m3u8'
         },
         {
           type: 'application/x-mpegURL',
-          src: 'https://beta.hotelherrera.com/hls/HERRERA1.m3u8'
+          src: '//beta.hotelherrera.com/hls/HERRERA1.m3u8'
         }
       ]);
       const promise = player.play();

@@ -2,13 +2,12 @@ var helper = function () {}
 
 helper.prototype.register = function () {
     enduro.templating_engine.registerHelper('image', function (edits, bucket, image, count) {
-    
-        if((image.length - 1) < count){
+        if((image.length -1) < count){
 //            count = Math.floor(Math.random() * (image.length - 1));
-            count = 1;
-            console.log(image[count].blog_image);
-            console.log(count);
+            count = 0;
+     //       console.log(image[count].blog_image);
         }
+        console.log(count);
         return Buffer.from(JSON.stringify({
             bucket: bucket,
             key: image[count].blog_image,

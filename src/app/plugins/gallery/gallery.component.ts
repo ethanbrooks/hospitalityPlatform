@@ -34,6 +34,10 @@ export class GalleryComponent {
         this.popupVisible = true;
     }
 
+    holdEvent(e) {
+        console.log(this);
+    }
+
     constructor(service: GalleryService) {
         this.items = service.getItems();
     }

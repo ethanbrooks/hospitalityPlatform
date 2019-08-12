@@ -3,13 +3,15 @@
 [baseItemHeight]="120"
 [baseItemWidth]="185"
 [itemMargin]="10"
+(onItemHold)="holdEvent($event)"
 (onItemClick)="showInfo($event)"
 [direction]="'vertical'">
-    <dxi-item
+    <dxi-item class="greyscale"
         *ngFor="let item of items"
         [widthRatio]="item.widthRatio"
         [heightRatio]="item.heightRatio">
-        <div class="image" [style.background-image]="'url(http://beta.hotelherrera.com/image/' + item.ImageSrc + ')'"></div>
+        <div class="image"
+        [style.background-image]="'url(//beta.hotelherrera.com/image/' + item.ImageTemplate + ')'"></div>
         <div class="name">{{ item.Name }}</div>
     </dxi-item>
 </dx-tile-view>  
@@ -27,20 +29,16 @@ title="Information"
         <div class="border-img-hor-a">
             <div class="border-shadow-hor">
                 <div class="article animate-box fadeInUp animated">
-                    <a href="blog.html" class="blog-img">
-                        <img class="img-responsive" src="{{currentItem.ImageSrc}}" alt="html5 bootstrap by colorlib.com">
-                        <div class="overlay"></div>
+                    <a routerLink="{{currentItem.ImageSrc}}" routerLinkActive="active" class="blog-img">
+                        <img class="img-responsive" src="//beta.hotelherrera.com/image/fit-in/793x596/{{currentItem.ImageSrc}}">
+                        <div class="overlay">                        </div>
                         <div class="link">
                             <span class="read">Read more</span>
                         </div>
+                        <div class="desc">
+                            {{ currentItem.Name }}
+                        </div>
                     </a>
-                    <div class="desc">
-                        <span class="meta">04, Mar 2018</span>
-                       <!--// 
-                        <h2><a href="{{currentItem.VideoSrc}}">{{currentItem.Name}}</a></h2>
-                        <p>{{currentItem.Description}}</p>
-                        //-->
-                    </div>
                 </div>
             </div>
         </div>

@@ -1,6 +1,8 @@
 import { Component, ViewChild, HostListener, AfterViewInit, ElementRef } from '@angular/core';
 import {  DxScrollViewComponent } from 'devextreme-angular';
 import { BlogService } from './blog.service';
+import { Router } from '@angular/router';
+
 
 @Component({
     selector: 'app-blog',
@@ -11,10 +13,6 @@ import { BlogService } from './blog.service';
     ]
 })
 export class BlogComponent implements AfterViewInit {
-    @ViewChild(DxScrollViewComponent, {static: false}) scrollView: DxScrollViewComponent;
-    @ViewChild(DxScrollViewComponent, {static: false}) scrollViewEl: ElementRef;
-    @HostListener('window:resize', ['$event'])
-
 
     enduroJsData: any;
     updateContentTimer: any;
@@ -23,7 +21,19 @@ export class BlogComponent implements AfterViewInit {
     pageCount;
     closetParent;
 
+    @ViewChild(DxScrollViewComponent, {static: false}) scrollView: DxScrollViewComponent;
+    @ViewChild(DxScrollViewComponent, {static: false}) scrollViewEl: ElementRef;
+    @HostListener('window:resize', ['$event'])
+    a(event) {console.log(event); }
+/*
+    @HostListener('window:beforeunload')
+    doSomething() {
+        this.router.navigate([{ outlets: { 'top-content': ['contact']}}]);
+    }
+*/
+
     constructor(
+        private router: Router,
         private host: ElementRef,
         private serviceBlog: BlogService
     ) {
@@ -32,7 +42,7 @@ export class BlogComponent implements AfterViewInit {
 
 
     ngAfterViewInit() {
-        console.log('scrollViewEl: ', this.scrollViewEl);
+//        this.router.navigate([{ outlets: { 'top-content': ['video'] }}]);
         this.updateBottomContent(1);
         this.scrollView.instance.option('onReachBottom', this.updateBottomContent);
     }

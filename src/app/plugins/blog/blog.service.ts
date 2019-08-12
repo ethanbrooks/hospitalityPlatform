@@ -28,7 +28,7 @@ export class BlogService {
 		<article>
 			<div class="work-entry-flex">
 				<div class="col-one-half no-gutters">
-					<div class="article-image" style="background-image: url('https://beta.hotelherrera.com/image-src/fit-in/640x480/filters:grayscale()/{{{content.blog_image}}}');">
+					<div class="article-image" style="background-image: url('//beta.hotelherrera.com/image-src/fit-in/640x480/filters:grayscale()/{{{content.blog_image}}}');">
 					</div>
 				</div>
 				<div class="col-one-half  no-gutters">

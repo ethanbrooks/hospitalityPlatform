@@ -27,25 +27,13 @@ import {
 // import { PageNotFoundComponent, LoginComponent, SignupComponent } from './general/';
 
 const routes: Routes = [
-  { path: 'blog:page',
-    component: BlogPageComponent,
+  { path: '',
+    component: BlogPageComponent
   },
   {
-    path: 'blog',
+    path: 'video',
     component: VideoComponent,
     outlet: 'top-content'
-  },
-  {
-    path: 'blog',
-    component: BlogPageComponent,
-  },
-  {
-    path: '',
-    component: BlogPageComponent,
-  },
-  {
-    path: 'contact',
-    component: ContactPageComponent,
   },
   {
     path: 'contact',
@@ -67,6 +55,12 @@ const routes: Routes = [
   {
     path: 'the-restaurant',
     component: RestaurantPageComponent,
+    children: [
+      {
+        path: ':id',
+        component: ExplorePageComponent
+      }
+    ]
   },
   {
     path: 'the-lounge',
@@ -87,8 +81,10 @@ const routes: Routes = [
   {
     path: 'filter',
     component: FilterPageComponent,
-  }
-  //  { path: '**', component: PageNotFoundComponent }
+  },
+//  { path: '**',
+//   component: PageNotFoundComponent
+//  }
 ];
 
 @NgModule({

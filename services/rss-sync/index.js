@@ -56,7 +56,11 @@ const template = {
                     }
                     count++;
                 });
+                if(count === 1){
+                    element.blog_images_single = true;
+                }
             }
+       
             if(lang === 'es') {
                 element.$blog_title_es = element.blog_title
                 element.$blog_article_es = element.blog_article.replace(/<[^>]*>/g, '');

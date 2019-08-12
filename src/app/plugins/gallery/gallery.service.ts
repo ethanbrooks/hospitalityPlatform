@@ -197,15 +197,6 @@ const items: Item[] = [
             {Name: 'Gallery', Value: ['Lunch']}
         ]
     }, {
-        ImageSrc: '86107813-gourmet-gourmet-queso-jamón-de-queso-con-papas-fritas.jpg',
-        VideoSrc: '/assets/video/menu/26892904-pork.mp4',
-        Name: 'Queso jamón de queso con papas fritas',
-        Meta: [
-            {Name: 'Price', Value: '31.00'},
-            {Name: 'Description', Value: 'gourmet-swiss-fondue-dinner-on-a-winter-evening-with-assorted-cheeses-on-a-board-alongside-a-heated-'},
-            {Name: 'Gallery', Value: ['Lunch']}
-        ]
-    }, {
         ImageSrc: '84115709-picanha-steak-with-fries-and-beer.jpg',
         VideoSrc: '/assets/video/menu/26892904-pork.mp4',
         Name: 'Picanha steak with fries',
@@ -268,15 +259,6 @@ const items: Item[] = [
             {Name: 'Price', Value: '31.00'},
             {Name: 'Description', Value: 'gourmet-swiss-fondue-dinner-on-a-winter-evening-with-assorted-cheeses-on-a-board-alongside-a-heated-'},
             {Name: 'Gallery', Value: ['Appetizers']}
-        ]
-    }, {
-        ImageSrc: '83559318-gourmet-meeresfrüchte-valencia-paella-mit-frischen-langustinen-muscheln-muscheln-und-tintenfisch-auf-pika.jpg',
-        VideoSrc: '/assets/video/menu/26892904-pasta.mp4',
-        Name: 'Meeresfrüchte valencia paella',
-        Meta: [
-            {Name: 'Price', Value: '31.00'},
-            {Name: 'Description', Value: 'gourmet-swiss-fondue-dinner-on-a-winter-evening-with-assorted-cheeses-on-a-board-alongside-a-heated-'},
-            {Name: 'Gallery', Value: ['Dinner']}
         ]
     }, {
         ImageSrc: '84423653-plate-with-delicious-steak-salad-sauce-and-rice-on-a-wooden-table-healthy-gourmet-food-made-of-meat-.jpg',
@@ -455,22 +437,22 @@ const items: Item[] = [
 @Injectable()
 export class GalleryService {
 
-    editSchoolName = (schools) => {
-        return schools.map(item => {
+    imageEdits = (gallery) => {
+        return gallery.map(item => {
             let tempImageSrc: string;
             const temp = Object.assign({}, item);
             if (temp.ImageSrc) {
-                tempImageSrc = JSON.stringify({
+                tempImageSrc = window.btoa(JSON.stringify({
                     bucket: 'hotel-herrera',
                     key: temp.ImageSrc,
                     edits: {
                         resize: {
-                            width: 640,
-                            height: 480
+                            width: 185,
+                            height: 120
                         },
-                        grayscale: true
+                        grayscale: false
                     }
-                });
+                }));
                 console.log(tempImageSrc);
                 temp.ImageTemplate = tempImageSrc;
             }
@@ -479,9 +461,7 @@ export class GalleryService {
     }
 
     getItems(): Item[] {
-        const updatedSchools = this.editSchoolName(items);
-        console.log(updatedSchools);
-        console.log(items);
-        return updatedSchools;
+        const updatedGallery = this.imageEdits(items);
+        return updatedGallery;
     }
 }

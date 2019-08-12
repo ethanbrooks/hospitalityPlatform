@@ -1,27 +1,30 @@
 {{#page-1}}
-   {{#if content.blog_images[1]}}
-		<style>
-			{{#each this.entries}}
-			#{{content.blog_page_slug}}::before, #{{content.blog_page_slug}}::after {
-				animation: slideshow {{{random 5 10}}}s 0s ease-in-out infinite !important;
-			}
+	<style>
+		{{#each this.entries}}
+			{{#unless content.blog_images_single}}
+				#{{content.blog_page_slug}}::before, #{{content.blog_page_slug}}::after {
+					animation: slideshow {{{random 5 10}}}s 0s ease-in-out infinite !important;
+				}
 
-			#{{content.blog_page_slug}}::after {
-				background-image: url('https://beta.hotelherrera.com/image/{{{image '{"resize": {"height": 300}, "grayscale": true}' 'hotel-herrera' content.blog_images 0 }}}'), url('https://beta.hotelherrera.com/image/{{{image '{ "resize": {"height": 300 }, "grayscale": true}' 'hotel-herrera' content.blog_images 1 }}}');
-			}
+				#{{content.blog_page_slug}}::after {
+					background-image: url('//beta.hotelherrera.com/image/{{{image '{"resize": {"height": 300}, "grayscale": true}' 'hotel-herrera' content.blog_images 0 }}}'), url('//beta.hotelherrera.com/image/{{{image '{ "resize": {"height": 300 }, "grayscale": true}' 'hotel-herrera' content.blog_images 1 }}}');
+				}
 
-			#{{content.blog_page_slug}}::before {
-				background-image: url('https://beta.hotelherrera.com/image/{{{image '{"resize": {"height": 300}, "grayscale": true}' 'hotel-herrera' content.blog_images 2 }}}'), url('https://beta.hotelherrera.com/image/{{{image '{ "resize": {"height": 300 }, "grayscale": true}' 'hotel-herrera' content.blog_images 3 }}}');
-			}
-			{{/each}}
-		</style>
-    {{/if}}
+				#{{content.blog_page_slug}}::before {
+					background-image: url('//beta.hotelherrera.com/image/{{{image '{"resize": {"height": 300}, "grayscale": true}' 'hotel-herrera' content.blog_images 2 }}}'), url('//beta.hotelherrera.com/image/{{{image '{ "resize": {"height": 300 }, "grayscale": true}' 'hotel-herrera' content.blog_images 3 }}}');
+				}
+			{{else}}
+				#{{content.blog_page_slug}} {
+					background-image: url('//beta.hotelherrera.com/image/{{{image '{"resize": {"height": 300}, "grayscale": true}' 'hotel-herrera' content.blog_images 0 }}}');
+				}
+			{{/unless}}
+		{{/each}}
+	</style>
 	{{#each this.entries}}
-
 		<article>
 			<div class="work-entry-flex">
 				<div class="col-one-half no-gutters">
-					<div id="{{content.blog_page_slug}}" class="article-image container slideshow"></div>
+					<div id="{{content.blog_page_slug}}" class="article-image{{#unless content.blog_images_single}} container slideshow{{/unless}}"></div>
 				</div>
 				<div class="col-one-half  no-gutters">
 					<div class="article-text">
