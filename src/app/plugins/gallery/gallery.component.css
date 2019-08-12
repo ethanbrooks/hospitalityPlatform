@@ -9,6 +9,13 @@
     -webkit-filter: grayscale(0%);
 }
 
+::ng-deep .popup-hor{
+    left: 200px;
+    zoom:0.6;
+    transform: scale(0.6);
+}
+
+
 ::ng-deep dx-tile-view {
     height: 100% !important;
 }
@@ -164,7 +171,6 @@
 ::ng-deep .article .blog-img .link .read {
     display: table-cell;
     vertical-align: middle;
-    font-family: "Karla", Arial, sans-serif;
     color: #fff;
     font-size: 12px;
     text-transform: uppercase;
@@ -202,12 +208,14 @@
     -o-transform: scale(1.1);
     transform: scale(1.1);
 }
+
 ::ng-deep .article .desc {
+    background-color: black;
+    opacity: 0.6;
     position: relative;
     z-index: 1;
     margin-top: -5em;
     width: 90%;
-    background: #fff;
     padding: 1em;
     padding-top: 2em;
 }

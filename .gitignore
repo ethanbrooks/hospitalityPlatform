@@ -3,8 +3,9 @@
 /enduro_secret.json
 
 # compiled output
-/report*
 /dist
+/platform
+/report*
 /www
 /_generated
 /platforms/osx/www
