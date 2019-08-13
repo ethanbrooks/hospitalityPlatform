@@ -1,7 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "./www",
+    "outDir": "platforms/ssr",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
