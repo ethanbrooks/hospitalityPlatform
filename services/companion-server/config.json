@@ -3,7 +3,7 @@
 		"s3": {
 			"key": "AKIARNR7WYKQHEAA3PP5",
 			"secret": "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",
-			"bucket": "my.safepics.com",
+			"bucket": "beta.hotelherrera.com",
 			"region": "us-east-1"
 		},
 		"dropbox": {
@@ -15,11 +15,11 @@
 		"redisUrl": "redis://127.0.0.1:6379/10",
 		"sendSelfEndpoint": "wwww.safepics.com/",
 		"debug": true,
-		"host": "www.safepics.com",
+		"host": "beta.hotelherrera.com",
 		"path": "/",
 		"protocol": "https",
-		"oauthDomain": "www.safepics.com",
-		"validHosts": ["www.safepics.com"]
+		"oauthDomain": "www.hotelherrera.com",
+		"validHosts": ["www.hotelherrera.com"]
 	},
 	"secret": "rjpP7essLSuWpeQt2h76j36m",
 	"debug": true,
