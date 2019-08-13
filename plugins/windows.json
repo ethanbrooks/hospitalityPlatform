@@ -1,0 +1,30 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "hotelHerrera"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "hotelHerrera"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "hotelHerrera"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "hotelHerrera"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "hotelHerrera"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "hotelHerrera"
+    }
+  },
+  "dependent_plugins": {}
+}
