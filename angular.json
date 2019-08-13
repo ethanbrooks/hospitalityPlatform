@@ -101,6 +101,24 @@
             }
           }
         },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "platforms/ssr/server",
+            "main": "src/main.server.ts",
+            "tsConfig": "src/tsconfig.server.json"
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
+        },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
@@ -148,35 +166,34 @@
               "**/node_modules/**"
             ]
           }
-        },
+        }, 
         "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
+          "builder": "@politie/angular-testcafe-builder:testcafe",
           "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "app:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "app:serve:production"
-            }
-          }
-        },
-        "server": {
-          "builder": "@angular-devkit/build-angular:server",
-          "options": {
-            "outputPath": "platforms/ssr/server",
-            "main": "src/main.server.ts",
-            "tsConfig": "src/tsconfig.server.json"
-          },
-          "configurations": {
-            "production": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ]
-            }
+            "browsers": [
+              "chrome"
+            ],
+            "src": "e2e/src/*.e2e-spec.ts",
+            "reporters": [
+              {
+                "name": "json",
+                "output": "e2e/reports/report.json"
+              },
+              {
+                "name": "html",
+                "output": "e2e/reports/report.html"
+              },
+              {
+                "name": "spec"
+              }
+            ],
+            "concurrency": 4,
+            "screenshotsPath": "e2e/artifacts/screenshots",
+            "selectorTimeout": 10000,
+            "quarantineMode": true,
+            "stopOnFirstFail": true,
+            "host": "localhost",
+            "port": 4200
           }
         },
         "ionic-cordova-build": {

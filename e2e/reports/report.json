@@ -1,0 +1,45 @@
+{
+  "startTime": "2019-08-13T14:54:39.276Z",
+  "endTime": "2019-08-13T14:56:15.568Z",
+  "userAgents": [
+    "Chrome 76.0.3809 / Mac OS X 10.14.6"
+  ],
+  "passed": 3,
+  "total": 3,
+  "skipped": 0,
+  "fixtures": [
+    {
+      "name": "Passing",
+      "path": "/Users/ethanbrooks/Documents/hotelHerrera/e2e/src/app.e2e-spec.ts",
+      "meta": {},
+      "tests": [
+        {
+          "name": "foo equals foo",
+          "meta": {},
+          "errs": [],
+          "durationMs": 35625,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "New Test",
+          "meta": {},
+          "errs": [],
+          "durationMs": 95963,
+          "unstable": true,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "New Test",
+          "meta": {},
+          "errs": [],
+          "durationMs": 52705,
+          "screenshotPath": "/Users/ethanbrooks/Documents/hotelHerrera/e2e/artifacts/screenshots",
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

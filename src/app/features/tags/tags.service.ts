@@ -11,7 +11,7 @@ export class TagTree {
     items?: TagTree[];
   }
 
-  const tags: TagTree[] = [
+const tags: TagTree[] = [
     {
       id: '1_1_1',
       text: 'Status',
@@ -76,7 +76,7 @@ export class TagTree {
     }
   ];
 
-  @Injectable()
+@Injectable()
   export class TagsService {
     getTagTree(): TagTree[] {
       return tags;
