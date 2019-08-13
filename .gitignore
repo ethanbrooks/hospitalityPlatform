@@ -4,7 +4,7 @@
 
 # compiled output
 /dist
-/platform
+/platforms
 /report*
 /www
 /_generated
