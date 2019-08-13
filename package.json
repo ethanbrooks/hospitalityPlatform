@@ -18,7 +18,6 @@
 		"serve:production:android": "ionic cordova emulate android --prod",
 		"serve:production:electron": "ionic cordova emulate electron --prod",
 		"serve:ionic": "ionic serve -l",
-		"build:tizen": "npm run build --prod&& npm run build:tizenPackage",
 		"build:tizenPackage": "cd www/ && /Users/ethanbrooks/tizen-studio/tools/ide/bin/tizen.sh build-web && /Users/ethanbrooks/tizen-studio/tools/ide/bin/tizen.sh package -t wgt -- platform-tizen/",
 		"serve:tizenRun": "cd www/ && sdb install platform-tizen/angularTizenSample.wgt && sdb shell  \"wrt-launcher '-s Bsl3EwnDc9.angularTizenSample'\"",
 		"build:client-and-server-bundles": "ng build --prod --delete-output-path --subresourceIntegrity=true && ng run app:server:production",
