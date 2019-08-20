@@ -3,5 +3,5 @@
   "appName": "hotelHerrera",
   "bundledWebRuntime": false,
   "npmClient": "npm",
-  "webDir": "platforms/browser"
+  "webDir": "www"
 }

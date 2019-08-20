@@ -1,9 +1,10 @@
 {
-  "name": "arcorss",
+  "name": "rss-sync",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "rss-sync.js",
   "scripts": {
+    "start": "node rss-sync.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

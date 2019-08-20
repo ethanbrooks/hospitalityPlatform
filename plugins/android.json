@@ -7,24 +7,24 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "com.hotelherrera.beta"
     },
-    "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "io.ionic.starter"
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.hotelherrera.beta"
     },
     "cordova-plugin-ionic-webview": {
       "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+",
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "com.hotelherrera.beta"
     },
-    "cordova-plugin-ionic-keyboard": {
-      "PACKAGE_NAME": "io.ionic.starter"
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.hotelherrera.beta"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.hotelherrera.beta"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.hotelherrera.beta"
     }
   },
   "dependent_plugins": {}

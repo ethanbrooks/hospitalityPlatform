@@ -1,7 +1,0 @@
-{
-  "appId": "com.hotelherrera.com",
-  "appName": "hotelHerrera",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www"
-}
