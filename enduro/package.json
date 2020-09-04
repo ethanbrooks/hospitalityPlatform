@@ -15,6 +15,6 @@
 		"enduro2": "*",
 		"graceful-fs": "^4.2.0",
 		"lodash": "^4.17.15",
-		"showdown": "^1.9.0"
+		"showdown": "^1.9.1"
 	}
 }
