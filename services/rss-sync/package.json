@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "camaro": "^4.0.5",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "url-parse": "^1.4.7"
   }
 }
